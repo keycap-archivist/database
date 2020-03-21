@@ -1,0 +1,13 @@
+{
+  "name": "too-much-artisans-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "csv-generate": "^3.2.4",
+    "csv-parse": "^4.8.8",
+    "csv-stringify": "^5.3.6",
+    "node-html-parser": "^1.2.13"
+  }
+}
