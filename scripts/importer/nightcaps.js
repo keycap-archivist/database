@@ -15,7 +15,10 @@ async function scrap() {
   for (let idx = 0; idx < tabs.length; idx++) {
     const element = tabs[idx];
     if (idx % 2 === 0) {
-      const sculptName = element.querySelector("span").childNodes[0].rawText;
+      let sculptName = element.querySelector("span").childNodes[0].rawText;
+      sculptName = sculptName
+        .replace(/\&rdquo;/g, "'")
+        .replace(/\&ldquo;/g, "'");
       if (sculptName !== currentSculpt) {
         currentSculpt = sculptName;
       }
