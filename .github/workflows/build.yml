@@ -26,7 +26,7 @@ jobs:
           G_API_KEY: ${{ secrets.G_API_KEY }}
         run: |
           yarn gen
-          ::set-output name=DIRTY::$(git diff-index --quiet HEAD)
+          echo ::set-output name=DIRTY::$(git diff-index --quiet HEAD)
       - name:
         if: steps.dbgen.outputs.DIRTY == '1'
         run: |
