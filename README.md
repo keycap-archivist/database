@@ -17,7 +17,7 @@ To use the master version of the catalog you can CURL those urls:
 
 Add those catalogs
 
-- [ ] Art Key Universe
+- [x] Art Key Universe
 - [ ] Bad & Booj Keys
 - [ ] Binge/Hunger Works Studio
 - [ ] BoomSnap! Caps

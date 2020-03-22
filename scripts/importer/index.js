@@ -3,6 +3,7 @@ const scraps = [
   "./alphakeycaps",
   "./deathcaps",
   "./ritual",
+  "./artkey",
   "./gaf"
 ];
 const fs = require("fs");
