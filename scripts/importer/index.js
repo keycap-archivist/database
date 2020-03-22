@@ -20,12 +20,12 @@ function flatten() {
   const outArtist = {};
   for (const artist in catalog) {
     const artistArr = [];
-    for (const sculpt in catalog[artist]) {
-      catalog[artist][sculpt].forEach(s => {
+    for (const sculpt in catalog[artist].sculpts) {
+      catalog[artist].sculpts[sculpt].colorways.forEach(s => {
         const out = {
           id: s.id,
           artist,
-          sculpt,
+          sculpt: catalog[artist].sculpts[sculpt].name,
           name: s.name,
           img: s.img
         };
@@ -41,10 +41,11 @@ function flatten() {
 async function main() {
   for (const s of scraps) {
     const m = require(s);
-    catalog[m.name] = await m.scrap();
+    const _catalog = await m.scrap();
+    catalog[_catalog.name] = _catalog;
     fs.writeFileSync(
-      path.join(DEST, `${m.name.toLowerCase().replace(/ /g, "-")}.json`),
-      JSON.stringify(catalog[m.name])
+      path.join(DEST, `${_catalog.name.toLowerCase().replace(/ /g, "-")}.json`),
+      JSON.stringify(catalog[_catalog.name])
     );
   }
   const flattennedCatalog = flatten();

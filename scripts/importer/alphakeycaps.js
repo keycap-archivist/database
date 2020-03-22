@@ -4,6 +4,13 @@ const fs = require("fs");
 const { genId } = require("./utils");
 
 async function scrap() {
+  const catalog = {
+    id: genId("Alpha Keycaps"),
+    name: "Alpha Keycaps",
+    instagram: "https://www.instagram.com/alphakeycaps/",
+    website: "https://alphakeycaps.com",
+    sculpts: [{ name: "keypora", colorways: [] }]
+  };
   const url = "https://alphakeycaps.com/keypora";
   const html = await axios.get(url).then(res => {
     return res.data;
@@ -19,7 +26,8 @@ async function scrap() {
     const imgsrc = m[1];
     return { name: name, img: imgsrc, id: genId(imgsrc) };
   });
-  return { keypora: colorways };
+  catalog.sculpts[0].colorways = colorways;
+  return catalog;
 }
 
 if (require.main === module) {
@@ -29,6 +37,5 @@ if (require.main === module) {
 }
 
 module.exports = {
-  name: "Alpha Keycaps",
   scrap
 };
