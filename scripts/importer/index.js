@@ -13,7 +13,7 @@ const path = require("path");
 const DEST = path.resolve(path.join(__dirname, "..", "..", "db"));
 const DESTINATION_JSON = path.join(DEST, "catalog.json");
 const DESTINATION_CSV = path.join(DEST, "catalog.csv");
-const catalog = {};
+const catalog = [];
 
 function flatten() {
   const arr = [];
@@ -24,7 +24,7 @@ function flatten() {
       catalog[artist].sculpts[sculpt].colorways.forEach(s => {
         const out = {
           id: s.id,
-          artist,
+          artist: catalog[artist].name,
           sculpt: catalog[artist].sculpts[sculpt].name,
           name: s.name,
           img: s.img
@@ -42,10 +42,10 @@ async function main() {
   for (const s of scraps) {
     const m = require(s);
     const _catalog = await m.scrap();
-    catalog[_catalog.name] = _catalog;
+    catalog.push(_catalog);
     fs.writeFileSync(
       path.join(DEST, `${_catalog.name.toLowerCase().replace(/ /g, "-")}.json`),
-      JSON.stringify(catalog[_catalog.name])
+      JSON.stringify(_catalog)
     );
   }
   const flattennedCatalog = flatten();
@@ -56,7 +56,12 @@ async function main() {
   );
   for (const a in flattennedCatalog.artist) {
     fs.writeFileSync(
-      path.join(DEST, `${a.toLowerCase().replace(/ /g, "-")}.csv`),
+      path.join(
+        DEST,
+        `${flattennedCatalog.artist[a][0].artist
+          .toLowerCase()
+          .replace(/ /g, "-")}.csv`
+      ),
       stringify(flattennedCatalog.artist[a], { header: true })
     );
   }
