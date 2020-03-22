@@ -23,7 +23,7 @@ jobs:
       - name: Generate db
         id: dbgen
         env:
-          G_API_KEY: {{ secrets.G_API_KEY }}
+          G_API_KEY: ${{ secrets.G_API_KEY }}
         run: |
           yarn gen
           ::set-output name=DIRTY::$(git diff-index --quiet HEAD)
