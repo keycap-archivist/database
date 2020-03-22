@@ -28,6 +28,6 @@ jobs:
           yarn gen
           ::set-output name=DIRTY::$(git diff-index --quiet HEAD)
       - name:
-        if: steps.dbgen.outputs.DIRTY == "1"
+        if: steps.dbgen.outputs.DIRTY == '1'
         run: |
           echo "need to commit"
