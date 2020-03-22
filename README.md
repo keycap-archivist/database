@@ -26,7 +26,7 @@ Add those catalogs
 - [ ] BroCaps
 - [ ] Clack Factory
 - [ ] Fraktal Kaps
-- [ ] Grimey as Fuck (GAF)
+- [x] Grimey as Fuck (GAF)
 - [ ] Hello Caps
 - [ ] Just Another Keymaker (JAK)
 - [ ] Kaphaus

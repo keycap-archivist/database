@@ -1,4 +1,10 @@
-const scraps = ["./nightcaps", "./alphakeycaps", "./deathcaps", "./ritual"];
+const scraps = [
+  "./nightcaps",
+  "./alphakeycaps",
+  "./deathcaps",
+  "./ritual",
+  "./gaf"
+];
 const fs = require("fs");
 const stringify = require("csv-stringify/lib/sync");
 const path = require("path");
