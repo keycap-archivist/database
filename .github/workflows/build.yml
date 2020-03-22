@@ -1,0 +1,33 @@
+name: Database Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node_modules-
+      - name: install
+        run: |
+          yarn
+      - name: Generate db
+        id: dbgen
+        env:
+          G_API_KEY: {{ secrets.G_API_KEY }}
+        run: |
+          yarn gen
+          ::set-output name=DIRTY::$(git diff-index --quiet HEAD)
+      - name:
+        if: steps.dbgen.outputs.DIRTY == "1"
+        run: |
+          echo "need to commit"

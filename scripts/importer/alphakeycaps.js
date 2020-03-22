@@ -1,6 +1,7 @@
 const htmlparser = require("node-html-parser");
 const axios = require("axios");
 const fs = require("fs");
+const { genId } = require("./utils");
 
 async function scrap() {
   const url = "https://alphakeycaps.com/keypora";
@@ -16,8 +17,7 @@ async function scrap() {
     const rawImg = e.querySelector(".thumb-image").rawAttrs;
     const m = /data-src="(.*?)"/.exec(rawImg);
     const imgsrc = m[1];
-    // const filename = formatFilename(name, imgsrc);
-    return { name: name, img: imgsrc };
+    return { name: name, img: imgsrc, id: genId(imgsrc) };
   });
   return { keypora: colorways };
 }

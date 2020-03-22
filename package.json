@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "gen": "node scripts/importer/index.js"
+  },
   "devDependencies": {
     "axios": "^0.19.2",
     "csv-generate": "^3.2.4",
@@ -11,6 +14,7 @@
     "node-html-parser": "^1.2.13"
   },
   "dependencies": {
+    "crc": "^3.8.0",
     "googleapis": "39"
   }
 }

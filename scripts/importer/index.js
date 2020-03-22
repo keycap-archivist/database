@@ -15,6 +15,7 @@ function flatten() {
     for (const sculpt in catalog[artist]) {
       catalog[artist][sculpt].forEach(s => {
         const out = {
+          id: s.id,
           artist,
           sculpt,
           name: s.name,

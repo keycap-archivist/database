@@ -1,8 +1,6 @@
-// 1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA
 const fs = require("fs");
 const htmlparser = require("node-html-parser");
-const path = require("path");
-const { downloadFile } = require("./googleApi");
+const { downloadFile, genId } = require("./utils");
 
 async function scrap() {
   const index = await downloadFile(
@@ -31,7 +29,8 @@ async function scrap() {
           }
           catalog[currentSculpt].push({
             name: e.text,
-            img: img
+            img: img,
+            id: genId(img)
           });
         }
       });
