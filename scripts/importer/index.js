@@ -6,6 +6,7 @@ const scraps = [
   "./artkey",
   "./bad",
   "./bro",
+  "./sludgekidd",
   "./gaf"
 ];
 const fs = require("fs");

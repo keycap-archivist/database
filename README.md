@@ -39,7 +39,7 @@ Add those catalogs
 - [ ] Polymer Salon
 - [ ] Prime Caps
 - [ ] SodieCaps
-- [ ] SludgeKidd
+- [x] SludgeKidd
 - [ ] TinyMakesThings
 - [ ] Tokkipee
 - [ ] Wildstory Caps
