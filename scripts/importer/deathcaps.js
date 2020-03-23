@@ -25,6 +25,5 @@ if (require.main === module) {
 }
 
 module.exports = {
-  name: "Deathcaps",
   scrap
 };
