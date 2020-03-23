@@ -23,7 +23,7 @@ Add those catalogs
 - [ ] BoomSnap! Caps
 - [ ] Booper/Omniclectic
 - [ ] Bludgeoned Kaps
-- [ ] BroCaps
+- [x] BroCaps
 - [ ] Clack Factory
 - [ ] Fraktal Kaps
 - [x] Grimey as Fuck (GAF)
