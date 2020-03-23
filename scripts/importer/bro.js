@@ -6,7 +6,6 @@ async function scrap() {
   let index = await downloadFile(
     "1SLiSnTXJXR6X5jT5VnmAe4e3K2yFgZosxBUY1kQQKwo"
   );
-  fs.writeFileSync("indexbro.html", index);
   const rootNode = htmlparser.parse(index);
 
   let tabs = rootNode.querySelectorAll("table");

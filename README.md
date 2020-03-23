@@ -19,7 +19,7 @@ Add those catalogs
 
 - [x] Art Key Universe
 - [x] Bad & Booj Keys
-- [ ] Binge/Hunger Works Studio
+- [x] Binge/Hunger Works Studio
 - [ ] BoomSnap! Caps
 - [ ] Booper/Omniclectic
 - [ ] Bludgeoned Kaps
