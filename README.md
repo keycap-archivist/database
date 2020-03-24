@@ -38,7 +38,7 @@ Add those catalogs:
 |        | Latrialum Caps              | [link](https://docs.google.com/document/d/1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY/edit?usp=sharing)            |                    |
 |        | Level Caps                  | [link](https://docs.google.com/document/d/1_9U5dSSCKeSQcBIhbHPigUs7jiF0AqNI0MYo5KNtpJ8/edit#heading=h.uhw0bkbpipjx) |                    |
 |        | Nubbinator                  | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U/edit?ts=5ba849dd#)           |                    |
-|        | Polymer Salon               | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg/edit#)                       |                    |
+| x      | Polymer Salon               | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg/edit#)                       |                    |
 | x      | Prime Caps                  | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8/edit)                        |                    |
 | x      | SodieCaps                   | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0/edit)                        |                    |
 | x      | SludgeKidd                  | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0/edit)                        |                    |
