@@ -9,6 +9,7 @@ const scraps = [
   "./latrialum",
   "./tokkipee",
   "./bad",
+  "./jak",
   "./prime",
   "./bro",
   "./sodie",
