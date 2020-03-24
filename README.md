@@ -21,7 +21,7 @@ Add those catalogs
 - [x] Bad & Booj Keys
 - [x] Binge/Hunger Works Studio
 - [ ] BoomSnap! Caps
-- [ ] Booper/Omniclectic
+- [ ] Booper/Omniclectic (format issue)
 - [ ] Bludgeoned Kaps
 - [x] BroCaps
 - [ ] Clack Factory
@@ -30,8 +30,8 @@ Add those catalogs
 - [ ] Hello Caps
 - [ ] Just Another Keymaker (JAK)
 - [ ] Kaphaus
-- [ ] KBK/KWK
-- [ ] KeyForge
+- [ ] KBK/KWK (format issue)
+- [ ] KeyForge (permission issue)
 - [ ] KeyKollectiv (KK)
 - [ ] Latrialum Caps
 - [ ] Level Caps
@@ -42,4 +42,4 @@ Add those catalogs
 - [x] SludgeKidd
 - [ ] TinyMakesThings
 - [ ] Tokkipee
-- [ ] Wildstory Caps
+- [x] Wildstory Caps

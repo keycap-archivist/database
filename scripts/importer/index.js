@@ -8,6 +8,7 @@ const scraps = [
   "./bad",
   "./bro",
   "./sludgekidd",
+  "./wildstory",
   "./gaf"
 ];
 const fs = require("fs");
