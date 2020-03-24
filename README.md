@@ -24,7 +24,7 @@ Add those catalogs:
 | x      | Binge/Hunger Works Studio   | [link](https://docs.google.com/document/d/1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ/edit)                        |                    |
 |        | BoomSnap! Caps              | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ/edit)                        |                    |
 |        | Booper/Omniclectic          | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk/edit)                        | (format issue)     |
-|        | Bludgeoned Kaps             | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8/edit?ts=5c8d1a97)            |                    |
+| x      | Bludgeoned Kaps             | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8/edit?ts=5c8d1a97)            |                    |
 | x      | BroCaps                     | [link](https://docs.google.com/document/d/1SLiSnTXJXR6X5jT5VnmAe4e3K2yFgZosxBUY1kQQKwo)                             |                    |
 |        | Clack Factory               | [link](https://tinyurl.com/luxyrgx)                                                                                 | (wiki page)        |
 |        | Fraktal Kaps                | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII/edit?usp=sharing)            |                    |
