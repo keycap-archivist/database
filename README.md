@@ -34,7 +34,7 @@ Add those catalogs:
 |        | Kaphaus                     | [link](https://docs.google.com/document/d/1QXedbahyT1FndM9QdxZ8HC0RshpbyCvChTuQTY688lE/edit?usp=sharing)            |                    |
 |        | KBK/KWK                     | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8/edit)                        | (format issue)     |
 |        | KeyForge                    | [link](https://docs.google.com/document/d/1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA/edit)                        | (permission issue) |
-|        | KeyKollectiv (KK)           | [link](https://docs.google.com/document/d/18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws/edit#)                       |                    |
+|        | KeyKollectiv (KK)           | [link](https://docs.google.com/document/d/18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws/edit#)                       | (permission issue) |
 |        | Latrialum Caps              | [link](https://docs.google.com/document/d/1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY/edit?usp=sharing)            |                    |
 |        | Level Caps                  | [link](https://docs.google.com/document/d/1_9U5dSSCKeSQcBIhbHPigUs7jiF0AqNI0MYo5KNtpJ8/edit#heading=h.uhw0bkbpipjx) |                    |
 |        | Nubbinator                  | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U/edit?ts=5ba849dd#)           |                    |
@@ -43,5 +43,5 @@ Add those catalogs:
 |        | SodieCaps                   | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0/edit)                        |                    |
 | x      | SludgeKidd                  | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0/edit)                        |                    |
 |        | TinyMakesThings             | [link](https://docs.google.com/document/d/17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk/edit?usp=sharing)            | (format issue)     |
-|        | Tokkipee                    | [link](https://docs.google.com/document/d/1kZoXY-9rV25G5cSwgQxAHwmcjVXNL_LUj8vxhmYYk7k/edit?usp=sharing)            |                    |
+| x      | Tokkipee                    | [link](https://docs.google.com/document/d/1kZoXY-9rV25G5cSwgQxAHwmcjVXNL_LUj8vxhmYYk7k/edit?usp=sharing)            |                    |
 | x      | Wildstory Caps              | [link](https://docs.google.com/document/d/1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0/edit)                        |                    |
