@@ -29,7 +29,7 @@ Add those catalogs:
 |        | Clack Factory               | [link](https://tinyurl.com/luxyrgx)                                                                                 | (wiki page)        |
 |        | Fraktal Kaps                | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII/edit?usp=sharing)            |                    |
 | x      | Grimey as Fuck (GAF)        | [link](https://docs.google.com/document/d/1AdPXkALzPErnyMQZrWDJ6o-jCvFB34XeZyz00FDDvLY/edit)                        |                    |
-|        | Hello Caps                  | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk/edit)                        |                    |
+| x      | Hello Caps                  | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk/edit)                        |                    |
 |        | Just Another Keymaker (JAK) | [link](https://docs.google.com/document/d/15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM/edit##)                      |                    |
 |        | Kaphaus                     | [link](https://docs.google.com/document/d/1QXedbahyT1FndM9QdxZ8HC0RshpbyCvChTuQTY688lE/edit?usp=sharing)            |                    |
 |        | KBK/KWK                     | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8/edit)                        | (format issue)     |

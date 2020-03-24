@@ -30,7 +30,9 @@ function gDriveParse(catalog, tabs) {
       sculptName = sculptName
         .replace(/\&rdquo;/g, "'")
         .replace(/\&ldquo;/g, "'")
-        .replace(/\&nbsp;/g, "");
+        .replace(/\&nbsp;/g, "")
+        .replace(/\&amp;/g, "&")
+        .trim();
       if (sculptName !== currentSculpt) {
         currentSculpt = sculptName;
         currIdx++;
@@ -50,7 +52,7 @@ function gDriveParse(catalog, tabs) {
             img = e.querySelector("img").rawAttributes.src;
           }
           catalog.sculpts[currIdx].colorways.push({
-            name: e.text,
+            name: e.text.trim(),
             img: img,
             id: genId(img)
           });
