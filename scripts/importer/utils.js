@@ -39,17 +39,17 @@ function gDriveParse(catalog, tabs) {
       }
     } else {
       element.querySelectorAll("td").forEach(e => {
-        if (e.text.trim() !== "") {
-          let img = "";
+        let img = "";
+        if (e.querySelector("img")) {
+          img = e.querySelector("img").rawAttributes.src;
+        }
+        if (img !== "") {
           if (!catalog.sculpts[currIdx]) {
             catalog.sculpts[currIdx] = {
               id: genId(currentSculpt),
               name: currentSculpt,
               colorways: []
             };
-          }
-          if (e.querySelector("img")) {
-            img = e.querySelector("img").rawAttributes.src;
           }
           catalog.sculpts[currIdx].colorways.push({
             name: e.text.trim(),
