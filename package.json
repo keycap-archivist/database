@@ -4,17 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "gen": "node scripts/importer/index.js"
+    "gen": "node scripts/importer/index.js",
+    "validate": "node scripts/validate.js"
   },
   "devDependencies": {
+    "ajv": "^6.12.0",
     "axios": "^0.19.2",
+    "crc": "^3.8.0",
     "csv-generate": "^3.2.4",
     "csv-parse": "^4.8.8",
     "csv-stringify": "^5.3.6",
+    "googleapis": "39",
     "node-html-parser": "^1.2.13"
-  },
-  "dependencies": {
-    "crc": "^3.8.0",
-    "googleapis": "39"
   }
 }

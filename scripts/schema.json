@@ -1,0 +1,166 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "description": "An explanation about the purpose of this instance.",
+    "default": {},
+    "examples": [
+      {
+        "name": "Alpha Keycaps",
+        "instagram": "https://www.instagram.com/alphakeycaps/",
+        "id": "a00953bd",
+        "sculpts": [
+          {
+            "id": "cf2fecc9",
+            "colorways": [
+              {
+                "img": "https://images.squarespace-cdn.com/content/v1/5ba3cec929f2cc0d91dbe9b2/1551885204908-NDQFFGI50EPMISWLMTZF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSC00153.jpg",
+                "id": "86be2a4f",
+                "name": "Baba Yaga Keypora"
+              }
+            ],
+            "name": "keypora"
+          }
+        ],
+        "website": "https://alphakeycaps.com"
+      }
+    ],
+    "required": ["id", "name", "sculpts"],
+    "properties": {
+      "id": {
+        "$id": "#/items/properties/id",
+        "type": "string",
+        "title": "The Id Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": ["a00953bd"]
+      },
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "string",
+        "title": "The Name Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": ["Alpha Keycaps"]
+      },
+      "instagram": {
+        "$id": "#/items/properties/instagram",
+        "type": "string",
+        "title": "The Instagram Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": ["https://www.instagram.com/alphakeycaps/"]
+      },
+      "website": {
+        "$id": "#/items/properties/website",
+        "type": "string",
+        "title": "The Website Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": ["https://alphakeycaps.com"]
+      },
+      "sculpts": {
+        "$id": "#/items/properties/sculpts",
+        "type": "array",
+        "title": "The Sculpts Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": [],
+        "items": {
+          "$id": "#/items/properties/sculpts/items",
+          "type": "object",
+          "title": "The Items Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "id": "cf2fecc9",
+              "colorways": [
+                {
+                  "name": "Baba Yaga Keypora",
+                  "img": "https://images.squarespace-cdn.com/content/v1/5ba3cec929f2cc0d91dbe9b2/1551885204908-NDQFFGI50EPMISWLMTZF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSC00153.jpg",
+                  "id": "86be2a4f"
+                }
+              ],
+              "name": "keypora"
+            }
+          ],
+          "required": ["id", "name", "colorways"],
+          "properties": {
+            "id": {
+              "$id": "#/items/properties/sculpts/items/properties/id",
+              "type": "string",
+              "title": "The Id Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": ["cf2fecc9"]
+            },
+            "name": {
+              "$id": "#/items/properties/sculpts/items/properties/name",
+              "type": "string",
+              "title": "The Name Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": ["keypora"]
+            },
+            "colorways": {
+              "$id": "#/items/properties/sculpts/items/properties/colorways",
+              "type": "array",
+              "title": "The Colorways Schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": [],
+              "items": {
+                "$id": "#/items/properties/sculpts/items/properties/colorways/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                  {
+                    "img": "https://images.squarespace-cdn.com/content/v1/5ba3cec929f2cc0d91dbe9b2/1551885204908-NDQFFGI50EPMISWLMTZF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSC00153.jpg",
+                    "id": "86be2a4f",
+                    "name": "Baba Yaga Keypora"
+                  }
+                ],
+                "required": ["name", "img", "id"],
+                "properties": {
+                  "name": {
+                    "$id": "#/items/properties/sculpts/items/properties/colorways/items/properties/name",
+                    "type": "string",
+                    "title": "The Name Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["Baba Yaga Keypora"]
+                  },
+                  "img": {
+                    "$id": "#/items/properties/sculpts/items/properties/colorways/items/properties/img",
+                    "type": "string",
+                    "title": "The Img Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                      "https://images.squarespace-cdn.com/content/v1/5ba3cec929f2cc0d91dbe9b2/1551885204908-NDQFFGI50EPMISWLMTZF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/DSC00153.jpg"
+                    ]
+                  },
+                  "id": {
+                    "$id": "#/items/properties/sculpts/items/properties/colorways/items/properties/id",
+                    "type": "string",
+                    "title": "The Id Schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": ["86be2a4f"]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
