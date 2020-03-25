@@ -27,7 +27,7 @@ Add those catalogs:
 | x      | Bludgeoned Kaps             | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8/edit?ts=5c8d1a97)            |                    |
 | x      | BroCaps                     | [link](https://docs.google.com/document/d/1SLiSnTXJXR6X5jT5VnmAe4e3K2yFgZosxBUY1kQQKwo)                             |                    |
 |        | Clack Factory               | [link](https://tinyurl.com/luxyrgx)                                                                                 | (wiki page)        |
-|        | Fraktal Kaps                | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII/edit?usp=sharing)            |                    |
+| x      | Fraktal Kaps                | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII/edit?usp=sharing)            |                    |
 | x      | Grimey as Fuck (GAF)        | [link](https://docs.google.com/document/d/1AdPXkALzPErnyMQZrWDJ6o-jCvFB34XeZyz00FDDvLY/edit)                        |                    |
 | x      | Hello Caps                  | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk/edit)                        |                    |
 | x      | Just Another Keymaker (JAK) | [link](https://docs.google.com/document/d/15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM/edit##)                      |                    |
