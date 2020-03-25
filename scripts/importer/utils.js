@@ -1,5 +1,11 @@
 const { google } = require("googleapis");
 const { crc32 } = require("crc");
+const gApiKey = process.env.G_API_KEY;
+
+if (!gApiKey) {
+  throw "No Google API KEY provided. Quitting. Use G_API_KEY env var";
+}
+
 const d = google.drive({
   version: "v3",
   auth: process.env.G_API_KEY

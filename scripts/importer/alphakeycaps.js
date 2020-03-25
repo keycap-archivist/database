@@ -9,7 +9,7 @@ async function scrap() {
     name: "Alpha Keycaps",
     instagram: "https://www.instagram.com/alphakeycaps/",
     website: "https://alphakeycaps.com",
-    sculpts: [{ name: "keypora", colorways: [] }]
+    sculpts: [{ name: "keypora", id: genId("keypora"), colorways: [] }]
   };
   const url = "https://alphakeycaps.com/keypora";
   const html = await axios.get(url).then(res => {
