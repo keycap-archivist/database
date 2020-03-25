@@ -8,6 +8,7 @@ const scraps = [
   "./fraktal",
   "./polymer",
   "./latrialum",
+  "./level",
   "./bludgeoned",
   "./tokkipee",
   "./bad",
