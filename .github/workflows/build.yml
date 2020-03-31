@@ -29,14 +29,15 @@ jobs:
         run: |
           yarn gen
           yarn validate
+          git add db/
           git diff-index HEAD || true
           git diff-index --quiet HEAD && echo ::set-output name=DIRTY::0 || echo ::set-output name=DIRTY::1
       - name: Commit Database update
         if: steps.dbgen.outputs.DIRTY == '1'
         run: |
           echo "Need to update the DB"
-          git status
           git config --global user.name 'Database Bot'
           git add db/
+          git status
           git commit -am "Database Synchronization"
           git push
