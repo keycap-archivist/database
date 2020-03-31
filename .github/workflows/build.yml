@@ -2,6 +2,8 @@ name: Database Build
 
 on:
   pull_request:
+  schedule:
+    - cron: "0 0 * * *" # Daily
   push:
     branches:
       - master
