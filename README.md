@@ -1,6 +1,8 @@
 # Too much artisans db
 
-CSV database or artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
+CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
+
+Synchronization is done on a daily basis using a cron github action. If there is a change, the database update itself.
 
 ## Develop
 
