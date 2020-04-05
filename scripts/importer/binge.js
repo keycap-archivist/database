@@ -10,8 +10,8 @@ async function scrap() {
   const tabs = rootNode.querySelectorAll("table");
   tabs.pop(); // credit
   const catalog = {
-    id: genId("Hunger Work Studios"),
-    name: "Hunger Work Studioss",
+    id: genId("Hunger Work Studio"),
+    name: "Hunger Work Studio",
     instagram: "https://www.instagram.com/hungerworkstudio/",
     website: "https://hungerwork.studio/",
     sculpts: []
