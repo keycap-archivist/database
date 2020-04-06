@@ -3,6 +3,7 @@ const scraps = [
   "./alphakeycaps",
   "./deathcaps",
   "./ritual",
+  "./cyo",
   "./binge",
   "./artkey",
   "./fraktal",
@@ -21,7 +22,7 @@ const scraps = [
   "./hello",
   "./sludgekidd",
   "./wildstory",
-  "./gaf"
+  "./gaf",
 ];
 const fs = require("fs");
 const stringify = require("csv-stringify/lib/sync");
@@ -37,13 +38,13 @@ function flatten() {
   for (const artist in Object.keys(catalog).sort()) {
     const artistArr = [];
     for (const sculpt in catalog[artist].sculpts) {
-      catalog[artist].sculpts[sculpt].colorways.forEach(s => {
+      catalog[artist].sculpts[sculpt].colorways.forEach((s) => {
         const out = {
           id: s.id,
           artist: catalog[artist].name,
           sculpt: catalog[artist].sculpts[sculpt].name,
           name: s.name,
-          img: s.img
+          img: s.img,
         };
         arr.push(out);
         artistArr.push(out);
@@ -58,10 +59,7 @@ async function moduleScrap(moduleName) {
   const m = require(moduleName);
   const _catalog = await m.scrap();
   catalog.push(_catalog);
-  fs.writeFileSync(
-    path.join(DEST, `${_catalog.name.toLowerCase().replace(/ /g, "-")}.json`),
-    JSON.stringify(_catalog)
-  );
+  fs.writeFileSync(path.join(DEST, `${_catalog.name.toLowerCase().replace(/ /g, "-")}.json`), JSON.stringify(_catalog));
 }
 
 async function main() {
@@ -70,25 +68,17 @@ async function main() {
     p.push(moduleScrap(s));
   }
   await Promise.all(p);
-  catalog = catalog.sort(function(a, b) {
+  catalog = catalog.sort(function (a, b) {
     const textA = a.name.toUpperCase();
     const textB = b.name.toUpperCase();
     return textA < textB ? -1 : textA > textB ? 1 : 0;
   });
   const flattennedCatalog = flatten();
   fs.writeFileSync(DESTINATION_JSON, JSON.stringify(catalog));
-  fs.writeFileSync(
-    DESTINATION_CSV,
-    stringify(flattennedCatalog.full, { header: true })
-  );
+  fs.writeFileSync(DESTINATION_CSV, stringify(flattennedCatalog.full, { header: true }));
   for (const a in flattennedCatalog.artist) {
     fs.writeFileSync(
-      path.join(
-        DEST,
-        `${flattennedCatalog.artist[a][0].artist
-          .toLowerCase()
-          .replace(/ /g, "-")}.csv`
-      ),
+      path.join(DEST, `${flattennedCatalog.artist[a][0].artist.toLowerCase().replace(/ /g, "-")}.csv`),
       stringify(flattennedCatalog.artist[a], { header: true })
     );
   }
