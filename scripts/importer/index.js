@@ -11,6 +11,7 @@ const scraps = [
   "./level",
   "./bludgeoned",
   "./tokkipee",
+  "./keyforge",
   "./bad",
   "./jak",
   "./prime",
