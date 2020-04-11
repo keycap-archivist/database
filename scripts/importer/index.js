@@ -2,6 +2,7 @@ const scraps = [
   "./nightcaps",
   "./alphakeycaps",
   "./deathcaps",
+  "./backward",
   "./badhabit",
   "./ritual",
   "./cyo",
