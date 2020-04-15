@@ -8,7 +8,7 @@ if (!gApiKey) {
 
 const d = google.drive({
   version: "v3",
-  auth: process.env.G_API_KEY
+  auth: process.env.G_API_KEY,
 });
 
 function genId(input) {
@@ -19,9 +19,9 @@ async function downloadFile(fileId) {
   return await d.files
     .export({
       fileId: fileId,
-      mimeType: "text/html"
+      mimeType: "text/html",
     })
-    .then(res => {
+    .then((res) => {
       return res.data;
     });
 }
@@ -44,7 +44,7 @@ function gDriveParse(catalog, tabs) {
         currIdx++;
       }
     } else {
-      element.querySelectorAll("td").forEach(e => {
+      element.querySelectorAll("td").forEach((e) => {
         let img = "";
         if (e.querySelector("img")) {
           img = e.querySelector("img").rawAttributes.src;
@@ -54,13 +54,13 @@ function gDriveParse(catalog, tabs) {
             catalog.sculpts[currIdx] = {
               id: genId(currentSculpt),
               name: currentSculpt,
-              colorways: []
+              colorways: [],
             };
           }
           catalog.sculpts[currIdx].colorways.push({
             name: e.text.trim(),
             img: img,
-            id: genId(img)
+            id: genId(img),
           });
         }
       });
@@ -72,5 +72,5 @@ function gDriveParse(catalog, tabs) {
 module.exports = {
   downloadFile,
   gDriveParse,
-  genId
+  genId,
 };
