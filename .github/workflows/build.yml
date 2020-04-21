@@ -31,6 +31,7 @@ jobs:
           yarn gen
           yarn validate
           git add db/
+          git add README.md
           git diff-index HEAD || true
           git diff-index --quiet HEAD && echo ::set-output name=DIRTY::0 || echo ::set-output name=DIRTY::1
       - name: Commit Database update

@@ -86,6 +86,13 @@ function report(catalog) {
   console.log(`Artists   : ${catalog.length}`);
   console.log(`Sculpts   : ${sculptCount}`);
   console.log(`Colorways : ${colorwayCount}`);
+
+  let tpl = fs.readFileSync(path.join(__dirname, "..", "..", "README.md.tpl"), "utf-8");
+  tpl = tpl
+    .replace("<artistCount>", catalog.length)
+    .replace("<sculptCount>", sculptCount)
+    .replace("<colorwayCount>", colorwayCount);
+  fs.writeFileSync(path.join(__dirname, "..", "..", "README.md"), tpl);
 }
 
 async function main() {
