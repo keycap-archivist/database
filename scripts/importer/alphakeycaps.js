@@ -3,7 +3,16 @@ const axios = require("axios");
 const fs = require("fs");
 const { genId } = require("./utils");
 
-const catalogs_names = ["keypora", "jedi-blinker", "blinker", "matapora", "alpha-ape", "cherep"];
+const catalogs_names = [
+  "keypora",
+  "jedi-blinker",
+  "blinker",
+  "matapora",
+  "alpha-ape",
+  "cherep",
+  "salvador",
+  "mr-worldwide",
+];
 const BASE_URL = "https://alphakeycaps.com/";
 
 async function CatalogParse(catName) {
