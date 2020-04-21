@@ -3,16 +3,11 @@ const axios = require("axios");
 const fs = require("fs");
 const { genId } = require("./utils");
 
-async function scrap() {
-  const catalog = {
-    id: genId("Alpha Keycaps"),
-    name: "Alpha Keycaps",
-    instagram: "https://www.instagram.com/alphakeycaps/",
-    website: "https://alphakeycaps.com",
-    sculpts: [{ name: "keypora", id: genId("keypora"), colorways: [] }],
-  };
-  const url = "https://alphakeycaps.com/keypora";
-  const html = await axios.get(url).then((res) => {
+const catalogs_names = ["keypora", "jedi-blinker", "blinker", "matapora", "alpha-ape", "cherep"];
+const BASE_URL = "https://alphakeycaps.com/";
+
+async function CatalogParse(catName) {
+  const html = await axios.get(`${BASE_URL}${catName}`).then((res) => {
     return res.data;
   });
   const root = htmlparser.parse(html);
@@ -21,9 +16,35 @@ async function scrap() {
     const rawImg = e.querySelector(".thumb-image").rawAttrs;
     const m = /data-src="(.*?)"/.exec(rawImg);
     const imgsrc = m[1];
-    return { name: name.replace(/keypora/gi, "").trim(), img: imgsrc, id: genId(imgsrc) };
+    const re = new RegExp(catName.replace("-", " "), "gi");
+    return { name: name.replace(re, "").trim(), img: imgsrc, id: genId(imgsrc) };
   });
-  catalog.sculpts[0].colorways = colorways;
+  return colorways;
+}
+
+async function GenSculpt(catname, sculptsArray) {
+  const s = { name: catname.replace("-", " "), id: genId(catname), colorways: await CatalogParse(catname) };
+  sculptsArray.push(s);
+}
+
+async function scrap() {
+  const catalog = {
+    id: genId("Alpha Keycaps"),
+    name: "Alpha Keycaps",
+    instagram: "https://www.instagram.com/alphakeycaps/",
+    website: "https://alphakeycaps.com",
+    sculpts: [],
+  };
+  const p = [];
+  for (const c of catalogs_names) {
+    p.push(GenSculpt(c, catalog.sculpts));
+  }
+  await Promise.all(p);
+  catalog.sculpts = catalog.sculpts.sort((a, b) => {
+    if (a.name < b.name) return -1;
+    if (a.name > b.name) return 1;
+    return 0;
+  });
   return catalog;
 }
 
