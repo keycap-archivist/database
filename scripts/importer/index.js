@@ -66,6 +66,28 @@ async function moduleScrap(moduleName) {
   fs.writeFileSync(path.join(DEST, `${_catalog.name.toLowerCase().replace(/ /g, "-")}.json`), JSON.stringify(_catalog));
 }
 
+function report(catalog) {
+  let colorwayCount = 0;
+  let sculptCount = 0;
+  console.log("Artisan DB Generation");
+  console.log("---------------------");
+  console.log("");
+  for (const a of catalog) {
+    console.log("");
+    console.log(`- ${a.name}`);
+    sculptCount += a.sculpts.length;
+    for (const s of a.sculpts) {
+      console.log(`---- ${s.name} : ${s.colorways.length} colorways`);
+      colorwayCount += s.colorways.length;
+    }
+  }
+  console.log("");
+  console.log("-----------------");
+  console.log(`Artists   : ${catalog.length}`);
+  console.log(`Sculpts   : ${sculptCount}`);
+  console.log(`Colorways : ${colorwayCount}`);
+}
+
 async function main() {
   const p = [];
   for (const s of scraps) {
@@ -86,6 +108,7 @@ async function main() {
       stringify(flattennedCatalog.artist[a], { header: true })
     );
   }
+  report(catalog);
 }
 
 main();
