@@ -8,6 +8,7 @@ const scraps = [
   "./nubbinator",
   "./badhabit",
   "./ritual",
+  "./kaphaus",
   "./cyo",
   "./binge",
   "./artkey",
