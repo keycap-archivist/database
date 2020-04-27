@@ -1,9 +1,9 @@
 # Too much artisans db
 
 Database currently contains:
-- Artists : 28
-- Sculpts : 373
-- Colorways : 11427
+- Artists : 29
+- Sculpts : 406
+- Colorways : 11927
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -30,5 +30,4 @@ Add those catalogs:
 |        | Booper/Omniclectic          | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk/edit)                        | (format issue)     |
 |        | Kaphaus                     | [link](https://docs.google.com/document/d/1QXedbahyT1FndM9QdxZ8HC0RshpbyCvChTuQTY688lE/edit?usp=sharing)            |                    |
 |        | KBK/KWK                     | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8/edit)                        | (format issue)     |
-|        | Nubbinator                  | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U/edit?ts=5ba849dd#)           |                    |
 |        | TinyMakesThings             | [link](https://docs.google.com/document/d/17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk/edit?usp=sharing)            | (format issue)     |
