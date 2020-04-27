@@ -1,8 +1,10 @@
+// @ts-nocheck
 const scraps = [
   "./nightcaps",
   "./alphakeycaps",
   "./deathcaps",
   "./backward",
+  "./boop",
   "./clack",
   "./gsk",
   "./nubbinator",
@@ -100,7 +102,9 @@ function report(catalog) {
 async function main() {
   const p = [];
   for (const s of scraps) {
-    p.push(moduleScrap(s));
+    // Google Api limit parallel requests
+    // needs too add pooling
+    p.push(await moduleScrap(s));
   }
   await Promise.all(p);
   catalog = catalog.sort(function (a, b) {
@@ -120,4 +124,12 @@ async function main() {
   report(catalog);
 }
 
-main();
+main()
+  .then(() => {
+    console.log("Generation finished");
+  })
+  .catch((e) => {
+    console.log("An error has occured");
+    console.error(e);
+    process.exit(1);
+  });
