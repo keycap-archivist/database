@@ -12,6 +12,7 @@ const scraps = [
   "./ritual",
   "./kaphaus",
   "./cyo",
+  "./kbk",
   "./binge",
   "./artkey",
   "./fraktal",
@@ -79,8 +80,8 @@ function report(catalog) {
   for (const a of catalog) {
     console.log("");
     console.log(`- ${a.name}`);
-    sculptCount += a.sculpts.length;
-    for (const s of a.sculpts) {
+    sculptCount += a.sculpts.filter((x) => x !== null).length;
+    for (const s of a.sculpts.filter((x) => x !== null)) {
       console.log(`---- ${s.name} : ${s.colorways.length} colorways`);
       colorwayCount += s.colorways.length;
     }

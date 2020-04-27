@@ -1,9 +1,9 @@
 # Too much artisans db
 
 Database currently contains:
-- Artists : 31
-- Sculpts : 424
-- Colorways : 12642
+- Artists : 32
+- Sculpts : 440
+- Colorways : 13059
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -27,5 +27,4 @@ Add those catalogs:
 | Status | Catalog                     | Url                                                                                                                 | Comment            |
 | ------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------ |
 |        | BoomSnap! Caps              | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ/edit)                        |                    |
-|        | KBK/KWK                     | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8/edit)                        | (format issue)     |
 |        | TinyMakesThings             | [link](https://docs.google.com/document/d/17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk/edit?usp=sharing)            | (format issue)     |
