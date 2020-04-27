@@ -66,6 +66,7 @@ function gDriveParse(catalog, tabs) {
       });
     }
   }
+  catalog.sculpts = catalog.sculpts.filter((x) => x);
   return catalog;
 }
 
