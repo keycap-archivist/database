@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "gen": "node scripts/importer/index.js",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "gen:wiki": "node scripts/gen-wiki.js"
   },
   "devDependencies": {
     "ajv": "^6.12.0",
@@ -15,6 +16,10 @@
     "csv-parse": "^4.8.8",
     "csv-stringify": "^5.3.6",
     "googleapis": "39",
+    "marked": "^1.0.0",
     "node-html-parser": "^1.2.13"
+  },
+  "dependencies": {
+    "@mixmaxhq/promise-pool": "^2.0.0"
   }
 }

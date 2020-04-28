@@ -36,6 +36,7 @@ const scraps = [
   "./wildstory",
   "./gaf",
 ];
+const PromisePool = require("@mixmaxhq/promise-pool");
 const fs = require("fs");
 const stringify = require("csv-stringify/lib/sync");
 const path = require("path");
@@ -104,13 +105,13 @@ function report(catalog) {
 }
 
 async function main() {
-  const p = [];
+  const pool = new PromisePool({ numConcurrent: 8 });
   for (const s of scraps) {
-    // Google Api limit parallel requests
-    // needs too add pooling
-    p.push(await moduleScrap(s));
+    await pool.start(async (s) => {
+      await moduleScrap(s);
+    }, s);
   }
-  await Promise.all(p);
+  await pool.flush();
   catalog = catalog.sort(function (a, b) {
     const textA = a.name.toUpperCase();
     const textB = b.name.toUpperCase();
