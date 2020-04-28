@@ -27,4 +27,3 @@ Add those catalogs:
 | Status | Catalog                     | Url                                                                                                                 |
 | ------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 |        | Zorb                        | [link](https://www.instagram.com/zorbcaps/)                                                                         |
-|        | Cozcaps                     | [link](https://www.cozcaps.com/keycaps/)                                                                            |

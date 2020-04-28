@@ -1,9 +1,9 @@
 # Too much artisans db
 
 Database currently contains:
-- Artists : 34
-- Sculpts : 458
-- Colorways : 13341
+- Artists : 35
+- Sculpts : 467
+- Colorways : 13467
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -27,4 +27,3 @@ Add those catalogs:
 | Status | Catalog                     | Url                                                                                                                 |
 | ------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 |        | Zorb                        | [link](https://www.instagram.com/zorbcaps/)                                                                         |
-|        | Cozcaps                     | [link](https://www.cozcaps.com/keycaps/)                                                                            |
