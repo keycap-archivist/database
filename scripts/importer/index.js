@@ -27,6 +27,7 @@ const scraps = [
   "./jak",
   "./prime",
   "./bro",
+  "./tiny",
   "./sodie",
   "./hello",
   "./sludgekidd",
