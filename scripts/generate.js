@@ -1,48 +1,12 @@
 // @ts-nocheck
-const scraps = [
-  "./nightcaps",
-  "./alphakeycaps",
-  "./deathcaps",
-  "./backward",
-  "./boomsnap",
-  "./boop",
-  "./coz",
-  "./clack",
-  "./gsk",
-  "./nubbinator",
-  "./badhabit",
-  "./ritual",
-  "./kaphaus",
-  "./cyo",
-  "./kbk",
-  "./binge",
-  "./artkey",
-  "./fraktal",
-  "./keykollectiv",
-  "./polymer",
-  "./latrialum",
-  "./level",
-  "./bludgeoned",
-  "./tokkipee",
-  "./keyforge",
-  "./bad",
-  "./jak",
-  "./prime",
-  "./bro",
-  "./tiny",
-  "./sodie",
-  "./hello",
-  "./sludgekidd",
-  "./wildstory",
-  "./gaf",
-];
 const PromisePool = require("@mixmaxhq/promise-pool");
 const fs = require("fs");
 const stringify = require("csv-stringify/lib/sync");
 const path = require("path");
-const DEST = path.resolve(path.join(__dirname, "..", "..", "db"));
+const DEST = path.resolve(path.join(__dirname, "..", "db"));
 const DESTINATION_JSON = path.join(DEST, "catalog.json");
 const DESTINATION_CSV = path.join(DEST, "catalog.csv");
+const importerPath = path.resolve(path.join(__dirname, "importer"));
 let catalog = [];
 
 function flatten() {
@@ -96,19 +60,20 @@ function report(catalog) {
   console.log(`Sculpts   : ${sculptCount}`);
   console.log(`Colorways : ${colorwayCount}`);
 
-  let tpl = fs.readFileSync(path.join(__dirname, "..", "..", "README.md.tpl"), "utf-8");
+  let tpl = fs.readFileSync(path.join(__dirname, "..", "README.md.tpl"), "utf-8");
   tpl = tpl
     .replace("<artistCount>", catalog.length)
     .replace("<sculptCount>", sculptCount)
     .replace("<colorwayCount>", colorwayCount);
-  fs.writeFileSync(path.join(__dirname, "..", "..", "README.md"), tpl);
+  fs.writeFileSync(path.join(__dirname, "..", "README.md"), tpl);
 }
 
 async function main() {
   const pool = new PromisePool({ numConcurrent: 8 });
+  const scraps = fs.readdirSync(importerPath);
   for (const s of scraps) {
     await pool.start(async (s) => {
-      await moduleScrap(s);
+      await moduleScrap(path.join(importerPath, s));
     }, s);
   }
   await pool.flush();
