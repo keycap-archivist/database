@@ -1,9 +1,9 @@
 # Too much artisans db
 
 Database currently contains:
-- Artists : 37
-- Sculpts : 483
-- Colorways : 13745
+- Artists : 38
+- Sculpts : 498
+- Colorways : 13934
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -32,6 +32,7 @@ To use the master version of the catalog you can CURL those urls:
 | Bludgeoned Kaps | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8) |
 | BoomSnap Caps | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ) |
 | Booper-Omniclectic | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk) |
+| BrewCaps | [link](https://docs.google.com/document/d/1ibnukzm73aRIkBm83OhmPsT6wdyA1GH3MRQ6FPBkOSA) |
 | Bro Caps | [link](https://docs.google.com/document/d/1SLiSnTXJXR6X5jT5VnmAe4e3K2yFgZosxBUY1kQQKwo) |
 | C.Y.O Keycaps | [link](https://docs.google.com/document/d/1Rhig59IdZh5IZ3JP3R_FjZncRxo2M5tfPiUyxJBuLq8) |
 | Clack Factory | [link](https://docs.google.com/document/d/1C9I7PaXFtpNzI8Zb_6ZTjHLMrQ8ERyWn_IvMD8mVoq0) |
@@ -71,4 +72,3 @@ Add those catalogs:
 | NavaCaps | [link](https://www.instagram.com/navacaps/) |
 | SUK | [link](https://suitedupkeycaps.com/) |
 | CYSM | [link](https://www.instagram.com/cysm_caps/) |
-| Brew Caps | [link](https://www.instagram.com/brew_caps/) |
