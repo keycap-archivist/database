@@ -35,6 +35,5 @@ Add those catalogs:
 | Zorb | [link](https://www.instagram.com/zorbcaps/) |
 | NavaCaps | [link](https://www.instagram.com/navacaps/) |
 | SUK | [link](https://suitedupkeycaps.com/) |
-| DOLLARTACOS | [link](https://www.instagram.com/dollarta.co/) |
 | CYSM | [link](https://www.instagram.com/cysm_caps/) |
 | Brew Caps | [link](https://www.instagram.com/brew_caps/) |
