@@ -1,8 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const {
-  downloadFile, genId, gDriveParse, gDocUrl,
-} = require('./utils');
+const { downloadFile, genId, gDriveParse, gDocUrl } = require('./utils');
 
 const GDOC_ID = '1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ';
 

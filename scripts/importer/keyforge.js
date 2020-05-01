@@ -1,18 +1,15 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const {
-  downloadFile, genId, gDriveParse, gDocUrl,
-} = require('./utils');
+const { downloadFile, genId, gDriveParse, gDocUrl } = require('./utils');
 
 const GDOC_ID = '1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA';
 
 async function scrap() {
   const index = await downloadFile(GDOC_ID);
   const catalog = {
-   src: gDocUrl(GDOC_ID),
+    src: gDocUrl(GDOC_ID),
     id: genId('KeyForge'),
     name: 'KeyForge',
-    src: gDocUrl(GDOC_ID),
     instagram: 'https://www.instagram.com/keyforge/',
     website: 'https://www.keyforge.com/',
     sculpts: [],

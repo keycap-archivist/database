@@ -1,17 +1,13 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const {
-  downloadFile, genId, gDriveParse, gDocUrl,
-} = require('./utils');
+const { downloadFile, genId, gDriveParse, gDocUrl } = require('./utils');
 
-const GDOC_ID = "";
+const GDOC_ID = '1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0';
 
 async function scrap() {
-  const index = await downloadFile(
-    '1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0',
-  );
+  const index = await downloadFile(GDOC_ID);
   const catalog = {
-   src: gDocUrl(GDOC_ID),
+    src: gDocUrl(GDOC_ID),
     id: genId('Wildstory Caps'),
     name: 'Wildstory Caps',
     instagram: 'https://www.instagram.com/wildstory.caps/',

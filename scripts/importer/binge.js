@@ -1,20 +1,16 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const {
-  downloadFile, genId, gDriveParse, gDocUrl,
-} = require('./utils');
+const { downloadFile, genId, gDriveParse, gDocUrl } = require('./utils');
 
-const GDOC_ID = "";
+const GDOC_ID = '1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ';
 
 async function scrap() {
-  const index = await downloadFile(
-    '1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ',
-  );
+  const index = await downloadFile(GDOC_ID);
   const rootNode = htmlparser.parse(index);
   const tabs = rootNode.querySelectorAll('table');
   tabs.pop(); // credit
   const catalog = {
-   src: gDocUrl(GDOC_ID),
+    src: gDocUrl(GDOC_ID),
     id: genId('Hunger Work Studio'),
     name: 'Hunger Work Studio',
     instagram: 'https://www.instagram.com/hungerworkstudio/',

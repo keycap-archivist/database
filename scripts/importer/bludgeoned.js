@@ -1,19 +1,16 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');const {
-  downloadFile, genId, gDriveParse, gDocUrl,
-} = require('./utils');
+const htmlparser = require('node-html-parser');
+const { downloadFile, genId, gDriveParse, gDocUrl } = require('./utils');
 
-const GDOC_ID = "";
+const GDOC_ID = '1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8';
 
 async function scrap() {
-  const index = await downloadFile(
-    '1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8',
-  );
+  const index = await downloadFile(GDOC_ID);
   const rootNode = htmlparser.parse(index);
   const tabs = rootNode.querySelectorAll('table');
   tabs.pop(); // deleting last tab as it's credits
   const catalog = {
-   src: gDocUrl(GDOC_ID),
+    src: gDocUrl(GDOC_ID),
     id: genId('Bludgeoned Kaps'),
     name: 'Bludgeoned Kaps',
     instagram: 'https://www.instagram.com/blud_kaps/',
