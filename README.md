@@ -1,6 +1,7 @@
 # Too much artisans db
 
 Database currently contains:
+
 - Artists : 35
 - Sculpts : 478
 - Colorways : 13676
@@ -23,7 +24,12 @@ To use the master version of the catalog you can CURL those urls:
 ## TODO
 
 Add those catalogs:
-
-| Status | Catalog                     | Url                                                                                                                 |
-| ------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-|        | Zorb                        | [link](https://www.instagram.com/zorbcaps/)                                                                         |
+| Catalog | Url |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Zorb | [link](https://www.instagram.com/zorbcaps/) |
+| NavaCaps | [link](https://www.instagram.com/navacaps/) |
+| SUK | [link](https://suitedupkeycaps.com/) |
+| DOLLARTACOS | [link](https://www.instagram.com/dollarta.co/) |
+| CYSM | (link)[https://www.instagram.com/cysm_caps/] |
+| Latrialum | [link](https://www.instagram.com/latrialum/) |
+| Brew Caps | [link](https://www.instagram.com/brew_caps/) |
