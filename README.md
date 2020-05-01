@@ -1,9 +1,9 @@
 # Too much artisans db
 
 Database currently contains:
-- Artists : 36
-- Sculpts : 479
-- Colorways : 13688
+- Artists : 37
+- Sculpts : 483
+- Colorways : 13745
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -60,6 +60,7 @@ To use the master version of the catalog you can CURL those urls:
 | TinyMakesThings | [link](https://docs.google.com/document/d/17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk) |
 | Tokkipee | [link](https://docs.google.com/document/d/1kZoXY-9rV25G5cSwgQxAHwmcjVXNL_LUj8vxhmYYk7k) |
 | Wildstory Caps | [link](https://docs.google.com/document/d/1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0) |
+| Zorbcaps | [link](https://docs.google.com/document/d/1Am4m-dKazjz-seHmf6E-Y-EgZm2-tRG6fZCtAMPNuKw) |
 
 ## TODO
 
@@ -67,7 +68,6 @@ Add those catalogs:
 
 | Catalog | Url |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Zorb | [link](https://www.instagram.com/zorbcaps/) |
 | NavaCaps | [link](https://www.instagram.com/navacaps/) |
 | SUK | [link](https://suitedupkeycaps.com/) |
 | CYSM | [link](https://www.instagram.com/cysm_caps/) |
