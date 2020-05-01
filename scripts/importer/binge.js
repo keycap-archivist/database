@@ -1,30 +1,35 @@
-const fs = require("fs");
-const htmlparser = require("node-html-parser");
-const { downloadFile, genId, gDriveParse } = require("./utils");
+const fs = require('fs');
+const htmlparser = require('node-html-parser');
+const {
+  downloadFile, genId, gDriveParse, gDocUrl,
+} = require('./utils');
+
+const GDOC_ID = "";
 
 async function scrap() {
   const index = await downloadFile(
-    "1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ"
+    '1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ',
   );
   const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll("table");
+  const tabs = rootNode.querySelectorAll('table');
   tabs.pop(); // credit
   const catalog = {
-    id: genId("Hunger Work Studio"),
-    name: "Hunger Work Studio",
-    instagram: "https://www.instagram.com/hungerworkstudio/",
-    website: "https://hungerwork.studio/",
-    sculpts: []
+   src: gDocUrl(GDOC_ID),
+    id: genId('Hunger Work Studio'),
+    name: 'Hunger Work Studio',
+    instagram: 'https://www.instagram.com/hungerworkstudio/',
+    website: 'https://hungerwork.studio/',
+    sculpts: [],
   };
   return gDriveParse(catalog, tabs);
 }
 
 if (require.main === module) {
-  scrap().then(catalog => {
-    fs.writeFileSync("binge.json", JSON.stringify(catalog));
+  scrap().then((catalog) => {
+    fs.writeFileSync('binge.json', JSON.stringify(catalog));
   });
 }
 
 module.exports = {
-  scrap
+  scrap,
 };

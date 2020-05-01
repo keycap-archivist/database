@@ -20,6 +20,12 @@ To use the master version of the catalog you can CURL those urls:
 - [csv](https://raw.githubusercontent.com/zekth/too-much-artisans-db/master/db/catalog.csv)
 - [json](https://raw.githubusercontent.com/zekth/too-much-artisans-db/master/db/catalog.json)
 
+## Source Catalogs
+
+| Catalog | Url |
+| --- | --- |
+<srcCatalogs>
+
 ## TODO
 
 Add those catalogs:
@@ -31,5 +37,4 @@ Add those catalogs:
 | SUK | [link](https://suitedupkeycaps.com/) |
 | DOLLARTACOS | [link](https://www.instagram.com/dollarta.co/) |
 | CYSM | [link](https://www.instagram.com/cysm_caps/) |
-| Latrialum | [link](https://www.instagram.com/latrialum/) |
 | Brew Caps | [link](https://www.instagram.com/brew_caps/) |

@@ -4,22 +4,28 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint --ext .js ./scripts",
     "gen": "node scripts/generate.js",
     "validate": "node scripts/validate.js",
     "gen:wiki": "node scripts/gen-wiki.js"
   },
   "devDependencies": {
+    "csv-generate": "^3.2.4",
+    "csv-parse": "^4.8.8",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3"
+  },
+  "dependencies": {
+    "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.0",
     "axios": "^0.19.2",
     "crc": "^3.8.0",
-    "csv-generate": "^3.2.4",
-    "csv-parse": "^4.8.8",
     "csv-stringify": "^5.3.6",
     "googleapis": "39",
     "marked": "^1.0.0",
     "node-html-parser": "^1.2.13"
-  },
-  "dependencies": {
-    "@mixmaxhq/promise-pool": "^2.0.0"
   }
 }
