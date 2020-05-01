@@ -10,8 +10,8 @@ async function scrap() {
   const tabs = rootNode.querySelectorAll('table');
   const catalog = {
     src: gDocUrl(GDOC_ID),
-    id: genId('Dollartaco'),
-    name: 'Dollartaco',
+    id: genId('Dollartacos'),
+    name: 'Dollartacos',
     instagram: 'https://www.instagram.com/dollarta.co/',
     website: '',
     sculpts: [],
