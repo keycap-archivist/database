@@ -32,6 +32,5 @@ Add those catalogs:
 
 | Catalog | Url |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| NavaCaps | [link](https://www.instagram.com/navacaps/) |
 | SUK | [link](https://suitedupkeycaps.com/) |
 | CYSM | [link](https://www.instagram.com/cysm_caps/) |
