@@ -48,3 +48,12 @@ jobs:
           git status
           git commit -am "Database Synchronization"
           git push
+      - name: Update wiki
+        run: |
+          yarn gen:wiki
+          git clone git@github.com:zekth/too-much-artisans-db.wiki.git wikirepo
+          cp -r wiki-dist/* wikirepo/
+          cd wikirepo
+          git add .
+          git commit -m "update-wiki"
+          git push -f

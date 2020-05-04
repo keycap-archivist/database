@@ -27,6 +27,7 @@
     "csv-stringify": "^5.3.6",
     "googleapis": "39",
     "marked": "^1.0.0",
-    "node-html-parser": "^1.2.13"
+    "node-html-parser": "^1.2.13",
+    "rimraf": "^3.0.2"
   }
 }
