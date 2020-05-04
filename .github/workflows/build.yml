@@ -58,6 +58,7 @@ jobs:
           yarn gen:wiki
           cp -r wiki-dist/* wikirepo/
           cd wikirepo
+          git config --global user.name 'Database Bot'
           git add .
           git commit -m "update-wiki"
           git push -f
