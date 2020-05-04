@@ -56,6 +56,7 @@ jobs:
       - name: Update wiki
         run: |
           yarn gen:wiki
+          rm -rf wikirepo/*
           cp -r wiki-dist/* wikirepo/
           cd wikirepo
           git config --global user.name 'Database Bot'

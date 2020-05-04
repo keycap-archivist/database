@@ -8,21 +8,16 @@ const distFolder = path.resolve(path.join(__dirname, '..', 'wiki-dist'));
 const pathTemplates = path.resolve(path.join(__dirname, '..', 'wiki'));
 const pathDb = path.resolve(path.join(__dirname, '..', 'db'));
 
+const NB_CAPS_PER_LINE = 4;
+
 function formatName(strName) {
-  return strName.toLowerCase().replace(/ /g, '-');
+  const out = [];
+  for (const word of strName.split(' ')) {
+    out.push(word.charAt(0).toUpperCase() + word.slice(1));
+  }
+  return out.join('-');
 }
 
-// function parse() {
-//   for (const a of catalog) {
-//     console.log('');
-//     console.log(`- ${a.name}`);
-//     sculptCount += a.sculpts.length;
-//     for (const s of a.sculpts) {
-//       console.log(`---- ${s.name} : ${s.colorways.length} colorways`);
-//       colorwayCount += s.colorways.length;
-//     }
-//   }
-// }
 function sortResults(a, b) {
   if (a.name < b.name) return -1;
   if (a.name > b.name) return 1;
@@ -59,19 +54,27 @@ function genColorway(c) {
 function genSculpt(content, s) {
   content.push('');
   content.push(`## ${s.name}`);
-  content.push('|  |  |  |');
-  content.push('| --- | --- | --- |');
+  content.push(
+    `| ${Array.from(Array(NB_CAPS_PER_LINE).keys())
+      .map(() => ' ')
+      .join('| ')} |`,
+  );
+  content.push(
+    `| ${Array.from(Array(NB_CAPS_PER_LINE).keys())
+      .map(() => '---')
+      .join('| ')} |`,
+  );
   const colorways = [];
   let i = 0;
   for (const c of s.colorways.sort(sortResults)) {
     colorways.push('|');
     colorways.push(genColorway(c));
-    if (i % 3 === 0 && i !== 0) {
+    if (i % NB_CAPS_PER_LINE === 0 && i !== 0) {
       colorways.push('|\n');
     }
     i += 1;
   }
-  if (i % 3 !== 0) {
+  if (i % NB_CAPS_PER_LINE !== 0) {
     colorways.push('|\n');
   }
   content.push(colorways.join(''));
