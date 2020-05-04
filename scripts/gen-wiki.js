@@ -42,7 +42,7 @@ function genSidebar(catalog) {
   const content = fs.readFileSync(path.join(pathTemplates, '_Sidebar.md'), 'utf-8');
   const makerlist = [];
   for (const a of catalog) {
-    makerlist.push(`- [${a.name}](makers/${formatName(a.name)}.md)`);
+    makerlist.push(`- [${a.name}](https://github.com/zekth/too-much-artisans-db/wiki/${formatName(a.name)})`);
   }
   return content.replace('<makerlist>', makerlist.join(os.EOL));
 }
@@ -52,19 +52,29 @@ function genFooter() {
   return content;
 }
 
-function genColorway(content, c) {
-  content.push(`| ${c.name !== '' ? c.name : '(no name)'} | <img width="250" src="${c.img}"/> |`);
+function genColorway(c) {
+  return `<img width="250" src="${c.img}"/><br/>${c.name !== '' ? c.name : '(no name)'}`;
 }
 
 function genSculpt(content, s) {
   content.push('');
   content.push(`## ${s.name}`);
-  content.push('');
-  content.push('| Colorway | image |');
-  content.push('| --- | --- |');
+  content.push('|  |  |  |');
+  content.push('| --- | --- | --- |');
+  const colorways = [];
+  let i = 0;
   for (const c of s.colorways.sort(sortResults)) {
-    genColorway(content, c);
+    colorways.push('|');
+    colorways.push(genColorway(c));
+    if (i % 3 === 0 && i !== 0) {
+      colorways.push('|\n');
+    }
+    i += 1;
   }
+  if (i % 3 !== 0) {
+    colorways.push('|\n');
+  }
+  content.push(colorways.join(''));
 }
 
 function genMaker(artist) {
@@ -72,7 +82,7 @@ function genMaker(artist) {
   content = content.replace('<NAME>', artist.name);
   const makerContent = [];
   for (const s of artist.sculpts.sort(sortResults)) {
-    genSculpt(makerContent, s);
+    makerContent.push(genSculpt(makerContent, s));
   }
   content += makerContent.join('\n');
   return content;
