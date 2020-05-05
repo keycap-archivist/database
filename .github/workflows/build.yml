@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     name: build
+    if: "! contains(toJSON(github.event.commits.*.message), '[skip-ci]')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -54,7 +55,7 @@ jobs:
           node scripts/discord-update.js
           git add db/
           git status
-          git commit -am "Database Synchronization" || true
+          git commit -am "[skip-ci] Database Synchronization" || true
           git push || true
       - name: Update wiki
         run: |
