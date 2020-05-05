@@ -54,8 +54,8 @@ jobs:
           node scripts/discord-update.js
           git add db/
           git status
-          git commit -am "Database Synchronization"
-          git push
+          git commit -am "Database Synchronization" || true
+          git push || true
       - name: Update wiki
         run: |
           yarn gen:wiki
