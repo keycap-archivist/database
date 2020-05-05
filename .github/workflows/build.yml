@@ -51,9 +51,9 @@ jobs:
         run: |
           echo "Need to update the DB"
           git config --global user.name 'Database Bot'
+          node scripts/discord-update.js
           git add db/
           git status
-          node scripts/discord-update.js
           git commit -am "Database Synchronization"
           git push
       - name: Update wiki
