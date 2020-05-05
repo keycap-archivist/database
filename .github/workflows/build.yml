@@ -41,7 +41,6 @@ jobs:
           yarn gen
           yarn validate
           git add db/
-          git rm db/
           git add README.md
           git diff-index HEAD || true
           git diff-index --quiet HEAD && echo ::set-output name=DIRTY::0 || echo ::set-output name=DIRTY::1
@@ -53,7 +52,6 @@ jobs:
           echo "Need to update the DB"
           git config --global user.name 'Database Bot'
           git add db/
-          git rm db/
           git status
           node scripts/discord-update.js
           git commit -am "Database Synchronization"
