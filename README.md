@@ -1,5 +1,7 @@
 # Too much artisans db
 
+See the [WIKI](https://github.com/zekth/too-much-artisans-db/wiki) to parse the catalog.
+
 Database currently contains:
 - Artists : 39
 - Sculpts : 516

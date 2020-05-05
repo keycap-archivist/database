@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js ./scripts",
-    "gen": "node scripts/generate.js",
+    "gen": "rm db/* && node scripts/generate.js",
     "validate": "node scripts/validate.js",
     "gen:wiki": "node scripts/gen-wiki.js"
   },
