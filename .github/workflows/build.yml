@@ -2,7 +2,7 @@ name: Database Build
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Daily
+    - cron: '0 */6 * * *' # Every 6 hours
   push:
     branches:
       - master
