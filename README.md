@@ -1,7 +1,5 @@
 # Too much artisans db
 
-![Discord](https://img.shields.io/discord/707159843751854141)
-
 See the [WIKI](https://github.com/zekth/too-much-artisans-db/wiki) to parse the catalog.
 
 Database currently contains:
