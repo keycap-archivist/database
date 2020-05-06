@@ -4,7 +4,7 @@ const { execSync } = require('child_process');
 function formatReport(report) {
   const out = [];
   out.push('');
-  out.push(`**CATALOG UPDATE**`);
+  out.push('**CATALOG UPDATE**');
   for (const r of report) {
     out.push(`- ${r.catalog} :`);
     if (r.addition) {

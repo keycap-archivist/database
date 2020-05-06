@@ -62,20 +62,25 @@ function genSculpt(content, s) {
   content.push(
     `| ${Array.from(Array(NB_CAPS_PER_LINE).keys())
       .map(() => '---')
-      .join('| ')} |`,
+      .join(' | ')} |`,
   );
   const colorways = [];
   let i = 0;
   for (const c of s.colorways.sort(sortResults)) {
     colorways.push('|');
     colorways.push(genColorway(c));
+    i += 1;
     if (i % NB_CAPS_PER_LINE === 0 && i !== 0) {
       colorways.push('|\n');
     }
-    i += 1;
   }
-  if (i % NB_CAPS_PER_LINE !== 0) {
-    colorways.push('|\n');
+  const mod = s.colorways.length % NB_CAPS_PER_LINE;
+  if (mod !== 0) {
+    colorways.push(
+      `${Array.from(Array(NB_CAPS_PER_LINE - mod).keys())
+        .map(() => ' | ')
+        .join(' ')}|\n`,
+    );
   }
   content.push(colorways.join(''));
 }
