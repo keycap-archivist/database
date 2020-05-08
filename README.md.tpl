@@ -37,4 +37,3 @@ Add those catalogs:
 | Catalog | Url |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | SUK | [link](https://suitedupkeycaps.com/) |
-| CYSM | [link](https://www.instagram.com/cysm_caps/) |

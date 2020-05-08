@@ -5,9 +5,9 @@
 See the [WIKI](https://github.com/zekth/too-much-artisans-db/wiki) to parse the catalog.
 
 Database currently contains:
-- Artists : 39
-- Sculpts : 517
-- Colorways : 14219
+- Artists : 40
+- Sculpts : 526
+- Colorways : 14389
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -41,6 +41,7 @@ To use the master version of the catalog you can CURL those urls:
 | C.Y.O Keycaps | [link](https://docs.google.com/document/d/1Rhig59IdZh5IZ3JP3R_FjZncRxo2M5tfPiUyxJBuLq8) |
 | Clack Factory | [link](https://docs.google.com/document/d/1C9I7PaXFtpNzI8Zb_6ZTjHLMrQ8ERyWn_IvMD8mVoq0) |
 | CozCaps | [link](https://docs.google.com/document/d/14EBfRe0AxEbCok856_HrL6teQAlkeQL3kpa3z8lenTc) |
+| CYSM | [link](https://docs.google.com/document/d/1ktd-Pim71LVVEG-jUlBayzbbJtkXInPMPxxwGIx_H4c) |
 | Deathcaps | [link](https://docs.google.com/document/d/1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA) |
 | Dollartacos | [link](https://docs.google.com/document/d/1iAaGXFW6zqBa8lx6sKyQmKTvtiDA1zEiAM4jR4zd-Bs) |
 | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
@@ -75,4 +76,3 @@ Add those catalogs:
 | Catalog | Url |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | SUK | [link](https://suitedupkeycaps.com/) |
-| CYSM | [link](https://www.instagram.com/cysm_caps/) |
