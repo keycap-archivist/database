@@ -6,8 +6,8 @@ See the [WIKI](https://github.com/zekth/too-much-artisans-db/wiki) to parse the 
 
 Database currently contains:
 - Artists : 39
-- Sculpts : 516
-- Colorways : 14200
+- Sculpts : 517
+- Colorways : 14219
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
