@@ -2,7 +2,7 @@
 
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
-See the [WIKI](https://github.com/zekth/too-much-artisans-db/wiki) to parse the catalog.
+See the [WIKI](https://github.com/keycap-archivist/database/wiki) to parse the catalog.
 
 Database currently contains:
 - Artists : 40
@@ -21,8 +21,8 @@ To use you need to declare a Google API Key for Drive and export it as an env va
 
 To use the master version of the catalog you can CURL those urls:
 
-- [csv](https://raw.githubusercontent.com/zekth/too-much-artisans-db/master/db/catalog.csv)
-- [json](https://raw.githubusercontent.com/zekth/too-much-artisans-db/master/db/catalog.json)
+- [csv](https://raw.githubusercontent.com/keycap-archivist/database/master/db/catalog.csv)
+- [json](https://raw.githubusercontent.com/keycap-archivist/database/master/db/catalog.json)
 
 ## Source Catalogs
 
