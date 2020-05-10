@@ -67,7 +67,7 @@ function report(catalog) {
   console.log(`Sculpts   : ${sculptCount}`);
   console.log(`Colorways : ${colorwayCount}`);
 
-  let tpl = fs.readFileSync(path.join(__dirname, '..', 'README.md.tpl'), 'utf-8');
+  let tpl = fs.readFileSync(path.join(__dirname, '..', 'templates', 'README.md'), 'utf-8');
   tpl = tpl
     .replace('<artistCount>', catalog.length)
     .replace('<sculptCount>', sculptCount)

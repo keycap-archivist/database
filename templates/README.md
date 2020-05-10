@@ -1,4 +1,4 @@
-# Too much artisans db
+# Keycap Archivist Database
 
 ![Discord](https://img.shields.io/discord/707159843751854141)
 

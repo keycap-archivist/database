@@ -5,7 +5,7 @@ const os = require('os');
 const rimraf = require('rimraf');
 
 const distFolder = path.resolve(path.join(__dirname, '..', 'wiki-dist'));
-const pathTemplates = path.resolve(path.join(__dirname, '..', 'wiki'));
+const pathTemplates = path.resolve(path.join(__dirname, '..', 'templates', 'wiki'));
 const pathDb = path.resolve(path.join(__dirname, '..', 'db'));
 
 const NB_CAPS_PER_LINE = 4;
@@ -37,7 +37,7 @@ function genSidebar(catalog) {
   const content = fs.readFileSync(path.join(pathTemplates, '_Sidebar.md'), 'utf-8');
   const makerlist = [];
   for (const a of catalog) {
-    makerlist.push(`- [${a.name}](https://github.com/zekth/too-much-artisans-db/wiki/${formatName(a.name)})`);
+    makerlist.push(`- [${a.name}](https://github.com/keycap-archivist/database/wiki/${formatName(a.name)})`);
   }
   return content.replace('<makerlist>', makerlist.join(os.EOL));
 }
