@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           path: wikirepo
-          repository: zekth/too-much-artisans-db.wiki
+          repository: keycap-archivist/database.wiki
           token: ${{ secrets.BOT_PAT }}
       - id: nodeversion
         run: echo ::set-output name=NODE::$(cat .nvmrc)
