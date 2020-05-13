@@ -2,7 +2,7 @@ const fs = require('fs');
 const htmlparser = require('node-html-parser');
 const { downloadFile, genId, gDriveParse, gDocUrl } = require('./utils');
 
-const GDOC_ID = '1ktd-Pim71LVVEG-jUlBayzbbJtkXInPMPxxwGIx_H4c';
+const GDOC_ID = '1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI';
 
 async function scrap() {
   const index = await downloadFile(GDOC_ID);
