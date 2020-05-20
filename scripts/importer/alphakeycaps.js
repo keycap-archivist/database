@@ -30,7 +30,11 @@ async function CatalogParse(catName) {
 }
 
 async function GenSculpt(catname, sculptsArray) {
-  const s = { name: catname.replace('-', ' '), id: genId(catname), colorways: await CatalogParse(catname) };
+  const s = {
+    name: catname.replace('-', ' '),
+    id: genId(`alpha-keycaps-${catname}`),
+    colorways: await CatalogParse(catname),
+  };
   sculptsArray.push(s);
 }
 

@@ -53,7 +53,7 @@ function gDriveParse(catalog, tabs) {
           if (!catalog.sculpts[currIdx]) {
             // eslint-disable-next-line no-param-reassign
             catalog.sculpts[currIdx] = {
-              id: genId(currentSculpt),
+              id: genId(`${catalog.name}-${currentSculpt}`),
               name: currentSculpt,
               colorways: [],
             };
