@@ -5,9 +5,9 @@
 See the [WIKI](https://github.com/keycap-archivist/database/wiki) to parse the catalog.
 
 Database currently contains:
-- Artists : 40
-- Sculpts : 534
-- Colorways : 14608
+- Artists : 39
+- Sculpts : 526
+- Colorways : 14227
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -28,7 +28,6 @@ To use the master version of the catalog you can CURL those urls:
 
 | Catalog | Url |
 | --- | --- |
-| Alpha Keycaps | [link](https://alphakeycaps.com/) |
 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
 | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
 | Bad and Booj Keys | [link](https://docs.google.com/document/d/15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM) |
