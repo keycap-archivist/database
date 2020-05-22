@@ -31,7 +31,14 @@ function gDriveParse(catalog, tabs) {
   for (let idx = 0; idx < tabs.length; idx += 1) {
     const element = tabs[idx];
     if (idx % 2 === 0) {
-      let sculptName = element.querySelector('span').childNodes[0].rawText;
+      let sculptName;
+      // In case of bad formats
+      try {
+        sculptName = element.querySelector('span').childNodes[0].rawText;
+      } catch (e) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
       sculptName = sculptName
         .replace(/&rdquo;/g, "'")
         .replace(/&ldquo;/g, "'")
