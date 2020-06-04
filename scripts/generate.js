@@ -89,7 +89,13 @@ async function main() {
       s,
     );
   }
-  await pool.flush();
+  const errors = await pool.flush();
+  if (errors.length) {
+    console.log('Database has not been properly generated');
+    console.log('ERRORS:');
+    console.log(errors);
+    throw new Error('Error during DB generation');
+  }
   catalog = catalog.sort((a, b) => {
     const textA = a.name.toUpperCase();
     const textB = b.name.toUpperCase();
