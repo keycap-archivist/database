@@ -39,7 +39,7 @@ async function moduleScrap(catalog, moduleName) {
   const moduleCatalog = await m.scrap();
   catalog.push(moduleCatalog);
   fs.writeFileSync(
-    path.join(DEST, `${moduleCatalog.name.toLowerCase().replace(/ /g, '-')}.json`),
+    path.join(DEST, `${moduleCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`),
     JSON.stringify(moduleCatalog),
   );
 }
@@ -106,7 +106,7 @@ async function main() {
   fs.writeFileSync(DESTINATION_CSV, stringify(flattennedCatalog.full, { header: true }));
   for (const a in flattennedCatalog.artist) {
     fs.writeFileSync(
-      path.join(DEST, `${flattennedCatalog.artist[a][0].artist.toLowerCase().replace(/ /g, '-')}.csv`),
+      path.join(DEST, `${flattennedCatalog.artist[a][0].artist.toLowerCase().replace(/[ .]/g, '-')}.csv`),
       stringify(flattennedCatalog.artist[a], { header: true }),
     );
   }
