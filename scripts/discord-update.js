@@ -54,6 +54,20 @@ async function main() {
   await axios.post(process.env.DISCORD_HOOK, {
     content: formattedReport,
   });
+  await axios
+    .post(
+      'https://api.github.com/repos/keycap-archivist/website/dispatches',
+      { event_type: 'poll-db' },
+      {
+        headers: {
+          Authorization: `token ${process.env.GH_REPO_TOKEN}`,
+        },
+      },
+    )
+    .catch((e) => {
+      console.log('Unable to send data dispatch');
+      console.log(e);
+    });
 }
 
 main();

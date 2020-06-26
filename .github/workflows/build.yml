@@ -15,11 +15,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.BOT_PAT }}
-     # - uses: actions/checkout@v2
-       # with:
-       #   path: wikirepo
-      #    repository: keycap-archivist/database.wiki
-       #   token: ${{ secrets.BOT_PAT }}
       - id: nodeversion
         run: echo ::set-output name=NODE::$(cat .nvmrc)
       - name: restore Cache
@@ -49,6 +44,7 @@ jobs:
         if: steps.dbgen.outputs.DIRTY == '1'
         env:
           DISCORD_HOOK: ${{ secrets.DISCORD_HOOK }}
+          GH_REPO_TOKEN: ${{ secrets.REPO_SCOPE }}
         run: |
           echo "Need to update the DB"
           git config --global user.name 'Database Bot'
@@ -57,13 +53,3 @@ jobs:
           git status
           git commit -am "[skip-ci] Database Synchronization"
           git push
-     # - name: Update wiki
-     #   run: |
-   #       yarn gen:wiki
-      #    rm -rf wikirepo/*
-       #   cp -r wiki-dist/* wikirepo/
-      #    cd wikirepo
-      #    git config --global user.name 'Database Bot'
-       #   git add .
-       #   git commit -m "update-wiki" || true
-       #   git push -f || true
