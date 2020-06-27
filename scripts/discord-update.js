@@ -31,7 +31,7 @@ function formatCatalogName(rawName) {
 
 async function main() {
   const r = execSync('git diff --numstat HEAD db/*.csv', { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 }).toString();
-  const revision = execSync('git rev-parse HEAD', { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 })
+  const revision = execSync('git rev-parse HEAD db/catalog.json', { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 })
     .toString()
     .trim();
   let report = [];
