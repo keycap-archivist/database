@@ -1,11 +1,10 @@
 const axios = require('axios');
 const { execSync } = require('child_process');
 
-function formatReport(revision, report) {
+function formatReport(report) {
   const out = [];
   out.push('');
   out.push('**CATALOG UPDATE**');
-  out.push(`Revision: ${revision}`);
   for (const r of report) {
     out.push(`- ${r.catalog} :`);
     if (r.addition) {
@@ -31,9 +30,6 @@ function formatCatalogName(rawName) {
 
 async function main() {
   const r = execSync('git diff --numstat HEAD db/*.csv', { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 }).toString();
-  const revision = execSync('git rev-parse HEAD db/catalog.json', { encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 })
-    .toString()
-    .trim();
   let report = [];
   for (const line of r.split('\n')) {
     const result = line.split('\t');
@@ -52,7 +48,7 @@ async function main() {
     console.log('No Report. Skipping');
     process.exit(0);
   }
-  const formattedReport = formatReport(revision, report);
+  const formattedReport = formatReport(report);
 
   console.log(formattedReport);
   await axios.post(process.env.DISCORD_HOOK, {
