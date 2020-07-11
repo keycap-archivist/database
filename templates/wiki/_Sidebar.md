@@ -1,3 +1,0 @@
-Artisans Makers
-
-<makerlist>

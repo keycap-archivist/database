@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ext .js ./scripts",
-    "gen": "rm db/* && node scripts/generate.js",
-    "validate": "node scripts/validate.js",
-    "gen:wiki": "node scripts/gen-wiki.js"
+    "lint": "eslint --ext .js ./src",
+    "gen": "rm db/* && node src/generate.js",
+    "validate": "node src/validate.js",
+    "gen:wiki": "node src/gen-wiki.js"
   },
   "devDependencies": {
     "csv-generate": "^3.2.4",
