@@ -48,9 +48,9 @@ jobs:
         run: |
           echo "Need to update the DB"
           git config --global user.name 'Database Bot'
-          node scripts/discord-update-report.js
+          node src/discord-update-report.js
           git add db/
           git status
           git commit -am "[skip-ci] Database Synchronization"
           git push
-          node scripts/discord-update-revision.js
+          node src/discord-update-revision.js
