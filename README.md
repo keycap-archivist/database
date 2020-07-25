@@ -6,8 +6,8 @@ See the [WIKI](https://github.com/keycap-archivist/database/wiki) to parse the c
 
 Database currently contains:
 - Artists : 49
-- Sculpts : 627
-- Colorways : 16750
+- Sculpts : 628
+- Colorways : 16763
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
