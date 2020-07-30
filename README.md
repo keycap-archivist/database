@@ -2,8 +2,6 @@
 
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
-See the [WIKI](https://github.com/keycap-archivist/database/wiki) to parse the catalog.
-
 Database currently contains:
 - Artists : 49
 - Sculpts : 632
