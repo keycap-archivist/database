@@ -24,6 +24,10 @@ To use the master version of the catalog you can CURL those urls:
 - [csv](https://raw.githubusercontent.com/keycap-archivist/database/master/db/catalog.csv)
 - [json](https://raw.githubusercontent.com/keycap-archivist/database/master/db/catalog.json)
 
+To manipulate some attributes of the catalogs you can add those to the gdoc:
+- `(ka_cover)` will make the sculpt of the current cell as the cover of the catalog
+- `(ka_self_order)` anywhere in the document, will use the order of the gdoc instead of alphabetical order
+
 ## Source Catalogs
 
 | Catalog | Url |
