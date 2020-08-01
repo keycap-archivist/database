@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1_9U5dSSCKeSQcBIhbHPigUs7jiF0AqNI0MYo5KNtpJ8';
 
@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Level caps',
     instagram: 'https://www.instagram.com/level.caps/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   const rootNode = htmlparser.parse(index);

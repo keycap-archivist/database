@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Backward Caps',
     instagram: 'https://www.instagram.com/backward.caps.sales/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

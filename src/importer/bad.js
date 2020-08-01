@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Bad and Booj Keys',
     instagram: 'https://www.instagram.com/badch4d/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

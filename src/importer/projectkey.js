@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE';
 
@@ -14,6 +14,7 @@ async function scrap() {
     name: 'ProjectKey',
     instagram: 'https://www.instagram.com/projectkey.hk',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

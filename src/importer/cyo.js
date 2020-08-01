@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1Rhig59IdZh5IZ3JP3R_FjZncRxo2M5tfPiUyxJBuLq8';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'C.Y.O Keycaps',
     instagram: 'https://www.instagram.com/ttylerdurden/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

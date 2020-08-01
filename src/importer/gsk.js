@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1rCP_Nn_PQeMiqsFlJ2_8TvFHFPsTpq90-QPgDBo7H40';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Goldenstar Keycap',
     instagram: 'https://www.instagram.com/goldenstar_keycap/',
     website: 'https://goldenstarkeycaps.com/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

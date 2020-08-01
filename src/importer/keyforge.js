@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA';
 
@@ -12,6 +12,7 @@ async function scrap() {
     name: 'KeyForge',
     instagram: 'https://www.instagram.com/keyforge/',
     website: 'https://www.keyforge.com/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   const rootNode = htmlparser.parse(index);

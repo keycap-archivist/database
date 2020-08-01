@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM';
 
@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Artkey',
     instagram: 'https://www.instagram.com/artkey.universe/',
     website: 'https://artkeyuniverse.com/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);
