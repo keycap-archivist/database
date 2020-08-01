@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Just Another Keymaker',
     instagram: 'https://www.instagram.com/justanotherkeymaker/',
     website: 'https://www.keymaker.space/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

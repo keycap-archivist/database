@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Ritual Master',
     instagram: 'https://www.instagram.com/ritualmaster/',
     website: 'https://www.ritual-master.com/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

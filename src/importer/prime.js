@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'PrimeCap',
     instagram: 'https://www.instagram.com/prime_caps/',
     website: 'https://primecaps.ca/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

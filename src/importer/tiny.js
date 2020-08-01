@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'TinyMakesThings',
     instagram: 'https://www.instagram.com/tinymakesthings/',
     website: 'https://www.tinymakesthings.com/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

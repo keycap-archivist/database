@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '15arZPVtJHvLxrF20l_Oc-cZCwZrwtMI_SyiD2KDsvWg';
 
@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Frumpzkeys',
     instagram: 'https://www.instagram.com/frumpzkeys/',
     website: 'https://www.frumpzkeys.com/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

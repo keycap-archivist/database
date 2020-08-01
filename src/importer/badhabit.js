@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1MUoyBLW1slC819V1IdDa2eAV5adU2IHGa5YjmFY5w88';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Bad Habit Caps',
     instagram: 'https://www.instagram.com/bad.habit.caps/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1AdPXkALzPErnyMQZrWDJ6o-jCvFB34XeZyz00FDDvLY';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Grimey as Fuck',
     instagram: 'https://www.instagram.com/gaf_caps/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

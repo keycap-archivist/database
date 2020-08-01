@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Hunger Work Studio',
     instagram: 'https://www.instagram.com/hungerworkstudio/',
     website: 'https://hungerwork.studio/',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);
