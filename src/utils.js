@@ -1,6 +1,12 @@
 const { google } = require('googleapis');
 const { crc32 } = require('crc');
 
+const attributes = Object.freeze({
+  selfOrdered: 'ka_self_order',
+  cover: 'ka_cover',
+  note: 'ka_note',
+});
+
 function genId(input) {
   return crc32(input).toString(16);
 }
@@ -22,6 +28,11 @@ async function downloadFile(fileId) {
       mimeType: 'text/html',
     })
     .then((res) => res.data);
+}
+
+function isSelfOrdered(index) {
+  const re = new RegExp(`\\(${attributes.selfOrdered}\\)`, 'gim');
+  return re.test(index);
 }
 
 function gDriveParse(catalog, tabs) {
@@ -64,10 +75,19 @@ function gDriveParse(catalog, tabs) {
               colorways: [],
             };
           }
+          let { text } = e;
+          let isCover = false;
+          const re = new RegExp(`\\(${attributes.cover}\\)`, 'gim');
+          if (re.test(text)) {
+            isCover = true;
+            text = text.replace(re, '');
+          }
           catalog.sculpts[currIdx].colorways.push({
-            name: e.text.trim(),
+            name: text.trim(),
             img,
             id: genId(img),
+            isCover,
+            note: '',
           });
         }
       });
@@ -87,4 +107,6 @@ module.exports = {
   gDriveParse,
   genId,
   gDocUrl,
+  isSelfOrdered,
+  attributes,
 };
