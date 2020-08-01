@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '17YdYcvKifysUDk6mt750Jgq7Zke2kSi66kfqc9BE6RQ';
 
@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Gothcaps',
     instagram: 'https://www.instagram.com/gothcaps/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

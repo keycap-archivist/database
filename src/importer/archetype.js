@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg';
 
@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Archetype',
     instagram: 'https://www.instagram.com/archetype_mk/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

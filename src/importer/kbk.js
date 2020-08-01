@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8';
 
@@ -15,6 +15,7 @@ async function scrap() {
     name: 'KBK-KWK',
     instagram: '',
     website: 'https://geekhack.org/index.php?topic=55490.0',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   return gDriveParse(catalog, tabs);

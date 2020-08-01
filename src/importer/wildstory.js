@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0';
 
@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Wildstory Caps',
     instagram: 'https://www.instagram.com/wildstory.caps/',
     website: '',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   const rootNode = htmlparser.parse(index);

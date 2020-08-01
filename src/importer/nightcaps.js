@@ -1,6 +1,6 @@
 const fs = require('fs');
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
 const GDOC_ID = '1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k';
 
@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Nightcaps',
     instagram: 'https://www.instagram.com/nightcaps.keycaps/',
     website: 'https://geekhack.org/index.php?topic=79513.0',
+    selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
   const rootNode = htmlparser.parse(index);
