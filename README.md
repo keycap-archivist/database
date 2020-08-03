@@ -3,9 +3,9 @@
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
 Database currently contains:
-- Artists : 49
-- Sculpts : 632
-- Colorways : 16944
+- Artists : 50
+- Sculpts : 638
+- Colorways : 17095
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -72,6 +72,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | PrimeCap | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
 | ProjectKey | [link](https://docs.google.com/document/d/1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE) |
 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
+| Simulacra Caps | [link](https://docs.google.com/document/d/1tY7twR6E65afan23BediwbxwvsjJqXtleE949r5mNeg) |
 | Sludgekidd | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0) |
 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
 | TinyMakesThings | [link](https://docs.google.com/document/d/17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk) |
