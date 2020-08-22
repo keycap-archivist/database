@@ -26,6 +26,7 @@
     "crc": "^3.8.0",
     "csv-stringify": "^5.3.6",
     "googleapis": "39",
+    "he": "^1.2.0",
     "marked": "^1.0.0",
     "node-html-parser": "^1.2.13",
     "rimraf": "^3.0.2"

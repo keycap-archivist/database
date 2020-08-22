@@ -1,5 +1,6 @@
 const { google } = require('googleapis');
 const { crc32 } = require('crc');
+const { decode } = require('he');
 
 const attributes = Object.freeze({
   selfOrdered: 'ka_self_order',
@@ -49,12 +50,7 @@ function gDriveParse(catalog, tabs) {
         // eslint-disable-next-line no-continue
         continue;
       }
-      sculptName = sculptName
-        .replace(/&rdquo;/g, "'")
-        .replace(/&ldquo;/g, "'")
-        .replace(/&nbsp;/g, '')
-        .replace(/&amp;/g, '&')
-        .trim();
+      sculptName = decode(sculptName).trim();
       if (sculptName !== currentSculpt) {
         currentSculpt = sculptName;
         currIdx += 1;
@@ -83,7 +79,7 @@ function gDriveParse(catalog, tabs) {
             text = text.replace(re, '');
           }
           catalog.sculpts[currIdx].colorways.push({
-            name: text.trim(),
+            name: decode(text).trim(),
             img,
             id: genId(img),
             isCover,
