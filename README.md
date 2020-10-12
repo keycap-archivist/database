@@ -3,9 +3,9 @@
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
 Database currently contains:
-- Artists : 52
-- Sculpts : 686
-- Colorways : 18244
+- Artists : 53
+- Sculpts : 689
+- Colorways : 18372
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -31,6 +31,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Catalog | Url |
 | --- | --- |
 | Alpha Keycaps | [link](https://alphakeycaps.com/) |
+| Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
 | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
