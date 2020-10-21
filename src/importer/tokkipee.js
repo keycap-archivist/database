@@ -11,7 +11,7 @@ async function scrap() {
     id: genId('Tokkipee'),
     name: 'Tokkipee',
     instagram: 'https://www.instagram.com/tokkipee/',
-    website: 'https://tokkipee.carrd.co/',
+    website: 'https://tokkipee.com',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

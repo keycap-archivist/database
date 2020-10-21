@@ -13,7 +13,7 @@ async function scrap() {
     id: genId('Archetype'),
     name: 'Archetype',
     instagram: 'https://www.instagram.com/archetype_mk/',
-    website: '',
+    website: 'https://archetypemade.com',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
