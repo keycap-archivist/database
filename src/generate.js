@@ -78,7 +78,7 @@ function report(catalog) {
 
 async function main() {
   let catalog = [];
-  const pool = new PromisePool({ numConcurrent: 8 });
+  const pool = new PromisePool({ numConcurrent: 3 });
   const scraps = fs.readdirSync(importerPath);
   for (const s of scraps) {
     await pool.start(
