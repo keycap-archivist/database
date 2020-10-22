@@ -18,9 +18,9 @@ async function scrap() {
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
-  catalog.sculpts.find((x) => x.id === '76a63754').colorways.find((x) => x.id === '46f4d447').name =
-  'Proto Purle - "Kevin"';
-  return gDriveParse(catalog, tabs);
+  gDriveParse(catalog, tabs);
+  catalog.sculpts.find((x) => x.id === '76a63754').colorways.find((x) => x.id === '46f4d447').name = 'Proto Purle - "Kevin"';
+  return catalog;
 }
 
 if (require.main === module) {
