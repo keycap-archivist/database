@@ -23,7 +23,6 @@ async function scrap() {
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    // eslint-disable-next-line no-param-reassign
     catalog.sculpts.find((x) => x.id === '76a63754').colorways.find((x) => x.id === '46f4d447').name =
       'Proto Purle - "Kevin"';
     fs.writeFileSync('kbk.json', JSON.stringify(catalog));
