@@ -13,7 +13,7 @@ async function scrap() {
     id: genId('Dollartacos'),
     name: 'Dollartacos',
     instagram: 'https://www.instagram.com/dollarta.co/',
-    website: '',
+    website: 'https://www.dollarta.co',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

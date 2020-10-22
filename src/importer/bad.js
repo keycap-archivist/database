@@ -14,7 +14,7 @@ async function scrap() {
     id: genId('Bad and Booj Keys'),
     name: 'Bad and Booj Keys',
     instagram: 'https://www.instagram.com/badch4d/',
-    website: '',
+    website: 'https://www.badchad.work',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

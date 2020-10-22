@@ -13,7 +13,7 @@ async function scrap() {
     id: genId('LazyCaps'),
     name: 'LazyCaps',
     instagram: 'https://www.instagram.com/lazycaps/',
-    website: '',
+    website: 'http://lazycaps.club',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
