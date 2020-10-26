@@ -3,9 +3,9 @@
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
 Database currently contains:
-- Artists : 54
-- Sculpts : 713
-- Colorways : 19126
+- Artists : 55
+- Sculpts : 714
+- Colorways : 19145
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -37,6 +37,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
 | Bad and Booj Keys | [link](https://docs.google.com/document/d/15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM) |
 | Bad Habit Caps | [link](https://docs.google.com/document/d/1MUoyBLW1slC819V1IdDa2eAV5adU2IHGa5YjmFY5w88) |
+| BladeMX | [link](https://docs.google.com/document/d/1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k) |
 | Bludgeoned Kaps | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8) |
 | BoomSnap Caps | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ) |
 | Booper-Omniclectic | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk) |
