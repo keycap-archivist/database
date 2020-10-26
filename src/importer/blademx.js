@@ -13,7 +13,7 @@ async function scrap() {
     src: gDocUrl(GDOC_ID),
     id: genId('BladeMX'),
     name: 'BladeMX',
-    instagram: 'https://instagram.com/blade.mxS',
+    instagram: 'https://instagram.com/blade.mx',
     website: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
@@ -22,9 +22,11 @@ async function scrap() {
 }
 
 if (require.main === module) {
-  scrap().then((catalog) => {
-    fs.writeFileSync('blademx.json', JSON.stringify(catalog));
-  });
+  scrap()
+    .then((catalog) => {
+      fs.writeFileSync('blademx.json', JSON.stringify(catalog));
+    })
+    .catch((e) => console.log(e));
 }
 
 module.exports = {
