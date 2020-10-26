@@ -11,8 +11,8 @@ async function scrap() {
   tabs.pop();
   const catalog = {
     src: gDocUrl(GDOC_ID),
-    id: genId('PrimeCap'),
-    name: 'PrimeCap',
+    id: genId('PrimeCaps'),
+    name: 'PrimeCaps',
     instagram: 'https://www.instagram.com/prime_caps/',
     website: 'https://primecaps.ca/',
     selfOrder: isSelfOrdered(index),
