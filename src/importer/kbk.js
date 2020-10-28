@@ -19,13 +19,6 @@ async function scrap() {
     sculpts: [],
   };
   gDriveParse(catalog, tabs);
-  console.log(catalog);
-  try {
-    catalog.sculpts.find((x) => x.name === 'Vandal').colorways.find((x) => x.id === '46f4d447').name =
-      'Proto Purle - "Kevin"';
-  } catch (e) {
-    console.log(e);
-  }
   return catalog;
 }
 
