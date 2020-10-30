@@ -9,14 +9,7 @@ async function scrap() {
 
   const rootNode = htmlparser.parse(index);
 
-  let tabs = rootNode.querySelectorAll('table');
-  // remove this the betrayer because format is not standard
-  // for now
-  const idxBetrayer = tabs.findIndex((x) => x.innerHTML.toLowerCase().indexOf('betrayer') !== -1);
-  if (idxBetrayer !== -1) {
-    tabs[idxBetrayer] = 'ERROR';
-    tabs = tabs.filter((x) => x !== 'ERROR');
-  }
+  const tabs = rootNode.querySelectorAll('table');
   const catalog = {
     src: gDocUrl(GDOC_ID),
     id: genId('Bro Caps'),
