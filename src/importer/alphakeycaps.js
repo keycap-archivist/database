@@ -47,11 +47,9 @@ async function scrap() {
     website: 'https://alphakeycaps.com',
     sculpts: [],
   };
-  const p = [];
   for (const c of catalogsName) {
-    p.push(GenSculpt(c, catalog.sculpts));
+    await GenSculpt(c, catalog.sculpts);
   }
-  await Promise.all(p);
   catalog.sculpts = catalog.sculpts.sort((a, b) => {
     if (a.name < b.name) return -1;
     if (a.name > b.name) return 1;
