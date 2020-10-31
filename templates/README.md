@@ -25,6 +25,7 @@ To use the master version of the catalog you can CURL those urls:
 To manipulate some attributes of the catalogs you can add those to the gdoc:
 - `(ka_cover)` will make the sculpt of the current cell as the cover of the catalog
 - `(ka_self_order)` anywhere in the document, will use the order of the gdoc instead of alphabetical order
+- `ka_release:"<DATE>"` will add the date on the sculpt or the colorway. Free input field. eg: `ka_release:"feb 2010"`
 
 ## Source Catalogs
 

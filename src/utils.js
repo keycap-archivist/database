@@ -4,6 +4,7 @@ const { decode } = require('he');
 
 const attributes = Object.freeze({
   selfOrdered: 'ka_self_order',
+  release: 'ka_release',
   cover: 'ka_cover',
   note: 'ka_note',
 });
@@ -41,11 +42,25 @@ function gDriveParse(catalog, tabs) {
   let currIdx = -1;
   for (let idx = 0; idx < tabs.length; idx += 1) {
     const element = tabs[idx];
+    let sculptDate;
     if (idx % 2 === 0) {
       let sculptName;
       // In case of bad formats
       try {
         sculptName = element.querySelector('span').childNodes[0].rawText;
+        // Look for the release arg in all the spans in the title table
+        const s = element.querySelectorAll('span').find((x) => x.rawText.toLowerCase().indexOf('ka_release') !== -1);
+        if (s) {
+          // decode and replace to have only to handle regular double quotes ""
+          const str = decode(s.rawText).replace(/(”|“)/g, '"');
+          const regDate = new RegExp(/ka_release[ ]*:[ ]*"([A-z0-9 \\/-]*)"/, 'gim');
+          const dateMatch = regDate.exec(str);
+          if (dateMatch) {
+            console.log('Found regex');
+            // eslint-disable-next-line prefer-destructuring
+            catalog.sculpts[currIdx].releaseDate = dateMatch[1];
+          }
+        }
       } catch (e) {
         // eslint-disable-next-line no-continue
         continue;
@@ -68,21 +83,32 @@ function gDriveParse(catalog, tabs) {
             catalog.sculpts[currIdx] = {
               id: genId(`${catalog.name}-${currentSculpt}`),
               name: currentSculpt,
+              releaseDate: sculptDate,
               colorways: [],
             };
           }
           let { text } = e;
+          text = text.replace(/(”|“)/g, '"');
           let isCover = false;
-          const re = new RegExp(`\\(${attributes.cover}\\)`, 'gim');
-          if (re.test(text)) {
+          const reCover = new RegExp(`\\(${attributes.cover}\\)`, 'gim');
+          if (reCover.test(text)) {
             isCover = true;
-            text = text.replace(re, '');
+            text = text.replace(reCover, '');
+          }
+          const regDate = new RegExp(/ka_release[ ]*:[ ]*"([A-z0-9 \\/-]*)"/, 'gim');
+          const dateMatch = regDate.exec(text);
+          let releaseDate;
+          if (dateMatch) {
+            // eslint-disable-next-line prefer-destructuring
+            releaseDate = dateMatch[1];
+            text = text.replace(regDate, '');
           }
           catalog.sculpts[currIdx].colorways.push({
             name: decode(text).trim(),
             img,
             id: genId(img),
             isCover,
+            releaseDate,
             note: '',
           });
         }
