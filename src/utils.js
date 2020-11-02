@@ -39,10 +39,10 @@ function isSelfOrdered(index) {
 
 function gDriveParse(catalog, tabs) {
   let currentSculpt;
+  let sculptDate;
   let currIdx = -1;
   for (let idx = 0; idx < tabs.length; idx += 1) {
     const element = tabs[idx];
-    let sculptDate;
     if (idx % 2 === 0) {
       let sculptName;
       // In case of bad formats
@@ -58,7 +58,7 @@ function gDriveParse(catalog, tabs) {
           if (dateMatch) {
             console.log('Found regex');
             // eslint-disable-next-line prefer-destructuring
-            catalog.sculpts[currIdx].releaseDate = dateMatch[1];
+            sculptDate = dateMatch[1];
           }
         }
       } catch (e) {
@@ -86,6 +86,7 @@ function gDriveParse(catalog, tabs) {
               releaseDate: sculptDate,
               colorways: [],
             };
+            console.log(catalog.sculpts[currIdx]);
           }
           let { text } = e;
           text = text.replace(/(”|“)/g, '"');
