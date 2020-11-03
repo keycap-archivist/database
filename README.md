@@ -33,8 +33,6 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 
 | Catalog | Url |
 | ------- | --- |
-
-
 | Alpha Keycaps | [link](https://alphakeycaps.com/) |
 | Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
