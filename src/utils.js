@@ -48,17 +48,18 @@ function gDriveParse(catalog, tabs) {
       // In case of bad formats
       try {
         sculptName = element.querySelector('span').childNodes[0].rawText;
+        const regDate = new RegExp(/\(([a-zA-Z ]*\d{4})\)/, 'gim');
         // Look for the release arg in all the spans in the title table
-        const s = element.querySelectorAll('span').find((x) => x.rawText.toLowerCase().indexOf('ka_release') !== -1);
+        const s = element.querySelectorAll('span').find((x) => regDate.test(x.rawText));
         if (s) {
+          regDate.lastIndex = 0;
           // decode and replace to have only to handle regular double quotes ""
           const str = decode(s.rawText).replace(/(”|“)/g, '"');
-          const regDate = new RegExp(/\(([a-zA-Z ]*\d{4})\)/, 'gim');
           const dateMatch = regDate.exec(str);
           if (dateMatch) {
-            console.log('Found regex');
             // eslint-disable-next-line prefer-destructuring
             sculptDate = dateMatch[1];
+            sculptName = sculptName.replace(regDate, '');
           }
         }
       } catch (e) {
@@ -86,7 +87,7 @@ function gDriveParse(catalog, tabs) {
               releaseDate: sculptDate,
               colorways: [],
             };
-            console.log(catalog.sculpts[currIdx]);
+            // console.log(catalog.sculpts[currIdx]);
           }
           let { text } = e;
           text = text.replace(/(”|“)/g, '"');
