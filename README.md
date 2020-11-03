@@ -3,6 +3,7 @@
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
 Database currently contains:
+
 - Artists : 55
 - Sculpts : 720
 - Colorways : 19566
@@ -23,14 +24,17 @@ To use the master version of the catalog you can CURL those urls:
 - [json](https://raw.githubusercontent.com/keycap-archivist/database/master/db/catalog.json)
 
 To manipulate some attributes of the catalogs you can add those to the gdoc:
+
 - `(ka_cover)` will make the sculpt of the current cell as the cover of the catalog
 - `(ka_self_order)` anywhere in the document, will use the order of the gdoc instead of alphabetical order
-- `ka_release:"<DATE>"` will add the date on the sculpt or the colorway. Free input field. eg: `ka_release:"feb 2010"`
+- `(XXXX YEAR)` will add the date on the sculpt or the colorway. Free input field. eg: `(March 2019)` or `(2019)`
 
 ## Source Catalogs
 
 | Catalog | Url |
-| --- | --- |
+| ------- | --- |
+
+
 | Alpha Keycaps | [link](https://alphakeycaps.com/) |
 | Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
@@ -86,11 +90,3 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | trmk | [link](https://docs.google.com/document/d/19r0FNbI7cLrjogfDviC7WT2HkuRax9RmPZwn3B_DNOY) |
 | Wildstory Caps | [link](https://docs.google.com/document/d/1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0) |
 | Zorbcaps | [link](https://docs.google.com/document/d/1_wtEVliorr29dTkO7NHHBkM3fu80V_rU6eJKMVwd8qQ) |
-
-## TODO
-
-Add those catalogs:
-
-| Catalog | Url |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| SUK | [link](https://suitedupkeycaps.com/) |
