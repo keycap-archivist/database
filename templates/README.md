@@ -33,6 +33,4 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 
 | Catalog | Url |
 | ------- | --- |
-
-
 <srcCatalogs>
