@@ -53,7 +53,7 @@ function gDriveParse(catalog, tabs) {
         if (s) {
           // decode and replace to have only to handle regular double quotes ""
           const str = decode(s.rawText).replace(/(”|“)/g, '"');
-          const regDate = new RegExp(/ka_release[ ]*:[ ]*"([A-z0-9 \\/-]*)"/, 'gim');
+          const regDate = new RegExp(/\(([a-zA-Z ]*\d{4})\)/, 'gim');
           const dateMatch = regDate.exec(str);
           if (dateMatch) {
             console.log('Found regex');
@@ -96,7 +96,7 @@ function gDriveParse(catalog, tabs) {
             isCover = true;
             text = text.replace(reCover, '');
           }
-          const regDate = new RegExp(/ka_release[ ]*:[ ]*"([A-z0-9 \\/-]*)"/, 'gim');
+          const regDate = new RegExp(/\(([a-zA-Z ]*\d{4})\)/, 'gim');
           const dateMatch = regDate.exec(text);
           let releaseDate;
           if (dateMatch) {
