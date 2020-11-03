@@ -3,6 +3,7 @@
 ![Discord](https://img.shields.io/discord/707159843751854141)
 
 Database currently contains:
+
 - Artists : <artistCount>
 - Sculpts : <sculptCount>
 - Colorways : <colorwayCount>
@@ -23,20 +24,13 @@ To use the master version of the catalog you can CURL those urls:
 - [json](https://raw.githubusercontent.com/keycap-archivist/database/master/db/catalog.json)
 
 To manipulate some attributes of the catalogs you can add those to the gdoc:
+
 - `(ka_cover)` will make the sculpt of the current cell as the cover of the catalog
 - `(ka_self_order)` anywhere in the document, will use the order of the gdoc instead of alphabetical order
-- `ka_release:"<DATE>"` will add the date on the sculpt or the colorway. Free input field. eg: `ka_release:"feb 2010"`
+- `(XXXX YEAR)` will add the date on the sculpt or the colorway. Free input field. eg: `(March 2019)` or `(2019)`
 
 ## Source Catalogs
 
 | Catalog | Url |
-| --- | --- |
+| ------- | --- |
 <srcCatalogs>
-
-## TODO
-
-Add those catalogs:
-
-| Catalog | Url |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| SUK | [link](https://suitedupkeycaps.com/) |
