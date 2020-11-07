@@ -15,6 +15,7 @@ async function scrap() {
     name: 'BrewCaps',
     instagram: 'https://www.instagram.com/brew_caps/',
     website: 'https://brewcaps.store/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

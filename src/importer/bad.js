@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Bad and Booj Keys',
     instagram: 'https://www.instagram.com/badch4d/',
     website: 'https://www.badchad.work',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

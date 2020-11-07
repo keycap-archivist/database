@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Dollartacos',
     instagram: 'https://www.instagram.com/dollarta.co/',
     website: 'https://www.dollarta.co',
+    discord: 'https://discord.com/invite/sCEE3Ce',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

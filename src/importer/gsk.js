@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Goldenstar Keycap',
     instagram: 'https://www.instagram.com/goldenstar_keycap/',
     website: 'https://goldenstarkeycaps.com/',
+    discord: 'https://discord.com/invite/JcpnAjw',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

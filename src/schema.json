@@ -28,7 +28,8 @@
             "name": "keypora"
           }
         ],
-        "website": "https://alphakeycaps.com"
+        "website": "https://alphakeycaps.com",
+        "discord": "https://discord.com/invite/eBVaYwn"
       }
     ],
     "required": ["id", "name", "sculpts"],
@@ -64,6 +65,14 @@
         "description": "An explanation about the purpose of this instance.",
         "default": "",
         "examples": ["https://alphakeycaps.com"]
+      },
+      "discord": {
+        "$id": "#/items/properties/discord",
+        "type": "string",
+        "title": "The Discord Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": ["https://discord.com/invite/eBVaYwn"]
       },
       "sculpts": {
         "$id": "#/items/properties/sculpts",

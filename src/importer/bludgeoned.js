@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Bludgeoned Kaps',
     instagram: 'https://www.instagram.com/blud_kaps/',
     website: 'https://www.bludkaps.com/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

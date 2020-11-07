@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Nubbinator',
     instagram: '',
     website: 'https://geekhack.org/index.php?topic=52829.0',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

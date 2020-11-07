@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Tokkipee',
     instagram: 'https://www.instagram.com/tokkipee/',
     website: 'https://tokkipee.com',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

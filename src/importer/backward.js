@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Backward Caps',
     instagram: 'https://www.instagram.com/backward.caps.sales/',
     website: '',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

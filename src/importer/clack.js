@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Clack Factory',
     instagram: '',
     website: 'https://wiki.geekhack.org/index.php?title=Clack_Factory',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

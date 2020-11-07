@@ -14,6 +14,7 @@ async function scrap() {
     name: 'GTB',
     instagram: 'https://www.instagram.com/glenntheblack/',
     website: 'https://gtblabs.com/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

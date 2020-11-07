@@ -12,6 +12,7 @@ async function scrap() {
     name: 'KeyForge',
     instagram: 'https://www.instagram.com/keyforge/',
     website: 'https://www.keyforge.com/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

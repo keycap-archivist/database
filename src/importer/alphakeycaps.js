@@ -45,6 +45,7 @@ async function scrap() {
     src: 'https://alphakeycaps.com/',
     instagram: 'https://www.instagram.com/alphakeycaps/',
     website: 'https://alphakeycaps.com',
+    discord: 'https://discord.com/invite/eBVaYwn',
     sculpts: [],
   };
   for (const c of catalogsName) {
