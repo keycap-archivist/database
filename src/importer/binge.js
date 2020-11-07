@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Hunger Work Studio',
     instagram: 'https://www.instagram.com/hungerworkstudio/',
     website: 'https://hungerwork.studio/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

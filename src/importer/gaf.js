@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Grimey as Fuck',
     instagram: 'https://www.instagram.com/gaf_caps/',
     website: '',
+    discord: 'https://discord.com/invite/gaf',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

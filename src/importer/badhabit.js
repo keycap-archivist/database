@@ -14,7 +14,8 @@ async function scrap() {
     id: genId('Bad Habit Caps'),
     name: 'Bad Habit Caps',
     instagram: 'https://www.instagram.com/bad.habit.caps/',
-    website: '',
+    website: 'https://badhabitcaps.com/',
+    discord: 'https://discord.com/invite/H5rkNechrB',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

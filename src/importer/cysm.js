@@ -14,6 +14,7 @@ async function scrap() {
     name: 'CYSM',
     instagram: 'https://www.instagram.com/cysm_caps/',
     website: '',
+    discord: 'https://discord.com/invite/mZZChn7',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

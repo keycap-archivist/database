@@ -14,6 +14,7 @@ async function scrap() {
     name: 'ProjectKey',
     instagram: 'https://www.instagram.com/projectkey.hk',
     website: '',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

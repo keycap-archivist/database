@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Wildstory Caps',
     instagram: 'https://www.instagram.com/wildstory.caps/',
     website: '',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

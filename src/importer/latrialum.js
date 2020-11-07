@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Latrialum',
     instagram: 'https://www.instagram.com/latrialum/',
     website: '',
+    discord: 'https://discord.com/invite/latrialum',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

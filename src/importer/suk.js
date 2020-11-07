@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Suited Up Keycaps',
     instagram: 'https://www.instagram.com/suitedupsuitedup/',
     website: 'https://suitedupkeycaps.com/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Just Another Keymaker',
     instagram: 'https://www.instagram.com/justanotherkeymaker/',
     website: 'https://www.keymaker.space/',
+    discord: 'https://discord.com/invite/XMnxAYR',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

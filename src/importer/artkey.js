@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Artkey',
     instagram: 'https://www.instagram.com/artkey.universe/',
     website: 'https://artkeyuniverse.com/',
+    discord: 'https://discord.com/invite/DwAzEpt',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

@@ -14,6 +14,7 @@ async function scrap() {
     name: 'Archetype',
     instagram: 'https://www.instagram.com/archetype_mk/',
     website: 'https://archetypemade.com',
+    discord: 'https://discord.com/invite/rTe7uwy',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

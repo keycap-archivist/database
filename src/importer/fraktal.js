@@ -12,6 +12,7 @@ async function scrap() {
     name: 'Fraktal Kaps',
     instagram: 'https://www.instagram.com/fraktal.kaps/',
     website: 'https://fraktalkaps.com/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

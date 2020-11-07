@@ -14,6 +14,7 @@ async function scrap() {
     name: 'trmk',
     instagram: 'https://www.instagram.com/trmkcaps/',
     website: 'https://geekhack.org/index.php?topic=101348.msg2780216#msg2780216',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

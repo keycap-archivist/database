@@ -13,8 +13,9 @@ async function scrap() {
     src: gDocUrl(GDOC_ID),
     id: genId('C.Y.O Keycaps'),
     name: 'C.Y.O Keycaps',
-    instagram: 'https://www.instagram.com/ttylerdurden/',
+    instagram: '',
     website: '',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };

@@ -15,6 +15,7 @@ async function scrap() {
     name: 'Ritual Master',
     instagram: 'https://www.instagram.com/ritualmaster/',
     website: 'https://www.ritual-master.com/',
+    discord: '',
     selfOrder: isSelfOrdered(index),
     sculpts: [],
   };
