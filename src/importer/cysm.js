@@ -1,29 +1,16 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('CYSM'),
-    name: 'CYSM',
-    instagram: 'https://www.instagram.com/cysm_caps/',
-    website: '',
-    discord: 'https://discord.com/invite/mZZChn7',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+const scrap = scrapFrom('1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI', {
+  name: 'CYSM',
+  instagram: 'https://www.instagram.com/cysm_caps/',
+  discord: 'https://discord.com/invite/mZZChn7',
+});
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('CYSM.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

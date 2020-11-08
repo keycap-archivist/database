@@ -1,30 +1,19 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  tabs.pop(); // credit
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('Amidst The Clouds'),
+const scrap = scrapFrom(
+  '11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60',
+  {
     name: 'Amidst The Clouds',
     instagram: 'https://www.instagram.com/amidst.the.clouds/',
-    website: '',
-    discord: '',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+  },
+  ['pop'],
+);
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('amidst.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

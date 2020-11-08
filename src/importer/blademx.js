@@ -1,33 +1,20 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  tabs.pop(); // credit
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('BladeMX'),
+const scrap = scrapFrom(
+  '1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k',
+  {
     name: 'BladeMX',
     instagram: 'https://instagram.com/blade.mx',
-    website: '',
-    discord: '',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+  },
+  ['pop'],
+);
 
 if (require.main === module) {
-  scrap()
-    .then((catalog) => {
-      fs.writeFileSync('blademx.json', JSON.stringify(catalog));
-    })
-    .catch((e) => console.log(e));
+  scrap().then((catalog) => {
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
+  });
 }
 
 module.exports = {

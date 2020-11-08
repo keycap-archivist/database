@@ -1,30 +1,20 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1ibnukzm73aRIkBm83OhmPsT6wdyA1GH3MRQ6FPBkOSA';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  tabs.pop(); // credit
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('BrewCaps'),
+const scrap = scrapFrom(
+  '1ibnukzm73aRIkBm83OhmPsT6wdyA1GH3MRQ6FPBkOSA',
+  {
     name: 'BrewCaps',
     instagram: 'https://www.instagram.com/brew_caps/',
     website: 'https://brewcaps.store/',
-    discord: '',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+  },
+  ['pop'],
+);
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('brew.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

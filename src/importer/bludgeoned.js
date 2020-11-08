@@ -1,30 +1,20 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  tabs.pop(); // deleting last tab as it's credits
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('Bludgeoned Kaps'),
+const scrap = scrapFrom(
+  '1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8',
+  {
     name: 'Bludgeoned Kaps',
     instagram: 'https://www.instagram.com/blud_kaps/',
     website: 'https://www.bludkaps.com/',
-    discord: '',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+  },
+  ['pop'],
+);
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('bludgeoned.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

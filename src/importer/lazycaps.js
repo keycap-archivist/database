@@ -1,29 +1,16 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1yyLznWKS7QTrOLTTfP9izvDIlEE_q9n0To1Id3N_0FQ';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('LazyCaps'),
-    name: 'LazyCaps',
-    instagram: 'https://www.instagram.com/lazycaps/',
-    website: 'http://lazycaps.club',
-    discord: '',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+const scrap = scrapFrom('1yyLznWKS7QTrOLTTfP9izvDIlEE_q9n0To1Id3N_0FQ', {
+  name: 'LazyCaps',
+  instagram: 'https://www.instagram.com/lazycaps/',
+  website: 'http://lazycaps.club',
+});
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('lazycaps.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 
