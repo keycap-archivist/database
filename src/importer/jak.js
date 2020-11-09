@@ -1,30 +1,21 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  tabs.pop(); // deleting last tab as it's credits
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('Just Another Keymaker'),
+const scrap = scrapFrom(
+  '15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM',
+  {
     name: 'Just Another Keymaker',
     instagram: 'https://www.instagram.com/justanotherkeymaker/',
     website: 'https://www.keymaker.space/',
     discord: 'https://discord.com/invite/XMnxAYR',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  return gDriveParse(catalog, tabs);
-}
+  },
+  ['pop'],
+);
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('jak.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

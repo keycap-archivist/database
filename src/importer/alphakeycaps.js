@@ -1,7 +1,8 @@
 const htmlparser = require('node-html-parser');
 const axios = require('axios');
 const fs = require('fs');
-const { genId } = require('../utils');
+const path = require('path');
+const { genId, sortBy } = require('../utils');
 
 const catalogsName = [
   'keypora',
@@ -51,17 +52,13 @@ async function scrap() {
   for (const c of catalogsName) {
     await GenSculpt(c, catalog.sculpts);
   }
-  catalog.sculpts = catalog.sculpts.sort((a, b) => {
-    if (a.name < b.name) return -1;
-    if (a.name > b.name) return 1;
-    return 0;
-  });
+  catalog.sculpts = sortBy(catalog.sculpts, 'name');
   return catalog;
 }
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('alphakeycaps.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

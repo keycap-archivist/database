@@ -1,29 +1,15 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('Wildstory Caps'),
-    name: 'Wildstory Caps',
-    instagram: 'https://www.instagram.com/wildstory.caps/',
-    website: '',
-    discord: '',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  return gDriveParse(catalog, tabs);
-}
+const scrap = scrapFrom('1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0', {
+  name: 'Wildstory Caps',
+  instagram: 'https://www.instagram.com/wildstory.caps/',
+});
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('wildstory.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 

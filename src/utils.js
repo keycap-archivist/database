@@ -126,6 +126,14 @@ function gDocUrl(id) {
   return `https://docs.google.com/document/d/${id}`;
 }
 
+function sortBy(list, attr) {
+  return list.sort((a, b) => {
+    if (a[attr] < b[attr]) return -1;
+    if (a[attr] > b[attr]) return 1;
+    return 0;
+  });
+}
+
 module.exports = {
   downloadFile,
   gDriveParse,
@@ -133,4 +141,5 @@ module.exports = {
   gDocUrl,
   isSelfOrdered,
   attributes,
+  sortBy,
 };

@@ -1,30 +1,20 @@
 const fs = require('fs');
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const path = require('path');
+const { scrapFrom } = require('../scraper/gdoc');
 
-const GDOC_ID = '1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY';
-
-async function scrap() {
-  const index = await downloadFile(GDOC_ID);
-  const catalog = {
-    src: gDocUrl(GDOC_ID),
-    id: genId('Latrialum'),
+const scrap = scrapFrom(
+  '1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY',
+  {
     name: 'Latrialum',
     instagram: 'https://www.instagram.com/latrialum/',
-    website: '',
     discord: 'https://discord.com/invite/latrialum',
-    selfOrder: isSelfOrdered(index),
-    sculpts: [],
-  };
-  const rootNode = htmlparser.parse(index);
-  const tabs = rootNode.querySelectorAll('table');
-  tabs.pop();
-  return gDriveParse(catalog, tabs);
-}
+  },
+  ['pop'],
+);
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync('latrialum.json', JSON.stringify(catalog));
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
   });
 }
 
