@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 62
-- Sculpts : 737
-- Colorways : 19908
+- Artists : 63
+- Sculpts : 739
+- Colorways : 19925
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -60,6 +60,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Frumpzkeys | [link](https://docs.google.com/document/d/15arZPVtJHvLxrF20l_Oc-cZCwZrwtMI_SyiD2KDsvWg) |
 | Glyco Caps | [link](https://docs.google.com/document/d/1SOtOKEBn8oUXnECK0_9-sJ5YBh6BijlbKB6CZsNEBbc) |
 | Goldenstar Keycap | [link](https://docs.google.com/document/d/1rCP_Nn_PQeMiqsFlJ2_8TvFHFPsTpq90-QPgDBo7H40) |
+| Gooey | [link](https://docs.google.com/document/d/15tTzH6j6qne6WHnADVr_kHI_n2WJUD7Zk26Qdiu_SLA) |
 | Gothcaps | [link](https://docs.google.com/document/d/17YdYcvKifysUDk6mt750Jgq7Zke2kSi66kfqc9BE6RQ) |
 | Grimey as Fuck | [link](https://docs.google.com/document/d/1AdPXkALzPErnyMQZrWDJ6o-jCvFB34XeZyz00FDDvLY) |
 | GTB | [link](https://docs.google.com/document/d/1qoQ7zBUrkCvfu-xMHcCvxObflfy8z8fWJnkMBJcdp_w) |
