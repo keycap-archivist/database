@@ -1,20 +1,15 @@
 /* eslint-disable no-loop-func */
-// const AWS = require('aws-sdk');
 const fs = require('fs');
 const path = require('path');
 const PromisePool = require('@mixmaxhq/promise-pool');
 const axios = require('axios');
 const db = require('../db/catalog.json');
+const dbOld = require('../catalog_old.json');
 
 const SAVE_PATH = path.join(__dirname, '..', 'SAVE_IMG');
 if (!fs.existsSync(SAVE_PATH)) {
   fs.mkdirSync(SAVE_PATH);
 }
-
-// const s3 = new AWS.S3();
-// const myBucket = 'my.unique.bucket.name';
-// const myKey = 'myBucketKey';
-// aws s3 sync ./ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl public-read
 
 async function downloadImage(imgObj) {
   return axios({
@@ -46,32 +41,40 @@ async function downloadImage(imgObj) {
 
 async function main() {
   const pool = new PromisePool({ numConcurrent: 6 });
-  const imgs = [];
+  const imgs = {};
+  const imgsOld = {};
   const start = process.hrtime();
   console.log('Read Db');
   db.forEach((maker) => {
     maker.sculpts.forEach((s) => {
       s.colorways.forEach((c) => {
-        imgs.push({ id: c.id, src: c.img });
+        imgs[c.id] = { id: c.id, src: c.img };
       });
     });
   });
-  const end = process.hrtime(start);
-  console.info('Execution time (hr): %ds %dms', end[0], end[1] / 1000000);
-  console.log(`${imgs.length} images`);
-  let index = 0;
-  for (const i of imgs) {
-    await pool.start(async () => {
-      if (!fs.existsSync(path.join(SAVE_PATH, `${i.id}.jpg`)) && !fs.existsSync(path.join(SAVE_PATH, `${i.id}.png`))) {
+  dbOld.forEach((maker) => {
+    maker.sculpts.forEach((s) => {
+      s.colorways.forEach((c) => {
+        imgsOld[c.id] = { id: c.id, src: c.img };
+      });
+    });
+  });
+  const items = Object.keys(imgs).length;
+  console.log(`${items} images`);
+  for (const prop in imgs) {
+    const i = imgs[prop];
+    if (!imgsOld[prop]) {
+      console.log(`NEW: ${imgs[prop].id}`);
+      await pool.start(async () => {
         await downloadImage(i).catch((e) => {
           console.log(e);
         });
-      }
-      index += 1;
-      console.log(`${index}/${imgs.length}`);
-    });
+      });
+    }
   }
   await pool.flush();
+  const end = process.hrtime(start);
+  console.info('Execution time (hr): %ds %dms', end[0], end[1] / 1000000);
 }
 
 main();
