@@ -64,5 +64,5 @@ jobs:
       - name: Update images in s3
         run: |
           yarn sync:img
-          aws s3 sync ./SAVE_IMG s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl public-read
+          aws s3 sync ./SAVE_IMG/ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl public-read
 
