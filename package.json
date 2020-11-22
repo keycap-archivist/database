@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js ./src",
-    "gen": "rm db/* && node src/generate.js",
+    "gen": "cp db/catalog.json catalog_old.json && rm db/* && node src/generate.js",
     "validate": "node src/validate.js",
     "gen:wiki": "node src/gen-wiki.js"
   },
@@ -22,6 +22,7 @@
   "dependencies": {
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
+    "aws-sdk": "^2.797.0",
     "axios": "^0.20.0",
     "crc": "^3.8.0",
     "csv-stringify": "^5.5.1",
