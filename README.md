@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 64
-- Sculpts : 762
-- Colorways : 20189
+- Artists : 65
+- Sculpts : 764
+- Colorways : 20240
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -55,6 +55,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | DCcaps | [link](https://docs.google.com/document/d/1ENp3M-HymI9LsJRloDGuo3o9s-FXHzFj6hWazGfXSEQ) |
 | DeagCaps | [link](https://docs.google.com/document/d/1SsLhATHPRDOSAiywL5ktrGAuZbW9swCOd2cBGuUds3E) |
 | Deathcaps | [link](https://docs.google.com/document/d/1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA) |
+| Destroyer Caps | [link](https://docs.google.com/document/d/1Me6mlm7YPdH0v5nkCQBZrGJ555gT2RAXwLzC_g4cdIg) |
 | Dollartacos | [link](https://docs.google.com/document/d/1iAaGXFW6zqBa8lx6sKyQmKTvtiDA1zEiAM4jR4zd-Bs) |
 | DustyCaps | [link](https://docs.google.com/document/d/1EZstC5O7OMdsCMMzs-YbV3Y5pooytHrHpLWaULr3pEI) |
 | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
