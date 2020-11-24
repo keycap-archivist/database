@@ -42,6 +42,18 @@ jobs:
           git add README.md
           git diff-index HEAD || true
           git diff-index --quiet HEAD && echo ::set-output name=DIRTY::0 || echo ::set-output name=DIRTY::1
+      - name: Configure AWS credentials
+        if: steps.dbgen.outputs.DIRTY == '1'
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+      - name: Update images in s3
+        if: steps.dbgen.outputs.DIRTY == '1'
+        run: |
+          yarn sync:img
+          aws s3 sync ./SAVE_IMG/ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl public-read
       - name: Commit Database update
         if: steps.dbgen.outputs.DIRTY == '1'
         env:
@@ -56,15 +68,4 @@ jobs:
           git commit -am "[skip-ci] Database Synchronization"
           git push
           node src/discord-update-revision.js
-      - name: Configure AWS credentials
-        if: steps.dbgen.outputs.DIRTY == '1'
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      - name: Update images in s3
-        if: steps.dbgen.outputs.DIRTY == '1'
-        run: |
-          yarn sync:img
-          aws s3 sync ./SAVE_IMG/ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl public-read
 
