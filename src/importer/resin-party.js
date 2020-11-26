@@ -3,7 +3,7 @@ const path = require('path');
 const { scrapFrom } = require('../scraper/gdoc');
 
 const scrap = scrapFrom('172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc', {
-  name: 'Resin Party Design',
+  name: 'Resin Party',
   website: 'https://geekhack.org/index.php?topic=98079.0',
 });
 
