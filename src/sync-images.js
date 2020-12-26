@@ -24,8 +24,9 @@ async function downloadImage(imgObj) {
         case 'image/jpeg':
           extension = 'jpg';
           break;
+        // ugly workaround but it works
         case 'image/png':
-          extension = 'png';
+          extension = 'jpg';
           break;
         default:
           extension = 'jpg';
