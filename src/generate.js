@@ -44,8 +44,8 @@ async function moduleScrap(catalog, moduleName) {
     fs.writeFileSync(destFile, JSON.stringify(moduleCatalog));
   } else {
     // using the previous version of the file
-    console.log(`ERRORS: ${formattedName}`);
-    console.log(moduleCatalog.error);
+    console.warn(`ERRORS: ${formattedName}`);
+    console.warn(moduleCatalog.error);
     catalog.push(JSON.parse(fs.readFileSync(destFile, 'utf-8')));
   }
 }
