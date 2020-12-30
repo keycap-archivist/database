@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 70
-- Sculpts : 815
-- Colorways : 21195
+- Artists : 71
+- Sculpts : 843
+- Colorways : 21561
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -78,6 +78,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | LazyCaps | [link](https://docs.google.com/document/d/1yyLznWKS7QTrOLTTfP9izvDIlEE_q9n0To1Id3N_0FQ) |
 | Level caps | [link](https://docs.google.com/document/d/1_9U5dSSCKeSQcBIhbHPigUs7jiF0AqNI0MYo5KNtpJ8) |
 | Lividity | [link](https://docs.google.com/document/d/18mc8abYoFIYDEqpvJzG5qYLXoQBTBUu9DUp7JSmIFxM) |
+| Lo-Ki Caps | [link](https://docs.google.com/document/d/1QGRxPMGI-GIN63LCatprE60zDfcVmy67cG53aXLDf8M) |
 | MelonKeys | [link](https://docs.google.com/document/d/1ceCQ48nyCfZ2u0jnzgnvVW0nuxd01a0QS48cx_TVh-U) |
 | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
