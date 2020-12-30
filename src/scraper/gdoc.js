@@ -9,29 +9,37 @@ function scrapFrom(gdocID, meta = {}, tabsOperations = []) {
     throw new Error(`Missing name in metadata for "${gdocID}"`);
   }
   return async function scrap() {
-    const index = await downloadFile(gdocID);
-    const rootNode = htmlparser.parse(index);
-    const tabs = rootNode.querySelectorAll('table');
-    tabsOperations.forEach((tabOperation) => {
-      if (typeof tabOperation === 'function') {
-        tabOperation(tabs);
-      } else if (typeof tabOperation === 'string' && Array.prototype[tabOperation]) {
-        Array.prototype[tabOperation].call(tabs);
-      }
-    });
-    const catalog = {
-      src: gDocUrl(gdocID),
-      id: '',
-      name: '',
-      instagram: '',
-      website: '',
-      discord: '',
-      selfOrder: isSelfOrdered(index),
-      sculpts: [],
-      ...meta,
-    };
-    catalog.id = genId(meta.id || meta.name);
-    return gDriveParse(catalog, tabs);
+    try {
+      const index = await downloadFile(gdocID);
+      const rootNode = htmlparser.parse(index);
+      const tabs = rootNode.querySelectorAll('table');
+      tabsOperations.forEach((tabOperation) => {
+        if (typeof tabOperation === 'function') {
+          tabOperation(tabs);
+        } else if (typeof tabOperation === 'string' && Array.prototype[tabOperation]) {
+          Array.prototype[tabOperation].call(tabs);
+        }
+      });
+      const catalog = {
+        src: gDocUrl(gdocID),
+        id: '',
+        name: '',
+        instagram: '',
+        website: '',
+        discord: '',
+        selfOrder: isSelfOrdered(index),
+        sculpts: [],
+        ...meta,
+      };
+      catalog.id = genId(meta.id || meta.name);
+      return gDriveParse(catalog, tabs);
+    } catch (e) {
+      return {
+        hasError: true,
+        error: e,
+        name: meta.name,
+      };
+    }
   };
 }
 

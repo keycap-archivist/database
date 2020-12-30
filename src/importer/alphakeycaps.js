@@ -40,20 +40,28 @@ async function GenSculpt(catname, sculptsArray) {
 }
 
 async function scrap() {
-  const catalog = {
-    id: genId('Alpha Keycaps'),
-    name: 'Alpha Keycaps',
-    src: 'https://alphakeycaps.com/',
-    instagram: 'https://www.instagram.com/alphakeycaps/',
-    website: 'https://alphakeycaps.com',
-    discord: 'https://discord.com/invite/eBVaYwn',
-    sculpts: [],
-  };
-  for (const c of catalogsName) {
-    await GenSculpt(c, catalog.sculpts);
+  try {
+    const catalog = {
+      id: genId('Alpha Keycaps'),
+      name: 'Alpha Keycaps',
+      src: 'https://alphakeycaps.com/',
+      instagram: 'https://www.instagram.com/alphakeycaps/',
+      website: 'https://alphakeycaps.com',
+      discord: 'https://discord.com/invite/eBVaYwn',
+      sculpts: [],
+    };
+    for (const c of catalogsName) {
+      await GenSculpt(c, catalog.sculpts);
+    }
+    catalog.sculpts = sortBy(catalog.sculpts, 'name');
+    return catalog;
+  } catch (e) {
+    return {
+      name: 'Alpha Keycaps',
+      hasError: true,
+      error: e,
+    };
   }
-  catalog.sculpts = sortBy(catalog.sculpts, 'name');
-  return catalog;
 }
 
 if (require.main === module) {
