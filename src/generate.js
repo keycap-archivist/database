@@ -37,11 +37,17 @@ function flatten(catalog) {
 async function moduleScrap(catalog, moduleName) {
   const m = require(moduleName);
   const moduleCatalog = await m.scrap();
-  catalog.push(moduleCatalog);
-  fs.writeFileSync(
-    path.join(DEST, `${moduleCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`),
-    JSON.stringify(moduleCatalog),
-  );
+  const formattedName = `${moduleCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`;
+  const destFile = path.join(DEST, formattedName);
+  if (moduleCatalog.hasError !== true) {
+    catalog.push(moduleCatalog);
+    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog));
+  } else {
+    // using the previous version of the file
+    console.warn(`ERRORS: ${formattedName}`);
+    console.warn(moduleCatalog.error);
+    catalog.push(JSON.parse(fs.readFileSync(destFile, 'utf-8')));
+  }
 }
 
 function report(catalog) {
