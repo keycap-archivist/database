@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 71
-- Sculpts : 859
-- Colorways : 22048
+- Artists : 72
+- Sculpts : 880
+- Colorways : 22241
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -38,6 +38,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
+| B.o.B Handcraft | [link](https://docs.google.com/document/d/1Igk_at2yvP_Bd6GNd3_GLCQmooNszkNDDvm2b6yqIQM) |
 | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
 | Bad and Booj Keys | [link](https://docs.google.com/document/d/15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM) |
 | Bad Habit Caps | [link](https://docs.google.com/document/d/1MUoyBLW1slC819V1IdDa2eAV5adU2IHGa5YjmFY5w88) |
