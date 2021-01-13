@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 74
-- Sculpts : 903
-- Colorways : 22518
+- Artists : 75
+- Sculpts : 907
+- Colorways : 22585
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -61,6 +61,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | DustyCaps | [link](https://docs.google.com/document/d/1EZstC5O7OMdsCMMzs-YbV3Y5pooytHrHpLWaULr3pEI) |
 | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
 | Frumpzkeys | [link](https://docs.google.com/document/d/15arZPVtJHvLxrF20l_Oc-cZCwZrwtMI_SyiD2KDsvWg) |
+| Girlycaps Studios | [link](https://docs.google.com/document/d/1cDD3aNsQXHJfyskP8906BUwfc1_4H_JJTtZ9akhQkOc) |
 | Glyco Caps | [link](https://docs.google.com/document/d/1SOtOKEBn8oUXnECK0_9-sJ5YBh6BijlbKB6CZsNEBbc) |
 | Goldenstar Keycap | [link](https://docs.google.com/document/d/1rCP_Nn_PQeMiqsFlJ2_8TvFHFPsTpq90-QPgDBo7H40) |
 | gooey keys | [link](https://docs.google.com/document/d/15tTzH6j6qne6WHnADVr_kHI_n2WJUD7Zk26Qdiu_SLA) |
