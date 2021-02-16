@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 76
-- Sculpts : 947
-- Colorways : 23305
+- Artists : 77
+- Sculpts : 948
+- Colorways : 23322
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -75,6 +75,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Just Another Keymaker | [link](https://docs.google.com/document/d/15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM) |
 | Kaphaus | [link](https://docs.google.com/document/d/1QXedbahyT1FndM9QdxZ8HC0RshpbyCvChTuQTY688lE) |
 | KBK-KWK | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8) |
+| Keycat | [link](https://docs.google.com/document/d/1VNVGf02zR9t3QBYXbxV9SqJFuilQBpKxWHTj0iWrX3w) |
 | KeyCravings | [link](https://docs.google.com/document/d/1QjFV7yp4Ez8k51qPo2fx_2sXVH9l7SdbI3_sy_E7R_o) |
 | KeyForge | [link](https://docs.google.com/document/d/1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA) |
 | KeyKollectiv | [link](https://docs.google.com/document/d/18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws) |
