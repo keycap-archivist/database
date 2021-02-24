@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 77
-- Sculpts : 953
-- Colorways : 23428
+- Artists : 78
+- Sculpts : 960
+- Colorways : 23486
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -95,6 +95,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Rathcaps | [link](https://docs.google.com/document/d/17xkdiEkCjV-4bRoLg5FgXGxlPDX1NPLCZjWIasnFaeY) |
 | Resin Party | [link](https://docs.google.com/document/d/172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc) |
 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
+| rtg_caps_ | [link](https://docs.google.com/document/d/1XNeLhAdqfwbgmpm4qbN9nUFQzLktN0JiEJGgRVCEnpk) |
 | S-Craft Studio | [link](https://docs.google.com/document/d/1zM8PAeSNFJ1Voo4m2Qpcjqtymy_umMBBMVt_USkoYCs) |
 | shirouu.kaps | [link](https://docs.google.com/document/d/177W_IQZ1HRQbSZ4pjLuWqGlhvS9sTpVZcKV_Ucs-h9M) |
 | Simulacra Caps | [link](https://docs.google.com/document/d/1tY7twR6E65afan23BediwbxwvsjJqXtleE949r5mNeg) |
