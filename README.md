@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 78
-- Sculpts : 962
-- Colorways : 23517
+- Artists : 79
+- Sculpts : 964
+- Colorways : 23532
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -54,6 +54,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Clack Factory | [link](https://docs.google.com/document/d/1C9I7PaXFtpNzI8Zb_6ZTjHLMrQ8ERyWn_IvMD8mVoq0) |
 | CozCaps | [link](https://docs.google.com/document/d/14EBfRe0AxEbCok856_HrL6teQAlkeQL3kpa3z8lenTc) |
 | CYSM | [link](https://docs.google.com/document/d/1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI) |
+| Dalifu Caps | [link](https://docs.google.com/document/d/1JpL8NeP-J85x_Viy_VGzM5fRpEAMPw_giRO78eHnc4E) |
 | DCcaps | [link](https://docs.google.com/document/d/1ENp3M-HymI9LsJRloDGuo3o9s-FXHzFj6hWazGfXSEQ) |
 | DeagCaps | [link](https://docs.google.com/document/d/1SsLhATHPRDOSAiywL5ktrGAuZbW9swCOd2cBGuUds3E) |
 | Deathcaps | [link](https://docs.google.com/document/d/1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA) |
