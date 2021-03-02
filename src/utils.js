@@ -1,6 +1,8 @@
 const { google } = require('googleapis');
 const { crc32 } = require('crc');
 const { decode } = require('he');
+const sharp = require('sharp');
+const { readFile } = require('fs/promises');
 
 const attributes = Object.freeze({
   selfOrdered: 'ka_self_order',
@@ -134,6 +136,11 @@ function sortBy(list, attr) {
   });
 }
 
+async function resize(path) {
+  const buff = await readFile(path);
+  return sharp(buff).resize(800, 800, { withoutEnlargement: true }).jpeg({ quality: 100 }).toBuffer();
+}
+
 module.exports = {
   downloadFile,
   gDriveParse,
@@ -142,4 +149,5 @@ module.exports = {
   isSelfOrdered,
   attributes,
   sortBy,
+  resize,
 };

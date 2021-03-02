@@ -1,4 +1,5 @@
 /* eslint-disable no-loop-func */
+const { resize } = require('./utils');
 const fs = require('fs');
 const path = require('path');
 const PromisePool = require('@mixmaxhq/promise-pool');
@@ -7,8 +8,10 @@ const db = require('../db/catalog.json');
 const dbOld = require('../catalog_old.json');
 
 const SAVE_PATH = path.join(__dirname, '..', 'SAVE_IMG');
+const resizedPath = path.join(SAVE_PATH, 'resized');
 if (!fs.existsSync(SAVE_PATH)) {
   fs.mkdirSync(SAVE_PATH);
+  fs.mkdirSync(resizedPath);
 }
 
 async function downloadImage(imgObj) {
@@ -74,6 +77,14 @@ async function main() {
     }
   }
   await pool.flush();
+  const srcImgs = await fs.promises.readdir(SAVE_PATH);
+  for (const file of srcImgs) {
+    await resize(
+      path.join(SAVE_PATH, file).then((d) => {
+        fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`, d));
+      }),
+    );
+  }
   const end = process.hrtime(start);
   console.info('Execution time (hr): %ds %dms', end[0], end[1] / 1000000);
 }
