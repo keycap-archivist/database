@@ -79,11 +79,9 @@ async function main() {
   await pool.flush();
   const srcImgs = await fs.promises.readdir(SAVE_PATH);
   for (const file of srcImgs) {
-    await resize(
-      path.join(SAVE_PATH, file).then((d) => {
-        fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`, d));
-      }),
-    );
+    await resize(path.join(SAVE_PATH, file)).then((d) => {
+      fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`, d));
+    });
   }
   const end = process.hrtime(start);
   console.info('Execution time (hr): %ds %dms', end[0], end[1] / 1000000);
