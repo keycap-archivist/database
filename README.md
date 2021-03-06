@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 80
-- Sculpts : 969
-- Colorways : 23720
+- Artists : 81
+- Sculpts : 972
+- Colorways : 23851
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -101,6 +101,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | S-Craft Studio | [link](https://docs.google.com/document/d/1zM8PAeSNFJ1Voo4m2Qpcjqtymy_umMBBMVt_USkoYCs) |
 | shirouu.kaps | [link](https://docs.google.com/document/d/177W_IQZ1HRQbSZ4pjLuWqGlhvS9sTpVZcKV_Ucs-h9M) |
 | Simulacra Caps | [link](https://docs.google.com/document/d/1tY7twR6E65afan23BediwbxwvsjJqXtleE949r5mNeg) |
+| Slime Scholar | [link](https://docs.google.com/document/d/14jF0ewtoj5S2GPXkGrfppH3zu0Dd2Y8aZnJ_nP1kPuw) |
 | Sludgekidd | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0) |
 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
