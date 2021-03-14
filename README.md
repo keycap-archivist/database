@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 83
-- Sculpts : 1003
-- Colorways : 24357
+- Artists : 84
+- Sculpts : 1008
+- Colorways : 24447
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -96,6 +96,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
 | PrimeCaps | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
 | ProjectKey | [link](https://docs.google.com/document/d/1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE) |
+| RADcaps | [link](https://docs.google.com/document/d/1KINOK9cUUA28pSGnHc8ZI-RM36o12ADojXp7ZeNdTh4) |
 | Rathcaps | [link](https://docs.google.com/document/d/17xkdiEkCjV-4bRoLg5FgXGxlPDX1NPLCZjWIasnFaeY) |
 | Resin Party | [link](https://docs.google.com/document/d/172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc) |
 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
