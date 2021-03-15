@@ -138,7 +138,15 @@ function sortBy(list, attr) {
 
 async function resize(path) {
   const buff = await readFile(path);
-  return sharp(buff).resize(800, 800, { withoutEnlargement: true }).jpeg({ quality: 100 }).toBuffer();
+  return sharp(buff)
+    .resize(800, 800, { withoutEnlargement: true })
+    .jpeg({ progressive: true, quality: 90, force: true })
+    .toBuffer()
+    .catch((e) => {
+      console.log(`Unable to resize ${path}`);
+      console.log(e);
+      throw e;
+    });
 }
 
 module.exports = {
