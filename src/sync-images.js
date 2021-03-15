@@ -46,29 +46,35 @@ async function downloadImage(imgObj) {
 }
 
 function getCurrentImages() {
-  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg"')
+  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1')
     .toString()
     .split('\n')
     .map((x) => {
-      if (x) {
-        const arr = x.split(' ');
-        return arr[arr.length - 1].split('.')[0];
+      const str = x.trim();
+      if (!str) {
+        return '';
       }
-      return '';
+      const arr = str.split(' ');
+      if (arr.length === 1) return str;
+      return arr[arr.len - 1].split('.')[0];
     })
     .filter(Boolean);
 }
 
 function getCurrentResizedImages() {
-  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/resized/ | grep ".jpg"')
+  return execSync(
+    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/resized/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
+  )
     .toString()
     .split('\n')
     .map((x) => {
-      if (x) {
-        const arr = x.split(' ');
-        return arr[arr.length - 1].split('.')[0];
+      const str = x.trim();
+      if (!str) {
+        return '';
       }
-      return '';
+      const arr = str.split(' ');
+      if (arr.length === 1) return str;
+      return arr[arr.len - 1].split('.')[0];
     })
     .filter(Boolean);
 }
