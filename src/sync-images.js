@@ -46,18 +46,30 @@ async function downloadImage(imgObj) {
 }
 
 function getCurrentImages() {
-  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1')
+  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg"')
     .toString()
     .split('\n')
+    .map((x) => {
+      if (x) {
+        const arr = x.split(' ');
+        return arr[arr.length - 1].split('.')[0];
+      }
+      return '';
+    })
     .filter(Boolean);
 }
 
 function getCurrentResizedImages() {
-  return execSync(
-    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/resized/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
-  )
+  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/resized/ | grep ".jpg"')
     .toString()
     .split('\n')
+    .map((x) => {
+      if (x) {
+        const arr = x.split(' ');
+        return arr[arr.length - 1].split('.')[0];
+      }
+      return '';
+    })
     .filter(Boolean);
 }
 
