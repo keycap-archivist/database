@@ -83,19 +83,11 @@ function arrayDifference(currentImages, resizedImages) {
   return currentImages.filter((x) => resizedImages.indexOf(x) === -1);
 }
 
-// aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep '.jpg' | awk '{print $4}' | cut -d '.' -f1
-// aws s3 ls s3://cdn.keycap-archivist.com/keycaps/resized/ | grep '.jpg' | awk '{print $4}' | cut -d '.' -f1
-
 async function resizeImages(imgs, currentImages) {
   const resized = getCurrentResizedImages();
   const toResize = arrayDifference(currentImages, resized);
+  console.log('Images to resize');
   console.log(toResize);
-  // const srcImgs = await fs.promises.readdir(SAVE_PATH);
-  // for (const file of srcImgs) {
-  //   await resize(path.join(SAVE_PATH, file)).then((d) => {
-  //     fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`), d);
-  //   });
-  // }
   for (const id of toResize) {
     const img = imgs[id];
     await downloadImage(img).catch((e) => {
@@ -128,6 +120,7 @@ async function main() {
     });
   });
   const listCurrentImages = getCurrentImages();
+  console.log('listCurrentImages');
   console.log(listCurrentImages);
   const items = Object.keys(imgs).length;
   console.log(`${items} images`);
