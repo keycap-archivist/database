@@ -56,7 +56,7 @@ function getCurrentImages() {
       }
       const arr = str.split(' ');
       if (arr.length === 1) return str;
-      return arr[arr.len - 1].split('.')[0];
+      return arr[arr.length - 1].split('.')[0];
     })
     .filter(Boolean);
 }
@@ -74,7 +74,7 @@ function getCurrentResizedImages() {
       }
       const arr = str.split(' ');
       if (arr.length === 1) return str;
-      return arr[arr.len - 1].split('.')[0];
+      return arr[arr.length - 1].split('.')[0];
     })
     .filter(Boolean);
 }
