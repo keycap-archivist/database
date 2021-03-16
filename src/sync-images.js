@@ -124,6 +124,7 @@ async function main() {
   console.log(listCurrentImages);
   const items = Object.keys(imgs).length;
   console.log(`${items} images`);
+  const newImages = [];
   for (const prop in imgs) {
     const i = imgs[prop];
     if (listCurrentImages.indexOf(i.id) === -1) {
@@ -133,10 +134,13 @@ async function main() {
           console.log(e);
         });
       });
+      newImages.push(i.id);
     }
   }
   await pool.flush();
-  await resizeImages(imgs, listCurrentImages);
+  console.log('New Images');
+  console.log(newImages);
+  await resizeImages(imgs, [].concat(listCurrentImages, newImages));
   const end = process.hrtime(start);
   console.info('Execution time (hr): %ds %dms', end[0], end[1] / 1000000);
 }
