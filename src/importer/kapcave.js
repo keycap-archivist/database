@@ -8,12 +8,12 @@ const BASE_URL = 'https://kapcave.nachie.com/api/v1/catalog/list';
 async function scrap() {
   try {
     const catalog = await axios.get(`${BASE_URL}`).then((res) => res.data);
-    catalog.id = genId(`KapCave`);
+    catalog.id = genId('KapCave');
     for (const c of catalog.sculpts) {
-     c.id = genId(`KapCave-${c.name}`)
-     for (const colorway of c.colorways) {
-         colorway.id = genId(c.img);
-     }
+      c.id = genId(`KapCave-${c.name}`);
+      for (const colorway of c.colorways) {
+        colorway.id = genId(colorway.img);
+      }
     }
     catalog.sculpts = sortBy(catalog.sculpts, 'name');
     return catalog;
