@@ -1,4 +1,6 @@
 const { google } = require('googleapis');
+const fs = require('fs');
+const path = require('path');
 const { crc32 } = require('crc');
 const { decode } = require('he');
 const sharp = require('sharp');
@@ -6,7 +8,21 @@ const { readFile } = require('fs/promises');
 
 function debug(...args) {
   if (process.env.KA_DEBUG === '1') {
-    console.debug(args);
+    console.debug(...args);
+  }
+}
+
+function launcher(scrap) {
+  // if the caller is in the importer means that we are debugging
+  // it with command like `node src/importer/foo.js`
+  if (path.dirname(require.main.filename).endsWith('importer')) {
+    debug('Calling launcher');
+    const filename = path.basename(require.main.filename);
+    scrap().then((catalog) => {
+      const f = `${path.basename(filename, path.extname(filename))}.json`;
+      fs.writeFileSync(f, JSON.stringify(catalog));
+      console.log(`${f} generated`);
+    });
   }
 }
 
@@ -143,14 +159,14 @@ function sortBy(list, attr) {
   });
 }
 
-async function resize(path) {
-  const buff = await readFile(path);
+async function resize(filepath) {
+  const buff = await readFile(filepath);
   return sharp(buff)
     .resize(800, 800, { withoutEnlargement: true })
     .jpeg({ progressive: true, quality: 90, force: true })
     .toBuffer()
     .catch((e) => {
-      console.log(`Unable to resize ${path}`);
+      console.log(`Unable to resize ${filepath}`);
       console.log(e);
       throw e;
     });
@@ -164,5 +180,6 @@ module.exports = {
   isSelfOrdered,
   attributes,
   sortBy,
+  launcher,
   resize,
 };

@@ -1,6 +1,5 @@
-const fs = require('fs');
-const path = require('path');
 const { scrapFrom } = require('../scraper/gdoc');
+const { launcher } = require('../utils');
 
 const scrap = scrapFrom('18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws', {
   name: 'KeyKollectiv',
@@ -8,11 +7,7 @@ const scrap = scrapFrom('18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws', {
   website: 'https://www.keykollectiv.com/',
 });
 
-if (require.main === module) {
-  scrap().then((catalog) => {
-    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
-  });
-}
+launcher(scrap);
 
 module.exports = {
   scrap,

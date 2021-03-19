@@ -1,7 +1,6 @@
 const htmlparser = require('node-html-parser');
 const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
+const { launcher } = require('../utils');
 const { genId, sortBy } = require('../utils');
 
 const catalogsName = [
@@ -64,11 +63,7 @@ async function scrap() {
   }
 }
 
-if (require.main === module) {
-  scrap().then((catalog) => {
-    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
-  });
-}
+launcher(scrap);
 
 module.exports = {
   scrap,
