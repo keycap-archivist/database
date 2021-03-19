@@ -4,6 +4,12 @@ const { decode } = require('he');
 const sharp = require('sharp');
 const { readFile } = require('fs/promises');
 
+function debug(...args) {
+  if (process.env.KA_DEBUG === '1') {
+    console.debug(args);
+  }
+}
+
 const attributes = Object.freeze({
   selfOrdered: 'ka_self_order',
   release: 'ka_release',
@@ -119,6 +125,7 @@ function gDriveParse(catalog, tabs) {
       });
     }
   }
+  debug(catalog.sculpts.map((x) => x.name));
   // eslint-disable-next-line no-param-reassign
   catalog.sculpts = catalog.sculpts.filter((x) => x);
   return catalog;

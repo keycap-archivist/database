@@ -2,14 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const { scrapFrom } = require('../scraper/gdoc');
 
-const scrap = scrapFrom(
-  '15NNk_ttTXCBCHTzyEE3_EigOHPYnc1M5fVGRZJIt0AA',
-  {
-    name: 'Hellbent Caps',
-    instagram: 'https://www.instagram.com/hellbentcaps/',
-  },
-  ['pop'],
-);
+const scrap = scrapFrom('15NNk_ttTXCBCHTzyEE3_EigOHPYnc1M5fVGRZJIt0AA', {
+  name: 'Hellbent Caps',
+  instagram: 'https://www.instagram.com/hellbentcaps/',
+});
 
 if (require.main === module) {
   scrap().then((catalog) => {
