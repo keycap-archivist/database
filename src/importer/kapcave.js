@@ -11,6 +11,9 @@ async function scrap() {
     catalog.id = genId(`KapCave`);
     for (const c of catalog.sculpts) {
      c.id = genId(`KapCave-${c.name}`)
+     for (const colorway of c.colorways) {
+         colorway.id = genId(c.img);
+     }
     }
     catalog.sculpts = sortBy(catalog.sculpts, 'name');
     return catalog;
