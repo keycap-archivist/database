@@ -10,12 +10,13 @@ async function scrap() {
     const catalog = await axios.get(`${BASE_URL}`).then((res) => res.data);
     catalog.id = genId('KapCave');
     for (const c of catalog.sculpts) {
-     c.id = genId(`KapCave-${c.name}`);
-     for (const colorway of c.colorways) {
-         colorway.id = genId(colorway.img);
-     }
+      c.id = genId(`KapCave-${c.name}`);
+      for (const colorway of c.colorways) {
+        colorway.id = genId(colorway.img);
+      }
     }
     catalog.sculpts = sortBy(catalog.sculpts, 'name');
+    catalog.denySubmission = true;
     return catalog;
   } catch (e) {
     return {
