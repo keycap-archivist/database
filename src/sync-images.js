@@ -99,7 +99,7 @@ async function resizeImages(imgs, currentImages) {
       console.log(e);
     });
     const srcImgs = await fs.promises.readdir(SAVE_PATH);
-    for (const file of srcImgs.filter((x) => x !== '250' || x !== '720')) {
+    for (const file of srcImgs.filter((x) => x !== '250' && x !== '720')) {
       // await resize(path.join(SAVE_PATH, file))
       //   .then((d) => {
       //     fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`), d);
