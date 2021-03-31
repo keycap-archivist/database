@@ -8,14 +8,19 @@ const { resize } = require('./utils');
 const db = require('../db/catalog.json');
 
 const SAVE_PATH = path.join(__dirname, '..', 'SAVE_IMG');
-const resizedPath = path.join(SAVE_PATH, 'resized');
 if (!fs.existsSync(SAVE_PATH)) {
   fs.mkdirSync(SAVE_PATH);
-  fs.mkdirSync(resizedPath);
+  fs.mkdirSync(path.join(SAVE_PATH, '250'));
+  fs.mkdirSync(path.join(SAVE_PATH, '720'));
 }
-if (!fs.existsSync(resizedPath)) {
-  fs.mkdirSync(resizedPath);
+
+if (!fs.existsSync(path.join(SAVE_PATH, '720'))) {
+  fs.mkdirSync(path.join(SAVE_PATH, '720'));
 }
+if (!fs.existsSync(path.join(SAVE_PATH, '250'))) {
+  fs.mkdirSync(path.join(SAVE_PATH, '250'));
+}
+
 async function downloadImage(imgObj) {
   return axios({
     method: 'GET',
@@ -63,7 +68,7 @@ function getCurrentImages() {
 
 function getCurrentResizedImages() {
   return execSync(
-    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/resized/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
+    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/250/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
   )
     .toString()
     .split('\n')
@@ -94,14 +99,30 @@ async function resizeImages(imgs, currentImages) {
       console.log(e);
     });
     const srcImgs = await fs.promises.readdir(SAVE_PATH);
-    for (const file of srcImgs.filter((x) => x !== 'resized')) {
-      await resize(path.join(SAVE_PATH, file))
+    for (const file of srcImgs.filter((x) => x !== '250' || x !== '720')) {
+      // await resize(path.join(SAVE_PATH, file))
+      //   .then((d) => {
+      //     fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`), d);
+      //   })
+      //   .catch(() => {
+      //     console.log(`Unable to resize ${file}`);
+      //     fs.copyFileSync(path.join(SAVE_PATH, file), path.join(resizedPath, `${file.split('.')[0]}.jpg`));
+      //   });
+      await resize(path.join(SAVE_PATH, file), 'thumb')
         .then((d) => {
-          fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`), d);
+          fs.writeFileSync(path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`), d);
         })
         .catch(() => {
           console.log(`Unable to resize ${file}`);
-          fs.copyFileSync(path.join(SAVE_PATH, file), path.join(resizedPath, `${file.split('.')[0]}.jpg`));
+          fs.copyFileSync(path.join(SAVE_PATH, file), path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`));
+        });
+      await resize(path.join(SAVE_PATH, file), 'full')
+        .then((d) => {
+          fs.writeFileSync(path.join(SAVE_PATH, '720', `${file.split('.')[0]}.jpg`), d);
+        })
+        .catch(() => {
+          console.log(`Unable to resize ${file}`);
+          fs.copyFileSync(path.join(SAVE_PATH, file), path.join(SAVE_PATH, '720', `${file.split('.')[0]}.jpg`));
         });
     }
   }

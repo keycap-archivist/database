@@ -159,17 +159,27 @@ function sortBy(list, attr) {
   });
 }
 
-async function resize(filepath) {
+async function resize(filepath, type = 'full') {
   const buff = await readFile(filepath);
-  return sharp(buff)
-    .resize(800, 800, { withoutEnlargement: true })
-    .jpeg({ progressive: true, quality: 90, force: true })
-    .toBuffer()
-    .catch((e) => {
-      console.log(`Unable to resize ${filepath}`);
-      console.log(e);
-      throw e;
-    });
+  const s = sharp(buff);
+  const options = { withoutEnlargement: true, fit: sharp.fit.inside };
+
+  switch (type) {
+    case 'full':
+      s.resize(720, 720, options).jpeg({ progressive: true, quality: 90, force: true });
+      break;
+    case 'thumb':
+      s.resize(250, 250, options).jpeg({ progressive: true, quality: 75, force: true });
+      break;
+    default:
+      throw new Error('Unknown type');
+  }
+
+  return s.toBuffer().catch((e) => {
+    console.log(`Unable to resize ${filepath}`);
+    console.log(e);
+    throw e;
+  });
 }
 
 module.exports = {
