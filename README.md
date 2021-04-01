@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 92
-- Sculpts : 1060
-- Colorways : 25337
+- Artists : 93
+- Sculpts : 1068
+- Colorways : 25380
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -79,6 +79,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Hello Caps | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk) |
 | Hot Keys Project | [link](https://docs.google.com/document/d/1KcZjWQ59gmgNoX1piEdf6MX1r6sBig2_G9AYrs1SjBQ) |
 | Hunger Work Studio | [link](https://docs.google.com/document/d/1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ) |
+| HungryHustlas | [link](https://docs.google.com/document/d/1VpFhfYEekz9x2Oe02FAlw8xYVmisHkmrt2NxCxDHdxw) |
 | Just Another Keymaker | [link](https://docs.google.com/document/d/15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM) |
 | KapCave | [link](https://kapcave.nachie.com/api/v1/catalog/list) |
 | Kaphaus | [link](https://docs.google.com/document/d/1QXedbahyT1FndM9QdxZ8HC0RshpbyCvChTuQTY688lE) |
