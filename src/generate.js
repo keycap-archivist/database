@@ -58,7 +58,7 @@ function report(catalog) {
   console.log('---------------------');
   console.log('');
   for (const a of catalog) {
-    srcTab.push(`| ${a.name} | [link](${a.src}) |`);
+    srcTab.push(`| ${a.id} | ${a.name} | [link](${a.src}) |`);
     console.log('');
     console.log(`- ${a.name}`);
     sculptCount += a.sculpts.filter((x) => x !== null).length;
