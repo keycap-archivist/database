@@ -1,4 +1,6 @@
 id,artist,sculpt,name,img
+e2c5befd,KapCave,Blank,This ones Legal,https://kapcave.nachie.com/api/v1/catalog/image/d70a0669-6dd0-452f-a232-bfef461f4cb3
+913ca71c,KapCave,Blank,Easter Egg,https://kapcave.nachie.com/api/v1/catalog/image/10351469-804c-4cc0-b384-d96360cc9aeb
 15b44014,KapCave,Blank,Red Spider,https://kapcave.nachie.com/api/v1/catalog/image/eaef1b72-f13c-4a11-be08-14799d67152d
 5c32b0e0,KapCave,Blank,CreamBrulee,https://kapcave.nachie.com/api/v1/catalog/image/46c2035c-7b75-4525-bbf9-2f88e793f684
 c855e987,KapCave,Blank,VaporWave I,https://kapcave.nachie.com/api/v1/catalog/image/200bd8ab-d17a-48b9-b32f-8097d4ac6432
@@ -11,8 +13,12 @@ e4428e8c,KapCave,Blank,Beer,https://kapcave.nachie.com/api/v1/catalog/image/4c98
 51160638,KapCave,Blank,PurpleSky,https://kapcave.nachie.com/api/v1/catalog/image/18214a80-b6d8-4385-b59a-cb760ba17d6e
 7bbb1083,KapCave,Blank,Psychedelic Orange,https://kapcave.nachie.com/api/v1/catalog/image/f9de31db-90bb-4d69-8ea4-29571ebb5309
 4992c07b,KapCave,Blank,Black Currant,https://kapcave.nachie.com/api/v1/catalog/image/e8685a03-ee18-4fba-8708-a4f22e1ef52c
-e2c5befd,KapCave,Blank,This ones Legal,https://kapcave.nachie.com/api/v1/catalog/image/d70a0669-6dd0-452f-a232-bfef461f4cb3
-913ca71c,KapCave,Blank,Easter Egg,https://kapcave.nachie.com/api/v1/catalog/image/10351469-804c-4cc0-b384-d96360cc9aeb
+8ef7c69e,KapCave,Blank'topus,ChickenLittle,https://kapcave.nachie.com/api/v1/catalog/image/1cf5262a-786e-43f8-8a13-32a44b82a74a
+133ebf5c,KapCave,Blank'topus,Mango Candy,https://kapcave.nachie.com/api/v1/catalog/image/216fbc62-0a8d-4e54-8643-bc7ab8456d16
+74a7eb0b,KapCave,Blank'topus,L0VEnder,https://kapcave.nachie.com/api/v1/catalog/image/da3f431f-91ab-4775-96f1-0c619b949b25
+e8326ba6,KapCave,Blank'topus,Fiery Red,https://kapcave.nachie.com/api/v1/catalog/image/30d7f620-e266-40cb-95a2-82eca5c06738
+bb00e127,KapCave,Blank'topus,Black Steel,https://kapcave.nachie.com/api/v1/catalog/image/31c2932d-0619-416d-98df-e9b50f0dcd6d
+f86470d5,KapCave,Blank'topus,Easter Egg - Pink,https://kapcave.nachie.com/api/v1/catalog/image/12583579-1355-42f9-8e28-f7a4096675a0
 3d768be1,KapCave,Blank'topus,Matcha Strawberry,https://kapcave.nachie.com/api/v1/catalog/image/b65e1406-80b5-4279-b7b0-5c3e8421ae1a
 ae49f8da,KapCave,Blank'topus,Vaporwave,https://kapcave.nachie.com/api/v1/catalog/image/ba257ef7-9955-43b5-951f-6e123ff19020
 18434030,KapCave,Blank'topus,Dull Party,https://kapcave.nachie.com/api/v1/catalog/image/bf191807-8ff6-41b7-857b-69a4719ef7f6
@@ -37,12 +43,8 @@ ac2d1f02,KapCave,Blank'topus,Cyprus,https://kapcave.nachie.com/api/v1/catalog/im
 528da99c,KapCave,Blank'topus,Lithium Molybdenum,https://kapcave.nachie.com/api/v1/catalog/image/23370914-5e5f-4d8e-9a05-7cc4b7827e7b
 48a14827,KapCave,Blank'topus,Golden Chilli,https://kapcave.nachie.com/api/v1/catalog/image/d43dca8b-fbd2-4c2e-b724-0eedff437942
 984f5cfe,KapCave,Blank'topus,Easter Egg - Golden,https://kapcave.nachie.com/api/v1/catalog/image/606803f5-f47b-46f5-bdf0-6ad8a56f7b6a
-8ef7c69e,KapCave,Blank'topus,ChickenLittle,https://kapcave.nachie.com/api/v1/catalog/image/1cf5262a-786e-43f8-8a13-32a44b82a74a
-133ebf5c,KapCave,Blank'topus,Mango Candy,https://kapcave.nachie.com/api/v1/catalog/image/216fbc62-0a8d-4e54-8643-bc7ab8456d16
-74a7eb0b,KapCave,Blank'topus,L0VEnder,https://kapcave.nachie.com/api/v1/catalog/image/da3f431f-91ab-4775-96f1-0c619b949b25
-e8326ba6,KapCave,Blank'topus,Fiery Red,https://kapcave.nachie.com/api/v1/catalog/image/30d7f620-e266-40cb-95a2-82eca5c06738
-bb00e127,KapCave,Blank'topus,Black Steel,https://kapcave.nachie.com/api/v1/catalog/image/31c2932d-0619-416d-98df-e9b50f0dcd6d
-f86470d5,KapCave,Blank'topus,Easter Egg - Pink,https://kapcave.nachie.com/api/v1/catalog/image/12583579-1355-42f9-8e28-f7a4096675a0
+9362b8d4,KapCave,CrimsonWeave,PurpleScarlets,https://kapcave.nachie.com/api/v1/catalog/image/dd7bc189-2f9a-442e-ba68-856494184660
+a8ba1fab,KapCave,CrimsonWeave,CopperWater,https://kapcave.nachie.com/api/v1/catalog/image/c60e5770-8ced-4824-a1d3-0413cc771576
 17df7684,KapCave,CrimsonWeave,ForgottenTreasure,https://kapcave.nachie.com/api/v1/catalog/image/78f03e6f-12ca-4a5a-b415-968364296115
 656bea4d,KapCave,CrimsonWeave,Easter Egg - Orange,https://kapcave.nachie.com/api/v1/catalog/image/e5f2ffa0-630d-49f9-b7ce-8120717b6e50
 c9054534,KapCave,CrimsonWeave,Moonlight,https://kapcave.nachie.com/api/v1/catalog/image/1fe92233-2163-4a8b-833e-debbb3c9290d
@@ -68,8 +70,6 @@ f3785e1a,KapCave,CrimsonWeave,Easter Egg - Pink,https://kapcave.nachie.com/api/v
 e2ad3c42,KapCave,CrimsonWeave,LoveIsInTheAir,https://kapcave.nachie.com/api/v1/catalog/image/bf35480c-c52c-4fd0-b81e-16c16cc0452d
 a1a02e04,KapCave,CrimsonWeave,ForeverYoung,https://kapcave.nachie.com/api/v1/catalog/image/44a04330-6d9e-4fa2-92f0-572d56cc3d5e
 27f87f54,KapCave,CrimsonWeave,Easter Egg - Yellow,https://kapcave.nachie.com/api/v1/catalog/image/9aaef516-e62a-4666-9040-9cece25f2a8e
-9362b8d4,KapCave,CrimsonWeave,PurpleScarlets,https://kapcave.nachie.com/api/v1/catalog/image/dd7bc189-2f9a-442e-ba68-856494184660
-a8ba1fab,KapCave,CrimsonWeave,CopperWater,https://kapcave.nachie.com/api/v1/catalog/image/c60e5770-8ced-4824-a1d3-0413cc771576
 51cbba0,KapCave,Mr.Wuf!,Dark Room,https://kapcave.nachie.com/api/v1/catalog/image/8b62295a-4243-407c-bc4f-5b9f00fa4675
 1a14046d,KapCave,Mr.Wuf!,Westeria,https://kapcave.nachie.com/api/v1/catalog/image/da77a317-9720-49e9-9909-cee9d8f15a77
 ec486b92,KapCave,Mr.Wuf!,ChocoLemon,https://kapcave.nachie.com/api/v1/catalog/image/19ce60c9-a414-4159-abd3-f38e69f9c8de
@@ -77,6 +77,7 @@ ec486b92,KapCave,Mr.Wuf!,ChocoLemon,https://kapcave.nachie.com/api/v1/catalog/im
 e36d5bb3,KapCave,Mrs.Wuf!,Dark Room,https://kapcave.nachie.com/api/v1/catalog/image/3ce7b5ed-56ff-4f0b-b389-df72c065c19c
 b9a2fa6a,KapCave,Mrs.Wuf!,ChocoLemon,https://kapcave.nachie.com/api/v1/catalog/image/d93f9da7-e7ef-4f51-9b34-a8f54bf7b869
 d759c9c9,KapCave,Mrs.Wuf!,Westeria,https://kapcave.nachie.com/api/v1/catalog/image/093b024d-1bb3-41df-b0f6-80e15222bd0c
+1aa69a72,KapCave,NerdChick,Easter Egg - Blue,https://kapcave.nachie.com/api/v1/catalog/image/89a5b1c1-4094-4d3e-8339-72aa0c93b240
 c4ab0dad,KapCave,NerdChick,LoveIsGrey,https://kapcave.nachie.com/api/v1/catalog/image/d56dc86f-0d96-492b-b7e2-57b4d1374c74
 722eda21,KapCave,NerdChick,ChickenLittle,https://kapcave.nachie.com/api/v1/catalog/image/9aa23fae-12d5-466e-9973-fb3c6ae296c1
 5590e8ba,KapCave,NerdChick,Easter Egg - Pink,https://kapcave.nachie.com/api/v1/catalog/image/4c095423-ed18-4753-9a16-29c7e9463032
@@ -88,7 +89,10 @@ ab0f1c48,KapCave,NerdChick,Cluck,https://kapcave.nachie.com/api/v1/catalog/image
 2d5192f4,KapCave,NerdChick,Easter Egg - Purple,https://kapcave.nachie.com/api/v1/catalog/image/5a654c6d-304c-43e8-bf7e-79db3ab933ad
 357b8140,KapCave,NerdChick,Easter Egg - Yellow,https://kapcave.nachie.com/api/v1/catalog/image/55c8ddac-39b1-464e-b46f-35aad6b21684
 4c8c857c,KapCave,NerdChick,OGYellow,https://kapcave.nachie.com/api/v1/catalog/image/debe7c6f-e7ac-4a83-a7f1-9618649e55ca
-1aa69a72,KapCave,NerdChick,Easter Egg - Blue,https://kapcave.nachie.com/api/v1/catalog/image/89a5b1c1-4094-4d3e-8339-72aa0c93b240
+323cc799,KapCave,ScarFace,PastelParty,https://kapcave.nachie.com/api/v1/catalog/image/b98a1d43-e704-410a-a837-848b9b715bf8
+5b4b5572,KapCave,ScarFace,ResilientHope,https://kapcave.nachie.com/api/v1/catalog/image/a09c6b41-00df-40d5-b686-ac09d1762525
+d660c405,KapCave,ScarFace,Cyprus,https://kapcave.nachie.com/api/v1/catalog/image/c0b8d664-e300-420b-a2e3-a6ea04e4f95e
+b3709cfc,KapCave,ScarFace,Easter Egg - Pink,https://kapcave.nachie.com/api/v1/catalog/image/57672889-7bd7-4277-86a5-40a3af1b212d
 31bfe183,KapCave,ScarFace,Pearl,https://kapcave.nachie.com/api/v1/catalog/image/ed763d06-263b-4c1b-8fa0-77f584e37163
 c4903555,KapCave,ScarFace,Easter Egg - Orange,https://kapcave.nachie.com/api/v1/catalog/image/8d773ea8-ac21-46c8-9809-1bc9222feb34
 b3f81224,KapCave,ScarFace,LoveIsInTheAir,https://kapcave.nachie.com/api/v1/catalog/image/89c084e0-2f29-443e-9518-6d392bb657fa
@@ -107,20 +111,16 @@ ca8d1d04,KapCave,ScarFace,ForgottenTreasure,https://kapcave.nachie.com/api/v1/ca
 91f9852f,KapCave,ScarFace,ChocoWaffle,https://kapcave.nachie.com/api/v1/catalog/image/fc3eb44d-332d-4f79-9926-32bc32356a2d
 46a5880f,KapCave,ScarFace,SparklingBlue,https://kapcave.nachie.com/api/v1/catalog/image/0308fe8b-8c05-42d4-8d5c-3121f2126e29
 2adc3d1b,KapCave,ScarFace,Easter Egg - Yellow,https://kapcave.nachie.com/api/v1/catalog/image/7e63138d-0aff-477b-99c8-884c2e733929
-323cc799,KapCave,ScarFace,PastelParty,https://kapcave.nachie.com/api/v1/catalog/image/b98a1d43-e704-410a-a837-848b9b715bf8
-5b4b5572,KapCave,ScarFace,ResilientHope,https://kapcave.nachie.com/api/v1/catalog/image/a09c6b41-00df-40d5-b686-ac09d1762525
-d660c405,KapCave,ScarFace,Cyprus,https://kapcave.nachie.com/api/v1/catalog/image/c0b8d664-e300-420b-a2e3-a6ea04e4f95e
-b3709cfc,KapCave,ScarFace,Easter Egg - Pink,https://kapcave.nachie.com/api/v1/catalog/image/57672889-7bd7-4277-86a5-40a3af1b212d
 f61c3105,KapCave,Skul'topus,Prototype,https://kapcave.nachie.com/api/v1/catalog/image/79ebaa36-cbd3-4ff7-8062-b704b5f6f29e
 294ed106,KapCave,SpringFlower Blank,PurpYellow,https://kapcave.nachie.com/api/v1/catalog/image/dab1b793-c976-42c4-b017-b0c95694b170
 fe4402b2,KapCave,SpringFlower Blank,Clear,https://kapcave.nachie.com/api/v1/catalog/image/1aadc055-e934-4942-874d-7cfd672fc3b9
 2df30270,KapCave,SpringFlower Blank,CyanYellow,https://kapcave.nachie.com/api/v1/catalog/image/ea31f605-7525-4f94-811c-8aa8a72d7365
 475be1b0,KapCave,SpringFlower Blank,Frozen Violets,https://kapcave.nachie.com/api/v1/catalog/image/0a7b9afa-7697-4b1d-b601-a4f41b0fcd32
 6853eb0e,KapCave,SpringFlower Blank,Pink,https://kapcave.nachie.com/api/v1/catalog/image/1d79a442-d761-45db-b355-b85e142e0cd0
+14fb303f,KapCave,StacheBoi,HerbiWhor,https://kapcave.nachie.com/api/v1/catalog/image/4a3c26ce-d6e4-4bfc-aaf7-d1aa390992a3
 8e9cbe,KapCave,StacheBoi,Vaporwave,https://kapcave.nachie.com/api/v1/catalog/image/e5fcdeb8-361f-4154-8f4f-c58286fc4dad
 29460474,KapCave,StacheBoi,Black Currant,https://kapcave.nachie.com/api/v1/catalog/image/5a17927c-cd87-4adc-86df-e7def6b423fd
 4c20ca67,KapCave,StacheBoi,CreamBrulee,https://kapcave.nachie.com/api/v1/catalog/image/ea83da43-6a08-40da-9501-bbca7c0f2941
 3536346c,KapCave,StacheBoi,Black Steel,https://kapcave.nachie.com/api/v1/catalog/image/cbcc4a10-affa-4853-8304-cb9b170d3d86
 56afd5f1,KapCave,StacheBoi,Is it 420 Yet,https://kapcave.nachie.com/api/v1/catalog/image/4ad57715-6624-4b32-8fee-8e2db1a3909f
 e77f74f8,KapCave,StacheBoi,FrozenFace,https://kapcave.nachie.com/api/v1/catalog/image/fdbf0a9e-b450-4e20-adfc-c6eb76ab846e
-14fb303f,KapCave,StacheBoi,HerbiWhor,https://kapcave.nachie.com/api/v1/catalog/image/4a3c26ce-d6e4-4bfc-aaf7-d1aa390992a3
