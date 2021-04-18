@@ -51,7 +51,10 @@ async function downloadImage(imgObj) {
 }
 
 function getCurrentImages() {
-  return execSync('aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1')
+  return execSync(
+    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
+    { maxBuffer: 2000 * 1024 },
+  )
     .toString()
     .split('\n')
     .map((x) => {
@@ -69,6 +72,7 @@ function getCurrentImages() {
 function getCurrentResizedImages() {
   return execSync(
     'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/250/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
+    { maxBuffer: 2000 * 1024 },
   )
     .toString()
     .split('\n')
@@ -166,4 +170,6 @@ async function main() {
   console.info('Execution time (hr): %ds %dms', end[0], end[1] / 1000000);
 }
 
-main();
+main().catch((e) => {
+  throw e;
+});
