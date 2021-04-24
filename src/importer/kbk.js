@@ -6,6 +6,7 @@ const scrap = scrapFrom(
   {
     name: 'KBK-KWK',
     website: 'https://geekhack.org/index.php?topic=55490.0',
+    instagram: 'https://www.instagram.com/hipsterpunks/',
   },
   ['pop'],
 );
