@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 95
-- Sculpts : 1094
-- Colorways : 26028
+- Artists : 96
+- Sculpts : 1098
+- Colorways : 26052
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -101,6 +101,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | d2df83d9 | Nubbinator | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U) |
 | 8874564c | Obscura | [link](https://docs.google.com/document/d/1nhTGlHevXa6adT_nUrr8aSwt0MevlqlRA3K4_AAr7nE) |
 | 500aa195 | Phage Caps | [link](https://docs.google.com/document/d/1m7S6LaNaAg7vfZP9Bt23EYX7v3boC3TpTaqF0gBsEaM) |
+| afdb1ce2 | Picaps | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
 | a73f210e | PrimeCaps | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
 | 8dac3435 | ProjectKey | [link](https://docs.google.com/document/d/1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE) |
