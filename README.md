@@ -100,7 +100,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
 | d2df83d9 | Nubbinator | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U) |
 | 8874564c | Obscura | [link](https://docs.google.com/document/d/1nhTGlHevXa6adT_nUrr8aSwt0MevlqlRA3K4_AAr7nE) |
-| 67d79d1e | okeydokey | [link](https://docs.google.com/document/d/1_khNYhY3YlyeRK9Tok3qDQ-FJU-lBittK0fsNiLbWhI) |
+| f2587127 | okeydokey studio | [link](https://docs.google.com/document/d/1_khNYhY3YlyeRK9Tok3qDQ-FJU-lBittK0fsNiLbWhI) |
 | 500aa195 | Phage Caps | [link](https://docs.google.com/document/d/1m7S6LaNaAg7vfZP9Bt23EYX7v3boC3TpTaqF0gBsEaM) |
 | afdb1ce2 | Picaps | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
