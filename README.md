@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 99
-- Sculpts : 1114
-- Colorways : 26315
+- Artists : 100
+- Sculpts : 1117
+- Colorways : 26329
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -43,6 +43,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 634ef7c | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
 | b6cb880b | Bad and Booj Keys | [link](https://docs.google.com/document/d/15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM) |
 | 32a182c4 | Bad Habit Caps | [link](https://docs.google.com/document/d/1MUoyBLW1slC819V1IdDa2eAV5adU2IHGa5YjmFY5w88) |
+| 6b6b943f | Bhomass Caps | [link](https://docs.google.com/document/d/1N8RgbXu7BVt1uXa38uyJMMQJ5FzqxgmvqktNpp9MA_Y) |
 | 85b28a01 | Binirias | [link](https://docs.google.com/document/d/11EAZ-nVLgIKuRXEXQDQ1SJotvq871jPLMo9HlS3eAZg) |
 | 6175f0c7 | Black Mage Caps | [link](https://docs.google.com/document/d/1uIATE-QeIMq_kZnXi_EVfZZoHpM3dmc2woBekYV4L2A) |
 | 4fa3abe3 | BladeMX | [link](https://docs.google.com/document/d/1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k) |
