@@ -65,4 +65,6 @@ jobs:
           git commit -am "[skip-ci] Database Synchronization"
           git push
           node src/discord-update-revision.js
-
+      - name: Sync db in S3
+        run: |
+          aws s3 sync ./db/catalog.json s3://cdn.keycap-archivist.com/db/catalog.json --storage-class REDUCED_REDUNDANCY --acl public-read --no-progress
