@@ -22,32 +22,26 @@ if (!fs.existsSync(path.join(SAVE_PATH, '250'))) {
 }
 
 async function downloadImage(imgObj) {
-  return axios({
+  const r = await axios({
     method: 'GET',
     url: imgObj.src,
-    responseType: 'stream',
-  })
-    .then((r) => {
-      const ct = r.headers['content-type'];
-      let extension;
-      switch (ct) {
-        case 'image/jpeg':
-          extension = 'jpg';
-          break;
-        // ugly workaround but it works
-        case 'image/png':
-          extension = 'jpg';
-          break;
-        default:
-          extension = 'jpg';
-          break;
-      }
-      r.data.pipe(fs.createWriteStream(path.join(SAVE_PATH, `${imgObj.id}.${extension}`)));
-    })
-    .catch((e) => {
-      console.log(`ERROR: ${imgObj.id} ${imgObj.src}`);
-      console.log(e);
-    });
+    responseType: 'arraybuffer',
+  });
+  const ct = r.headers['content-type'];
+  let extension;
+  switch (ct) {
+    case 'image/jpeg':
+      extension = 'jpg';
+      break;
+    // ugly workaround but it works
+    case 'image/png':
+      extension = 'jpg';
+      break;
+    default:
+      extension = 'jpg';
+      break;
+  }
+  fs.writeFileSync(path.join(SAVE_PATH, `${imgObj.id}.${extension}`), r.data);
 }
 
 function getCurrentImages() {
