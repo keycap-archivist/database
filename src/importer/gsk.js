@@ -7,7 +7,7 @@ const scrap = scrapFrom(
     name: 'Goldenstar Keycap',
     instagram: 'https://www.instagram.com/goldenstar_keycap/',
     website: 'https://goldenstarkeycaps.com/',
-    discord: 'https://discord.com/invite/JcpnAjw',
+    discord: 'https://discord.gg/csFVHscVGG',
   },
   ['shift'],
 );
