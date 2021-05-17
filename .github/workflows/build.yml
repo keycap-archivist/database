@@ -50,7 +50,7 @@ jobs:
       - name: Update images in s3
         run: |
           yarn sync:img
-          aws s3 sync ./SAVE_IMG/ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl public-read --no-progress
+          aws s3 sync ./SAVE_IMG/ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl private --no-progress
       - name: Commit Database update
         if: steps.dbgen.outputs.DIRTY == '1'
         env:
@@ -67,4 +67,4 @@ jobs:
           node src/discord-update-revision.js
       - name: Sync db in S3
         run: |
-          aws s3 cp ./db/catalog.json s3://cdn.keycap-archivist.com/db/catalog.json --storage-class REDUCED_REDUNDANCY --acl public-read --no-progress
+          aws s3 cp ./db/catalog.json s3://cdn.keycap-archivist.com/db/catalog.json --storage-class REDUCED_REDUNDANCY --acl private --no-progress
