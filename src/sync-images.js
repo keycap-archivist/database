@@ -24,6 +24,7 @@ if (!fs.existsSync(path.join(SAVE_PATH, '250'))) {
 async function downloadImage(imgObj) {
   if (fs.existsSync(path.join(SAVE_PATH, `${imgObj.id}.jpg`))) {
     console.log(`${imgObj.id}.jpg already exists. Skipping downloading`);
+    return;
   }
   console.log(`download ${imgObj.src}`);
   const r = await axios({
