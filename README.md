@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 104
-- Sculpts : 1153
-- Colorways : 26826
+- Artists : 105
+- Sculpts : 1170
+- Colorways : 27006
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -69,6 +69,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 2230f9b3 | Doohickeys | [link](https://docs.google.com/document/d/16IlT-1jACqQYUyyEz15-XWG684vyM73z8zM_ABx_UMs) |
 | 685c2588 | Dreadkeys | [link](https://docs.google.com/document/d/1tzm7_NLV5XdM2tuM2naiZhDjMMygstN2XneBU_GWbeY) |
 | 1eb1d13a | DustyCaps | [link](https://docs.google.com/document/d/1EZstC5O7OMdsCMMzs-YbV3Y5pooytHrHpLWaULr3pEI) |
+| 3e9cabfa | Dwarf Factory | [link](https://docs.google.com/document/d/13sG3yOqu-7AFkHRcSulp_Iwm0N4g9SOKwSi0vWxx2yA) |
 | bac9503f | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
 | 8d20284c | Frumpzkeys | [link](https://docs.google.com/document/d/15arZPVtJHvLxrF20l_Oc-cZCwZrwtMI_SyiD2KDsvWg) |
 | 6829387 | Girlycaps Studios | [link](https://docs.google.com/document/d/1cDD3aNsQXHJfyskP8906BUwfc1_4H_JJTtZ9akhQkOc) |
