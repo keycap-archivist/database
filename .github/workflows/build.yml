@@ -47,9 +47,11 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-2
-      - name: Update images in s3
+      - name: Prepare sync image
         run: |
           yarn sync:img
+      - name: Sync images in S3
+        run: |
           aws s3 sync ./SAVE_IMG/ s3://cdn.keycap-archivist.com/keycaps/ --storage-class REDUCED_REDUNDANCY --acl private --no-progress
       - name: Commit Database update
         if: steps.dbgen.outputs.DIRTY == '1'

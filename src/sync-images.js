@@ -22,6 +22,10 @@ if (!fs.existsSync(path.join(SAVE_PATH, '250'))) {
 }
 
 async function downloadImage(imgObj) {
+  if (fs.existsSync(path.join(SAVE_PATH, `${imgObj.id}.jpg`))) {
+    console.log(`${imgObj.id}.jpg already exists. Skipping downloading`);
+  }
+  console.log(`download ${imgObj.src}`);
   const r = await axios({
     method: 'GET',
     url: imgObj.src,
@@ -42,6 +46,7 @@ async function downloadImage(imgObj) {
       break;
   }
   fs.writeFileSync(path.join(SAVE_PATH, `${imgObj.id}.${extension}`), r.data);
+  console.log(`written ${imgObj.src}`);
 }
 
 function getCurrentImages() {
@@ -98,14 +103,6 @@ async function resizeImages(imgs, currentImages) {
     });
     const srcImgs = await fs.promises.readdir(SAVE_PATH);
     for (const file of srcImgs.filter((x) => x !== '250' && x !== '720')) {
-      // await resize(path.join(SAVE_PATH, file))
-      //   .then((d) => {
-      //     fs.writeFileSync(path.join(resizedPath, `${file.split('.')[0]}.jpg`), d);
-      //   })
-      //   .catch(() => {
-      //     console.log(`Unable to resize ${file}`);
-      //     fs.copyFileSync(path.join(SAVE_PATH, file), path.join(resizedPath, `${file.split('.')[0]}.jpg`));
-      //   });
       await resize(path.join(SAVE_PATH, file), 'thumb')
         .then((d) => {
           fs.writeFileSync(path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`), d);
@@ -127,7 +124,7 @@ async function resizeImages(imgs, currentImages) {
 }
 
 async function main() {
-  const pool = new PromisePool({ numConcurrent: 6 });
+  const pool = new PromisePool({ numConcurrent: 3 });
   const imgs = {};
   const start = process.hrtime();
   console.log('Read Db');
@@ -139,8 +136,8 @@ async function main() {
     });
   });
   const listCurrentImages = getCurrentImages();
-  console.log('listCurrentImages');
-  console.log(listCurrentImages);
+  // console.log('listCurrentImages');
+  // console.log(listCurrentImages);
   const items = Object.keys(imgs).length;
   console.log(`${items} images`);
   const newImages = [];
