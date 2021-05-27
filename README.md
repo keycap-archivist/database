@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 106
-- Sculpts : 1177
-- Colorways : 27216
+- Artists : 108
+- Sculpts : 1181
+- Colorways : 27228
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -48,6 +48,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 6175f0c7 | Black Mage Caps | [link](https://docs.google.com/document/d/1uIATE-QeIMq_kZnXi_EVfZZoHpM3dmc2woBekYV4L2A) |
 | 4fa3abe3 | BladeMX | [link](https://docs.google.com/document/d/1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k) |
 | ff8ad9cd | Bludgeoned Kaps | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8) |
+| 4d74b92e | Bogwitch Brie | [link](https://docs.google.com/document/d/106B5I-IfI1pZex401MHj6c_e7MPUSPyplQsvUOPxmO4) |
 | 84748ce6 | BoomSnap Caps | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ) |
 | 3c63e8bf | Booper-Omniclectic | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk) |
 | dc6c280a | Bowbie | [link](https://docs.google.com/document/d/1CyKhBbny0xMHcbHtdFQC_P0nrczYOpYdz3KV6ujdPnc) |
@@ -113,6 +114,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
 | a73f210e | PrimeCaps | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
 | 8dac3435 | ProjectKey | [link](https://docs.google.com/document/d/1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE) |
+| 55851cb5 | Psycho Keycaps | [link](https://docs.google.com/document/d/1V0lB6MTcTkSoClOEakYI57sAI6xOThP9diEwCCQLR1c) |
 | c6e4a02a | RADcaps | [link](https://docs.google.com/document/d/1KINOK9cUUA28pSGnHc8ZI-RM36o12ADojXp7ZeNdTh4) |
 | e0a4bf52 | Rathcaps | [link](https://docs.google.com/document/d/1mX-wUILSjmOGULIju5SKD3zKn7VE9hLl2BHgZZPTnG0) |
 | d7421e66 | Rejeck Kaps | [link](https://docs.google.com/document/d/10EGmT_ifrjOuqFENtfrxfWljiR8etxHdmyU-gLAhfQw) |
