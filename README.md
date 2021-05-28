@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 108
-- Sculpts : 1181
-- Colorways : 27257
+- Artists : 109
+- Sculpts : 1184
+- Colorways : 27286
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -106,6 +106,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
 | d2df83d9 | Nubbinator | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U) |
+| 2f6b5457 | Object.Garage | [link](https://docs.google.com/document/d/1RWKUmcfE9XYslR5GDldajorjTxCqBVM0UE7wBxeB6G4) |
 | 8874564c | Obscura | [link](https://docs.google.com/document/d/1nhTGlHevXa6adT_nUrr8aSwt0MevlqlRA3K4_AAr7nE) |
 | f086fafc | Ochre + Moss | [link](https://docs.google.com/document/d/1r3HhhDyLTnLJrDb5kpCazx_-j7SwOk9GHl9G-zek-N0) |
 | a205ce0a | okeydokey studio | [link](https://docs.google.com/document/d/1_khNYhY3YlyeRK9Tok3qDQ-FJU-lBittK0fsNiLbWhI) |
