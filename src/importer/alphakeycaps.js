@@ -11,6 +11,7 @@ const catalogsName = [
   'alpha-ape',
   'cherep',
   'salvador',
+  'albison',
   'mr-worldwide',
 ];
 const BASE_URL = 'https://alphakeycaps.com/';
