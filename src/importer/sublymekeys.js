@@ -4,7 +4,7 @@ const { launcher } = require('../utils');
 const scrap = scrapFrom(
   '1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI',
   {
-    name: 'Sublyme Key’s',
+    name: 'Sublyme Keys',
     instagram: 'https://www.instagram.com/sublyme_keys/',
   }
 );
