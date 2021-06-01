@@ -6,7 +6,7 @@ Database currently contains:
 
 - Artists : 111
 - Sculpts : 1192
-- Colorways : 27368
+- Colorways : 27369
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -131,7 +131,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | a31490c1 | Slime Scholar | [link](https://docs.google.com/document/d/14jF0ewtoj5S2GPXkGrfppH3zu0Dd2Y8aZnJ_nP1kPuw) |
 | 34fb9c1f | Sludgekidd | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0) |
 | 834a1ae7 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
-| 35c3e521 | Sublyme Key’s | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
+| 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
 | 366c9651 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
 | ede9ca7c | Sway Caps | [link](https://docs.google.com/document/d/1tRhoMKBVZuBxE9UAynqtBNrm__OEjQnOF07NIUamQtE) |
 | 4e4eda29 | Tech. Stoned. Amish. | [link](https://docs.google.com/document/d/1CzwP-Zj8cLVvMdQRJqDFL_kiZOaOHAcgp3F0owh4-nY) |
