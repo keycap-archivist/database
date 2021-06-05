@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 111
-- Sculpts : 1195
-- Colorways : 27470
+- Artists : 112
+- Sculpts : 1199
+- Colorways : 27481
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -103,6 +103,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 3b7e4de6 | Mad Labs Keycaps | [link](https://docs.google.com/document/d/176oXSO83YXhYkVDBpoanyiroWaqXq7SmOY8OQfO6bfY) |
 | ea0b31fa | Mastonon.kaps | [link](https://docs.google.com/document/d/1XwH1785exI1NCfr3M-ZtkcTxDe4fICVP0Tmbvg00HXQ) |
 | f79138dd | MelonKeys | [link](https://docs.google.com/document/d/1ceCQ48nyCfZ2u0jnzgnvVW0nuxd01a0QS48cx_TVh-U) |
+| e0a04a0c | meof | [link](https://docs.google.com/document/d/1Gb0HeMF0jE8wfN6sUJEsVRcWjC88VmWJQnABIKEv28o) |
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
 | d2df83d9 | Nubbinator | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U) |
