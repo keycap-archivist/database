@@ -7,7 +7,13 @@ function formatReport(report) {
   out.push('');
   out.push('**CATALOG UPDATE**');
   for (const r of report) {
-    out.push(`- [${r.catalog}](https://keycap-archivist.com/maker/${slugify(r.catalog, { replacement: '-', remove: /[#,.:?()'"/]/g, lower: true }).toLowerCase()}) :`);
+    out.push(
+      `- [${r.catalog}](https://keycap-archivist.com/maker/${slugify(r.catalog, {
+        replacement: '-',
+        remove: /[#,.:?()'"/]/g,
+        lower: true,
+      }).toLowerCase()}) :`,
+    );
     if (r.addition) {
       out.push(`    - ${r.addition} addition(s)`);
     }
@@ -53,26 +59,15 @@ async function main() {
 
   console.log(formattedReport);
   await axios.post(process.env.DISCORD_HOOK, {
-    content: {
-        "embeds": [{
-          "description": `${formattedReport}`
-        }]
+    content: null,
+    embeds: [
+      {
+        title: 'Database Update',
+        description: `${formattedReport}`,
+        color: 5814783,
       },
+    ],
   });
-  // await axios
-  //   .post(
-  //     'https://api.github.com/repos/keycap-archivist/website/dispatches',
-  //     { event_type: 'poll-db' },
-  //     {
-  //       headers: {
-  //         Authorization: `token ${process.env.GH_REPO_TOKEN}`,
-  //       },
-  //     },
-  //   )
-  //   .catch((e) => {
-  //     console.log('Unable to send data dispatch');
-  //     console.log(e);
-  //   });
 }
 
 main();
