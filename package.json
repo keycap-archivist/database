@@ -23,6 +23,7 @@
   "dependencies": {
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
+    "slugify": "^1.5.3",
     "axios": "^0.20.0",
     "crc": "^3.8.0",
     "csv-stringify": "^5.5.1",
