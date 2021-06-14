@@ -1,12 +1,13 @@
 const axios = require('axios');
 const { execSync } = require('child_process');
+const slugify = require('slugify');
 
 function formatReport(report) {
   const out = [];
   out.push('');
   out.push('**CATALOG UPDATE**');
   for (const r of report) {
-    out.push(`- ${r.catalog} :`);
+    out.push(`- [${r.catalog}](https://keycap-archivist.com/maker/${slugify(r.catalog, { replacement: '-', remove: /[#,.:?()'"/]/g, lower: true }).toLowerCase()}) :`);
     if (r.addition) {
       out.push(`    - ${r.addition} addition(s)`);
     }
@@ -52,7 +53,11 @@ async function main() {
 
   console.log(formattedReport);
   await axios.post(process.env.DISCORD_HOOK, {
-    content: formattedReport,
+    content: {
+        "embeds": [{
+          "description": `${formattedReport}`
+        }]
+      },
   });
   // await axios
   //   .post(
