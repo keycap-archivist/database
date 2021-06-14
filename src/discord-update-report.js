@@ -6,7 +6,7 @@ function formatReport(report) {
   out.push('');
   out.push('**CATALOG UPDATE**');
   for (const r of report) {
-    out.push(`- ${r.catalog} :`);
+    out.push(`- [${r.catalog}](https://keycap-archivist.com/maker/${r.catalog.toLowerCase().replace(/\s+/g, "-")}) :`);
     if (r.addition) {
       out.push(`    - ${r.addition} addition(s)`);
     }
@@ -52,7 +52,11 @@ async function main() {
 
   console.log(formattedReport);
   await axios.post(process.env.DISCORD_HOOK, {
-    content: formattedReport,
+    content: {
+        "embeds": [{
+          "description": `${formattedReport}`
+        }]
+      },
   });
   // await axios
   //   .post(
