@@ -1,5 +1,6 @@
 id,artist,sculpt,name,img
 69a509d7,KapCave,Blank,Baby,https://kapcave.nachie.com/api/v1/catalog/image/4596c362-fa41-49bc-8723-20aa72d3fa70
+357904a,KapCave,Blank,Baby,https://kapcave.nachie.com/api/v1/catalog/image/e4d81993-fbef-4634-a7e7-b3114b508caf
 e4428e8c,KapCave,Blank,Beer,https://kapcave.nachie.com/api/v1/catalog/image/4c98eec7-934a-4089-83bd-03ed2cc10d3c
 4992c07b,KapCave,Blank,Black Currant,https://kapcave.nachie.com/api/v1/catalog/image/e8685a03-ee18-4fba-8708-a4f22e1ef52c
 5c32b0e0,KapCave,Blank,CreamBrulee,https://kapcave.nachie.com/api/v1/catalog/image/46c2035c-7b75-4525-bbf9-2f88e793f684
@@ -9,6 +10,7 @@ e4428e8c,KapCave,Blank,Beer,https://kapcave.nachie.com/api/v1/catalog/image/4c98
 47c1952c,KapCave,Blank,IG-1K,https://kapcave.nachie.com/api/v1/catalog/image/bb9813f7-8150-469d-9b8d-34f9c7cb9a24
 d6e930d2,KapCave,Blank,Lazurite,https://kapcave.nachie.com/api/v1/catalog/image/7611ac70-4d50-46ad-94d4-a5eb3551bc75
 7e3a6ace,KapCave,Blank,Mango Candy,https://kapcave.nachie.com/api/v1/catalog/image/7465c731-f9a2-415d-b3cf-c9617cb7b4fa
+cd71a465,KapCave,Blank,Matsumoto,https://kapcave.nachie.com/api/v1/catalog/image/6f068afc-7801-4f39-bc4a-b4a05bb4c4d7
 386c03af,KapCave,Blank,No-Face,https://kapcave.nachie.com/api/v1/catalog/image/0fdc1cb6-bd3c-4260-bf95-22d4fde56575
 1198450d,KapCave,Blank,Phoenix Fire,https://kapcave.nachie.com/api/v1/catalog/image/515cb662-909b-4235-942d-11506799d358
 7bbb1083,KapCave,Blank,Psychedelic Orange,https://kapcave.nachie.com/api/v1/catalog/image/f9de31db-90bb-4d69-8ea4-29571ebb5309
@@ -19,7 +21,7 @@ e2c5befd,KapCave,Blank,This ones Legal,https://kapcave.nachie.com/api/v1/catalog
 c855e987,KapCave,Blank,VaporWave I,https://kapcave.nachie.com/api/v1/catalog/image/200bd8ab-d17a-48b9-b32f-8097d4ac6432
 1da52512,KapCave,Blank,Variance,https://kapcave.nachie.com/api/v1/catalog/image/245c10fa-66b4-49f7-9f71-18263dba2c37
 82b97e8f,KapCave,Blank'topus,AquaStar,https://kapcave.nachie.com/api/v1/catalog/image/a8c4cce4-38d6-4c55-8e32-9689299bdb92
-979b52db,KapCave,Blank'topus,Baby,https://kapcave.nachie.com/api/v1/catalog/image/ace039f4-d074-4e82-b37b-8adbe9f8033a
+6455da25,KapCave,Blank'topus,Baby,https://kapcave.nachie.com/api/v1/catalog/image/44f62df5-1eb6-451b-b22a-8374eec4c8f8
 befeeb03,KapCave,Blank'topus,Black Currant,https://kapcave.nachie.com/api/v1/catalog/image/6bf803e7-9f66-40d0-95f2-1acdac20ac29
 bb00e127,KapCave,Blank'topus,Black Steel,https://kapcave.nachie.com/api/v1/catalog/image/31c2932d-0619-416d-98df-e9b50f0dcd6d
 8a1a6d7d,KapCave,Blank'topus,Carboniem,https://kapcave.nachie.com/api/v1/catalog/image/b71d51c3-9d60-483d-ba2c-f5d0144335b9
@@ -45,6 +47,7 @@ b2870c06,KapCave,Blank'topus,IG-1K,https://kapcave.nachie.com/api/v1/catalog/ima
 528da99c,KapCave,Blank'topus,Lithium Molybdenum,https://kapcave.nachie.com/api/v1/catalog/image/23370914-5e5f-4d8e-9a05-7cc4b7827e7b
 133ebf5c,KapCave,Blank'topus,Mango Candy,https://kapcave.nachie.com/api/v1/catalog/image/216fbc62-0a8d-4e54-8643-bc7ab8456d16
 a64b89dd,KapCave,Blank'topus,Matcha Strawberry,https://kapcave.nachie.com/api/v1/catalog/image/9632807e-92e4-459f-8b2d-0ac8241c84f9
+1c008ab6,KapCave,Blank'topus,Matsumoto,https://kapcave.nachie.com/api/v1/catalog/image/dc466228-4e3f-47fa-a20e-ffdbe61c3c8e
 1d47384,KapCave,Blank'topus,Night Light,https://kapcave.nachie.com/api/v1/catalog/image/50d10de1-1e8c-437a-ba53-645ab2dfd5af
 ed44edb3,KapCave,Blank'topus,No-Face,https://kapcave.nachie.com/api/v1/catalog/image/8247db5d-0a0c-4fa0-b3a0-ff3629f35a0f
 9572c080,KapCave,Blank'topus,Pastel,https://kapcave.nachie.com/api/v1/catalog/image/317a5644-5b5e-4d8d-a83a-94ed5675d9f8
@@ -89,7 +92,9 @@ e37b1059,KapCave,CrimsonWeave,RoyalViolets,https://kapcave.nachie.com/api/v1/cat
 259727cd,KapCave,CrimsonWeave,Sora,https://kapcave.nachie.com/api/v1/catalog/image/f1fb0d23-cc6c-475c-ac81-ad4a36751fba
 41c53c01,KapCave,CrimsonWeave,VaporWave I,https://kapcave.nachie.com/api/v1/catalog/image/72209292-cec2-45c7-b5ad-d3ecd53e38e8
 c26aa179,KapCave,CrimsonWeave,Variance,https://kapcave.nachie.com/api/v1/catalog/image/424e3e76-f816-4764-ba4c-df2894653094
-5246d228,KapCave,CrimsonWeave v2,Baby,https://kapcave.nachie.com/api/v1/catalog/image/0d64f4c0-16c2-4af0-8538-8d22f55fc5d6
+8a0a6bd,KapCave,CrimsonWeave v2,Baby,https://kapcave.nachie.com/api/v1/catalog/image/a526853d-388f-49d5-841b-4d4f15281194
+97769b2a,KapCave,CrimsonWeave v2,Matsumoto,https://kapcave.nachie.com/api/v1/catalog/image/ce8658ef-66a6-490a-82b6-013adca0a7b4
+d29d799f,KapCave,CrimsonWeave v2,White Summer,https://kapcave.nachie.com/api/v1/catalog/image/3ef885c8-5a22-42d0-b92f-21c80198c726
 e3124722,KapCave,GanjaBlank,FourTwenty,https://kapcave.nachie.com/api/v1/catalog/image/e54da717-6f10-45aa-b730-62c8a4ccf889
 82d39218,KapCave,GanjaBlank,Is it 420 Yet,https://kapcave.nachie.com/api/v1/catalog/image/0fea9a0c-df43-430b-a6f3-16b309a91f0f
 ec486b92,KapCave,Mr.Wuf!,ChocoLemon,https://kapcave.nachie.com/api/v1/catalog/image/19ce60c9-a414-4159-abd3-f38e69f9c8de
@@ -119,7 +124,7 @@ b4a3e0b2,KapCave,NerdChick,Sora,https://kapcave.nachie.com/api/v1/catalog/image/
 6af719c,KapCave,NerdChick,Tribal Leader,https://kapcave.nachie.com/api/v1/catalog/image/d599816a-aab4-4b22-83c7-454a6e6deb90
 52456170,KapCave,NerdChick,VaporWave I,https://kapcave.nachie.com/api/v1/catalog/image/81c62639-ec7f-4d4a-bb92-6e1e87bd50b7
 2920e29,KapCave,NerdChick,Variance,https://kapcave.nachie.com/api/v1/catalog/image/cdbfea17-6b4e-41b5-8157-02163d883bfe
-f469f4c3,KapCave,ScarFace,Baby,https://kapcave.nachie.com/api/v1/catalog/image/990cfc73-e293-48ac-934a-b1b436cbdd8d
+f2dced30,KapCave,ScarFace,Baby,https://kapcave.nachie.com/api/v1/catalog/image/cccb5125-6421-4303-b041-2665862fed3f
 5776cda4,KapCave,ScarFace,ChickenLittle,https://kapcave.nachie.com/api/v1/catalog/image/fe3860f7-172e-4151-96d9-99756e7353cd
 91f9852f,KapCave,ScarFace,ChocoWaffle,https://kapcave.nachie.com/api/v1/catalog/image/fc3eb44d-332d-4f79-9926-32bc32356a2d
 71d518cf,KapCave,ScarFace,CopperWater,https://kapcave.nachie.com/api/v1/catalog/image/8146345a-8252-4d33-8e3f-0b62a85a510e
@@ -137,6 +142,7 @@ d00ee9a,KapCave,ScarFace,Encore,https://kapcave.nachie.com/api/v1/catalog/image/
 ca8d1d04,KapCave,ScarFace,ForgottenTreasure,https://kapcave.nachie.com/api/v1/catalog/image/82f329d2-f234-4b12-a12e-54e14379cd58
 1bf4599d,KapCave,ScarFace,IG-1K,https://kapcave.nachie.com/api/v1/catalog/image/8a61cf8c-ad68-40b3-9002-e6cc22b262ea
 b3f81224,KapCave,ScarFace,LoveIsInTheAir,https://kapcave.nachie.com/api/v1/catalog/image/89c084e0-2f29-443e-9518-6d392bb657fa
+b04ee667,KapCave,ScarFace,Matsumoto,https://kapcave.nachie.com/api/v1/catalog/image/e6d2923e-0a95-48fe-b2cc-5236e0bc43f4
 8e42ea41,KapCave,ScarFace,Moonlight,https://kapcave.nachie.com/api/v1/catalog/image/0db88f55-6466-4a96-88d5-2d60e045adc6
 1c25a747,KapCave,ScarFace,No-Face,https://kapcave.nachie.com/api/v1/catalog/image/8891b5d1-81d0-4acf-8599-54e3d9cca6d7
 323cc799,KapCave,ScarFace,PastelParty,https://kapcave.nachie.com/api/v1/catalog/image/b98a1d43-e704-410a-a837-848b9b715bf8
@@ -148,6 +154,7 @@ b3f81224,KapCave,ScarFace,LoveIsInTheAir,https://kapcave.nachie.com/api/v1/catal
 46a5880f,KapCave,ScarFace,SparklingBlue,https://kapcave.nachie.com/api/v1/catalog/image/0308fe8b-8c05-42d4-8d5c-3121f2126e29
 9427d622,KapCave,ScarFace,VaporWave I,https://kapcave.nachie.com/api/v1/catalog/image/2852df0f-f02c-4f3c-8d90-cff70804e0d7
 f43e0544,KapCave,ScarFace,Variance,https://kapcave.nachie.com/api/v1/catalog/image/1b04006e-47c3-49e0-abdf-7d5fb6bc86fc
+6efa7b55,KapCave,ScarFace,White Summer,https://kapcave.nachie.com/api/v1/catalog/image/3f2da2ae-6c3d-47f6-b0a5-c99cf017f5d6
 e8a87266,KapCave,Skul'topus,FourTwenty,https://kapcave.nachie.com/api/v1/catalog/image/13d1d6f7-cf4a-4bda-a739-bac7caae6c2b
 34d49b7d,KapCave,Skul'topus,No-Face,https://kapcave.nachie.com/api/v1/catalog/image/39264095-21ed-4d27-a8fd-8096d314faf3
 f61c3105,KapCave,Skul'topus,Prototype,https://kapcave.nachie.com/api/v1/catalog/image/79ebaa36-cbd3-4ff7-8062-b704b5f6f29e
