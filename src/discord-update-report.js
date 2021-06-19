@@ -7,8 +7,10 @@ function formatReport(report) {
   out.push('');
   out.push('**CATALOG UPDATE**');
   for (const r of report) {
+    var data = require(`${(r.catalog, { replacement: '-', remove: /[#,.:?()'"/]/g, lower: true }).toLowerCase()}.json`)
+    
     out.push(
-      `- [${r.catalog}](https://keycap-archivist.com/maker/${slugify(r.catalog, {
+      `- [${r.catalog}](https://keycap-archivist.com/maker/${slugify(JSON.stringify(data.name, {
         replacement: '-',
         remove: /[#,.:?()'"/]/g,
         lower: true,
