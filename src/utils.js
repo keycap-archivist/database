@@ -159,8 +159,13 @@ function sortBy(list, attr) {
   });
 }
 
-async function resize(filepath, type = 'full') {
-  const buff = await readFile(filepath);
+async function resize(filepath, type = 'full', _buffer) {
+  let buff;
+  if (_buffer) {
+    buff = _buffer;
+  } else {
+    buff = await readFile(filepath);
+  }
   const s = sharp(buff);
   const options = { withoutEnlargement: true, fit: sharp.fit.inside };
 

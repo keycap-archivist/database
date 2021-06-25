@@ -1,5 +1,6 @@
 /* eslint-disable no-loop-func */
 const fs = require('fs');
+const { readFile } = require('fs/promises');
 const { execSync } = require('child_process');
 const path = require('path');
 const PromisePool = require('@mixmaxhq/promise-pool');
@@ -95,32 +96,40 @@ function arrayDifference(currentImages, resizedImages) {
 async function resizeImages(imgs, currentImages) {
   const resized = getCurrentResizedImages();
   const toResize = arrayDifference(currentImages, resized);
-  console.log('Images to resize');
-  console.log(toResize);
+  console.log(`${toResize.length}Images to resize`);
+  let idx = 0;
   for (const id of toResize) {
+    idx += 1;
     const img = imgs[id];
     await downloadImage(img).catch((e) => {
       console.log(e);
     });
-    const srcImgs = await fs.promises.readdir(SAVE_PATH);
-    for (const file of srcImgs.filter((x) => x !== '250' && x !== '720')) {
-      await resize(path.join(SAVE_PATH, file), 'thumb')
-        .then((d) => {
-          fs.writeFileSync(path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`), d);
-        })
-        .catch(() => {
-          console.log(`Unable to resize ${file}`);
-          fs.copyFileSync(path.join(SAVE_PATH, file), path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`));
-        });
-      await resize(path.join(SAVE_PATH, file), 'full')
-        .then((d) => {
-          fs.writeFileSync(path.join(SAVE_PATH, '720', `${file.split('.')[0]}.jpg`), d);
-        })
-        .catch(() => {
-          console.log(`Unable to resize ${file}`);
-          fs.copyFileSync(path.join(SAVE_PATH, file), path.join(SAVE_PATH, '720', `${file.split('.')[0]}.jpg`));
-        });
-    }
+    console.log(`${idx}/${toResize.length}`);
+  }
+  console.log('Downloaded all the files to resize');
+  const srcImgs = await fs.promises.readdir(SAVE_PATH);
+  const imgsInSave = srcImgs.filter((x) => x !== '250' && x !== '720');
+  idx = 0;
+  for (const file of imgsInSave) {
+    idx += 1;
+    const buff = await readFile(path.join(SAVE_PATH, file));
+    await resize(path.join(SAVE_PATH, file), 'thumb', buff)
+      .then((d) => {
+        fs.writeFileSync(path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`), d);
+      })
+      .catch(() => {
+        console.log(`Unable to resize ${file}`);
+        fs.copyFileSync(path.join(SAVE_PATH, file), path.join(SAVE_PATH, '250', `${file.split('.')[0]}.jpg`));
+      });
+    await resize(path.join(SAVE_PATH, file), 'full', buff)
+      .then((d) => {
+        fs.writeFileSync(path.join(SAVE_PATH, '720', `${file.split('.')[0]}.jpg`), d);
+      })
+      .catch(() => {
+        console.log(`Unable to resize ${file}`);
+        fs.copyFileSync(path.join(SAVE_PATH, file), path.join(SAVE_PATH, '720', `${file.split('.')[0]}.jpg`));
+      });
+    console.log(`Resize: ${idx}/${imgsInSave.length}`);
   }
 }
 
@@ -137,8 +146,6 @@ async function main() {
     });
   });
   const listCurrentImages = getCurrentImages();
-  // console.log('listCurrentImages');
-  // console.log(listCurrentImages);
   const items = Object.keys(imgs).length;
   console.log(`${items} images`);
   const newImages = [];
