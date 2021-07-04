@@ -4,8 +4,6 @@ const slugify = require('slugify');
 
 function formatReport(report) {
   const out = [];
-  out.push('');
-  out.push('**CATALOG UPDATE**');
   for (const r of report) {
     out.push(
       `- [${r.catalog}](https://keycap-archivist.com/maker/${slugify(r.catalog, {
@@ -15,13 +13,12 @@ function formatReport(report) {
       }).toLowerCase()}) :`,
     );
     if (r.addition) {
-      out.push(`    - ${r.addition} addition(s)`);
+      out.push(`\`    \`- ${r.addition} addition${r.addition > 1 ? 's' : ''}`);
     }
     if (r.deletion) {
-      out.push(`    - ${r.deletion} deletion(s)`);
+      out.push(`\`    \`- ${r.deletion} deletion${r.deletion > 1 ? 's' : ''}`);
     }
   }
-  out.push('');
   return out.join('\n');
 }
 
@@ -45,8 +42,8 @@ async function main() {
       continue;
     }
     report.push({
-      addition: result[0],
-      deletion: result[1],
+      addition: parseInt(result[0], 10),
+      deletion: parseInt(result[1], 10),
       catalog: formatCatalogName(result[2]),
     });
   }
