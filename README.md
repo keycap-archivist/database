@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 118
-- Sculpts : 1239
-- Colorways : 28321
+- Artists : 119
+- Sculpts : 1242
+- Colorways : 28335
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -77,6 +77,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 68cdf6dc | EzKeys | [link](https://docs.google.com/document/d/1NGfIh3aAU5CwE425oshmoUBEjs11In1j7pVUHrov8Vs) |
 | bac9503f | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
 | 8d20284c | Frumpzkeys | [link](https://docs.google.com/document/d/15arZPVtJHvLxrF20l_Oc-cZCwZrwtMI_SyiD2KDsvWg) |
+| 23634907 | Gaia’s Creature | [link](https://docs.google.com/document/d/1EJ8IodjlMPG-TtmKwTZuCvIQYO9uuD_phTnMiNqjh4s) |
 | 6829387 | Girlycaps Studios | [link](https://docs.google.com/document/d/1cDD3aNsQXHJfyskP8906BUwfc1_4H_JJTtZ9akhQkOc) |
 | 321e47e3 | Glyco Caps | [link](https://docs.google.com/document/d/1SOtOKEBn8oUXnECK0_9-sJ5YBh6BijlbKB6CZsNEBbc) |
 | f52fa070 | Goldenstar Keycap | [link](https://docs.google.com/document/d/1rCP_Nn_PQeMiqsFlJ2_8TvFHFPsTpq90-QPgDBo7H40) |
