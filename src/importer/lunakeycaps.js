@@ -12,4 +12,4 @@ launcher(scrap);
 
 module.exports = {
   scrap,
-};s
+};
