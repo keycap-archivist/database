@@ -1,0 +1,30 @@
+name: Database Lint
+
+on:
+  pull_request:
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.BOT_PAT }}
+      - id: nodeversion
+        run: echo ::set-output name=NODE::$(cat .nvmrc)
+      - name: restore Cache
+        uses: actions/cache@master
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+      - name: Use Node.js ${{steps.nodeversion.outputs.NODE}}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.nodeversion.outputs.NODE }}
+      - name: install
+        run: |
+          yarn
+      - name: lint
+        run: |
+          yarn lint

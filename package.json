@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint --ext .js ./src",
+    "lint:fix": "eslint --ext .js ./src --fix",
     "gen": "cp db/catalog.json catalog_old.json && rm db/catalog.json && node src/generate.js",
     "sync:img": "node src/sync-images.js",
     "validate": "node src/validate.js",
