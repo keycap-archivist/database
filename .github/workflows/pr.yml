@@ -28,3 +28,6 @@ jobs:
       - name: lint
         run: |
           yarn lint
+      - name: Test generation
+        run: |
+          node src/generate.js test
