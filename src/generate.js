@@ -40,7 +40,7 @@ async function moduleScrap(catalog, moduleName, isTest = false) {
 
   if (isTest) {
     if (moduleCatalog.hasError) {
-      throw new Error(`${moduleCatalog.name} failed`);
+      throw new Error(`${moduleCatalog.name} failed. ${moduleCatalog.error}`);
     }
     return;
   }
