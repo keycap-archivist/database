@@ -60,7 +60,8 @@ jobs:
           GH_REPO_TOKEN: ${{ secrets.REPO_SCOPE }}
         run: |
           echo "Need to update the DB"
-          git config --global user.name 'Database Bot'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           node src/discord-update-report.js
           git add db/
           git status
