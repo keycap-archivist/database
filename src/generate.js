@@ -34,9 +34,16 @@ function flatten(catalog) {
   return { full: arr, artist: outArtist };
 }
 
-async function moduleScrap(catalog, moduleName) {
+async function moduleScrap(catalog, moduleName, isTest = false) {
   const m = require(moduleName);
   const moduleCatalog = await m.scrap();
+
+  if (isTest) {
+    if (moduleCatalog.hasError) {
+      throw new Error(`${moduleCatalog.name} failed. ${moduleCatalog.error}`);
+    }
+    return;
+  }
   const formattedName = `${moduleCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`;
   const destFile = path.join(DEST, formattedName);
   if (moduleCatalog.hasError !== true) {
@@ -54,6 +61,7 @@ function report(catalog) {
   let colorwayCount = 0;
   let sculptCount = 0;
   const srcTab = [];
+  console.log('');
   console.log('Artisan DB Generation');
   console.log('---------------------');
   console.log('');
@@ -82,14 +90,14 @@ function report(catalog) {
   fs.writeFileSync(path.join(__dirname, '..', 'README.md'), tpl);
 }
 
-async function main() {
+async function generate(isTest = false) {
   let catalog = [];
   const pool = new PromisePool({ numConcurrent: 3 });
   const scraps = fs.readdirSync(importerPath);
   for (const s of scraps) {
     await pool.start(
       async (cat, filename) => {
-        await moduleScrap(cat, path.join(importerPath, filename));
+        await moduleScrap(cat, path.join(importerPath, filename), isTest);
       },
       catalog,
       s,
@@ -101,6 +109,11 @@ async function main() {
     console.log('ERRORS:');
     console.log(errors);
     throw new Error('Error during DB generation');
+  }
+  // Just Testing the generation
+  // no need to got further
+  if (isTest) {
+    return;
   }
   catalog = catalog.sort((a, b) => {
     const textA = a.name.toUpperCase();
@@ -119,12 +132,16 @@ async function main() {
   report(catalog);
 }
 
-main()
-  .then(() => {
-    console.log('Generation finished');
-  })
-  .catch((e) => {
-    console.log('An error has occured');
-    console.error(e);
-    process.exit(1);
-  });
+if (require.main === module) {
+  const args = process.argv.slice(2);
+  const isTest = !!(args.length && args[0] === 'test');
+  generate(isTest)
+    .then(() => {
+      console.log('Generation finished');
+    })
+    .catch((e) => {
+      console.log('An error has occured');
+      console.error(e);
+      process.exit(1);
+    });
+}
