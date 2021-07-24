@@ -29,5 +29,7 @@ jobs:
         run: |
           yarn lint
       - name: Test generation
+        env:
+          G_API_KEY: ${{ secrets.G_API_KEY }}
         run: |
           node src/generate.js test
