@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.BOT_PAT }}
       - id: nodeversion
         run: echo ::set-output name=NODE::$(cat .nvmrc)
       - name: restore Cache
