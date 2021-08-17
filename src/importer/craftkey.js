@@ -7,6 +7,7 @@ const scrap = scrapFrom(
     name: 'Craftkey',
     instagram: 'https://www.instagram.com/craftkey/',
     website: 'https://www.craftkeyartisan.com/',
+    discord: 'https://discord.gg/GsQ8xj37MS',
   },
   ['pop'],
 );
