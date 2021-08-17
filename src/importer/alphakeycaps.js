@@ -19,15 +19,15 @@ const catalogs = {
 
 const BASE_URL = 'https://alphakeycaps.com/';
 
-async function CatalogParse(catName) {
-  const html = await axios.get(`${BASE_URL}${catName}`).then((res) => res.data);
+async function CatalogParse(catId) {
+  const html = await axios.get(`${BASE_URL}${catId}`).then((res) => res.data);
   const root = htmlparser.parse(html);
   const colorways = root.querySelectorAll('.intrinsic').map((e) => {
     const name = e.querySelector('.image-caption').querySelector('p').querySelector('strong').childNodes[0].rawText;
     const rawImg = e.querySelector('.thumb-image').rawAttrs;
     const m = /data-src="(.*?)"/.exec(rawImg);
     const imgsrc = m[1];
-    const re = new RegExp(catName.replace('-', ' '), 'gi');
+    const re = new RegExp(catId.replace('-', ' '), 'gi');
     return { name: name.replace(re, '').trim(), img: imgsrc, id: genId(imgsrc) };
   });
   return colorways;
