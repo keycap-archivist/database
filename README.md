@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 130
-- Sculpts : 1423
-- Colorways : 30548
+- Artists : 131
+- Sculpts : 1426
+- Colorways : 30627
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -117,6 +117,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | e0a04a0c | meof | [link](https://docs.google.com/document/d/1Gb0HeMF0jE8wfN6sUJEsVRcWjC88VmWJQnABIKEv28o) |
 | e57c41a | Miniworld | [link](https://docs.google.com/document/d/1K2IP5lV4-6PLuJcFLhpR-gJAqHhxY7baxZSG2DaSPvo) |
 | 69a18319 | Miroticaps | [link](https://docs.google.com/document/d/1tu1aiEHLDCMX3E7nv8ikNl60o-xv4fFdar8krU6Cstc) |
+| b71e0cd0 | Monstera Keycaps | [link](https://docs.google.com/document/d/1BVfiGhTs-8dCm2u_KpAxKGALy9X7CT94rDljgyFl0uE) |
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
 | de6ddfab | Nork | [link](https://docs.google.com/document/d/192BiqrPFiOag5NmKTmkAVl9jak0toBjxAOQO8coyO_M) |
