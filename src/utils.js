@@ -72,7 +72,13 @@ function gDriveParse(catalog, tabs) {
       // In case of bad formats
       try {
         sculptName = element.querySelector('span').childNodes[0].rawText;
-        const regDate = new RegExp(/\(([a-zA-Z ]*\d{4})\)/, 'gim');
+
+        /**
+         * Support date formats
+         * DD MMM YYYY, MMM YYYY, YYYY
+         * DD MMMM YYYY, MMMM YYYY, YYYY
+         */
+        const regDate = new RegExp(/\(((\d{2})*[a-zA-Z ]*\d{4})\)/, 'gim');
         // Look for the release arg in all the spans in the title table
         const s = element.querySelectorAll('span').find((x) => regDate.test(x.rawText));
         if (s) {
