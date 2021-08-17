@@ -3,17 +3,20 @@ const axios = require('axios');
 const { launcher } = require('../utils');
 const { genId, sortBy } = require('../utils');
 
-const catalogsName = [
-  'keypora',
-  'jedi-blinker',
-  'blinker',
-  'matapora',
-  'alpha-ape',
-  'cherep',
-  'salvador',
-  'albison',
-  'mr-worldwide',
-];
+const catalogs = {
+  'mf-belooga': 'MF Belooga',
+  keypora: 'Keypora',
+  'jedi-blinker': 'Jedi Blinker',
+  blinker: 'Blinker',
+  matapora: 'Matapora',
+  'alpha-ape': 'Alpha Ape',
+  cherep: 'Cherep',
+  salvador: 'Salvador',
+  albison: 'Albison',
+  'mr-worldwide': 'Mr Worldwide',
+  'boosted-gamer-set': 'Boosted Gamer Set',
+};
+
 const BASE_URL = 'https://alphakeycaps.com/';
 
 async function CatalogParse(catName) {
@@ -30,11 +33,11 @@ async function CatalogParse(catName) {
   return colorways;
 }
 
-async function GenSculpt(catname, sculptsArray) {
+async function GenSculpt([catId, catName], sculptsArray) {
   const s = {
-    name: catname.replace('-', ' '),
-    id: genId(`alpha-keycaps-${catname}`),
-    colorways: await CatalogParse(catname),
+    name: catName,
+    id: genId(`alpha-keycaps-${catId}`),
+    colorways: await CatalogParse(catId),
   };
   sculptsArray.push(s);
 }
@@ -51,8 +54,8 @@ async function scrap() {
       denySubmission: true,
       sculpts: [],
     };
-    for (const c of catalogsName) {
-      await GenSculpt(c, catalog.sculpts);
+    for (const cat of Object.entries(catalogs)) {
+      await GenSculpt(cat, catalog.sculpts);
     }
     catalog.sculpts = sortBy(catalog.sculpts, 'name');
     return catalog;
