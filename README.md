@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 134
-- Sculpts : 1450
-- Colorways : 31015
+- Sculpts : 1446
+- Colorways : 30988
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -57,7 +57,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 40217679 | BrewCaps | [link](https://docs.google.com/document/d/1ibnukzm73aRIkBm83OhmPsT6wdyA1GH3MRQ6FPBkOSA) |
 | 6b8946c4 | Bro Caps | [link](https://docs.google.com/document/d/1SLiSnTXJXR6X5jT5VnmAe4e3K2yFgZosxBUY1kQQKwo) |
 | 384b501d | C.Y.O Keycaps | [link](https://docs.google.com/document/d/1Rhig59IdZh5IZ3JP3R_FjZncRxo2M5tfPiUyxJBuLq8) |
-| 7893764b | Captomaniacs | [link](https://docs.google.com/document/d/1yy-k0dvNLQtG9syt3gXHEhVLzuDD7nFSmsai7SSpm94) |
+| 7893764b | Captomaniacs | [link](https://docs.google.com/document/d/14VMtz60UJoIfm-Lq66lqJjpwwofk4ZlREq4JKSMEFPo) |
 | 746e9d1 | Clack Factory | [link](https://docs.google.com/document/d/1C9I7PaXFtpNzI8Zb_6ZTjHLMrQ8ERyWn_IvMD8mVoq0) |
 | 155af2e6 | Coconut Keycaps | [link](https://docs.google.com/document/d/1lx648GXchw4ZpctFtirPx_teQcpcgVWuy83W32JY4KU) |
 | 84c8facf | CozCaps | [link](https://docs.google.com/document/d/14EBfRe0AxEbCok856_HrL6teQAlkeQL3kpa3z8lenTc) |
