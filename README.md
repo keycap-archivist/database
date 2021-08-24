@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 134
-- Sculpts : 1446
-- Colorways : 31022
+- Artists : 135
+- Sculpts : 1448
+- Colorways : 31047
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -103,6 +103,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 5137e37f | KeyKollectiv | [link](https://docs.google.com/document/d/18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws) |
 | dbf82e90 | KeyLabs Keycaps | [link](https://docs.google.com/document/d/1-VofkRGFmgtlq7R8986aXr8kdMYw9gsT59cjhEgn8D8) |
 | 785e721c | Keyzen | [link](https://docs.google.com/document/d/1YljdTx25HavIPtY4ZFNWT1eULVTbCS-i1bUYjEVjwU4) |
+| 29a8f167 | Klaykaps | [link](https://docs.google.com/document/d/1U_Te4TY5Nxwme5CjnFMd3tGqSYXJxrkYK7c7VlkI2MU) |
 | c14e96a7 | KrakenKap | [link](https://docs.google.com/document/d/1zvIUqPg7D-vge_JzpzqmnD4lEkQgzaQCBFc10FXmasA) |
 | 9e85468d | Krap Shop | [link](https://docs.google.com/document/d/1YUGAY-ZxuFC9dCF_fXZ8tVW8T0LSN9FlLjxRTscnoVc) |
 | 4e1aff89 | LandCaps | [link](https://docs.google.com/document/d/1qDHsR0Y2U0W_pBPgtvB_i_xh09a1VVInbg3rK7al7Ug) |
