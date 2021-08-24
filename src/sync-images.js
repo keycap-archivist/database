@@ -1,7 +1,7 @@
 /* eslint-disable no-loop-func */
 const fs = require('fs');
 const { readFile } = require('fs/promises');
-const { execSync } = require('child_process');
+const { spawn } = require('child_process');
 const path = require('path');
 const PromisePool = require('@mixmaxhq/promise-pool');
 const axios = require('axios');
@@ -52,41 +52,57 @@ async function downloadImage(imgObj) {
 }
 
 function getCurrentImages() {
-  return execSync(
-    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
-    { maxBuffer: 2000 * 1024 },
-  )
-    .toString()
-    .split('\n')
-    .map((x) => {
-      const str = x.trim();
-      if (!str) {
-        return '';
-      }
-      const arr = str.split(' ');
-      if (arr.length === 1) return str;
-      return arr[arr.length - 1].split('.')[0];
-    })
-    .filter(Boolean);
+  return new Promise((res) => {
+    const cmd = spawn('aws', ['s3', 'ls', 's3://cdn.keycap-archivist.com/keycaps/']);
+    const cmdData = [];
+    cmd.stdout.on('data', (data) => {
+      cmdData.push(data.toString());
+    });
+    cmd.on('close', () => {
+      res(
+        cmdData
+          .filter(Boolean)
+          .join('')
+          .split('\n')
+          .map((x) => {
+            const re = /\b([\w\.]+)$/gm;
+            const result = x.match(re);
+            if (result && result.length !== 0) {
+              return result[0].split('.')[0];
+            }
+            return '';
+          })
+          .filter(Boolean),
+      );
+    });
+  });
 }
 
 function getCurrentResizedImages() {
-  return execSync(
-    'aws s3 ls s3://cdn.keycap-archivist.com/keycaps/250/ | grep ".jpg" | awk "{print $4}" | cut -d "." -f1',
-    { maxBuffer: 2000 * 1024 },
-  )
-    .toString()
-    .split('\n')
-    .map((x) => {
-      const str = x.trim();
-      if (!str) {
-        return '';
-      }
-      const arr = str.split(' ');
-      if (arr.length === 1) return str;
-      return arr[arr.length - 1].split('.')[0];
-    })
-    .filter(Boolean);
+  return new Promise((res) => {
+    const cmd = spawn('aws', ['s3', 'ls', 's3://cdn.keycap-archivist.com/keycaps/250/']);
+    const cmdData = [];
+    cmd.stdout.on('data', (data) => {
+      cmdData.push(data.toString());
+    });
+    cmd.on('close', () => {
+      res(
+        cmdData
+          .filter(Boolean)
+          .join('')
+          .split('\n')
+          .map((x) => {
+            const re = /\b([\w\.]+)$/gm;
+            const result = x.match(re);
+            if (result && result.length !== 0) {
+              return result[0].split('.')[0];
+            }
+            return '';
+          })
+          .filter(Boolean),
+      );
+    });
+  });
 }
 
 function arrayDifference(currentImages, resizedImages) {
@@ -94,7 +110,7 @@ function arrayDifference(currentImages, resizedImages) {
 }
 
 async function resizeImages(imgs, currentImages) {
-  const resized = getCurrentResizedImages();
+  const resized = await getCurrentResizedImages();
   const toResize = arrayDifference(currentImages, resized);
   console.log(`${toResize.length}Images to resize`);
   let idx = 0;
@@ -145,7 +161,7 @@ async function main() {
       });
     });
   });
-  const listCurrentImages = getCurrentImages();
+  const listCurrentImages = await getCurrentImages();
   const items = Object.keys(imgs).length;
   console.log(`${items} images`);
   const newImages = [];
