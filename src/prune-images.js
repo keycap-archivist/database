@@ -29,7 +29,7 @@ function getCurrentImages() {
 }
 async function promExec(cmd) {
   return new Promise((res) => {
-    exec(cmd, (err, stdout, stderr) => {
+    exec(cmd, (err, stdout) => {
       console.log(stdout);
       res(stdout);
     });
