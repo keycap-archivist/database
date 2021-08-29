@@ -15,11 +15,7 @@ function getCurrentImages() {
           .join('')
           .split('\n')
           .map((x) => {
-<<<<<<< HEAD
             const re = /\b([\w.]+)$/gm;
-=======
-            const re = /\b([\w\.]+)$/gm;
->>>>>>> a339d51 (ci: fix prune images)
             const result = x.match(re);
             if (result && result.length !== 0) {
               return result[0].split('.')[0];
@@ -31,16 +27,10 @@ function getCurrentImages() {
     });
   });
 }
-<<<<<<< HEAD
 
 async function promExec(cmd) {
   return new Promise((res) => {
     exec(cmd, (err, stdout) => {
-=======
-async function promExec(cmd) {
-  return new Promise((res) => {
-    exec(cmd, (err, stdout, stderr) => {
->>>>>>> a339d51 (ci: fix prune images)
       console.log(stdout);
       res(stdout);
     });
