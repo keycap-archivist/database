@@ -65,7 +65,7 @@ function getCurrentImages() {
           .join('')
           .split('\n')
           .map((x) => {
-            const re = /\b([\w\.]+)$/gm;
+            const re = /\b([\w.]+)$/gm;
             const result = x.match(re);
             if (result && result.length !== 0) {
               return result[0].split('.')[0];
@@ -92,7 +92,7 @@ function getCurrentResizedImages() {
           .join('')
           .split('\n')
           .map((x) => {
-            const re = /\b([\w\.]+)$/gm;
+            const re = /\b([\w.]+)$/gm;
             const result = x.match(re);
             if (result && result.length !== 0) {
               return result[0].split('.')[0];
