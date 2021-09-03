@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 138
-- Sculpts : 1466
-- Colorways : 31356
+- Artists : 140
+- Sculpts : 1472
+- Colorways : 31370
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -58,6 +58,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 6b8946c4 | Bro Caps | [link](https://docs.google.com/document/d/1SLiSnTXJXR6X5jT5VnmAe4e3K2yFgZosxBUY1kQQKwo) |
 | 384b501d | C.Y.O Keycaps | [link](https://docs.google.com/document/d/1Rhig59IdZh5IZ3JP3R_FjZncRxo2M5tfPiUyxJBuLq8) |
 | 7893764b | Captomaniacs | [link](https://docs.google.com/document/d/14VMtz60UJoIfm-Lq66lqJjpwwofk4ZlREq4JKSMEFPo) |
+| b2618556 | ChickenCap | [link](https://docs.google.com/document/d/1pkiYq1bxrHYqydM7yj9dKZPG8vC8fNBMGOrQGSyT7qQ) |
 | 746e9d1 | Clack Factory | [link](https://docs.google.com/document/d/1C9I7PaXFtpNzI8Zb_6ZTjHLMrQ8ERyWn_IvMD8mVoq0) |
 | 155af2e6 | Coconut Keycaps | [link](https://docs.google.com/document/d/1lx648GXchw4ZpctFtirPx_teQcpcgVWuy83W32JY4KU) |
 | 84c8facf | CozCaps | [link](https://docs.google.com/document/d/14EBfRe0AxEbCok856_HrL6teQAlkeQL3kpa3z8lenTc) |
@@ -69,6 +70,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | bf97de89 | DDOR Studio | [link](https://docs.google.com/document/d/1x6w725FhjkOUwu3ZMYMMtDgZg9404CdexIYKgQdBE8Y) |
 | df46082a | DeagCaps | [link](https://docs.google.com/document/d/1SsLhATHPRDOSAiywL5ktrGAuZbW9swCOd2cBGuUds3E) |
 | 6ff97cfa | Deathcaps | [link](https://docs.google.com/document/d/1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA) |
+| d9ecb1c0 | DELLA KEY | [link](https://docs.google.com/document/d/1beOD7ijqhqVV3FaWnvMF08FQ5KQGO-PENN5hohyrEm4) |
 | 3d066446 | Destroyer Caps | [link](https://docs.google.com/document/d/1Me6mlm7YPdH0v5nkCQBZrGJ555gT2RAXwLzC_g4cdIg) |
 | 95f25c5d | Dollartacos | [link](https://docs.google.com/document/d/1iAaGXFW6zqBa8lx6sKyQmKTvtiDA1zEiAM4jR4zd-Bs) |
 | 2230f9b3 | Doohickeys | [link](https://docs.google.com/document/d/16IlT-1jACqQYUyyEz15-XWG684vyM73z8zM_ABx_UMs) |
