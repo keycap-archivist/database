@@ -4,11 +4,13 @@ const PromisePool = require('@mixmaxhq/promise-pool');
 const fs = require('fs');
 const stringify = require('csv-stringify/lib/sync');
 const path = require('path');
+const { scrapFrom } = require('./scraper/gdoc');
 
 const DEST = path.resolve(path.join(__dirname, '..', 'db'));
 const DESTINATION_JSON = path.join(DEST, 'catalog.json');
 const DESTINATION_CSV = path.join(DEST, 'catalog.csv');
-const importerPath = path.resolve(path.join(__dirname, 'importer'));
+const customImporterPath = path.resolve(path.join(__dirname, 'importer', 'custom'));
+const jsonImporterPath = path.resolve(path.join(__dirname, 'importer', 'json'));
 
 function flatten(catalog) {
   const arr = [];
@@ -37,6 +39,30 @@ function flatten(catalog) {
 async function moduleScrap(catalog, moduleName, isTest = false) {
   const m = require(moduleName);
   const moduleCatalog = await m.scrap();
+
+  if (isTest) {
+    if (moduleCatalog.hasError) {
+      throw new Error(`${moduleCatalog.name} failed. ${moduleCatalog.error}`);
+    }
+    return;
+  }
+  const formattedName = `${moduleCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`;
+  const destFile = path.join(DEST, formattedName);
+  if (moduleCatalog.hasError !== true) {
+    catalog.push(moduleCatalog);
+    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog));
+  } else {
+    // using the previous version of the file
+    console.warn(`ERRORS: ${formattedName}`);
+    console.warn(moduleCatalog.error);
+    catalog.push(JSON.parse(fs.readFileSync(destFile, 'utf-8')));
+  }
+}
+
+async function jsonScrap(catalog, filename, isTest = false) {
+  const data = JSON.parse(fs.readFileSync(filename, { encoding: 'utf8' }));
+  const scrapFunc = scrapFrom(data.docId, data, data.tabsOperations);
+  const moduleCatalog = await scrapFunc();
 
   if (isTest) {
     if (moduleCatalog.hasError) {
@@ -93,11 +119,21 @@ function report(catalog) {
 async function generate(isTest = false) {
   let catalog = [];
   const pool = new PromisePool({ numConcurrent: 3 });
-  const scraps = fs.readdirSync(importerPath);
-  for (const s of scraps) {
+  const customScraps = fs.readdirSync(customImporterPath);
+  const jsonScraps = fs.readdirSync(jsonImporterPath);
+  for (const s of customScraps) {
     await pool.start(
       async (cat, filename) => {
-        await moduleScrap(cat, path.join(importerPath, filename), isTest);
+        await moduleScrap(cat, path.join(customImporterPath, filename), isTest);
+      },
+      catalog,
+      s,
+    );
+  }
+  for (const s of jsonScraps) {
+    await pool.start(
+      async (cat, filename) => {
+        await jsonScrap(cat, path.join(jsonImporterPath, filename), isTest);
       },
       catalog,
       s,
