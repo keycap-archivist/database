@@ -1,13 +1,18 @@
 const htmlparser = require('node-html-parser');
 const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
 
-function scrapFrom(gdocID, meta = {}, tabsOperations = []) {
+function scrapFrom(gdocID, pMeta = {}, tabsOperations = []) {
+  const meta = { ...pMeta };
+  delete meta.docId;
+  delete meta.tabsOperations;
+
   if (gdocID === undefined) {
     throw new Error('Missing GoogleDoc identifier');
   }
   if (meta.name === undefined) {
     throw new Error(`Missing name in metadata for "${gdocID}"`);
   }
+
   return async function scrap() {
     try {
       const index = await downloadFile(gdocID);
