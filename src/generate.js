@@ -5,36 +5,13 @@ const fs = require('fs');
 const stringify = require('csv-stringify/lib/sync');
 const path = require('path');
 const { scrapFrom } = require('./scraper/gdoc');
+const { flatten } = require('./utils');
 
 const DEST = path.resolve(path.join(__dirname, '..', 'db'));
 const DESTINATION_JSON = path.join(DEST, 'catalog.json');
 const DESTINATION_CSV = path.join(DEST, 'catalog.csv');
 const customImporterPath = path.resolve(path.join(__dirname, 'importer', 'custom'));
 const jsonImporterPath = path.resolve(path.join(__dirname, 'importer', 'json'));
-
-function flatten(catalog) {
-  const arr = [];
-  const outArtist = {};
-  for (const artist in Object.keys(catalog).sort()) {
-    const artistArr = [];
-    for (const sculpt in catalog[artist].sculpts) {
-      // eslint-disable-next-line no-loop-func
-      catalog[artist].sculpts[sculpt].colorways.forEach((s) => {
-        const out = {
-          id: s.id,
-          artist: catalog[artist].name,
-          sculpt: catalog[artist].sculpts[sculpt].name,
-          name: s.name,
-          img: s.img,
-        };
-        arr.push(out);
-        artistArr.push(out);
-      });
-      outArtist[artist] = artistArr;
-    }
-  }
-  return { full: arr, artist: outArtist };
-}
 
 async function moduleScrap(catalog, moduleName, isTest = false) {
   const m = require(moduleName);

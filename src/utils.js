@@ -193,6 +193,30 @@ async function resize(filepath, type = 'full', _buffer) {
   });
 }
 
+function flatten(catalog) {
+  const arr = [];
+  const outArtist = {};
+  for (const artist in Object.keys(catalog).sort()) {
+    const artistArr = [];
+    for (const sculpt in catalog[artist].sculpts) {
+      // eslint-disable-next-line no-loop-func
+      catalog[artist].sculpts[sculpt].colorways.forEach((s) => {
+        const out = {
+          id: s.id,
+          artist: catalog[artist].name,
+          sculpt: catalog[artist].sculpts[sculpt].name,
+          name: s.name,
+          img: s.img,
+        };
+        arr.push(out);
+        artistArr.push(out);
+      });
+      outArtist[artist] = artistArr;
+    }
+  }
+  return { full: arr, artist: outArtist };
+}
+
 module.exports = {
   downloadFile,
   gDriveParse,
@@ -203,4 +227,5 @@ module.exports = {
   sortBy,
   launcher,
   resize,
+  flatten,
 };
