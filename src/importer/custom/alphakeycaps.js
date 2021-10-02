@@ -50,6 +50,7 @@ async function scrap() {
       instagram: 'https://www.instagram.com/alphakeycaps/',
       website: 'https://alphakeycaps.com',
       discord: 'https://discord.com/invite/eBVaYwn',
+      artisanCollector: 'https://artisancollector.com/alpha-keycaps/',
       denySubmission: true,
       sculpts: [],
     };
