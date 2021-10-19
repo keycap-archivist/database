@@ -109,6 +109,13 @@ function gDriveParse(catalog, tabs) {
           img = e.querySelector('img').rawAttributes.src;
         }
         if (img !== '') {
+          // delete end argument of google image render
+          const detect = /(.*)=s\d+$/;
+          const matches = img.match(detect);
+          if (matches.length) {
+            // eslint-disable-next-line prefer-destructuring
+            img = matches[1];
+          }
           if (!catalog.sculpts[currIdx]) {
             // eslint-disable-next-line no-param-reassign
             catalog.sculpts[currIdx] = {
