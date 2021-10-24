@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 147
-- Sculpts : 1552
-- Colorways : 32925
+- Artists : 148
+- Sculpts : 1554
+- Colorways : 32933
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -70,6 +70,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | bced6bca | DCcaps | [link](https://docs.google.com/document/d/1ENp3M-HymI9LsJRloDGuo3o9s-FXHzFj6hWazGfXSEQ) |
 | bf97de89 | DDOR Studio | [link](https://docs.google.com/document/d/1x6w725FhjkOUwu3ZMYMMtDgZg9404CdexIYKgQdBE8Y) |
 | df46082a | DeagCaps | [link](https://docs.google.com/document/d/1SsLhATHPRDOSAiywL5ktrGAuZbW9swCOd2cBGuUds3E) |
+| 97279208 | Death Dealer | [link](https://docs.google.com/document/d/1ffA0_Y8zC68So3XPeoP41JsAC2M68RSRfNAxzaFdslY) |
 | 6ff97cfa | Deathcaps | [link](https://docs.google.com/document/d/1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA) |
 | d9ecb1c0 | DELLA KEY | [link](https://docs.google.com/document/d/1beOD7ijqhqVV3FaWnvMF08FQ5KQGO-PENN5hohyrEm4) |
 | 3d066446 | Destroyer Caps | [link](https://docs.google.com/document/d/1Me6mlm7YPdH0v5nkCQBZrGJ555gT2RAXwLzC_g4cdIg) |
