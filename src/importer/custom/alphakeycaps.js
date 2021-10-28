@@ -3,6 +3,7 @@ const axios = require('axios');
 const { genId, sortBy, launcher } = require('../../utils');
 
 const catalogs = {
+  'darth-looga': 'Darth Looga',
   'mf-belooga': 'MF Belooga',
   keypora: 'Keypora',
   'jedi-blinker': 'Jedi Blinker',
