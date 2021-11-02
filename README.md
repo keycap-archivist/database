@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 149
-- Sculpts : 1581
-- Colorways : 33312
+- Artists : 150
+- Sculpts : 1589
+- Colorways : 33401
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -141,6 +141,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | f086fafc | Ochre + Moss | [link](https://docs.google.com/document/d/1r3HhhDyLTnLJrDb5kpCazx_-j7SwOk9GHl9G-zek-N0) |
 | a205ce0a | okeydokey studio | [link](https://docs.google.com/document/d/1_khNYhY3YlyeRK9Tok3qDQ-FJU-lBittK0fsNiLbWhI) |
 | 500aa195 | Phage Caps | [link](https://docs.google.com/document/d/1m7S6LaNaAg7vfZP9Bt23EYX7v3boC3TpTaqF0gBsEaM) |
+| 869ac01f | PhangKey | [link](https://docs.google.com/document/d/1awYbT9shWhsI6wnpXVUozJxwQjFbiYXhTNNPQOCeAvE) |
 | afdb1ce2 | Picaps | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
 | e2792284 | Plastic Drug Dealer | [link](https://docs.google.com/document/d/1dHvxJWBcyuM4mrPUu3Hinqn-Ue1au9INzfljCa_Ue7I) |
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
