@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 151
-- Sculpts : 1593
-- Colorways : 33433
+- Artists : 152
+- Sculpts : 1598
+- Colorways : 33483
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -129,6 +129,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 69a18319 | Miroticaps | [link](https://docs.google.com/document/d/1tu1aiEHLDCMX3E7nv8ikNl60o-xv4fFdar8krU6Cstc) |
 | b71e0cd0 | Monstera Keycaps | [link](https://docs.google.com/document/d/1BVfiGhTs-8dCm2u_KpAxKGALy9X7CT94rDljgyFl0uE) |
 | 1bbabce6 | MOZIcaps | [link](https://docs.google.com/document/d/1fq6yWk8Gsye4U5M1Fr7SWqTrBMBOx88855RhkUvC10k) |
+| fee4aab | MUBAI | [link](https://docs.google.com/document/d/1xWL_Y12WVbijqpWek8dIYPAAoHns6YBb3OPrYBZNryY) |
 | 610d23fa | Myth Caps | [link](https://docs.google.com/document/d/1-CkxK7KHUIy9gzJkguA36eC463cBHkNeGfgLa40BKVE) |
 | 82ad8553 | Namong | [link](https://docs.google.com/document/d/1vqBrU8VL6Mf6dmRRETjvo5d23HCQuwBQsG1m7w9ClmA) |
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
