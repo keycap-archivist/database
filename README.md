@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 153
-- Sculpts : 1602
-- Colorways : 33581
+- Artists : 154
+- Sculpts : 1608
+- Colorways : 33619
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -104,6 +104,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 6513dfae | KapCave | [link](https://kapcave.nachie.com/api/v1/catalog/list) |
 | cdd91103 | Kaphaus | [link](https://docs.google.com/document/d/1QXedbahyT1FndM9QdxZ8HC0RshpbyCvChTuQTY688lE) |
 | e4eb5c37 | Kapsule Lab | [link](https://docs.google.com/document/d/1aY15g26g_KGpSfBv5XPPeXPFnP9Lq9xgJUlF3IVsm_c) |
+| 357a2610 | KB Keycraft | [link](https://docs.google.com/document/d/12mZSYQV5qtEyRFm-ojm3Bu6B1bX-pePAxoyz-5cE-v8) |
 | 8cb07a8b | KBK-KWK | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8) |
 | f2a7d69d | Keycat | [link](https://docs.google.com/document/d/1VNVGf02zR9t3QBYXbxV9SqJFuilQBpKxWHTj0iWrX3w) |
 | 7b28db24 | KeyCravings | [link](https://docs.google.com/document/d/1QjFV7yp4Ez8k51qPo2fx_2sXVH9l7SdbI3_sy_E7R_o) |
