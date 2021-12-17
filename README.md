@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 161
-- Sculpts : 1663
-- Colorways : 34551
+- Artists : 162
+- Sculpts : 1665
+- Colorways : 34560
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -191,6 +191,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | e2285960 | Win Keys | [link](https://docs.google.com/document/d/1RKX9sVYGkGQKnfGjaLeiFuYwA5zbi5UYfdwSYxHK90w) |
 | 15c2097d | YoungsterHarris | [link](https://docs.google.com/document/d/1OB-qI-3izrbmWZG08Qi-ihNaCRRB_qmvivs0KCEWpAk) |
 | 3bc74ac3 | Yu.Keys | [link](https://docs.google.com/document/d/1OENdni0rgtO6J2cYKqD1ccrubulXDn-bCHt26TG4nHU) |
+| 225e11c2 | ZellKey | [link](https://docs.google.com/document/d/1SS3g7HabIxQhRCb9_dEKRBWkXF24XyeELFtlf09hOdQ) |
 | 6848aaa0 | Zero Keycaps | [link](https://docs.google.com/document/d/1pJjELN0W1faMi0kcwyrc9do4XwXorlruZfDVMh9Av3Q) |
 | ff972406 | Zorbcaps | [link](https://docs.google.com/document/d/1_wtEVliorr29dTkO7NHHBkM3fu80V_rU6eJKMVwd8qQ) |
 | ce8a8e22 | Zy.cap | [link](https://docs.google.com/document/d/1iFu8FhwjqIJSrweEA9ziazm0eD5rz3k3NgMtzIHzNw0) |
