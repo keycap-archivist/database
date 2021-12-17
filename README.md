@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 162
-- Sculpts : 1665
-- Colorways : 34560
+- Artists : 163
+- Sculpts : 1670
+- Colorways : 34637
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -42,6 +42,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 944a9285 | ARKEYS | [link](https://docs.google.com/document/d/1q__LoSd2vlzY95KKp0TStW2bA3XBPvKZcOQPrKprQh0) |
 | 67588eb5 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
 | 9adb7126 | AX Studio | [link](https://docs.google.com/document/d/10pezHskqq5EVPEKb2fkm2e8gFrch-rWtXB3eQy_KbkI) |
+| f8deaa65 | Azi Keycaps | [link](https://docs.google.com/document/d/1ysgu4CCl_hRjyGUqJbgEJrC69MYOcy5Mo0BgR6457fk) |
 | a9328677 | B.o.B Handcraft | [link](https://docs.google.com/document/d/1Igk_at2yvP_Bd6GNd3_GLCQmooNszkNDDvm2b6yqIQM) |
 | 634ef7c | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
 | b6cb880b | Bad and Booj Keys | [link](https://docs.google.com/document/d/15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM) |
