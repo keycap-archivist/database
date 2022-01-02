@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 163
-- Sculpts : 1685
-- Colorways : 34998
+- Artists : 165
+- Sculpts : 1697
+- Colorways : 35090
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -33,6 +33,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 
 | Id | Catalog | Url |
 | -- | ------- | --- |
+| a8d34c5e | 1of1Keycaps | [link](https://docs.google.com/document/d/1p1r9wy1Url3ilU-Tn4ear2gtDtKsIkbG1WlCTTJjOKQ) |
 | 70a60bc4 | 404Artisans | [link](https://docs.google.com/document/d/1Xjq3VloGrpGE9gmEcbdGhaX_NB0O5eqv7xg_PgVgHX0) |
 | fbd9e173 | 8o8keys | [link](https://docs.google.com/document/d/15rWfoHxCHXtWuRjZYYX6u98H9IG0U4AugsCEHDKzLas) |
 | ff5fc103 | ACkeys | [link](https://docs.google.com/document/d/1-pP9xJMH55xNGq3waZb6n5x0t6vNX9aqsQAUKaXLfv8) |
@@ -54,6 +55,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 4fa3abe3 | BladeMX | [link](https://docs.google.com/document/d/1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k) |
 | df1a1521 | Blank Works | [link](https://docs.google.com/document/d/1ehAQBiLvDzM6FUqAKxP2kpJFEQaDnq3yR75TuM0L8vY) |
 | ff8ad9cd | Bludgeoned Kaps | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8) |
+| d84851f7 | Bogan Caps | [link](https://docs.google.com/document/d/1n0ptNP1tZHnMtpJAI_s_qlnvulYl9SZBJwkCHdU5vHI) |
 | 4d74b92e | Bogwitch Brie | [link](https://docs.google.com/document/d/106B5I-IfI1pZex401MHj6c_e7MPUSPyplQsvUOPxmO4) |
 | 84748ce6 | BoomSnap Caps | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ) |
 | 3c63e8bf | Booper-Omniclectic | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk) |
