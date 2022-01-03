@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 166
-- Sculpts : 1699
-- Colorways : 35104
+- Artists : 167
+- Sculpts : 1701
+- Colorways : 35198
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -42,6 +42,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 63243e40 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
 | 944a9285 | ARKEYS | [link](https://docs.google.com/document/d/1q__LoSd2vlzY95KKp0TStW2bA3XBPvKZcOQPrKprQh0) |
 | 67588eb5 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
+| a3bffc04 | Artzeikaps | [link](https://docs.google.com/document/d/11l5gZpMa9dCoSm3RYnhKc0YXSpSm__WIfLyQsg7asto) |
 | 9adb7126 | AX Studio | [link](https://docs.google.com/document/d/10pezHskqq5EVPEKb2fkm2e8gFrch-rWtXB3eQy_KbkI) |
 | f8deaa65 | Azi Keycaps | [link](https://docs.google.com/document/d/1ysgu4CCl_hRjyGUqJbgEJrC69MYOcy5Mo0BgR6457fk) |
 | a9328677 | B.o.B Handcraft | [link](https://docs.google.com/document/d/1Igk_at2yvP_Bd6GNd3_GLCQmooNszkNDDvm2b6yqIQM) |
