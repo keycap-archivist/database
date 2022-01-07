@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 167
-- Sculpts : 1704
-- Colorways : 35277
+- Artists : 168
+- Sculpts : 1705
+- Colorways : 35291
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -74,6 +74,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | fd91c007 | Craftkey | [link](https://docs.google.com/document/d/1Ruol_1a4kzgLyXkeQ4d7ayu2shpsJPrHVUu7dBIYOYQ) |
 | 1be8013f | Crystal Pieces | [link](https://docs.google.com/document/d/1cR7ceg-E5K8D-AxTq4-9Wm3s_qeUTFjTcJIJBWBZnJU) |
 | 52730e4a | CYSM | [link](https://docs.google.com/document/d/1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI) |
+| ba4abd | Daisy Skull Studio | [link](https://docs.google.com/document/d/12mtyujoMo0dB2iiWR4utBunOAXyIeGEClFuYHEx0Fzg) |
 | 120fb8f2 | Dalifu Caps | [link](https://docs.google.com/document/d/1JpL8NeP-J85x_Viy_VGzM5fRpEAMPw_giRO78eHnc4E) |
 | bced6bca | DCcaps | [link](https://docs.google.com/document/d/1ENp3M-HymI9LsJRloDGuo3o9s-FXHzFj6hWazGfXSEQ) |
 | bf97de89 | DDOR Studio | [link](https://docs.google.com/document/d/1x6w725FhjkOUwu3ZMYMMtDgZg9404CdexIYKgQdBE8Y) |
