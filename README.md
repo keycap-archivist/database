@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 169
-- Sculpts : 1709
-- Colorways : 35354
+- Artists : 170
+- Sculpts : 1713
+- Colorways : 35369
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -34,6 +34,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Id | Catalog | Url |
 | -- | ------- | --- |
 | a8d34c5e | 1of1Keycaps | [link](https://docs.google.com/document/d/1p1r9wy1Url3ilU-Tn4ear2gtDtKsIkbG1WlCTTJjOKQ) |
+| 7f19c7d | 2Tcraft | [link](https://docs.google.com/document/d/1aWFIxJmIVeJDZH1b_1TEWJBUOcqqsAzUJ6KgEwp069Y) |
 | 70a60bc4 | 404Artisans | [link](https://docs.google.com/document/d/1Xjq3VloGrpGE9gmEcbdGhaX_NB0O5eqv7xg_PgVgHX0) |
 | fbd9e173 | 8o8keys | [link](https://docs.google.com/document/d/15rWfoHxCHXtWuRjZYYX6u98H9IG0U4AugsCEHDKzLas) |
 | ff5fc103 | ACkeys | [link](https://docs.google.com/document/d/1-pP9xJMH55xNGq3waZb6n5x0t6vNX9aqsQAUKaXLfv8) |
