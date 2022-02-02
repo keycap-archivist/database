@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 173
-- Sculpts : 1754
-- Colorways : 36134
+- Artists : 174
+- Sculpts : 1756
+- Colorways : 36156
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -120,6 +120,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 357a2610 | KB Keycraft | [link](https://docs.google.com/document/d/12mZSYQV5qtEyRFm-ojm3Bu6B1bX-pePAxoyz-5cE-v8) |
 | 8cb07a8b | KBK-KWK | [link](https://docs.google.com/document/d/1656SEjL_uolfVYeUgiAjbelyM_HhxAg77oTCPWiviD8) |
 | 6efbabef | Key Capital | [link](https://docs.google.com/document/d/11s6cWXG1-_m0x4JpFF0kUD716laUxKUhtIzO0r_OP1U) |
+| dc9c4003 | KeyCapCustoms | [link](https://docs.google.com/document/d/1AkBXbURT4fcY65uW0HgU4lHXS0_YqGmdJoXUz8kXWCs) |
 | f2a7d69d | Keycat | [link](https://docs.google.com/document/d/1VNVGf02zR9t3QBYXbxV9SqJFuilQBpKxWHTj0iWrX3w) |
 | 7b28db24 | KeyCravings | [link](https://docs.google.com/document/d/1QjFV7yp4Ez8k51qPo2fx_2sXVH9l7SdbI3_sy_E7R_o) |
 | 1091a0ac | KeyForge | [link](https://docs.google.com/document/d/1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA) |
