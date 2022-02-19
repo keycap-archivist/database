@@ -13,6 +13,7 @@
     "gen:wiki": "node src/gen-wiki.js"
   },
   "devDependencies": {
+    "@types/node": "^17.0.18",
     "csv-generate": "^3.2.4",
     "csv-parse": "^4.12.0",
     "eslint": "^7.11.0",
@@ -25,7 +26,6 @@
   "dependencies": {
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
-    "slugify": "^1.5.3",
     "axios": "^0.20.0",
     "crc": "^3.8.0",
     "csv-stringify": "^5.5.1",
@@ -34,6 +34,7 @@
     "marked": "^1.2.2",
     "node-html-parser": "^1.3.1",
     "rimraf": "^3.0.2",
-    "sharp": "^0.27.2"
+    "sharp": "^0.27.2",
+    "slugify": "^1.5.3"
   }
 }
