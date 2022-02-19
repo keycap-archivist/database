@@ -135,7 +135,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 4e1aff89 | LandCaps | [link](https://docs.google.com/document/d/1qDHsR0Y2U0W_pBPgtvB_i_xh09a1VVInbg3rK7al7Ug) |
 | ab1d3b22 | Latrialum | [link](https://docs.google.com/document/d/1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY) |
 | 4e2dec37 | LazyCaps | [link](https://docs.google.com/document/d/1yyLznWKS7QTrOLTTfP9izvDIlEE_q9n0To1Id3N_0FQ) |
-| fa0bf049 | Level caps | [link](https://docs.google.com/document/d/1_9U5dSSCKeSQcBIhbHPigUs7jiF0AqNI0MYo5KNtpJ8) |
+| fa0bf049 | Level caps | [link](https://docs.google.com/document/d/1YEx3xAI3r_MIXrrdWzTBdsPC7rdBoxd87TWwxpfsMyE) |
 | ddaf1f8c | Lividity | [link](https://docs.google.com/document/d/18mc8abYoFIYDEqpvJzG5qYLXoQBTBUu9DUp7JSmIFxM) |
 | 814e90b | Lo-Ki Caps | [link](https://docs.google.com/document/d/1QGRxPMGI-GIN63LCatprE60zDfcVmy67cG53aXLDf8M) |
 | d0cb9c83 | Luna Keycaps | [link](https://docs.google.com/document/d/1AV5u4TtQY2iKOisKygGIn7IYFGzcqU9hhjqI76UzkbM) |
