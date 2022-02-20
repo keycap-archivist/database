@@ -136,7 +136,7 @@ function gDriveParse(catalog, tabs) {
          * DD MMM YYYY, MMM YYYY, YYYY
          * DD MMMM YYYY, MMMM YYYY, YYYY
          */
-        const regDate = new RegExp(/\(((\d{2})*[a-zA-Z ]*\d{4})\)/, 'gim');
+        const regDate = /\(((\d{2})*[a-zA-Z ]*\d{4})\)/gim;
         // Look for the release arg in all the spans in the title table
         const s = element.querySelectorAll('span').find((x) => regDate.test(x.rawText));
         if (s) {
@@ -193,7 +193,7 @@ function gDriveParse(catalog, tabs) {
             isCover = true;
             text = text.replace(reCover, '');
           }
-          const regDate = new RegExp(/\(([a-zA-Z ]*\d{4})\)/, 'gim');
+          const regDate = /\(([a-zA-Z ]*\d{4})\)/gim;
           const dateMatch = regDate.exec(text);
           let releaseDate;
           if (dateMatch) {
@@ -231,7 +231,7 @@ function sortBy(list, attr) {
   });
 }
 
-async function resize(filepath, type = 'full', _buffer) {
+async function resize(filepath, type = 'full', _buffer = undefined) {
   let buff;
   if (_buffer) {
     buff = _buffer;
