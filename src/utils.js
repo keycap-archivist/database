@@ -43,7 +43,7 @@ const attributes = Object.freeze({
     resin: 'ka_cast_resin',
     clay: 'ka_cast_clay',
     print3d: 'ka_cast_print',
-  }
+  },
 });
 
 function genId(input) {
