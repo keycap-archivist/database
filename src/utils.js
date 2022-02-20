@@ -33,16 +33,14 @@ const attributes = Object.freeze({
     sculpted: 'ka_profile_sculpt',
     blank: 'ka_profile_blank'
   },
-  master: {
-    handSculpted: 'ka_master_sculpt',
-    print3d: 'ka_master_3d',
-    blank: 'ka_master_blank',
-    hybrid: 'ka_master_hybrid'
+  design: {
+    physical: 'ka_design_physical',
+    digital: 'ka_design_digital',
+    hybrid: 'ka_design_hybrid'
   },
   cast: {
     resin: 'ka_cast_resin',
-    clay: 'ka_cast_clay',
-    print3d: 'ka_cast_print'
+    mixed: 'ka_cast_mixed'
   }
 })
 
@@ -92,26 +90,20 @@ function getAttributes (_txt) {
   if (txt.indexOf(`(${attributes.profile.blank})`) !== -1) {
     out.profile = 'blank'
   }
-  if (txt.indexOf(`(${attributes.master.handSculpted})`) !== -1) {
-    out.master = 'handSculpted'
+  if (txt.indexOf(`(${attributes.design.physical})`) !== -1) {
+    out.master = 'physical'
   }
-  if (txt.indexOf(`(${attributes.master.print3d})`) !== -1) {
-    out.master = '3d'
+  if (txt.indexOf(`(${attributes.design.digital})`) !== -1) {
+    out.master = 'digital'
   }
-  if (txt.indexOf(`(${attributes.master.hybrid})`) !== -1) {
+  if (txt.indexOf(`(${attributes.design.hybrid})`) !== -1) {
     out.master = 'hybrid'
-  }
-  if (txt.indexOf(`(${attributes.master.blank})`) !== -1) {
-    out.master = 'blank'
   }
   if (txt.indexOf(`(${attributes.cast.resin})`) !== -1) {
     out.cast = 'resin'
   }
-  if (txt.indexOf(`(${attributes.cast.clay})`) !== -1) {
-    out.cast = 'clay'
-  }
-  if (txt.indexOf(`(${attributes.cast.print3d})`) !== -1) {
-    out.cast = '3d'
+  if (txt.indexOf(`(${attributes.cast.mixed})`) !== -1) {
+    out.cast = 'mixed'
   }
   return out
 }
