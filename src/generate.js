@@ -3,7 +3,7 @@
 /* eslint-disable global-require */
 const PromisePool = require('@mixmaxhq/promise-pool');
 const fs = require('fs');
-const stringify = require('csv-stringify/lib/sync');
+const { stringify } = require('csv-stringify/lib/sync');
 const path = require('path');
 const { scrapFrom } = require('./scraper/gdoc');
 const { flatten } = require('./utils');
