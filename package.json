@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint --ext .js ./src",
-    "lint:fix": "eslint --ext .js ./src --fix",
+    "lint": "standard | snazzy",
+    "lint:fix": "standard --fix",
     "gen": "cp db/catalog.json catalog_old.json && rm db/catalog.json && node src/generate.js",
     "sync:img": "node src/sync-images.js",
     "prune:img": "node src/prune-images.js",
@@ -21,7 +21,9 @@
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "snazzy": "^9.0.0",
+    "standard": "^16.0.4"
   },
   "dependencies": {
     "@mixmaxhq/promise-pool": "^2.0.0",
