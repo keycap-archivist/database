@@ -28,9 +28,22 @@ function launcher(scrap) {
 
 const attributes = Object.freeze({
   selfOrdered: 'ka_self_order',
-  release: 'ka_release',
   cover: 'ka_cover',
-  note: 'ka_note',
+  profile: {
+    sculpted: 'ka_profile_sculpt',
+    blank: 'ka_profile_blank',
+  },
+  master: {
+    handSculpted: 'ka_master_sculpt',
+    print3d: 'ka_master_3d',
+    blank: 'ka_master_blank',
+    hybrid: 'ka_master_hybrid',
+  },
+  cast: {
+    resin: 'ka_cast_resin',
+    clay: 'ka_cast_clay',
+    print3d: 'ka_cast_print',
+  }
 });
 
 function genId(input) {
@@ -61,16 +74,61 @@ function isSelfOrdered(index) {
   return re.test(index);
 }
 
+function getNationality(index) {
+  const re = /\(ka_from_(\w{2})\)/gim;
+  const m = re.exec(index);
+  if (!m) {
+    return undefined;
+  }
+  return m[1];
+}
+
+function getAttributes(_txt) {
+  const txt = _txt.toLowerCase();
+  const out = {};
+  if (txt.indexOf(`(${attributes.profile.sculpted})`) !== -1) {
+    out.profile = 'sculpted';
+  }
+  if (txt.indexOf(`(${attributes.profile.blank})`) !== -1) {
+    out.profile = 'blank';
+  }
+  if (txt.indexOf(`(${attributes.master.handSculpted})`) !== -1) {
+    out.master = 'handSculpted';
+  }
+  if (txt.indexOf(`(${attributes.master.print3d})`) !== -1) {
+    out.master = '3d';
+  }
+  if (txt.indexOf(`(${attributes.master.hybrid})`) !== -1) {
+    out.master = 'hybrid';
+  }
+  if (txt.indexOf(`(${attributes.master.blank})`) !== -1) {
+    out.master = 'blank';
+  }
+  if (txt.indexOf(`(${attributes.cast.resin})`) !== -1) {
+    out.cast = 'resin';
+  }
+  if (txt.indexOf(`(${attributes.cast.clay})`) !== -1) {
+    out.cast = 'clay';
+  }
+  if (txt.indexOf(`(${attributes.cast.print3d})`) !== -1) {
+    out.cast = '3d';
+  }
+  return out;
+}
+
 function gDriveParse(catalog, tabs) {
   let currentSculpt;
   let sculptDate;
   let currIdx = -1;
+  let currentAttributes = {};
   for (let idx = 0; idx < tabs.length; idx += 1) {
     const element = tabs[idx];
     if (idx % 2 === 0) {
       let sculptName;
       // In case of bad formats
       try {
+        const { rawText } = element;
+        currentAttributes = getAttributes(rawText);
         sculptName = element.querySelector('span').childNodes[0].rawText;
 
         /**
@@ -123,6 +181,7 @@ function gDriveParse(catalog, tabs) {
               name: currentSculpt,
               releaseDate: sculptDate,
               colorways: [],
+              ...currentAttributes,
             };
             // console.log(catalog.sculpts[currIdx]);
           }
@@ -230,6 +289,7 @@ module.exports = {
   genId,
   gDocUrl,
   isSelfOrdered,
+  getNationality,
   attributes,
   sortBy,
   launcher,

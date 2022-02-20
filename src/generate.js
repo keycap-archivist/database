@@ -1,4 +1,5 @@
 /* eslint-disable import/no-dynamic-require */
+/* eslint-disable no-continue */
 /* eslint-disable global-require */
 const PromisePool = require('@mixmaxhq/promise-pool');
 const fs = require('fs');
@@ -93,12 +94,15 @@ function report(catalog) {
   fs.writeFileSync(path.join(__dirname, '..', 'README.md'), tpl);
 }
 
-async function generate(isTest = false) {
+async function generate(isTest = false, targetCat = undefined) {
   let catalog = [];
   const pool = new PromisePool({ numConcurrent: 3 });
   const customScraps = fs.readdirSync(customImporterPath);
   const jsonScraps = fs.readdirSync(jsonImporterPath);
   for (const s of customScraps) {
+    if (targetCat && !path.join(customImporterPath, s).endsWith(targetCat)) {
+      continue;
+    }
     await pool.start(
       async (cat, filename) => {
         await moduleScrap(cat, path.join(customImporterPath, filename), isTest);
@@ -108,6 +112,9 @@ async function generate(isTest = false) {
     );
   }
   for (const s of jsonScraps) {
+    if (targetCat && !path.join(jsonImporterPath, s).endsWith(targetCat)) {
+      continue;
+    }
     await pool.start(
       async (cat, filename) => {
         await jsonScrap(cat, path.join(jsonImporterPath, filename), isTest);
@@ -147,8 +154,9 @@ async function generate(isTest = false) {
 
 if (require.main === module) {
   const args = process.argv.slice(2);
-  const isTest = !!(args.length && args[0] === 'test');
-  generate(isTest)
+  const isTest = args.length && args[0] === 'test';
+  const cat = args.length && args.length > 1 ? args[1] : undefined;
+  generate(isTest, cat)
     .then(() => {
       console.log('Generation finished');
     })

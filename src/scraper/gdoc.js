@@ -1,5 +1,5 @@
 const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered } = require('../utils');
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered, getNationality } = require('../utils');
 
 function scrapFrom(gdocID, pMeta = {}, tabsOperations = []) {
   const meta = { ...pMeta };
@@ -32,6 +32,7 @@ function scrapFrom(gdocID, pMeta = {}, tabsOperations = []) {
         instagram: '',
         website: '',
         discord: '',
+        nationality: getNationality(index),
         selfOrder: isSelfOrdered(index),
         sculpts: [],
         ...meta,
