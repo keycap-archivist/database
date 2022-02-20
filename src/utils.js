@@ -91,13 +91,13 @@ function getAttributes (_txt) {
     out.profile = 'blank'
   }
   if (txt.indexOf(`(${attributes.design.physical})`) !== -1) {
-    out.master = 'physical'
+    out.design = 'physical'
   }
   if (txt.indexOf(`(${attributes.design.digital})`) !== -1) {
-    out.master = 'digital'
+    out.design = 'digital'
   }
   if (txt.indexOf(`(${attributes.design.hybrid})`) !== -1) {
-    out.master = 'hybrid'
+    out.design = 'hybrid'
   }
   if (txt.indexOf(`(${attributes.cast.resin})`) !== -1) {
     out.cast = 'resin'
