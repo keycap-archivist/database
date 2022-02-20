@@ -1,39 +1,39 @@
-const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
-const { genId, sortBy } = require('../../utils');
+const axios = require('axios')
+const fs = require('fs')
+const path = require('path')
+const { genId, sortBy } = require('../../utils')
 
-const BASE_URL = 'https://kapcave.nachie.com/api/v1/catalog/list';
+const BASE_URL = 'https://kapcave.nachie.com/api/v1/catalog/list'
 
-async function scrap() {
+async function scrap () {
   try {
-    const catalog = await axios.get(`${BASE_URL}`).then((res) => res.data);
-    catalog.id = genId('KapCave');
+    const catalog = await axios.get(`${BASE_URL}`).then((res) => res.data)
+    catalog.id = genId('KapCave')
     for (const c of catalog.sculpts) {
-      c.id = genId(`KapCave-${c.name}`);
-      c.colorways = sortBy(c.colorways, 'name');
+      c.id = genId(`KapCave-${c.name}`)
+      c.colorways = sortBy(c.colorways, 'name')
       for (const colorway of c.colorways) {
-        colorway.id = genId(colorway.img);
+        colorway.id = genId(colorway.img)
       }
     }
-    catalog.sculpts = sortBy(catalog.sculpts, 'name');
-    catalog.denySubmission = true;
-    return catalog;
+    catalog.sculpts = sortBy(catalog.sculpts, 'name')
+    catalog.denySubmission = true
+    return catalog
   } catch (e) {
     return {
       name: 'KapCave',
       hasError: true,
-      error: e,
-    };
+      error: e
+    }
   }
 }
 
 if (require.main === module) {
   scrap().then((catalog) => {
-    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog));
-  });
+    fs.writeFileSync(`${path.basename(__filename, path.extname(__filename))}.json`, JSON.stringify(catalog))
+  })
 }
 
 module.exports = {
-  scrap,
-};
+  scrap
+}

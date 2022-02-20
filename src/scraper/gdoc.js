@@ -1,30 +1,30 @@
-const htmlparser = require('node-html-parser');
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered, getNationality } = require('../utils');
+const htmlparser = require('node-html-parser')
+const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered, getNationality } = require('../utils')
 
-function scrapFrom(gdocID, pMeta = {}, tabsOperations = []) {
-  const meta = { ...pMeta };
-  delete meta.docId;
-  delete meta.tabsOperations;
+function scrapFrom (gdocID, pMeta = {}, tabsOperations = []) {
+  const meta = { ...pMeta }
+  delete meta.docId
+  delete meta.tabsOperations
 
   if (gdocID === undefined) {
-    throw new Error('Missing GoogleDoc identifier');
+    throw new Error('Missing GoogleDoc identifier')
   }
   if (meta.name === undefined) {
-    throw new Error(`Missing name in metadata for "${gdocID}"`);
+    throw new Error(`Missing name in metadata for "${gdocID}"`)
   }
 
-  return async function scrap() {
+  return async function scrap () {
     try {
-      const index = await downloadFile(gdocID);
-      const rootNode = htmlparser.parse(index);
-      const tabs = rootNode.querySelectorAll('table');
+      const index = await downloadFile(gdocID)
+      const rootNode = htmlparser.parse(index)
+      const tabs = rootNode.querySelectorAll('table')
       tabsOperations.forEach((tabOperation) => {
         if (typeof tabOperation === 'function') {
-          tabOperation(tabs);
+          tabOperation(tabs)
         } else if (typeof tabOperation === 'string' && Array.prototype[tabOperation]) {
-          Array.prototype[tabOperation].call(tabs);
+          Array.prototype[tabOperation].call(tabs)
         }
-      });
+      })
       const catalog = {
         src: gDocUrl(gdocID),
         id: '',
@@ -35,20 +35,20 @@ function scrapFrom(gdocID, pMeta = {}, tabsOperations = []) {
         nationality: getNationality(index),
         selfOrder: isSelfOrdered(index),
         sculpts: [],
-        ...meta,
-      };
-      catalog.id = genId(meta.id || meta.name);
-      return gDriveParse(catalog, tabs);
+        ...meta
+      }
+      catalog.id = genId(meta.id || meta.name)
+      return gDriveParse(catalog, tabs)
     } catch (e) {
       return {
         hasError: true,
         error: e,
-        name: meta.name,
-      };
+        name: meta.name
+      }
     }
-  };
+  }
 }
 
 module.exports = {
-  scrapFrom,
-};
+  scrapFrom
+}
