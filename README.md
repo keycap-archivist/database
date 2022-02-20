@@ -6,7 +6,7 @@ Database currently contains:
 
 - Artists : 173
 - Sculpts : 1763
-- Colorways : 36525
+- Colorways : 36534
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -30,8 +30,8 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 - `(XXXX YEAR)` will add the date on the sculpt or the colorway. Free input field. eg: `(March 2019)` or `(2019)`
 - `(ka_from_XX)` will add the nationality of the maker. Free input field using 2-digit ISO code for the country. eg: `(ka_from_fr)`
 - **Sculpt Header** `(ka_profile_xxx)` Specify the profile of the sculpt. Available values: `blank`/`sculpt`
-- **Sculpt Header** `(ka_master_xxx)` Specify how the master was made. Available values: `sculpt`/`3d`/`blank`/`hybrid`
-- **Sculpt Header** `(ka_cast_xxx)` Specify how the cap is made. Availabe values: `resin`/`clay`/`print`
+- **Sculpt Header** `(ka_design_xxx)` Specify how the design was made. Available values: `physical`/`digital`/`hybrid`
+- **Sculpt Header** `(ka_cast_xxx)` Specify how the cap is made. Availabe values: `resin`/`mixed`
 
 ## Source Catalogs
 
