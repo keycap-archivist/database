@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 173
-- Sculpts : 1768
-- Colorways : 36873
+- Artists : 174
+- Sculpts : 1781
+- Colorways : 36934
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -189,6 +189,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 980bdc64 | SirReal Caps | [link](https://docs.google.com/document/d/1EllRzUrKjgARXPRYy180K9ru_aYgVG89DQ8CxxFViRc) |
 | a31490c1 | Slime Scholar | [link](https://docs.google.com/document/d/14jF0ewtoj5S2GPXkGrfppH3zu0Dd2Y8aZnJ_nP1kPuw) |
 | 34fb9c1f | Sludgekidd | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0) |
+| 45d1c689 | Smyleey x Godmade | [link](https://docs.google.com/document/d/1pbpzRVKy4kv4yRc5Ztj8M6H-FlHCID4nASttnwn1pYE) |
 | 834a1ae7 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
 | 62a4c768 | Stone Keys | [link](https://docs.google.com/document/d/1kVAbEYLLsFT4y6k0b7A1aenvKOtPzX93cSDXqC_f2eQ) |
 | 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
