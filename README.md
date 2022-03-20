@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 177
-- Sculpts : 1824
-- Colorways : 37502
+- Artists : 178
+- Sculpts : 1825
+- Colorways : 37528
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -102,6 +102,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 54707c4b | EchoppCaps | [link](https://docs.google.com/document/d/1EJ-AUHXajDE3Iih5Af9C3SF8N5guTOeTNC4C0BYlGbM) |
 | 68cdf6dc | EzKeys | [link](https://docs.google.com/document/d/1NGfIh3aAU5CwE425oshmoUBEjs11In1j7pVUHrov8Vs) |
 | bac9503f | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
+| 6cae29b | FromScratch Caps | [link](https://docs.google.com/document/d/1xeyfq3YJTwOhGnUBFFZLMCj5S9D7gUrd6Umf12GPAzA) |
 | 8d20284c | Frumpzkeys | [link](https://docs.google.com/document/d/15arZPVtJHvLxrF20l_Oc-cZCwZrwtMI_SyiD2KDsvWg) |
 | 23634907 | Gaia’s Creature | [link](https://docs.google.com/document/d/1EJ8IodjlMPG-TtmKwTZuCvIQYO9uuD_phTnMiNqjh4s) |
 | 6829387 | Girlycaps Studios | [link](https://docs.google.com/document/d/1cDD3aNsQXHJfyskP8906BUwfc1_4H_JJTtZ9akhQkOc) |
