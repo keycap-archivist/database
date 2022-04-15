@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 180
-- Sculpts : 1854
-- Colorways : 37974
+- Artists : 181
+- Sculpts : 1857
+- Colorways : 37991
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -113,6 +113,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 84c0fb40 | Gothcaps | [link](https://docs.google.com/document/d/17YdYcvKifysUDk6mt750Jgq7Zke2kSi66kfqc9BE6RQ) |
 | 8a2782a7 | Grimey as Fuck | [link](https://docs.google.com/document/d/1AdPXkALzPErnyMQZrWDJ6o-jCvFB34XeZyz00FDDvLY) |
 | cc91fabb | GTB | [link](https://docs.google.com/document/d/1qoQ7zBUrkCvfu-xMHcCvxObflfy8z8fWJnkMBJcdp_w) |
+| f74b1fa4 | HDKey | [link](https://docs.google.com/document/d/1eAcxA8lthmxRaPe77X9QpFmThezCcr9BjPpw17aSB6U) |
 | 8ffca07f | Hellbent Caps | [link](https://docs.google.com/document/d/15NNk_ttTXCBCHTzyEE3_EigOHPYnc1M5fVGRZJIt0AA) |
 | ada5e593 | Hello Caps | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk) |
 | c0c9ffa9 | Hot Keys Project | [link](https://docs.google.com/document/d/1KcZjWQ59gmgNoX1piEdf6MX1r6sBig2_G9AYrs1SjBQ) |
