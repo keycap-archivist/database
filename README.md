@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 182
-- Sculpts : 1888
-- Colorways : 38557
+- Artists : 183
+- Sculpts : 1896
+- Colorways : 38603
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -193,6 +193,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | f3efa727 | Sandun | [link](https://docs.google.com/document/d/1xvrzm5YONiCodBoYCWdL3hP1rDPPklq4WXNbsjDT-w4) |
 | e035ee16 | shirouu.kaps | [link](https://docs.google.com/document/d/177W_IQZ1HRQbSZ4pjLuWqGlhvS9sTpVZcKV_Ucs-h9M) |
 | 61895633 | Simulacra Caps | [link](https://docs.google.com/document/d/1tY7twR6E65afan23BediwbxwvsjJqXtleE949r5mNeg) |
+| c0c1d398 | Sinpra Caps | [link](https://docs.google.com/document/d/1dQebU21O42zU2Qo8Sr4ZioGxYNwpYFptGopxrG4phn8) |
 | 980bdc64 | SirReal Caps | [link](https://docs.google.com/document/d/1EllRzUrKjgARXPRYy180K9ru_aYgVG89DQ8CxxFViRc) |
 | a31490c1 | Slime Scholar | [link](https://docs.google.com/document/d/14jF0ewtoj5S2GPXkGrfppH3zu0Dd2Y8aZnJ_nP1kPuw) |
 | 34fb9c1f | Sludgekidd | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0) |
