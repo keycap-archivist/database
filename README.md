@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 183
-- Sculpts : 1903
-- Colorways : 38660
+- Artists : 184
+- Sculpts : 1905
+- Colorways : 38672
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -183,7 +183,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 55851cb5 | Psycho Keycaps | [link](https://docs.google.com/document/d/1V0lB6MTcTkSoClOEakYI57sAI6xOThP9diEwCCQLR1c) |
 | 6b46c555 | Q Qaps | [link](https://docs.google.com/document/d/1D1Pt_Jp0Mm35O0a2vFQ6mh2UzcjT1JBWxjqUcc2tSBY) |
 | c6e4a02a | RADcaps | [link](https://docs.google.com/document/d/1KINOK9cUUA28pSGnHc8ZI-RM36o12ADojXp7ZeNdTh4) |
-| e0a4bf52 | Rathcaps | [link](https://docs.google.com/document/d/1mX-wUILSjmOGULIju5SKD3zKn7VE9hLl2BHgZZPTnG0) |
+| 16fecba | Rath | [link](https://docs.google.com/document/d/1mX-wUILSjmOGULIju5SKD3zKn7VE9hLl2BHgZZPTnG0) |
 | d7421e66 | Rejeck Kaps | [link](https://docs.google.com/document/d/10EGmT_ifrjOuqFENtfrxfWljiR8etxHdmyU-gLAhfQw) |
 | 2842faca | Resin Party | [link](https://docs.google.com/document/d/172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc) |
 | 1544e340 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
@@ -199,6 +199,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 34fb9c1f | Sludgekidd | [link](https://docs.google.com/document/d/1NDxNP0oKZOGW_13FrXevtgagTYmgHTGn66V7MYf7sx0) |
 | 45d1c689 | Smyleey x Godmade | [link](https://docs.google.com/document/d/1pbpzRVKy4kv4yRc5Ztj8M6H-FlHCID4nASttnwn1pYE) |
 | 834a1ae7 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
+| 12154e7b | Sonder Caps | [link](https://docs.google.com/document/d/1nZEhuaS3rNaGzJieik-EEhOtnLtTHwrbIOxc81uyKI8) |
 | 62a4c768 | Stone Keys | [link](https://docs.google.com/document/d/1kVAbEYLLsFT4y6k0b7A1aenvKOtPzX93cSDXqC_f2eQ) |
 | 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
 | 366c9651 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
