@@ -6,13 +6,13 @@ const { decode } = require('he')
 const sharp = require('sharp')
 const { readFile } = require('fs/promises')
 
-function debug (...args) {
+function debug(...args) {
   if (process.env.KA_DEBUG === '1') {
     console.debug(...args)
   }
 }
 
-function launcher (scrap) {
+function launcher(scrap) {
   // if the caller is in the importer means that we are debugging
   // it with command like `node src/importer/foo.js`
   if (path.dirname(require.main.filename).endsWith('importer')) {
@@ -44,11 +44,11 @@ const attributes = Object.freeze({
   }
 })
 
-function genId (input) {
+function genId(input) {
   return crc32(input).toString(16)
 }
 
-async function downloadFile (fileId) {
+async function downloadFile(fileId) {
   const gApiKey = process.env.G_API_KEY
 
   if (!gApiKey) {
@@ -67,12 +67,12 @@ async function downloadFile (fileId) {
     .then((res) => res.data)
 }
 
-function isSelfOrdered (index) {
+function isSelfOrdered(index) {
   const re = new RegExp(`\\(${attributes.selfOrdered}\\)`, 'gim')
   return re.test(index)
 }
 
-function getNationality (index) {
+function getNationality(index) {
   const re = /\(ka_from_(\w{2})\)/gim
   const m = re.exec(index)
   if (!m) {
@@ -81,7 +81,7 @@ function getNationality (index) {
   return m[1]
 }
 
-function getAttributes (_txt) {
+function getAttributes(_txt) {
   const txt = _txt.toLowerCase()
   const out = {}
   if (txt.indexOf(`(${attributes.profile.sculpted})`) !== -1) {
@@ -108,7 +108,7 @@ function getAttributes (_txt) {
   return out
 }
 
-function gDriveParse (catalog, tabs) {
+function gDriveParse(catalog, tabs) {
   let currentSculpt
   let sculptDate
   let currIdx = -1
@@ -152,6 +152,7 @@ function gDriveParse (catalog, tabs) {
         currIdx += 1
       }
     } else {
+      let imgIdx = 0
       // eslint-disable-next-line no-loop-func
       element.querySelectorAll('td').forEach((e) => {
         let img = ''
@@ -193,10 +194,11 @@ function gDriveParse (catalog, tabs) {
             releaseDate = dateMatch[1]
             text = text.replace(regDate, '')
           }
+          const sanitizedName = decode(text).trim()
           catalog.sculpts[currIdx].colorways.push({
-            name: decode(text).trim(),
+            name: sanitizedName,
             img,
-            id: genId(img),
+            id: genId(`${catalog.name}-${currentSculpt}-${sanitizedName}-${imgIdx++}`),
             isCover,
             releaseDate,
             note: ''
@@ -211,11 +213,11 @@ function gDriveParse (catalog, tabs) {
   return catalog
 }
 
-function gDocUrl (id) {
+function gDocUrl(id) {
   return `https://docs.google.com/document/d/${id}`
 }
 
-function sortBy (list, attr) {
+function sortBy(list, attr) {
   return list.sort((a, b) => {
     if (a[attr] < b[attr]) return -1
     if (a[attr] > b[attr]) return 1
@@ -223,7 +225,7 @@ function sortBy (list, attr) {
   })
 }
 
-async function resize (filepath, type = 'full', _buffer = undefined) {
+async function resize(filepath, type = 'full', _buffer = undefined) {
   let buff
   if (_buffer) {
     buff = _buffer
@@ -251,7 +253,7 @@ async function resize (filepath, type = 'full', _buffer = undefined) {
   })
 }
 
-function flatten (catalog) {
+function flatten(catalog) {
   const arr = []
   const outArtist = {}
   for (const artist in Object.keys(catalog).sort()) {
