@@ -2,11 +2,11 @@ name: Database Build
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '0 0 * * *' # Every everyday
-#  push:
-#    branches:
-#      - master
+  schedule:
+    - cron: '0 0 * * *' # Every everyday
+  push:
+    branches:
+      - master
 
 jobs:
   build:
