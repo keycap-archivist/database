@@ -259,14 +259,13 @@ function flatten (catalog) {
   for (const artist in Object.keys(catalog).sort()) {
     const artistArr = []
     for (const sculpt in catalog[artist].sculpts) {
-      // eslint-disable-next-line no-loop-func
       catalog[artist].sculpts[sculpt].colorways.forEach((s) => {
         const out = {
           id: s.id,
           artist: catalog[artist].name,
           sculpt: catalog[artist].sculpts[sculpt].name,
           name: s.name,
-          img: s.img
+          img: `https://cdn.keycap-archivist.com/keycaps/${s.id}.jpg`
         }
         arr.push(out)
         artistArr.push(out)
