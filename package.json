@@ -10,7 +10,7 @@
     "sync:img": "node src/sync-images.js",
     "prune:img": "node src/prune-images.js",
     "validate": "node src/validate.js",
-    "gen:wiki": "node src/gen-wiki.js"
+    "remap:img": "node src/remap-img.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.18",
