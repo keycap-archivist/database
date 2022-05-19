@@ -63,7 +63,7 @@ jobs:
           echo "Need to update the DB"
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          node src/discord-update-report.js
+          # node src/discord-update-report.js
           git add db/
           git status
           git commit -am "[skip-ci] Database Synchronization"
