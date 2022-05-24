@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 186
-- Sculpts : 1919
-- Colorways : 39065
+- Artists : 188
+- Sculpts : 1927
+- Colorways : 39114
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -119,6 +119,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | ada5e593 | Hello Caps | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk) |
 | c0c9ffa9 | Hot Keys Project | [link](https://docs.google.com/document/d/1KcZjWQ59gmgNoX1piEdf6MX1r6sBig2_G9AYrs1SjBQ) |
 | 4183ab23 | Hunger Work Studio | [link](https://docs.google.com/document/d/1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ) |
+| 260460a | Inkblot Caps | [link](https://docs.google.com/document/d/1jE94XFa7QZPMtwjsbLwqNkgwGsFJNsyAEjdSlDcBaCE) |
 | 1ff2c383 | Jelly Key | [link](https://docs.google.com/document/d/1Y9hJ5WgjSjXhKEpeLudk542Mj_P0B9aJt56CLdf5Oas) |
 | 594d1920 | Jibii | [link](https://docs.google.com/document/d/1KTJ1Up_7Jjr81xbjNSzNswNBXnfSgOsEZr4wc2ODEEo) |
 | 79bfad4f | Jusherhoe | [link](https://docs.google.com/document/d/171XoC3BAC13iMQlAJ85impbm-jj7irgCDZwGwYfNTfc) |
@@ -193,6 +194,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | d1df0782 | Rubrehose | [link](https://docs.google.com/document/d/1dCtWhW9ng-IgVFi-98HyglVmfVLIqiFN6w8u5-0EU4E) |
 | 958ea08d | S-Craft Studio | [link](https://docs.google.com/document/d/1zM8PAeSNFJ1Voo4m2Qpcjqtymy_umMBBMVt_USkoYCs) |
 | f3efa727 | Sandun | [link](https://docs.google.com/document/d/1xvrzm5YONiCodBoYCWdL3hP1rDPPklq4WXNbsjDT-w4) |
+| 81509270 | Save Caps | [link](https://docs.google.com/document/d/1CmBPk8MTC3fLeUczX6CA0KeQGRZqLEKHS9AOC72OjWk) |
 | e035ee16 | shirouu.kaps | [link](https://docs.google.com/document/d/177W_IQZ1HRQbSZ4pjLuWqGlhvS9sTpVZcKV_Ucs-h9M) |
 | 61895633 | Simulacra Caps | [link](https://docs.google.com/document/d/1tY7twR6E65afan23BediwbxwvsjJqXtleE949r5mNeg) |
 | c0c1d398 | Sinpra Caps | [link](https://docs.google.com/document/d/1dQebU21O42zU2Qo8Sr4ZioGxYNwpYFptGopxrG4phn8) |
