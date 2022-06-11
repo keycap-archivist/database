@@ -2412,6 +2412,7 @@ a39ac8af,Artkey,Porcus,Momobou,https://cdn.keycap-archivist.com/keycaps/a39ac8af
 80926b5a,Artkey,Porcus,Cantasy,https://cdn.keycap-archivist.com/keycaps/80926b5a.jpg
 40d7d673,Artkey,Porcus,Marbelous,https://cdn.keycap-archivist.com/keycaps/40d7d673.jpg
 fd6d9693,Artkey,Porcus,Arcade,https://cdn.keycap-archivist.com/keycaps/fd6d9693.jpg
+c0f72b7e,Artkey,Porcus,Lofi,https://cdn.keycap-archivist.com/keycaps/c0f72b7e.jpg
 4818013b,Artkey,Voidwalker,Master,https://cdn.keycap-archivist.com/keycaps/4818013b.jpg
 978e231e,Artkey,Voidwalker,Revised Master,https://cdn.keycap-archivist.com/keycaps/978e231e.jpg
 3eba3eb1,Artkey,Voidwalker,Proto,https://cdn.keycap-archivist.com/keycaps/3eba3eb1.jpg
@@ -8050,83 +8051,91 @@ c9c5d61e,Clack Factory,Solid Color Skulls,Aqua Translucent,https://cdn.keycap-ar
 dbb2ddee,Clack Factory,Solid Color Skulls,Blue Transparent,https://cdn.keycap-archivist.com/keycaps/dbb2ddee.jpg
 9af0f0b2,Clack Factory,Solid Color Skulls,Blue/Red Trans (Unofficial),https://cdn.keycap-archivist.com/keycaps/9af0f0b2.jpg
 46d7a8ca,Clack Factory,Solid Color Skulls,Boogie Board,https://cdn.keycap-archivist.com/keycaps/46d7a8ca.jpg
-e994fd8c,Clack Factory,Solid Color Skulls,Chartreuse,https://cdn.keycap-archivist.com/keycaps/e994fd8c.jpg
-b29e3de7,Clack Factory,Solid Color Skulls,Chocolate Mud Brown,https://cdn.keycap-archivist.com/keycaps/b29e3de7.jpg
-cfac81f1,Clack Factory,Solid Color Skulls,Cobalt Steel Metallic,https://cdn.keycap-archivist.com/keycaps/cfac81f1.jpg
-ed09881a,Clack Factory,Solid Color Skulls,Concrete Mint,https://cdn.keycap-archivist.com/keycaps/ed09881a.jpg
-ae9a97cb,Clack Factory,Solid Color Skulls,Conduit Grey,https://cdn.keycap-archivist.com/keycaps/ae9a97cb.jpg
-48d39862,Clack Factory,Solid Color Skulls,Depth Black,https://cdn.keycap-archivist.com/keycaps/48d39862.jpg
-218c0d64,Clack Factory,Solid Color Skulls,Depth White,https://cdn.keycap-archivist.com/keycaps/218c0d64.jpg
-54d9fb34,Clack Factory,Solid Color Skulls,EK Grey,https://cdn.keycap-archivist.com/keycaps/54d9fb34.jpg
-480e1cf3,Clack Factory,Solid Color Skulls,Emerald Green,https://cdn.keycap-archivist.com/keycaps/480e1cf3.jpg
-de05495,Clack Factory,Solid Color Skulls,F2 Grey,https://cdn.keycap-archivist.com/keycaps/de05495.jpg
-6b2c57ea,Clack Factory,Solid Color Skulls,F2 Blue,https://cdn.keycap-archivist.com/keycaps/6b2c57ea.jpg
-4f2d07d0,Clack Factory,Solid Color Skulls,F2 Red,https://cdn.keycap-archivist.com/keycaps/4f2d07d0.jpg
-e0714c64,Clack Factory,Solid Color Skulls,F2 Yellow,https://cdn.keycap-archivist.com/keycaps/e0714c64.jpg
-524e5a1b,Clack Factory,Solid Color Skulls,Forgotten Red,https://cdn.keycap-archivist.com/keycaps/524e5a1b.jpg
-b5c77c46,Clack Factory,Solid Color Skulls,Ghost White,https://cdn.keycap-archivist.com/keycaps/b5c77c46.jpg
-2bd63c04,Clack Factory,Solid Color Skulls,GID (Unknown),https://cdn.keycap-archivist.com/keycaps/2bd63c04.jpg
-6b1e290f,Clack Factory,Solid Color Skulls,"GID (Sprinkle, Unknown)",https://cdn.keycap-archivist.com/keycaps/6b1e290f.jpg
-d17a4ce4,Clack Factory,Solid Color Skulls,Globe Blue,https://cdn.keycap-archivist.com/keycaps/d17a4ce4.jpg
-ba410916,Clack Factory,Solid Color Skulls,Good Times Green,https://cdn.keycap-archivist.com/keycaps/ba410916.jpg
-73428716,Clack Factory,Solid Color Skulls,Guac,https://cdn.keycap-archivist.com/keycaps/73428716.jpg
-d3064e11,Clack Factory,Solid Color Skulls,Gum Purple,https://cdn.keycap-archivist.com/keycaps/d3064e11.jpg
-68fad515,Clack Factory,Solid Color Skulls,Gumrot,https://cdn.keycap-archivist.com/keycaps/68fad515.jpg
-c3cd620e,Clack Factory,Solid Color Skulls,Gummyrot,https://cdn.keycap-archivist.com/keycaps/c3cd620e.jpg
-102721d4,Clack Factory,Solid Color Skulls,Gunk N’ Glitz,https://cdn.keycap-archivist.com/keycaps/102721d4.jpg
-418c075a,Clack Factory,Solid Color Skulls,Hack Orange,https://cdn.keycap-archivist.com/keycaps/418c075a.jpg
-4ba302b2,Clack Factory,Solid Color Skulls,Hardcore White,https://cdn.keycap-archivist.com/keycaps/4ba302b2.jpg
-3949ed60,Clack Factory,Solid Color Skulls,Herr Green (unofficial),https://cdn.keycap-archivist.com/keycaps/3949ed60.jpg
-556f04c0,Clack Factory,Solid Color Skulls,Historic Blue,https://cdn.keycap-archivist.com/keycaps/556f04c0.jpg
-140ac8ab,Clack Factory,Solid Color Skulls,Hot Pink Transparent (unofficial),https://cdn.keycap-archivist.com/keycaps/140ac8ab.jpg
-702d235f,Clack Factory,Solid Color Skulls,Ice Ice Baby,https://cdn.keycap-archivist.com/keycaps/702d235f.jpg
-82e24b69,Clack Factory,Solid Color Skulls,Ice Transparent,https://cdn.keycap-archivist.com/keycaps/82e24b69.jpg
-3c894358,Clack Factory,Solid Color Skulls,Ice-O-Tope Blue,https://cdn.keycap-archivist.com/keycaps/3c894358.jpg
-c1a7e6f7,Clack Factory,Solid Color Skulls,Ionospheric Blue,https://cdn.keycap-archivist.com/keycaps/c1a7e6f7.jpg
-ef656d94,Clack Factory,Solid Color Skulls,Juice Yellow,https://cdn.keycap-archivist.com/keycaps/ef656d94.jpg
-a3ae25a4,Clack Factory,Solid Color Skulls,Lighter Green (unofficial),https://cdn.keycap-archivist.com/keycaps/a3ae25a4.jpg
-91abfdc3,Clack Factory,Solid Color Skulls,Limoncello,https://cdn.keycap-archivist.com/keycaps/91abfdc3.jpg
-2dc45463,Clack Factory,Solid Color Skulls,Machine Green,https://cdn.keycap-archivist.com/keycaps/2dc45463.jpg
-d9e38e7e,Clack Factory,Solid Color Skulls,Metallic Milk Blue,https://cdn.keycap-archivist.com/keycaps/d9e38e7e.jpg
-8da8a038,Clack Factory,Solid Color Skulls,Midnight Blue,https://cdn.keycap-archivist.com/keycaps/8da8a038.jpg
-9e611208,Clack Factory,Solid Color Skulls,Midnight Indigo,https://cdn.keycap-archivist.com/keycaps/9e611208.jpg
-fa4dfa4d,Clack Factory,Solid Color Skulls,Milk Blue,https://cdn.keycap-archivist.com/keycaps/fa4dfa4d.jpg
-3d912a28,Clack Factory,Solid Color Skulls,Milk Pink,https://cdn.keycap-archivist.com/keycaps/3d912a28.jpg
-cda46bce,Clack Factory,Solid Color Skulls,Milk Purple,https://cdn.keycap-archivist.com/keycaps/cda46bce.jpg
-833ea5ec,Clack Factory,Solid Color Skulls,Milk Yellow,https://cdn.keycap-archivist.com/keycaps/833ea5ec.jpg
-e2a8fe90,Clack Factory,Solid Color Skulls,Mint Gum,https://cdn.keycap-archivist.com/keycaps/e2a8fe90.jpg
-be6d9740,Clack Factory,Solid Color Skulls,Neon Pink (unofficial),https://cdn.keycap-archivist.com/keycaps/be6d9740.jpg
-ccb2bd36,Clack Factory,Solid Color Skulls,Noct,https://cdn.keycap-archivist.com/keycaps/ccb2bd36.jpg
-e99bb23b,Clack Factory,Solid Color Skulls,Octopink,https://cdn.keycap-archivist.com/keycaps/e99bb23b.jpg
-be654e1e,Clack Factory,Solid Color Skulls,Orangesicle,https://cdn.keycap-archivist.com/keycaps/be654e1e.jpg
-4038fd2b,Clack Factory,Solid Color Skulls,P1 Purple,https://cdn.keycap-archivist.com/keycaps/4038fd2b.jpg
-220cf03c,Clack Factory,Solid Color Skulls,Painful Red,https://cdn.keycap-archivist.com/keycaps/220cf03c.jpg
-a90cebf9,Clack Factory,Solid Color Skulls,Peasoup,https://cdn.keycap-archivist.com/keycaps/a90cebf9.jpg
-d6f020dc,Clack Factory,Solid Color Skulls,Plum (unofficial),https://cdn.keycap-archivist.com/keycaps/d6f020dc.jpg
-a21a1483,Clack Factory,Solid Color Skulls,Queasy Green,https://cdn.keycap-archivist.com/keycaps/a21a1483.jpg
-12966c10,Clack Factory,Solid Color Skulls,Revenge Red,https://cdn.keycap-archivist.com/keycaps/12966c10.jpg
-5da1f849,Clack Factory,Solid Color Skulls,Ruby,https://cdn.keycap-archivist.com/keycaps/5da1f849.jpg
-854cae30,Clack Factory,Solid Color Skulls,Rust,https://cdn.keycap-archivist.com/keycaps/854cae30.jpg
-25b7e6c4,Clack Factory,Solid Color Skulls,Sapple Green,https://cdn.keycap-archivist.com/keycaps/25b7e6c4.jpg
-e795c4df,Clack Factory,Solid Color Skulls,Sharkette (Dark),https://cdn.keycap-archivist.com/keycaps/e795c4df.jpg
-a4c3db80,Clack Factory,Solid Color Skulls,Sharkette (Light),https://cdn.keycap-archivist.com/keycaps/a4c3db80.jpg
-240ca5b6,Clack Factory,Solid Color Skulls,Sharkette (Lilac),https://cdn.keycap-archivist.com/keycaps/240ca5b6.jpg
-b2690d89,Clack Factory,Solid Color Skulls,Slushy Blue,https://cdn.keycap-archivist.com/keycaps/b2690d89.jpg
-7a0f8bc4,Clack Factory,Solid Color Skulls,Slushy Red,https://cdn.keycap-archivist.com/keycaps/7a0f8bc4.jpg
-b24f32ce,Clack Factory,Solid Color Skulls,Slushy Purple,https://cdn.keycap-archivist.com/keycaps/b24f32ce.jpg
-59f868eb,Clack Factory,Solid Color Skulls,Sparkly Purple (unknown),https://cdn.keycap-archivist.com/keycaps/59f868eb.jpg
-c9e62c2f,Clack Factory,Solid Color Skulls,Sparkly Red (unknown),https://cdn.keycap-archivist.com/keycaps/c9e62c2f.jpg
-c092370d,Clack Factory,Solid Color Skulls,Stellar Purple,https://cdn.keycap-archivist.com/keycaps/c092370d.jpg
-edb886e1,Clack Factory,Solid Color Skulls,Teal,https://cdn.keycap-archivist.com/keycaps/edb886e1.jpg
-39701b56,Clack Factory,Solid Color Skulls,Tickle Me Pink,https://cdn.keycap-archivist.com/keycaps/39701b56.jpg
-3704586e,Clack Factory,Solid Color Skulls,Transparent (unofficial),https://cdn.keycap-archivist.com/keycaps/3704586e.jpg
-6ecc8df0,Clack Factory,Solid Color Skulls,Trophy Gold,https://cdn.keycap-archivist.com/keycaps/6ecc8df0.jpg
-d2cc5ef2,Clack Factory,Solid Color Skulls,Trophy Silver,https://cdn.keycap-archivist.com/keycaps/d2cc5ef2.jpg
-f1d61e72,Clack Factory,Solid Color Skulls,Twizzler Red (unofficial),https://cdn.keycap-archivist.com/keycaps/f1d61e72.jpg
-d61d2f99,Clack Factory,Solid Color Skulls,Weedioactive,https://cdn.keycap-archivist.com/keycaps/d61d2f99.jpg
-dc46d390,Clack Factory,Solid Color Skulls,Whippet Blue,https://cdn.keycap-archivist.com/keycaps/dc46d390.jpg
-3a313da6,Clack Factory,Solid Color Skulls,Wine,https://cdn.keycap-archivist.com/keycaps/3a313da6.jpg
-7062e6b1,Clack Factory,Solid Color Skulls,Yolk Yellow,https://cdn.keycap-archivist.com/keycaps/7062e6b1.jpg
+3ea272a,Clack Factory,Solid Color Skulls,Brown (Unofficial),https://cdn.keycap-archivist.com/keycaps/3ea272a.jpg
+792be01d,Clack Factory,Solid Color Skulls,Chartreuse,https://cdn.keycap-archivist.com/keycaps/792be01d.jpg
+c5990d71,Clack Factory,Solid Color Skulls,Chocolate Mud Brown,https://cdn.keycap-archivist.com/keycaps/c5990d71.jpg
+3ce17dec,Clack Factory,Solid Color Skulls,Cobalt MKII,https://cdn.keycap-archivist.com/keycaps/3ce17dec.jpg
+81700bb4,Clack Factory,Solid Color Skulls,Cobalt Steel Metallic,https://cdn.keycap-archivist.com/keycaps/81700bb4.jpg
+307e936,Clack Factory,Solid Color Skulls,Concrete Mint,https://cdn.keycap-archivist.com/keycaps/307e936.jpg
+4094f6e7,Clack Factory,Solid Color Skulls,Conduit Grey,https://cdn.keycap-archivist.com/keycaps/4094f6e7.jpg
+a1b03d57,Clack Factory,Solid Color Skulls,Depth Black,https://cdn.keycap-archivist.com/keycaps/a1b03d57.jpg
+c8efa851,Clack Factory,Solid Color Skulls,Depth White,https://cdn.keycap-archivist.com/keycaps/c8efa851.jpg
+bad79a18,Clack Factory,Solid Color Skulls,EK Grey,https://cdn.keycap-archivist.com/keycaps/bad79a18.jpg
+a6007ddf,Clack Factory,Solid Color Skulls,Emerald Green,https://cdn.keycap-archivist.com/keycaps/a6007ddf.jpg
+ea587992,Clack Factory,Solid Color Skulls,F2 Grey,https://cdn.keycap-archivist.com/keycaps/ea587992.jpg
+8c947aed,Clack Factory,Solid Color Skulls,F2 Blue,https://cdn.keycap-archivist.com/keycaps/8c947aed.jpg
+6adbdc21,Clack Factory,Solid Color Skulls,F2 Red,https://cdn.keycap-archivist.com/keycaps/6adbdc21.jpg
+c5879795,Clack Factory,Solid Color Skulls,F2 Yellow,https://cdn.keycap-archivist.com/keycaps/c5879795.jpg
+bc403b37,Clack Factory,Solid Color Skulls,Forgotten Red,https://cdn.keycap-archivist.com/keycaps/bc403b37.jpg
+5bc91d6a,Clack Factory,Solid Color Skulls,Ghost White,https://cdn.keycap-archivist.com/keycaps/5bc91d6a.jpg
+c2b59931,Clack Factory,Solid Color Skulls,GID (Unknown),https://cdn.keycap-archivist.com/keycaps/c2b59931.jpg
+827d8c3a,Clack Factory,Solid Color Skulls,"GID (Sprinkle, Unknown)",https://cdn.keycap-archivist.com/keycaps/827d8c3a.jpg
+3f742dc8,Clack Factory,Solid Color Skulls,Globe Blue,https://cdn.keycap-archivist.com/keycaps/3f742dc8.jpg
+544f683a,Clack Factory,Solid Color Skulls,Good Times Green,https://cdn.keycap-archivist.com/keycaps/544f683a.jpg
+94faaa11,Clack Factory,Solid Color Skulls,Guac,https://cdn.keycap-archivist.com/keycaps/94faaa11.jpg
+34be6316,Clack Factory,Solid Color Skulls,Gum Purple,https://cdn.keycap-archivist.com/keycaps/34be6316.jpg
+7f3a6c66,Clack Factory,Solid Color Skulls,Gumrot,https://cdn.keycap-archivist.com/keycaps/7f3a6c66.jpg
+d40ddb7d,Clack Factory,Solid Color Skulls,Gummyrot,https://cdn.keycap-archivist.com/keycaps/d40ddb7d.jpg
+fe2940f8,Clack Factory,Solid Color Skulls,Gunk N’ Glitz,https://cdn.keycap-archivist.com/keycaps/fe2940f8.jpg
+af826676,Clack Factory,Solid Color Skulls,Hack Orange,https://cdn.keycap-archivist.com/keycaps/af826676.jpg
+a2c0a787,Clack Factory,Solid Color Skulls,Hardcore White,https://cdn.keycap-archivist.com/keycaps/a2c0a787.jpg
+d02a4855,Clack Factory,Solid Color Skulls,Herr Green (unofficial),https://cdn.keycap-archivist.com/keycaps/d02a4855.jpg
+bb6165ec,Clack Factory,Solid Color Skulls,Historic Blue,https://cdn.keycap-archivist.com/keycaps/bb6165ec.jpg
+fa04a987,Clack Factory,Solid Color Skulls,Hot Pink Transparent (unofficial),https://cdn.keycap-archivist.com/keycaps/fa04a987.jpg
+97950e58,Clack Factory,Solid Color Skulls,Ice Ice Baby,https://cdn.keycap-archivist.com/keycaps/97950e58.jpg
+655a666e,Clack Factory,Solid Color Skulls,Ice Transparent,https://cdn.keycap-archivist.com/keycaps/655a666e.jpg
+7d135dad,Clack Factory,Solid Color Skulls,Ice-O-Tope Blue,https://cdn.keycap-archivist.com/keycaps/7d135dad.jpg
+803df802,Clack Factory,Solid Color Skulls,Ionospheric Blue,https://cdn.keycap-archivist.com/keycaps/803df802.jpg
+16b0cb8,Clack Factory,Solid Color Skulls,Juice Yellow,https://cdn.keycap-archivist.com/keycaps/16b0cb8.jpg
+4da04488,Clack Factory,Solid Color Skulls,Lighter Green (unofficial),https://cdn.keycap-archivist.com/keycaps/4da04488.jpg
+78c858f6,Clack Factory,Solid Color Skulls,Limoncello,https://cdn.keycap-archivist.com/keycaps/78c858f6.jpg
+c4a7f156,Clack Factory,Solid Color Skulls,Machine Green,https://cdn.keycap-archivist.com/keycaps/c4a7f156.jpg
+37edef52,Clack Factory,Solid Color Skulls,Metallic Milk Blue,https://cdn.keycap-archivist.com/keycaps/37edef52.jpg
+63a6c114,Clack Factory,Solid Color Skulls,Midnight Blue,https://cdn.keycap-archivist.com/keycaps/63a6c114.jpg
+79d93f0f,Clack Factory,Solid Color Skulls,Midnight Indigo,https://cdn.keycap-archivist.com/keycaps/79d93f0f.jpg
+1df5d74a,Clack Factory,Solid Color Skulls,Milk Blue,https://cdn.keycap-archivist.com/keycaps/1df5d74a.jpg
+2a51935b,Clack Factory,Solid Color Skulls,Milk Pink,https://cdn.keycap-archivist.com/keycaps/2a51935b.jpg
+da64d2bd,Clack Factory,Solid Color Skulls,Milk Purple,https://cdn.keycap-archivist.com/keycaps/da64d2bd.jpg
+6d30c4c0,Clack Factory,Solid Color Skulls,Milk Yellow,https://cdn.keycap-archivist.com/keycaps/6d30c4c0.jpg
+ca69fbc,Clack Factory,Solid Color Skulls,Mint Gum,https://cdn.keycap-archivist.com/keycaps/ca69fbc.jpg
+570e3275,Clack Factory,Solid Color Skulls,Neon Pink (unofficial),https://cdn.keycap-archivist.com/keycaps/570e3275.jpg
+25d11803,Clack Factory,Solid Color Skulls,Noct,https://cdn.keycap-archivist.com/keycaps/25d11803.jpg
+795d317,Clack Factory,Solid Color Skulls,Octopink,https://cdn.keycap-archivist.com/keycaps/795d317.jpg
+c086de6a,Clack Factory,Solid Color Skulls,Orange Translucent (unofficial),https://cdn.keycap-archivist.com/keycaps/c086de6a.jpg
+c0d432a3,Clack Factory,Solid Color Skulls,Orangesicle,https://cdn.keycap-archivist.com/keycaps/c0d432a3.jpg
+d087e0ba,Clack Factory,Solid Color Skulls,P1 Purple,https://cdn.keycap-archivist.com/keycaps/d087e0ba.jpg
+9745365c,Clack Factory,Solid Color Skulls,Painful Red,https://cdn.keycap-archivist.com/keycaps/9745365c.jpg
+a40d1961,Clack Factory,Solid Color Skulls,Peach/Cantaloupe (unofficial),https://cdn.keycap-archivist.com/keycaps/a40d1961.jpg
+62f45124,Clack Factory,Solid Color Skulls,Peasoup,https://cdn.keycap-archivist.com/keycaps/62f45124.jpg
+57c28fc5,Clack Factory,Solid Color Skulls,Pink (unofficial),https://cdn.keycap-archivist.com/keycaps/57c28fc5.jpg
+836c0fa2,Clack Factory,Solid Color Skulls,Plum (unofficial),https://cdn.keycap-archivist.com/keycaps/836c0fa2.jpg
+d270e00c,Clack Factory,Solid Color Skulls,Queasy Green,https://cdn.keycap-archivist.com/keycaps/d270e00c.jpg
+f909a297,Clack Factory,Solid Color Skulls,Red-Orange (unofficial),https://cdn.keycap-archivist.com/keycaps/f909a297.jpg
+562113e9,Clack Factory,Solid Color Skulls,Red Rum,https://cdn.keycap-archivist.com/keycaps/562113e9.jpg
+6b4ad4b4,Clack Factory,Solid Color Skulls,Revenge Red,https://cdn.keycap-archivist.com/keycaps/6b4ad4b4.jpg
+ca7321c1,Clack Factory,Solid Color Skulls,Ruby,https://cdn.keycap-archivist.com/keycaps/ca7321c1.jpg
+55ececb,Clack Factory,Solid Color Skulls,Rust,https://cdn.keycap-archivist.com/keycaps/55ececb.jpg
+4cc6230a,Clack Factory,Solid Color Skulls,Sapple Green,https://cdn.keycap-archivist.com/keycaps/4cc6230a.jpg
+60ea603d,Clack Factory,Solid Color Skulls,Sharkette (Dark),https://cdn.keycap-archivist.com/keycaps/60ea603d.jpg
+cdb21e4e,Clack Factory,Solid Color Skulls,Sharkette (Light),https://cdn.keycap-archivist.com/keycaps/cdb21e4e.jpg
+a41ec54d,Clack Factory,Solid Color Skulls,Sharkette (Lilac),https://cdn.keycap-archivist.com/keycaps/a41ec54d.jpg
+d5c34075,Clack Factory,Solid Color Skulls,Slushy Blue,https://cdn.keycap-archivist.com/keycaps/d5c34075.jpg
+f3aba714,Clack Factory,Solid Color Skulls,Slushy Red,https://cdn.keycap-archivist.com/keycaps/f3aba714.jpg
+2c2ba76d,Clack Factory,Solid Color Skulls,Slushy Purple,https://cdn.keycap-archivist.com/keycaps/2c2ba76d.jpg
+2024d04f,Clack Factory,Solid Color Skulls,Sparkly Purple (unknown),https://cdn.keycap-archivist.com/keycaps/2024d04f.jpg
+5e34f5a7,Clack Factory,Solid Color Skulls,Sparkly Red (unknown),https://cdn.keycap-archivist.com/keycaps/5e34f5a7.jpg
+de037a78,Clack Factory,Solid Color Skulls,Stellar Purple,https://cdn.keycap-archivist.com/keycaps/de037a78.jpg
+1a4a6ea1,Clack Factory,Solid Color Skulls,Teal,https://cdn.keycap-archivist.com/keycaps/1a4a6ea1.jpg
+208c923a,Clack Factory,Solid Color Skulls,Tickle Me Pink,https://cdn.keycap-archivist.com/keycaps/208c923a.jpg
+c0f6b02e,Clack Factory,Solid Color Skulls,Transparent (unofficial),https://cdn.keycap-archivist.com/keycaps/c0f6b02e.jpg
+705dc085,Clack Factory,Solid Color Skulls,Trophy Gold,https://cdn.keycap-archivist.com/keycaps/705dc085.jpg
+2be53e80,Clack Factory,Solid Color Skulls,Trophy Silver,https://cdn.keycap-archivist.com/keycaps/2be53e80.jpg
+e6f11f2c,Clack Factory,Solid Color Skulls,Twizzler Red (unofficial),https://cdn.keycap-archivist.com/keycaps/e6f11f2c.jpg
+4879ba3a,Clack Factory,Solid Color Skulls,Weedioactive,https://cdn.keycap-archivist.com/keycaps/4879ba3a.jpg
+a59a6b34,Clack Factory,Solid Color Skulls,Whippet Blue,https://cdn.keycap-archivist.com/keycaps/a59a6b34.jpg
+ade3e42e,Clack Factory,Solid Color Skulls,Wine,https://cdn.keycap-archivist.com/keycaps/ade3e42e.jpg
+f070864a,Clack Factory,Solid Color Skulls,Yolk Yellow,https://cdn.keycap-archivist.com/keycaps/f070864a.jpg
+ce9a7cd0,Clack Factory,Solid Color Skulls,Red Translucent (unofficial),https://cdn.keycap-archivist.com/keycaps/ce9a7cd0.jpg
 7cde9162,Clack Factory,Ogres,Azurerot (unofficial),https://cdn.keycap-archivist.com/keycaps/7cde9162.jpg
 f3183b05,Clack Factory,Ogres,Bantharot (unofficial),https://cdn.keycap-archivist.com/keycaps/f3183b05.jpg
 5fa530f3,Clack Factory,Ogres,Bloodrot (unofficial),https://cdn.keycap-archivist.com/keycaps/5fa530f3.jpg
@@ -8148,6 +8157,10 @@ adf729bf,Clack Factory,DarkSide,Green Vader,https://cdn.keycap-archivist.com/key
 bd468a13,Clack Factory,Splats,"Red, White, & Blue",https://cdn.keycap-archivist.com/keycaps/bd468a13.jpg
 ce776199,Clack Factory,Splats,Camouflage,https://cdn.keycap-archivist.com/keycaps/ce776199.jpg
 465bc77a,Clack Factory,Splats,Paintball,https://cdn.keycap-archivist.com/keycaps/465bc77a.jpg
+e38ebba3,Clack Factory,Blanks,Blue (clackvent),https://cdn.keycap-archivist.com/keycaps/e38ebba3.jpg
+16740785,Clack Factory,Blanks,Candy Corn,https://cdn.keycap-archivist.com/keycaps/16740785.jpg
+9b848365,Clack Factory,Blanks,Julysicle,https://cdn.keycap-archivist.com/keycaps/9b848365.jpg
+a778d8a8,Clack Factory,Blanks,Oktoberfest,https://cdn.keycap-archivist.com/keycaps/a778d8a8.jpg
 591cab17,Clack Factory,420s,Green Thumb Green - O’Natural,https://cdn.keycap-archivist.com/keycaps/591cab17.jpg
 e33de7fb,Clack Factory,420s,Green Thumb Green - Toast,https://cdn.keycap-archivist.com/keycaps/e33de7fb.jpg
 a67b5109,Clack Factory,420s,Guac - Toast,https://cdn.keycap-archivist.com/keycaps/a67b5109.jpg
@@ -8194,6 +8207,7 @@ ce863e,Clack Factory,420s,Weedioactive - Toast,https://cdn.keycap-archivist.com/
 d001bf7,Clack Factory,420s,Nebuilt - O’Natural,https://cdn.keycap-archivist.com/keycaps/d001bf7.jpg
 6c095c2e,Clack Factory,420s,Herr Green - Toast,https://cdn.keycap-archivist.com/keycaps/6c095c2e.jpg
 2f97da1e,Clack Factory,420s,Revenge Red with White Inlay - Toast,https://cdn.keycap-archivist.com/keycaps/2f97da1e.jpg
+98b95ffd,Clack Factory,420s,Clack Happens Green Prototype,https://cdn.keycap-archivist.com/keycaps/98b95ffd.jpg
 3790c2dd,Clackeys,Apollo,Gold Plated,https://cdn.keycap-archivist.com/keycaps/3790c2dd.jpg
 b647c92b,Clackeys,Apollo,Black Chrome,https://cdn.keycap-archivist.com/keycaps/b647c92b.jpg
 3efd0970,Clackeys,Apollo,NASA,https://cdn.keycap-archivist.com/keycaps/3efd0970.jpg
@@ -10210,6 +10224,7 @@ e77d0824,DeagCaps,Miru,Guard,https://cdn.keycap-archivist.com/keycaps/e77d0824.j
 b4f7733c,DeagCaps,Miru,Veri Peri,https://cdn.keycap-archivist.com/keycaps/b4f7733c.jpg
 e0e19eac,DeagCaps,Miru,Moo,https://cdn.keycap-archivist.com/keycaps/e0e19eac.jpg
 ed21ba75,DeagCaps,Miru,Orange Mushroom,https://cdn.keycap-archivist.com/keycaps/ed21ba75.jpg
+e74e2787,DeagCaps,Miru,Santa,https://cdn.keycap-archivist.com/keycaps/e74e2787.jpg
 8c455add,DeagCaps,Biine,OG,https://cdn.keycap-archivist.com/keycaps/8c455add.jpg
 41838019,DeagCaps,Biine,Black,https://cdn.keycap-archivist.com/keycaps/41838019.jpg
 b9a29b21,Death Dealer,Godric,Plunder,https://cdn.keycap-archivist.com/keycaps/b9a29b21.jpg
@@ -16011,6 +16026,7 @@ efe283c8,Hello Caps,Bongo Cat V2,Eggdrop,https://cdn.keycap-archivist.com/keycap
 81aa2385,Hello Caps,Bongo Cat V2,25¢,https://cdn.keycap-archivist.com/keycaps/81aa2385.jpg
 487ca6a1,Hello Caps,Anatomy blank,Welcome home,https://cdn.keycap-archivist.com/keycaps/487ca6a1.jpg
 987d800e,Hello Caps,Anatomy blank,Dead Ringer,https://cdn.keycap-archivist.com/keycaps/987d800e.jpg
+9057e364,Hello Caps,Anatomy blank,Killer Queen,https://cdn.keycap-archivist.com/keycaps/9057e364.jpg
 85df2026,Hello Caps,Schrodinger Cat,Sculpt,https://cdn.keycap-archivist.com/keycaps/85df2026.jpg
 23f97825,Hello Caps,Schrodinger Cat,OG,https://cdn.keycap-archivist.com/keycaps/23f97825.jpg
 1f1ec42c,Hello Caps,Schrodinger Cat,Illiniwek,https://cdn.keycap-archivist.com/keycaps/1f1ec42c.jpg
@@ -25934,6 +25950,7 @@ d81193e,MUBAI,Shark ELF,Hammerhead,https://cdn.keycap-archivist.com/keycaps/d811
 3578ca17,MUBAI,Shark ELF,Godspeed X,https://cdn.keycap-archivist.com/keycaps/3578ca17.jpg
 431c5805,MUBAI,Fluid Corrosion Mask,Impermanence Wihte,https://cdn.keycap-archivist.com/keycaps/431c5805.jpg
 9b706a14,MUBAI,Fluid Corrosion Mask,Impermanence Black,https://cdn.keycap-archivist.com/keycaps/9b706a14.jpg
+9422c224,MUBAI,Fluid Corrosion Mask,HFO,https://cdn.keycap-archivist.com/keycaps/9422c224.jpg
 6296cb3c,MUBAI,Pilot Duck,,https://cdn.keycap-archivist.com/keycaps/6296cb3c.jpg
 1591fbaa,MUBAI,Pilot Duck,,https://cdn.keycap-archivist.com/keycaps/1591fbaa.jpg
 8c98aa10,MUBAI,Pilot Duck,,https://cdn.keycap-archivist.com/keycaps/8c98aa10.jpg
@@ -31880,6 +31897,7 @@ af0f0b78,Picaps,Geineko,Marmoreal,https://cdn.keycap-archivist.com/keycaps/af0f0
 7920db37,Picaps,Geineko,Moony,https://cdn.keycap-archivist.com/keycaps/7920db37.jpg
 3778af6,Picaps,Geineko,UnderGround,https://cdn.keycap-archivist.com/keycaps/3778af6.jpg
 e1831aa9,Picaps,Geineko,OG,https://cdn.keycap-archivist.com/keycaps/e1831aa9.jpg
+1381f2b5,Picaps,Geineko,Twilight,https://cdn.keycap-archivist.com/keycaps/1381f2b5.jpg
 a7f664bd,Picaps,Master Rua Resculpt,Eminence,https://cdn.keycap-archivist.com/keycaps/a7f664bd.jpg
 59857d6a,Picaps,Master Rua Resculpt,Dairiseki,https://cdn.keycap-archivist.com/keycaps/59857d6a.jpg
 f135296e,Picaps,Master Rua Resculpt,Marmoreal,https://cdn.keycap-archivist.com/keycaps/f135296e.jpg
@@ -31964,6 +31982,7 @@ c6b50ea0,Picaps,Butora,Gladiator,https://cdn.keycap-archivist.com/keycaps/c6b50e
 842983cc,Picaps,Butora,Moony,https://cdn.keycap-archivist.com/keycaps/842983cc.jpg
 84059bdb,Picaps,Butora,UnderGround,https://cdn.keycap-archivist.com/keycaps/84059bdb.jpg
 a6374919,Picaps,Butora,OG,https://cdn.keycap-archivist.com/keycaps/a6374919.jpg
+88e4c459,Picaps,Butora,Twilight,https://cdn.keycap-archivist.com/keycaps/88e4c459.jpg
 f107f45d,Picaps,GoShaman,Carbon,https://cdn.keycap-archivist.com/keycaps/f107f45d.jpg
 406e225f,Picaps,GoShaman,Deku,https://cdn.keycap-archivist.com/keycaps/406e225f.jpg
 636aa81f,Picaps,Parasite,Nightmare (Unreleased),https://cdn.keycap-archivist.com/keycaps/636aa81f.jpg
@@ -34573,6 +34592,7 @@ cfcddb9f,Rubrehose,Big Bad Wolf (BBW),,https://cdn.keycap-archivist.com/keycaps/
 8c03e211,Rubrehose,Big Bad Wolf (BBW),Teradrive (Proto 1/1),https://cdn.keycap-archivist.com/keycaps/8c03e211.jpg
 7817172e,Rubrehose,Big Bad Wolf (BBW),Motor Boater Rotor,https://cdn.keycap-archivist.com/keycaps/7817172e.jpg
 596b92a,Rubrehose,Big Bad Wolf (BBW),Ed Hardly,https://cdn.keycap-archivist.com/keycaps/596b92a.jpg
+36e4bbed,Rubrehose,Big Bad Wolf (BBW),,https://cdn.keycap-archivist.com/keycaps/36e4bbed.jpg
 4d9af22c,Rubrehose,Acid Wolf,Acid Wolf,https://cdn.keycap-archivist.com/keycaps/4d9af22c.jpg
 8ee0a46d,Rubrehose,Acid Wolf,80HD,https://cdn.keycap-archivist.com/keycaps/8ee0a46d.jpg
 139472a,Rubrehose,Acid Wolf,Dizzy Rascal,https://cdn.keycap-archivist.com/keycaps/139472a.jpg
@@ -34620,6 +34640,7 @@ ca40a579,Rubrehose,Acid Wolf,MF Doom,https://cdn.keycap-archivist.com/keycaps/ca
 a90b977a,Rubrehose,Acid Wolf,,https://cdn.keycap-archivist.com/keycaps/a90b977a.jpg
 93567799,Rubrehose,Acid Wolf,Just Kaws,https://cdn.keycap-archivist.com/keycaps/93567799.jpg
 4705f656,Rubrehose,Acid Wolf,,https://cdn.keycap-archivist.com/keycaps/4705f656.jpg
+3002c6c0,Rubrehose,Acid Wolf,,https://cdn.keycap-archivist.com/keycaps/3002c6c0.jpg
 93855d30,Rubrehose,Lucy,Clay Master,https://cdn.keycap-archivist.com/keycaps/93855d30.jpg
 5004cdf6,Rubrehose,Lucy,Prototype,https://cdn.keycap-archivist.com/keycaps/5004cdf6.jpg
 c90d9c4c,Rubrehose,Lucy,Prototype,https://cdn.keycap-archivist.com/keycaps/c90d9c4c.jpg
@@ -36666,6 +36687,7 @@ f1b64415,SodieCaps,Hero,Purple Passion,https://cdn.keycap-archivist.com/keycaps/
 5cb7e3a6,SodieCaps,Poser,Unreal Relax,https://cdn.keycap-archivist.com/keycaps/5cb7e3a6.jpg
 34b122a0,SodieCaps,Poser,Collab Coommemoration (1/1),https://cdn.keycap-archivist.com/keycaps/34b122a0.jpg
 a918acbe,SodieCaps,Poser,Your Brain On Nuggs (1/1),https://cdn.keycap-archivist.com/keycaps/a918acbe.jpg
+62e13feb,SodieCaps,Poser,Mmm Donuts,https://cdn.keycap-archivist.com/keycaps/62e13feb.jpg
 afb71232,SodieCaps,Kin,Firstborn,https://cdn.keycap-archivist.com/keycaps/afb71232.jpg
 8ddd74c7,SodieCaps,Kin,Neon Gen,https://cdn.keycap-archivist.com/keycaps/8ddd74c7.jpg
 d34844a9,SodieCaps,Kin,Ashes of Ariandel,https://cdn.keycap-archivist.com/keycaps/d34844a9.jpg
@@ -36760,6 +36782,7 @@ ffdda9bc,SodieCaps,Blanks,Fire,https://cdn.keycap-archivist.com/keycaps/ffdda9bc
 c8a48147,SodieCaps,Blanks,Purple Passion,https://cdn.keycap-archivist.com/keycaps/c8a48147.jpg
 bff35057,SodieCaps,Blanks,Monstera,https://cdn.keycap-archivist.com/keycaps/bff35057.jpg
 506f2c1b,SodieCaps,Blanks,River Water,https://cdn.keycap-archivist.com/keycaps/506f2c1b.jpg
+cdda374d,SodieCaps,Blanks,Mmm Donuts,https://cdn.keycap-archivist.com/keycaps/cdda374d.jpg
 b6d3d649,SodieCaps,KAT WASD,KAT WASD Cluster # 1,https://cdn.keycap-archivist.com/keycaps/b6d3d649.jpg
 c3925886,SodieCaps,KAT WASD,KAT WASD Cluster # 2,https://cdn.keycap-archivist.com/keycaps/c3925886.jpg
 5b59630b,SodieCaps,KAT WASD,KAT WASD Cluster # 3,https://cdn.keycap-archivist.com/keycaps/5b59630b.jpg
