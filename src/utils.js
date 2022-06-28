@@ -152,6 +152,7 @@ function gDriveParse (catalog, tabs) {
         currIdx += 1
       }
     } else {
+      let imgIdx = 0
       // eslint-disable-next-line no-loop-func
       element.querySelectorAll('td').forEach((e) => {
         let img = ''
@@ -203,9 +204,9 @@ function gDriveParse (catalog, tabs) {
             text = text.replace(regCount, '')
           }
           catalog.sculpts[currIdx].colorways.push({
-            name: decode(text).trim(),
+            name: sanitizedName,
             img,
-            id: genId(img),
+            id: genId(`${catalog.name}-${currentSculpt}-${sanitizedName}-${imgIdx++}`),
             isCover,
             releaseDate,
             totalCount,
@@ -267,14 +268,13 @@ function flatten (catalog) {
   for (const artist in Object.keys(catalog).sort()) {
     const artistArr = []
     for (const sculpt in catalog[artist].sculpts) {
-      // eslint-disable-next-line no-loop-func
       catalog[artist].sculpts[sculpt].colorways.forEach((s) => {
         const out = {
           id: s.id,
           artist: catalog[artist].name,
           sculpt: catalog[artist].sculpts[sculpt].name,
           name: s.name,
-          img: s.img
+          img: `https://cdn.keycap-archivist.com/keycaps/${s.id}.jpg`
         }
         arr.push(out)
         artistArr.push(out)
