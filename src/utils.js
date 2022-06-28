@@ -185,13 +185,22 @@ function gDriveParse (catalog, tabs) {
             isCover = true
             text = text.replace(reCover, '')
           }
-          const regDate = /\(([a-zA-Z ]*\d{4})\)/gim
+          const regDate = /\(([a-zA-Z ]*\d{4})\)*(\(\d+\))?/gim
           const dateMatch = regDate.exec(text)
+          const regCount = /\((count )(\d+)\)/gim
+          const countMatch = regCount.exec(text)
           let releaseDate
+          let totalCount 
           if (dateMatch) {
             // eslint-disable-next-line prefer-destructuring
             releaseDate = dateMatch[1]
             text = text.replace(regDate, '')
+          }
+          if (countMatch) {
+            // eslint-disable-next-line prefer-destructuring
+            console.log(countMatch)
+            totalCount = countMatch[2]
+            text = text.replace(regCount, '')
           }
           catalog.sculpts[currIdx].colorways.push({
             name: decode(text).trim(),
@@ -199,6 +208,7 @@ function gDriveParse (catalog, tabs) {
             id: genId(img),
             isCover,
             releaseDate,
+            totalCount,
             note: ''
           })
         }
