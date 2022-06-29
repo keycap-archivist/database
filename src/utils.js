@@ -187,7 +187,7 @@ function gDriveParse (catalog, tabs) {
             text = text.replace(reCover, '')
           }
 
-          const regDate = /\(([a-zA-Z ]*\d{4})\)*(\(\d+\))?/gim
+          const regDate = /\(([a-zA-Z ]*\d{4})\)/gim
           const dateMatch = regDate.exec(text)
           const regCount = /\((count )(\d+)\)/gim
           const countMatch = regCount.exec(text)
