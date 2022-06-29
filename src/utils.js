@@ -191,7 +191,7 @@ function gDriveParse (catalog, tabs) {
           const regCount = /\((count )(\d+)\)/gim
           const countMatch = regCount.exec(text)
           let releaseDate
-          let totalCount 
+          let totalCount
           if (dateMatch) {
             // eslint-disable-next-line prefer-destructuring
             releaseDate = dateMatch[1]
@@ -203,6 +203,7 @@ function gDriveParse (catalog, tabs) {
             totalCount = countMatch[2]
             text = text.replace(regCount, '')
           }
+          const sanitizedName = decode(text).trim()
           catalog.sculpts[currIdx].colorways.push({
             name: sanitizedName,
             img,
