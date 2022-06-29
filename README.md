@@ -32,6 +32,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 - **Sculpt Header** `(ka_profile_xxx)` Specify the profile of the sculpt. Available values: `blank`/`sculpt`
 - **Sculpt Header** `(ka_design_xxx)` Specify how the design was made. Available values: `physical`/`digital`/`hybrid`
 - **Sculpt Header** `(ka_cast_xxx)` Specify how the cap is made. Availabe values: `resin`/`mixed`
+- **Colorway Header** `(count #)` will add the total count of each colorway. Value should be an integer: `(count 1)`, `(count 13)`
 
 ## Source Catalogs
 
