@@ -199,7 +199,6 @@ function gDriveParse (catalog, tabs) {
           }
           if (countMatch) {
             // eslint-disable-next-line prefer-destructuring
-            console.log(countMatch)
             totalCount = countMatch[2]
             text = text.replace(regCount, '')
           }
