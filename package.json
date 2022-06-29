@@ -10,33 +10,26 @@
     "sync:img": "node src/sync-images.js",
     "prune:img": "node src/prune-images.js",
     "validate": "node src/validate.js",
-    "gen:wiki": "node src/gen-wiki.js"
+    "remap:img": "node src/remap-img.js"
   },
   "devDependencies": {
     "@types/node": "^17.0.18",
     "csv-generate": "^4.0.4",
     "csv-parse": "^5.0.4",
-    "eslint": "^8.9.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.1",
     "snazzy": "^9.0.0",
-    "standard": "^16.0.4"
+    "standard": "^17.0.0"
   },
   "dependencies": {
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
-    "axios": "^0.26.0",
-    "crc": "^4.1.0",
+    "axios": "^0.27.2",
+    "crc": "^4.1.1",
     "csv-stringify": "^6.0.5",
-    "googleapis": "95",
+    "googleapis": "100",
     "he": "^1.2.0",
-    "marked": "^4.0.12",
-    "node-html-parser": "^5.2.0",
+    "node-html-parser": "^5.3.3",
     "rimraf": "^3.0.2",
-    "sharp": "^0.30.1",
+    "sharp": "^0.30.4",
     "slugify": "^1.6.5"
   }
 }

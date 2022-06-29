@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 184
-- Sculpts : 1956
-- Colorways : 39787
+- Artists : 189
+- Sculpts : 1971
+- Colorways : 39895
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -28,13 +28,10 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 - `(ka_cover)` will make the sculpt of the current cell as the cover of the catalog
 - `(ka_self_order)` anywhere in the document, will use the order of the gdoc instead of alphabetical order
 - `(XXXX YEAR)` will add the date on the sculpt or the colorway. Free input field. eg: `(March 2019)` or `(2019)`
-- `(ka_from_XX)` will add the nationality of the maker. Free input field using 2-digit ISO code for the country. eg: `(ka_from_fr)
-
+- `(ka_from_XX)` will add the nationality of the maker. Free input field using 2-digit ISO code for the country. eg: `(ka_from_fr)`
 - **Sculpt Header** `(ka_profile_xxx)` Specify the profile of the sculpt. Available values: `blank`/`sculpt`
 - **Sculpt Header** `(ka_design_xxx)` Specify how the design was made. Available values: `physical`/`digital`/`hybrid`
 - **Sculpt Header** `(ka_cast_xxx)` Specify how the cap is made. Availabe values: `resin`/`mixed`
-
-- **Colorway Header** `(count #)` will add the total count of each colorway. Value should be an integer: `(count 1)`, `(count 13)`
 
 ## Source Catalogs
 
@@ -208,6 +205,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 834a1ae7 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
 | 12154e7b | Sonder Caps | [link](https://docs.google.com/document/d/1nZEhuaS3rNaGzJieik-EEhOtnLtTHwrbIOxc81uyKI8) |
 | 62a4c768 | Stone Keys | [link](https://docs.google.com/document/d/1kVAbEYLLsFT4y6k0b7A1aenvKOtPzX93cSDXqC_f2eQ) |
+| 8e113e35 | Stupid Fruit | [link](https://docs.google.com/document/d/1mhSVY5Z4vSmV1XNGcZzC-YZkvPnMRc43_F1dxGS1qxE) |
 | 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
 | 366c9651 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
 | ede9ca7c | Sway Caps | [link](https://docs.google.com/document/d/1tRhoMKBVZuBxE9UAynqtBNrm__OEjQnOF07NIUamQtE) |
