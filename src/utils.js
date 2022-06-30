@@ -189,7 +189,7 @@ function gDriveParse (catalog, tabs) {
 
           const regDate = /\(([a-zA-Z ]*\d{4})\)/gim
           const dateMatch = regDate.exec(text)
-          const regCount = /\((count )(\d+)\)/gim
+          const regCount = /\(count (\d+)\)/gim
           const countMatch = regCount.exec(text)
           let releaseDate
           let totalCount
