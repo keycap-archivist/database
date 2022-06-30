@@ -200,7 +200,7 @@ function gDriveParse (catalog, tabs) {
           }
           if (countMatch) {
             // eslint-disable-next-line prefer-destructuring
-            totalCount = countMatch[2]
+            totalCount = countMatch[1]
             text = text.replace(regCount, '')
           }
           const sanitizedName = decode(text).trim()
