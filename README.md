@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 188
-- Sculpts : 1967
-- Colorways : 39954
+- Artists : 189
+- Sculpts : 1979
+- Colorways : 39975
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -225,4 +225,5 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 225e11c2 | ZellKey | [link](https://docs.google.com/document/d/1SS3g7HabIxQhRCb9_dEKRBWkXF24XyeELFtlf09hOdQ) |
 | 6848aaa0 | Zero Keycaps | [link](https://docs.google.com/document/d/1pJjELN0W1faMi0kcwyrc9do4XwXorlruZfDVMh9Av3Q) |
 | ff972406 | Zorbcaps | [link](https://docs.google.com/document/d/1_wtEVliorr29dTkO7NHHBkM3fu80V_rU6eJKMVwd8qQ) |
+| 3a54b54a | Zouabi Co. | [link](https://docs.google.com/document/d/1bbQYDOFizNYAt6StvoxHB7sbIzvY2i-PlFNRctjngg4) |
 | ce8a8e22 | Zy.cap | [link](https://docs.google.com/document/d/1iFu8FhwjqIJSrweEA9ziazm0eD5rz3k3NgMtzIHzNw0) |
