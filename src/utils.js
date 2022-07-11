@@ -191,8 +191,12 @@ function gDriveParse (catalog, tabs) {
           const dateMatch = regDate.exec(text)
           const regCount = /\(count (\d+)\)/gim
           const countMatch = regCount.exec(text)
+          const regComm = /\(\*\)/gim
+          const commMatch = regComm.exec(text)
+
           let releaseDate
           let totalCount
+          let commissioned
           if (dateMatch) {
             // eslint-disable-next-line prefer-destructuring
             releaseDate = dateMatch[1]
@@ -203,6 +207,10 @@ function gDriveParse (catalog, tabs) {
             totalCount = countMatch[1]
             text = text.replace(regCount, '')
           }
+          if (commMatch) {
+            commissioned = true
+            text = text.replace(regComm, '')
+          }
           const sanitizedName = decode(text).trim()
           catalog.sculpts[currIdx].colorways.push({
             name: sanitizedName,
@@ -211,6 +219,7 @@ function gDriveParse (catalog, tabs) {
             isCover,
             releaseDate,
             totalCount,
+            commissioned,
             note: ''
           })
         }
