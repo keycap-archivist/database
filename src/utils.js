@@ -1,3 +1,4 @@
+const { exec } = require('child_process')
 const { google } = require('googleapis')
 const fs = require('fs')
 const path = require('path')
@@ -295,6 +296,17 @@ function flatten (catalog) {
   return { full: arr, artist: outArtist }
 }
 
+
+async function promExec (cmd) {
+  return new Promise((resolve, reject) => {
+    exec(cmd, (err, stdout) => {
+      if (err) { return reject(err) }
+      console.log(stdout)
+      resolve(stdout)
+    })
+  })
+}
+
 module.exports = {
   downloadFile,
   gDriveParse,
@@ -306,5 +318,6 @@ module.exports = {
   sortBy,
   launcher,
   resize,
-  flatten
+  flatten,
+  promExec
 }

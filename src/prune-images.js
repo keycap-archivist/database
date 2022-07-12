@@ -1,4 +1,4 @@
-const { spawn, exec } = require('child_process')
+const { spawn } = require('child_process')
 const db = require('../db/catalog.json')
 
 function getCurrentImages () {
@@ -24,16 +24,6 @@ function getCurrentImages () {
           })
           .filter(Boolean)
       )
-    })
-  })
-}
-
-async function promExec (cmd) {
-  return new Promise((resolve, reject) => {
-    exec(cmd, (err, stdout) => {
-      if (err) { return reject(err) }
-      console.log(stdout)
-      resolve(stdout)
     })
   })
 }
