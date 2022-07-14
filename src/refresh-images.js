@@ -1,15 +1,15 @@
 const db = require('../db/catalog.json')
 const { promExec } = require('./utils')
 
-async function main(makerId) {
+async function main (makerId) {
   const toDel = []
   const m = db.find(x => x.id === makerId)
   if (!m) {
-    console.log("no maker found")
+    console.log('no maker found')
   } else {
     console.log(`found maker ${m.id} ${m.name}`)
   }
-  m.sculpts.forEach(s=>{
+  m.sculpts.forEach(s => {
     s.colorways.forEach((c) => {
       toDel.push(c.id)
     })

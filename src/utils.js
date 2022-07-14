@@ -296,7 +296,6 @@ function flatten (catalog) {
   return { full: arr, artist: outArtist }
 }
 
-
 async function promExec (cmd) {
   return new Promise((resolve, reject) => {
     exec(cmd, (err, stdout) => {

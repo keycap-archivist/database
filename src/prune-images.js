@@ -1,5 +1,6 @@
 const { spawn } = require('child_process')
 const db = require('../db/catalog.json')
+const { promExec } = require('./utils')
 
 function getCurrentImages () {
   return new Promise((resolve) => {
