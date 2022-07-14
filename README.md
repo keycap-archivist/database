@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 189
-- Sculpts : 1988
-- Colorways : 40136
+- Sculpts : 1992
+- Colorways : 40145
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -169,6 +169,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | b1832521 | NibbNubb Keycaps | [link](https://docs.google.com/document/d/1VDaL0vyFLSMyfmw2k-Aa3RleuEU9o3H6JPiV33zTDy4) |
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
+| edb9aff4 | Noob Studio | [link](https://docs.google.com/document/d/1TUqpr6MrnkvMT79R7rrwQ330cZvuG-bQCovNNhOct14) |
 | de6ddfab | Nork | [link](https://docs.google.com/document/d/192BiqrPFiOag5NmKTmkAVl9jak0toBjxAOQO8coyO_M) |
 | d2df83d9 | Nubbinator | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U) |
 | e14f5f5a | Nuhz Caps | [link](https://docs.google.com/document/d/1-BcprHM7kp7znXKbCKrcCnKbd2q5GvX4UI8qod5J3rA) |
@@ -180,7 +181,6 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 500aa195 | Phage Caps | [link](https://docs.google.com/document/d/1m7S6LaNaAg7vfZP9Bt23EYX7v3boC3TpTaqF0gBsEaM) |
 | 869ac01f | PhangKey | [link](https://docs.google.com/document/d/1awYbT9shWhsI6wnpXVUozJxwQjFbiYXhTNNPQOCeAvE) |
 | afdb1ce2 | Picaps | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
-| e2792284 | Plastic Drug Dealer | [link](https://docs.google.com/document/d/1dHvxJWBcyuM4mrPUu3Hinqn-Ue1au9INzfljCa_Ue7I) |
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
 | a73f210e | PrimeCaps | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
 | 8dac3435 | ProjectKey | [link](https://docs.google.com/document/d/1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE) |
