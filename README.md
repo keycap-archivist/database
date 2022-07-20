@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 189
-- Sculpts : 1994
-- Colorways : 40315
+- Artists : 190
+- Sculpts : 1996
+- Colorways : 40333
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -217,6 +217,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | d518e1b0 | TripleNight.Kaps | [link](https://docs.google.com/document/d/1q_LPkHEAF7Hp-_jBul6foA65RC6LHPKVeN9ExqghsrQ) |
 | 985ff9d3 | trmk | [link](https://docs.google.com/document/d/19r0FNbI7cLrjogfDviC7WT2HkuRax9RmPZwn3B_DNOY) |
 | a8ab97a4 | Unbranded.caps | [link](https://docs.google.com/document/d/1nQIdjUjkWGyGAIgiEl2oXANX2MJj91uFhCPKOLx2qWw) |
+| d3fe003d | Unknown Keycaps | [link](https://docs.google.com/document/d/17Bhy7YSkXQQO2YC8hvCYsxbRprgMMNTpuMCFnFyDrts) |
 | 2dc47fe3 | Vice Caps | [link](https://docs.google.com/document/d/1WR23MyXbLOAi0Vh6UoeRQqmZ2UsilJNVunw0Y_Hf9fU) |
 | de28aff1 | Wildstory Caps | [link](https://docs.google.com/document/d/1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0) |
 | e2285960 | Win Keys | [link](https://docs.google.com/document/d/1RKX9sVYGkGQKnfGjaLeiFuYwA5zbi5UYfdwSYxHK90w) |
