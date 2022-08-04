@@ -14,7 +14,8 @@ const catalogs = {
   salvador: 'Salvador',
   albison: 'Albison',
   'mr-worldwide': 'Mr Worldwide',
-  'boosted-gamer-set': 'Boosted Gamer Set'
+  'boosted-gamer-set': 'Boosted Gamer Set',
+  geekpora: 'Geekpora'
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
