@@ -118,6 +118,7 @@ function gDriveParse (catalog, tabs) {
     const element = tabs[idx]
     if (idx % 2 === 0) {
       let sculptName
+      sculptDate = undefined
       // In case of bad formats
       try {
         const { rawText } = element
