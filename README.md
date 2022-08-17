@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 193
-- Sculpts : 2037
-- Colorways : 41129
+- Artists : 194
+- Sculpts : 2039
+- Colorways : 41173
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -154,6 +154,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | ddaf1f8c | Lividity | [link](https://docs.google.com/document/d/18mc8abYoFIYDEqpvJzG5qYLXoQBTBUu9DUp7JSmIFxM) |
 | 814e90b | Lo-Ki Caps | [link](https://docs.google.com/document/d/1QGRxPMGI-GIN63LCatprE60zDfcVmy67cG53aXLDf8M) |
 | d0cb9c83 | Luna Keycaps | [link](https://docs.google.com/document/d/1AV5u4TtQY2iKOisKygGIn7IYFGzcqU9hhjqI76UzkbM) |
+| 865deb34 | Macher Studio | [link](https://docs.google.com/document/d/1nSusf9xLZErFgheGcr7q5PsJYVqTVEyDUzKYWxR6PQ0) |
 | 3b7e4de6 | Mad Labs Keycaps | [link](https://docs.google.com/document/d/176oXSO83YXhYkVDBpoanyiroWaqXq7SmOY8OQfO6bfY) |
 | 27710b61 | Mariotheguy | [link](https://docs.google.com/document/d/1TJ-cV5VpMDm0qvF5bLE1cyp_UtZ0mMUK3XFhUXqfEmo) |
 | ea0b31fa | Mastonon.kaps | [link](https://docs.google.com/document/d/1XwH1785exI1NCfr3M-ZtkcTxDe4fICVP0Tmbvg00HXQ) |
