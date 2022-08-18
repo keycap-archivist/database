@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 194
-- Sculpts : 2039
-- Colorways : 41205
+- Artists : 195
+- Sculpts : 2042
+- Colorways : 41212
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -123,6 +123,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | c0c9ffa9 | Hot Keys Project | [link](https://docs.google.com/document/d/1KcZjWQ59gmgNoX1piEdf6MX1r6sBig2_G9AYrs1SjBQ) |
 | 4183ab23 | Hunger Work Studio | [link](https://docs.google.com/document/d/1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ) |
 | 260460a | Inkblot Caps | [link](https://docs.google.com/document/d/1jE94XFa7QZPMtwjsbLwqNkgwGsFJNsyAEjdSlDcBaCE) |
+| f8c855a4 | jankycaps | [link](https://docs.google.com/document/d/1nT-vBKIXCFuAPPUCewAcUcwGt9-1Bedkyd4CGdjQfBM) |
 | 1ff2c383 | Jelly Key | [link](https://docs.google.com/document/d/1Y9hJ5WgjSjXhKEpeLudk542Mj_P0B9aJt56CLdf5Oas) |
 | 594d1920 | Jibii | [link](https://docs.google.com/document/d/1KTJ1Up_7Jjr81xbjNSzNswNBXnfSgOsEZr4wc2ODEEo) |
 | 79bfad4f | Jusherhoe | [link](https://docs.google.com/document/d/171XoC3BAC13iMQlAJ85impbm-jj7irgCDZwGwYfNTfc) |
