@@ -232,6 +232,7 @@ function gDriveParse (catalog, tabs) {
             releaseDate,
             totalCount,
             commissioned,
+            giveaway,
             note: ''
           })
         }
