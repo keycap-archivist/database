@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 195
-- Sculpts : 2070
-- Colorways : 42004
+- Artists : 196
+- Sculpts : 2073
+- Colorways : 42010
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -150,6 +150,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | acfac611 | KUG | [link](https://docs.google.com/document/d/1_GW1c005RK7X2olNW2flNdkJEcM9_TOZ1e4ONUfHUYU) |
 | 4e1aff89 | LandCaps | [link](https://docs.google.com/document/d/1qDHsR0Y2U0W_pBPgtvB_i_xh09a1VVInbg3rK7al7Ug) |
 | ab1d3b22 | Latrialum | [link](https://docs.google.com/document/d/1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY) |
+| 115bda7d | LAZERCAPS | [link](https://docs.google.com/document/d/1Q5o4ct05fGqAyo5QnaeaF0hWtJhRyuT5VE5CIAPW24Y) |
 | 4e2dec37 | LazyCaps | [link](https://docs.google.com/document/d/1yyLznWKS7QTrOLTTfP9izvDIlEE_q9n0To1Id3N_0FQ) |
 | fa0bf049 | Level caps | [link](https://docs.google.com/document/d/1YEx3xAI3r_MIXrrdWzTBdsPC7rdBoxd87TWwxpfsMyE) |
 | ddaf1f8c | Lividity | [link](https://docs.google.com/document/d/18mc8abYoFIYDEqpvJzG5qYLXoQBTBUu9DUp7JSmIFxM) |
