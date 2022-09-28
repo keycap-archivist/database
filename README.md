@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 196
-- Sculpts : 2083
-- Colorways : 42322
+- Artists : 197
+- Sculpts : 2093
+- Colorways : 42392
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -213,6 +213,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 834a1ae7 | SodieCaps | [link](https://docs.google.com/document/d/1R2dHjC3M2dab4_pMVnc-ti11gazoD42Lqknjm5EW2R0) |
 | 12154e7b | Sonder Caps | [link](https://docs.google.com/document/d/1nZEhuaS3rNaGzJieik-EEhOtnLtTHwrbIOxc81uyKI8) |
 | 62a4c768 | Stone Keys | [link](https://docs.google.com/document/d/1kVAbEYLLsFT4y6k0b7A1aenvKOtPzX93cSDXqC_f2eQ) |
+| 8e113e35 | Stupid Fruit | [link](https://docs.google.com/document/d/1mhSVY5Z4vSmV1XNGcZzC-YZkvPnMRc43_F1dxGS1qxE) |
 | 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
 | 366c9651 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
 | ede9ca7c | Sway Caps | [link](https://docs.google.com/document/d/1tRhoMKBVZuBxE9UAynqtBNrm__OEjQnOF07NIUamQtE) |
