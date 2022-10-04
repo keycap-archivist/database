@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 197
-- Sculpts : 2095
-- Colorways : 42462
+- Artists : 198
+- Sculpts : 2103
+- Colorways : 42476
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -217,6 +217,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
 | 366c9651 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
 | ede9ca7c | Sway Caps | [link](https://docs.google.com/document/d/1tRhoMKBVZuBxE9UAynqtBNrm__OEjQnOF07NIUamQtE) |
+| 96f4242c | T-Art Universe | [link](https://docs.google.com/document/d/1rAusxiqfPBB_5S7zeEOYX1TJNu4ehcZdxG8jmLLN5Ds) |
 | ff33c7c3 | T-Lab | [link](https://docs.google.com/document/d/1sjUG3_qviJnpMV7w6hAAPKjcLtLVrk-8vrGVXqCptdc) |
 | 4e4eda29 | Tech. Stoned. Amish. | [link](https://docs.google.com/document/d/1CzwP-Zj8cLVvMdQRJqDFL_kiZOaOHAcgp3F0owh4-nY) |
 | 663df7c5 | theboxkeycap | [link](https://docs.google.com/document/d/1R-0hie5BZ66Uqv-FILFqHEfanQPAYwpBPMGqFWVGR_A) |
