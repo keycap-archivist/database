@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 198
-- Sculpts : 2094
-- Colorways : 42632
+- Artists : 199
+- Sculpts : 2096
+- Colorways : 42644
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -46,6 +46,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | ff5fc103 | ACkeys | [link](https://docs.google.com/document/d/1-pP9xJMH55xNGq3waZb6n5x0t6vNX9aqsQAUKaXLfv8) |
 | a00953bd | Alpha Keycaps | [link](https://alphakeycaps.com/) |
 | 8c954f4 | Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
+| 53252dbe | Animech | [link](https://docs.google.com/document/d/15IRx6bobdBXas3CZT81qexe-qFcK6t9dgz3IVXkTVPw) |
 | c44d43cd | Anomaly Caps | [link](https://docs.google.com/document/d/1zc0G7J3wd6sdOFcdLokOmom-mQmgm6gzhXUHZO8r3kI) |
 | 63243e40 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
 | 944a9285 | ARKEYS | [link](https://docs.google.com/document/d/1q__LoSd2vlzY95KKp0TStW2bA3XBPvKZcOQPrKprQh0) |
