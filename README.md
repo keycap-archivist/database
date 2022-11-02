@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 199
-- Sculpts : 2106
-- Colorways : 43033
+- Artists : 201
+- Sculpts : 2112
+- Colorways : 43056
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -143,6 +143,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | dbf82e90 | KeyLabs Keycaps | [link](https://docs.google.com/document/d/1-VofkRGFmgtlq7R8986aXr8kdMYw9gsT59cjhEgn8D8) |
 | 785e721c | Keyzen | [link](https://docs.google.com/document/d/1YljdTx25HavIPtY4ZFNWT1eULVTbCS-i1bUYjEVjwU4) |
 | da43467e | Kin Caps | [link](https://docs.google.com/document/d/1oSC6767-PT4EzL_qaj8Q1kFWyl64QqzH40Fgg_jzadw) |
+| 87e8613c | Kit Ann Caps | [link](https://docs.google.com/document/d/1OKMEDz4c7rILX8aiH332n-wW3PjIN3meKu5ZXStgDTs) |
 | db87932a | KiyoKaps | [link](https://docs.google.com/document/d/1eC4oLh3QZ-4kUeejnhWTPEnh7_D2pqp7CsQDziXf6uQ) |
 | 29a8f167 | Klaykaps | [link](https://docs.google.com/document/d/1U_Te4TY5Nxwme5CjnFMd3tGqSYXJxrkYK7c7VlkI2MU) |
 | 16df4385 | Kook | [link](https://docs.google.com/document/d/1RI8quPYaJnGxMVBc1fTw_jL4skru4b--V7ORXfmaszw) |
@@ -185,9 +186,9 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | f086fafc | Ochre + Moss | [link](https://docs.google.com/document/d/1r3HhhDyLTnLJrDb5kpCazx_-j7SwOk9GHl9G-zek-N0) |
 | a205ce0a | okeydokey studio | [link](https://docs.google.com/document/d/1_khNYhY3YlyeRK9Tok3qDQ-FJU-lBittK0fsNiLbWhI) |
 | efe02066 | Omega Keycaps | [link](https://docs.google.com/document/d/1b9lWjQr0m151takmQQPI7h40cLy_uo6HpDTan418SFE) |
+| 5425e998 | P.Craft Studio | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
 | 500aa195 | Phage Caps | [link](https://docs.google.com/document/d/1m7S6LaNaAg7vfZP9Bt23EYX7v3boC3TpTaqF0gBsEaM) |
 | 869ac01f | PhangKey | [link](https://docs.google.com/document/d/1awYbT9shWhsI6wnpXVUozJxwQjFbiYXhTNNPQOCeAvE) |
-| afdb1ce2 | Picaps | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
 | 8fd82fa5 | Pixart Valley | [link](https://docs.google.com/document/d/1DDUof0CPmirwcCbNGSkqX-_R4onwfbZQhuqHZqsTpHw) |
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
 | a73f210e | PrimeCaps | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
@@ -196,6 +197,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 6b46c555 | Q Qaps | [link](https://docs.google.com/document/d/1D1Pt_Jp0Mm35O0a2vFQ6mh2UzcjT1JBWxjqUcc2tSBY) |
 | c6e4a02a | RADcaps | [link](https://docs.google.com/document/d/1KINOK9cUUA28pSGnHc8ZI-RM36o12ADojXp7ZeNdTh4) |
 | 16fecba | Rath | [link](https://docs.google.com/document/d/1mX-wUILSjmOGULIju5SKD3zKn7VE9hLl2BHgZZPTnG0) |
+| 801ea9d2 | Raw Studio | [link](https://docs.google.com/document/d/1gYRLcLvlUlh5oKvMuLWh0xz3QQpxw6OVtTzefJa3FDY) |
 | d7421e66 | Rejeck Kaps | [link](https://docs.google.com/document/d/10EGmT_ifrjOuqFENtfrxfWljiR8etxHdmyU-gLAhfQw) |
 | 2842faca | Resin Party | [link](https://docs.google.com/document/d/172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc) |
 | 1544e340 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
