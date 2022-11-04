@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 201
-- Sculpts : 2111
-- Colorways : 43094
+- Artists : 198
+- Sculpts : 2092
+- Colorways : 43010
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -90,10 +90,8 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | fd91c007 | Craftkey | [link](https://docs.google.com/document/d/1Ruol_1a4kzgLyXkeQ4d7ayu2shpsJPrHVUu7dBIYOYQ) |
 | 1be8013f | Crystal Pieces | [link](https://docs.google.com/document/d/1cR7ceg-E5K8D-AxTq4-9Wm3s_qeUTFjTcJIJBWBZnJU) |
 | 52730e4a | CYSM | [link](https://docs.google.com/document/d/1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI) |
-| ba4abd | Daisy Skull Studio | [link](https://docs.google.com/document/d/12mtyujoMo0dB2iiWR4utBunOAXyIeGEClFuYHEx0Fzg) |
 | 120fb8f2 | Dalifu Caps | [link](https://docs.google.com/document/d/1JpL8NeP-J85x_Viy_VGzM5fRpEAMPw_giRO78eHnc4E) |
 | bced6bca | DCcaps | [link](https://docs.google.com/document/d/1ENp3M-HymI9LsJRloDGuo3o9s-FXHzFj6hWazGfXSEQ) |
-| bf97de89 | DDOR Studio | [link](https://docs.google.com/document/d/1x6w725FhjkOUwu3ZMYMMtDgZg9404CdexIYKgQdBE8Y) |
 | df46082a | DeagCaps | [link](https://docs.google.com/document/d/1SsLhATHPRDOSAiywL5ktrGAuZbW9swCOd2cBGuUds3E) |
 | 97279208 | Death Dealer | [link](https://docs.google.com/document/d/1ffA0_Y8zC68So3XPeoP41JsAC2M68RSRfNAxzaFdslY) |
 | 6ff97cfa | Deathcaps | [link](https://docs.google.com/document/d/1Y1Ip37QbnjNNiOYEAvbv9KVz9A74DFEufDDF22F1OvA) |
@@ -198,7 +196,6 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | c6e4a02a | RADcaps | [link](https://docs.google.com/document/d/1KINOK9cUUA28pSGnHc8ZI-RM36o12ADojXp7ZeNdTh4) |
 | 16fecba | Rath | [link](https://docs.google.com/document/d/1mX-wUILSjmOGULIju5SKD3zKn7VE9hLl2BHgZZPTnG0) |
 | 801ea9d2 | Raw Studio | [link](https://docs.google.com/document/d/1gYRLcLvlUlh5oKvMuLWh0xz3QQpxw6OVtTzefJa3FDY) |
-| d7421e66 | Rejeck Kaps | [link](https://docs.google.com/document/d/10EGmT_ifrjOuqFENtfrxfWljiR8etxHdmyU-gLAhfQw) |
 | 2842faca | Resin Party | [link](https://docs.google.com/document/d/172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc) |
 | 1544e340 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
 | 55b03b25 | rtg_caps_ | [link](https://docs.google.com/document/d/1XNeLhAdqfwbgmpm4qbN9nUFQzLktN0JiEJGgRVCEnpk) |
