@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.REPO_SCOPE }}
       - id: nodeversion
-        run: echo ::set-output name=NODE::$(cat .nvmrc)
+        run: echo "NODE=$(cat .nvmrc)" >> $GITHUB_OUTPUT
       - name: restore Cache
         uses: actions/cache@master
         with:
