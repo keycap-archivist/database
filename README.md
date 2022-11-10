@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 198
-- Sculpts : 2091
-- Colorways : 43027
+- Artists : 199
+- Sculpts : 2096
+- Colorways : 43135
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -64,6 +64,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 32a182c4 | Bad Habit Caps | [link](https://docs.google.com/document/d/1MUoyBLW1slC819V1IdDa2eAV5adU2IHGa5YjmFY5w88) |
 | 3a10499 | Bailong | [link](https://docs.google.com/document/d/1f3h3roO2nk229BoeQZxuQVd-HgAJXXqToNSKFVbyIEI) |
 | 474cb671 | Beetlecaps | [link](https://docs.google.com/document/d/12T82CMnIwcdEg36bIrE9hlyi4Ikd15kutuRbYsOFKnw) |
+| bbe3a14a | BG Caps | [link](https://docs.google.com/document/d/1M37Dyc3mBFYEEJTbi9ol_YSFHQ9MPScX0J0SH0nTSEo) |
 | 6b6b943f | Bhomass Caps | [link](https://docs.google.com/document/d/1N8RgbXu7BVt1uXa38uyJMMQJ5FzqxgmvqktNpp9MA_Y) |
 | 85b28a01 | Binirias | [link](https://docs.google.com/document/d/11EAZ-nVLgIKuRXEXQDQ1SJotvq871jPLMo9HlS3eAZg) |
 | 1c160278 | BKM Caps | [link](https://docs.google.com/document/d/1LinZIytdrqwGE7H3TBWeIrj6ICQ_2DzWVm2Mmk904Y8) |
