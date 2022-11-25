@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 199
-- Sculpts : 2103
-- Colorways : 43499
+- Artists : 201
+- Sculpts : 2109
+- Colorways : 43544
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -40,6 +40,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Id | Catalog | Url |
 | -- | ------- | --- |
 | a8d34c5e | 1of1Keycaps | [link](https://docs.google.com/document/d/1p1r9wy1Url3ilU-Tn4ear2gtDtKsIkbG1WlCTTJjOKQ) |
+| 7e949449 | 2MCaps | [link](https://docs.google.com/document/d/1erwMZyh07nwT9sIo6RZBUwDrmnGUaWFF1Cx-WUeLGco) |
 | 7f19c7d | 2Tcraft | [link](https://docs.google.com/document/d/1aWFIxJmIVeJDZH1b_1TEWJBUOcqqsAzUJ6KgEwp069Y) |
 | 70a60bc4 | 404Artisans | [link](https://docs.google.com/document/d/1Xjq3VloGrpGE9gmEcbdGhaX_NB0O5eqv7xg_PgVgHX0) |
 | fbd9e173 | 8o8keys | [link](https://docs.google.com/document/d/15rWfoHxCHXtWuRjZYYX6u98H9IG0U4AugsCEHDKzLas) |
@@ -152,6 +153,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 4e1aff89 | LandCaps | [link](https://docs.google.com/document/d/1qDHsR0Y2U0W_pBPgtvB_i_xh09a1VVInbg3rK7al7Ug) |
 | ab1d3b22 | Latrialum | [link](https://docs.google.com/document/d/1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY) |
 | 115bda7d | LAZERCAPS | [link](https://docs.google.com/document/d/1Q5o4ct05fGqAyo5QnaeaF0hWtJhRyuT5VE5CIAPW24Y) |
+| 321c8f74 | Lazy Factory | [link](https://docs.google.com/document/d/1HgeNGFuyCjXeBdRq9AsoRHCinhzHbDObagYVoSvFJeg) |
 | 4e2dec37 | LazyCaps | [link](https://docs.google.com/document/d/1yyLznWKS7QTrOLTTfP9izvDIlEE_q9n0To1Id3N_0FQ) |
 | fa0bf049 | Level caps | [link](https://docs.google.com/document/d/1YEx3xAI3r_MIXrrdWzTBdsPC7rdBoxd87TWwxpfsMyE) |
 | ddaf1f8c | Lividity | [link](https://docs.google.com/document/d/18mc8abYoFIYDEqpvJzG5qYLXoQBTBUu9DUp7JSmIFxM) |
