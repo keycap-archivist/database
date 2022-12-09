@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 201
-- Sculpts : 2119
-- Colorways : 43814
+- Artists : 202
+- Sculpts : 2129
+- Colorways : 43897
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -149,6 +149,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 16df4385 | Kook | [link](https://docs.google.com/document/d/1RI8quPYaJnGxMVBc1fTw_jL4skru4b--V7ORXfmaszw) |
 | c14e96a7 | KrakenKap | [link](https://docs.google.com/document/d/1zvIUqPg7D-vge_JzpzqmnD4lEkQgzaQCBFc10FXmasA) |
 | 9e85468d | Krap Shop | [link](https://docs.google.com/document/d/1YUGAY-ZxuFC9dCF_fXZ8tVW8T0LSN9FlLjxRTscnoVc) |
+| acb6ee36 | Kuco | [link](https://docs.google.com/document/d/1EV8GvLdbn5Zh9NtU4uGPiswaqi0EGm5uamAjSuWDbiY) |
 | acfac611 | KUG | [link](https://docs.google.com/document/d/1_GW1c005RK7X2olNW2flNdkJEcM9_TOZ1e4ONUfHUYU) |
 | 4e1aff89 | LandCaps | [link](https://docs.google.com/document/d/1qDHsR0Y2U0W_pBPgtvB_i_xh09a1VVInbg3rK7al7Ug) |
 | ab1d3b22 | Latrialum | [link](https://docs.google.com/document/d/1crfV15xlpsIIfDxo0PGoEE40ZZfMUkl4JOZO_d1sILY) |
