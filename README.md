@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 202
-- Sculpts : 2186
-- Colorways : 44727
+- Sculpts : 2185
+- Colorways : 44750
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -141,7 +141,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 1091a0ac | KeyForge | [link](https://docs.google.com/document/d/1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA) |
 | 5137e37f | KeyKollectiv | [link](https://docs.google.com/document/d/18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws) |
 | dbf82e90 | KeyLabs Keycaps | [link](https://docs.google.com/document/d/1-VofkRGFmgtlq7R8986aXr8kdMYw9gsT59cjhEgn8D8) |
-| 785e721c | Keyzen | [link](https://docs.google.com/document/d/1YljdTx25HavIPtY4ZFNWT1eULVTbCS-i1bUYjEVjwU4) |
+| 785e721c | Keyzen | [link](https://docs.google.com/document/d/19TEE9_vnw-tzcigMxL-8ILUAmkkEWPrUQc4A9s7IkbE) |
 | da43467e | Kin Caps | [link](https://docs.google.com/document/d/1oSC6767-PT4EzL_qaj8Q1kFWyl64QqzH40Fgg_jzadw) |
 | 87e8613c | Kit Ann Caps | [link](https://docs.google.com/document/d/1OKMEDz4c7rILX8aiH332n-wW3PjIN3meKu5ZXStgDTs) |
 | db87932a | KiyoKaps | [link](https://docs.google.com/document/d/1eC4oLh3QZ-4kUeejnhWTPEnh7_D2pqp7CsQDziXf6uQ) |
