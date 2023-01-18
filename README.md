@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 203
-- Sculpts : 2234
-- Colorways : 45466
+- Artists : 204
+- Sculpts : 2235
+- Colorways : 45498
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -181,6 +181,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
 | edb9aff4 | Noob Studio | [link](https://docs.google.com/document/d/1TUqpr6MrnkvMT79R7rrwQ330cZvuG-bQCovNNhOct14) |
 | de6ddfab | Nork | [link](https://docs.google.com/document/d/192BiqrPFiOag5NmKTmkAVl9jak0toBjxAOQO8coyO_M) |
+| 9b2f6077 | NOT Caps | [link](https://docs.google.com/document/d/1nnUMA_-ll05sFz-EGeCllZTRZyUilkhstPUNB6NJEUs) |
 | d2df83d9 | Nubbinator | [link](https://docs.google.com/document/d/1sjsPqvqcjt3Wm3MDomwffYVQYjn_g3SDQX-7G1bNN0U) |
 | e14f5f5a | Nuhz Caps | [link](https://docs.google.com/document/d/1-BcprHM7kp7znXKbCKrcCnKbd2q5GvX4UI8qod5J3rA) |
 | 2f6b5457 | Object.Garage | [link](https://docs.google.com/document/d/1RWKUmcfE9XYslR5GDldajorjTxCqBVM0UE7wBxeB6G4) |
