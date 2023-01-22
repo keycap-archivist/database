@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 204
-- Sculpts : 2236
-- Colorways : 45557
+- Artists : 205
+- Sculpts : 2241
+- Colorways : 45629
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -230,6 +230,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 72ec7d70 | Tokkipee | [link](https://docs.google.com/document/d/1kZoXY-9rV25G5cSwgQxAHwmcjVXNL_LUj8vxhmYYk7k) |
 | d518e1b0 | TripleNight.Kaps | [link](https://docs.google.com/document/d/1q_LPkHEAF7Hp-_jBul6foA65RC6LHPKVeN9ExqghsrQ) |
 | 985ff9d3 | trmk | [link](https://docs.google.com/document/d/19r0FNbI7cLrjogfDviC7WT2HkuRax9RmPZwn3B_DNOY) |
+| 97270dab | TXD | [link](https://docs.google.com/document/d/1Okjx7x8MjAk_XvBRur64OmoI-QKP32N-RwkrN6VeQXU) |
 | a8ab97a4 | Unbranded.caps | [link](https://docs.google.com/document/d/1nQIdjUjkWGyGAIgiEl2oXANX2MJj91uFhCPKOLx2qWw) |
 | d3fe003d | Unknown Keycaps | [link](https://docs.google.com/document/d/17Bhy7YSkXQQO2YC8hvCYsxbRprgMMNTpuMCFnFyDrts) |
 | 2dc47fe3 | Vice Caps | [link](https://docs.google.com/document/d/1WR23MyXbLOAi0Vh6UoeRQqmZ2UsilJNVunw0Y_Hf9fU) |
