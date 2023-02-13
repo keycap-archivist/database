@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 205
-- Sculpts : 2247
-- Colorways : 45878
+- Artists : 206
+- Sculpts : 2256
+- Colorways : 45944
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -162,6 +162,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | d0cb9c83 | Luna Keycaps | [link](https://docs.google.com/document/d/1AV5u4TtQY2iKOisKygGIn7IYFGzcqU9hhjqI76UzkbM) |
 | 865deb34 | Macher Studio | [link](https://docs.google.com/document/d/1nSusf9xLZErFgheGcr7q5PsJYVqTVEyDUzKYWxR6PQ0) |
 | 3b7e4de6 | Mad Labs Keycaps | [link](https://docs.google.com/document/d/176oXSO83YXhYkVDBpoanyiroWaqXq7SmOY8OQfO6bfY) |
+| c02bf061 | Maison of the West | [link](https://docs.google.com/document/d/1HUaZBU-PDmvgBQCW7k9y9YdcI0pZ5S5_91jab7n539o) |
 | 27710b61 | Mariotheguy | [link](https://docs.google.com/document/d/1TJ-cV5VpMDm0qvF5bLE1cyp_UtZ0mMUK3XFhUXqfEmo) |
 | ea0b31fa | Mastonon.kaps | [link](https://docs.google.com/document/d/1XwH1785exI1NCfr3M-ZtkcTxDe4fICVP0Tmbvg00HXQ) |
 | b53ce2ec | Matae Keycaps | [link](https://docs.google.com/document/d/1PZ-Rf46GQiDdG3E6R837QEknkapMMbmqPPXnq0l2vbg) |
