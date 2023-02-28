@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 206
-- Sculpts : 2269
-- Colorways : 46229
+- Artists : 207
+- Sculpts : 2270
+- Colorways : 46233
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -88,6 +88,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | b2618556 | ChickenCap | [link](https://docs.google.com/document/d/1pkiYq1bxrHYqydM7yj9dKZPG8vC8fNBMGOrQGSyT7qQ) |
 | 746e9d1 | Clack Factory | [link](https://docs.google.com/document/d/1C9I7PaXFtpNzI8Zb_6ZTjHLMrQ8ERyWn_IvMD8mVoq0) |
 | 6d67664 | Clackeys | [link](https://docs.google.com/document/d/1X05Agu-mAkGAuTwkrdX6TZJkSe42djf_aJA7U1GlB-M) |
+| 620fdd8 | CLOVER | [link](https://docs.google.com/document/d/18VXOqRajYKnkxWzlUVFf2vIm3JvqBVZ8W5rUs0cqVPI) |
 | 155af2e6 | Coconut Keycaps | [link](https://docs.google.com/document/d/1lx648GXchw4ZpctFtirPx_teQcpcgVWuy83W32JY4KU) |
 | 84c8facf | CozCaps | [link](https://docs.google.com/document/d/14EBfRe0AxEbCok856_HrL6teQAlkeQL3kpa3z8lenTc) |
 | fd91c007 | Craftkey | [link](https://docs.google.com/document/d/1Ruol_1a4kzgLyXkeQ4d7ayu2shpsJPrHVUu7dBIYOYQ) |
