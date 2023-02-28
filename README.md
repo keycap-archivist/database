@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 207
-- Sculpts : 2270
-- Colorways : 46233
+- Artists : 208
+- Sculpts : 2271
+- Colorways : 46280
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -196,6 +196,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 869ac01f | PhangKey | [link](https://docs.google.com/document/d/1awYbT9shWhsI6wnpXVUozJxwQjFbiYXhTNNPQOCeAvE) |
 | 8fd82fa5 | Pixart Valley | [link](https://docs.google.com/document/d/1DDUof0CPmirwcCbNGSkqX-_R4onwfbZQhuqHZqsTpHw) |
 | b05d0831 | Polymer Salon | [link](https://docs.google.com/document/d/16FowOOELHP9DmQ7rKdVmgvvEGEgiOhwDtxAA58IDJCg) |
+| f31e833c | Pretty Petite Crafty | [link](https://docs.google.com/document/d/1Zj5xCQ-ttgyYXNOrm8F9e28itOo_ESkAOP6fwhmVfjE) |
 | a73f210e | PrimeCaps | [link](https://docs.google.com/document/d/1EwmD8ej34LImbIWi9hw_5Tsk7GAGZBhoVMJwIFG_Ad8) |
 | 8dac3435 | ProjectKey | [link](https://docs.google.com/document/d/1UGwGloN5Cf6w_goJB6FX3FcDiB8EsCjHLLB4r17T3OE) |
 | 55851cb5 | Psycho Keycaps | [link](https://docs.google.com/document/d/1V0lB6MTcTkSoClOEakYI57sAI6xOThP9diEwCCQLR1c) |
