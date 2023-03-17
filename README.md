@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 208
-- Sculpts : 2289
-- Colorways : 46810
+- Artists : 209
+- Sculpts : 2292
+- Colorways : 46838
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -243,6 +243,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 3bc74ac3 | Yu.Keys | [link](https://docs.google.com/document/d/1OENdni0rgtO6J2cYKqD1ccrubulXDn-bCHt26TG4nHU) |
 | 225e11c2 | ZellKey | [link](https://docs.google.com/document/d/1SS3g7HabIxQhRCb9_dEKRBWkXF24XyeELFtlf09hOdQ) |
 | 6848aaa0 | Zero Keycaps | [link](https://docs.google.com/document/d/1pJjELN0W1faMi0kcwyrc9do4XwXorlruZfDVMh9Av3Q) |
+| a1111d73 | ZOMGKEY | [link](https://docs.google.com/document/d/1HhdYF-daQQdMQdY4JNWWv6SdPRhImsZ6aVoa8UIQkSc) |
 | ff972406 | Zorbcaps | [link](https://docs.google.com/document/d/1_wtEVliorr29dTkO7NHHBkM3fu80V_rU6eJKMVwd8qQ) |
 | 3a54b54a | Zouabi Co. | [link](https://docs.google.com/document/d/1bbQYDOFizNYAt6StvoxHB7sbIzvY2i-PlFNRctjngg4) |
 | 4f64080e | Zuno Studio | [link](https://docs.google.com/document/d/10Qsh838fnc0tO-7cPTtXCvXoQ-bMGwfZR_l0COHXGoU) |
