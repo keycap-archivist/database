@@ -16,7 +16,8 @@ const catalogs = {
   'mr-worldwide': 'Mr Worldwide',
   'boosted-gamer-set': 'Boosted Gamer Set',
   geekpora: 'Geekpora',
-  prayge: 'Prayge'
+  prayge: 'Prayge',
+  devoura: 'Devoura'
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
