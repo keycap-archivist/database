@@ -28,7 +28,7 @@
     "googleapis": "100",
     "he": "^1.2.0",
     "node-html-parser": "^5.3.3",
-    "rimraf": "^3.0.2",
+    "rimraf": "^5.0.0",
     "sharp": "^0.30.4",
     "slugify": "^1.6.5"
   }
