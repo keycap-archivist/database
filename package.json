@@ -22,7 +22,7 @@
   "dependencies": {
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
-    "axios": "^0.27.2",
+    "axios": "^1.4.0",
     "crc": "^4.3.2",
     "csv-stringify": "^6.3.2",
     "googleapis": "100",
