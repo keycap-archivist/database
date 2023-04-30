@@ -361,10 +361,10 @@ concat-stream@^2.0.0:
     readable-stream "^3.0.2"
     typedarray "^0.0.6"
 
-crc@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/crc/-/crc-4.1.1.tgz#cb926237b56739f82c8533da1b66925ed33e011f"
-  integrity sha512-2U3ZqJ2phJl9ANuP2q5VS53LMpNmYU9vcpmh6nutJmsqUREhtWpTRh9yYxG7sDg3xkwaEEXytSeffTxw4cgwPg==
+crc@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/crc/-/crc-4.3.2.tgz#49b7821cbf2cf61dfd079ed93863bbebd5469b9a"
+  integrity sha512-uGDHf4KLLh2zsHa8D8hIQ1H/HtFQhyHrc0uhHBcoKGol/Xnb+MPYfUMw7cvON6ze/GUESTudKayDcJC5HnJv1A==
 
 cross-spawn@^7.0.0, cross-spawn@^7.0.2:
   version "7.0.3"
