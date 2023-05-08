@@ -385,10 +385,10 @@ css-what@^6.1.0:
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-6.1.0.tgz#fb5effcf76f1ddea2c81bdfaa4de44e79bac70f4"
   integrity sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==
 
-csv-generate@^4.2.5:
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-4.2.5.tgz#8d7eeb8ee61fc1e81bf820628b0d35b1817e8a33"
-  integrity sha512-CS4JQizdciP9dMGYz/wRm70+hbVGIYP+Hcx/kNR8eicAPZ3MUeq9G6AE8KqMZcZdcFv53m7gLpOaw2eg7nPP/w==
+csv-generate@^4.2.6:
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-4.2.6.tgz#7146b41313d7c91d19d99891ef400d7f0931e908"
+  integrity sha512-VtnYqhWLcsUocA346ewFOk+rrqcoT663j11vXzD2uelXq9WguQ3QzDeVD8ISso7hhVtkDSHcWl9psdemeiEHDA==
 
 csv-parse@^5.3.9:
   version "5.3.9"
