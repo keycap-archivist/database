@@ -13,7 +13,7 @@
     "remap:img": "node src/remap-img.js"
   },
   "devDependencies": {
-    "@types/node": "^18.16.3",
+    "@types/node": "^20.1.4",
     "csv-generate": "^4.2.5",
     "csv-parse": "^5.3.9",
     "snazzy": "^9.0.0",
