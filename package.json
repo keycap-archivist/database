@@ -24,7 +24,7 @@
     "ajv": "^6.12.6",
     "axios": "^1.4.0",
     "crc": "^4.3.2",
-    "csv-stringify": "^6.3.3",
+    "csv-stringify": "^6.4.0",
     "googleapis": "118",
     "he": "^1.2.0",
     "node-html-parser": "^6.1.5",
