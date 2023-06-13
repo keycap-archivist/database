@@ -93,7 +93,7 @@ function report (catalog) {
 
 async function generate (isTest = false, targetCat = undefined) {
   let catalog = []
-  const pool = new PromisePool({ numConcurrent: 3 })
+  const pool = new PromisePool({ numConcurrent: 2 })
   const customScraps = fs.readdirSync(customImporterPath)
   const jsonScraps = fs.readdirSync(jsonImporterPath)
   for (const s of customScraps) {
