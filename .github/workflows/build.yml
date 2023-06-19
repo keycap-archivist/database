@@ -79,6 +79,6 @@ jobs:
       - name: Sync db in S3
         run: |
           aws s3 cp ./db/catalog.json s3://cdn.keycap-archivist.com/db/catalog.json --storage-class REDUCED_REDUNDANCY --acl private --no-progress
-      - name: Prune old images
-        run: |
-          yarn prune:img
+  #    - name: Prune old images
+  #      run: |
+  #        yarn prune:img
