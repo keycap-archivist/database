@@ -60,7 +60,7 @@ jobs:
           git add db/
           git add README.md
           git diff-index HEAD || true
-          git diff-index --quiet HEAD && echo "DIRTY=0" >> || echo "DIRTY=1" >> $GITHUB_OUTPUT
+          git diff-index --quiet HEAD && echo "DIRTY=0" >> $GITHUB_OUTPUT || echo "DIRTY=1" >> $GITHUB_OUTPUT
       - name: Commit Database update
         if: steps.dbstate.outputs.DIRTY == '1'
         env:
