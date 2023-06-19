@@ -10,8 +10,8 @@ async function main () {
   const basePath250 = path.join(resizedPath, '250')
   const basePath720 = path.join(resizedPath, '720')
 
-  fs.existsSync(basePath250) && fs.mkdirSync(basePath250)
-  fs.existsSync(basePath720) && fs.mkdirSync(basePath720)
+  fs.existsSync(basePath250) || fs.mkdirSync(basePath250)
+  fs.existsSync(basePath720) || fs.mkdirSync(basePath720)
 
   const srcImgs = fs.readdirSync(SAVE_PATH, { withFileTypes: true })
   const size = srcImgs.length
