@@ -1,5 +1,5 @@
-const htmlparser = require('node-html-parser')
-const { downloadFile, genId, gDriveParse, gDocUrl, isSelfOrdered, getNationality } = require('../utils')
+const { genId, gDocUrl } = require('../utils')
+const { gDocParse, getCredentials, downloadJsonDoc } = require('../google')
 
 function scrapFrom (gdocID, pMeta = {}, tabsOperations = []) {
   const meta = { ...pMeta }
@@ -15,16 +15,8 @@ function scrapFrom (gdocID, pMeta = {}, tabsOperations = []) {
 
   return async function scrap () {
     try {
-      const index = await downloadFile(gdocID)
-      const rootNode = htmlparser.parse(index)
-      const tabs = rootNode.querySelectorAll('table')
-      tabsOperations.forEach((tabOperation) => {
-        if (typeof tabOperation === 'function') {
-          tabOperation(tabs)
-        } else if (typeof tabOperation === 'string' && Array.prototype[tabOperation]) {
-          Array.prototype[tabOperation].call(tabs)
-        }
-      })
+      const creds = await getCredentials()
+      const jsonDoc = await downloadJsonDoc(gdocID, creds)
       const catalog = {
         src: gDocUrl(gdocID),
         id: '',
@@ -32,13 +24,11 @@ function scrapFrom (gdocID, pMeta = {}, tabsOperations = []) {
         instagram: '',
         website: '',
         discord: '',
-        nationality: getNationality(index),
-        selfOrder: isSelfOrdered(index),
         sculpts: [],
         ...meta
       }
       catalog.id = genId(meta.id || meta.name)
-      return gDriveParse(catalog, tabs)
+      return gDocParse(catalog, jsonDoc)
     } catch (e) {
       return {
         hasError: true,
