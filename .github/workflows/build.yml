@@ -31,10 +31,13 @@ jobs:
       - name: install
         run: |
           yarn
+      - name: create-json secret
+        uses: jsdaniell/create-json@v1.2.2
+        with:
+          name: "key.json"
+          json: ${{ secrets.GDOC_KEY }}
       - name: Generate db
         id: dbgen
-        env:
-          G_API_KEY: ${{ secrets.G_API_KEY }}
         run: |
           yarn gen
           yarn validate

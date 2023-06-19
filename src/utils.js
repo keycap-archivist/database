@@ -326,6 +326,7 @@ module.exports = {
   isSelfOrdered,
   getNationality,
   attributes,
+  getAttributes,
   sortBy,
   launcher,
   resize,

@@ -25,7 +25,7 @@ async function moduleScrap (catalog, moduleName, isTest = false) {
   const destFile = path.join(DEST, formattedName)
   if (moduleCatalog.hasError !== true) {
     catalog.push(moduleCatalog)
-    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog))
+    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog, null, ' '))
   } else {
     // using the previous version of the file
     console.warn(`ERRORS: ${formattedName}`)
@@ -49,7 +49,7 @@ async function jsonScrap (catalog, filename, isTest = false) {
   const destFile = path.join(DEST, formattedName)
   if (moduleCatalog.hasError !== true) {
     catalog.push(moduleCatalog)
-    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog))
+    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog, null, ' '))
   } else {
     // using the previous version of the file
     console.warn(`ERRORS: ${formattedName}`)
@@ -96,6 +96,8 @@ async function generate (isTest = false, targetCat = undefined) {
   const pool = new PromisePool({ numConcurrent: 2 })
   const customScraps = fs.readdirSync(customImporterPath)
   const jsonScraps = fs.readdirSync(jsonImporterPath)
+  const total = customScraps.length + jsonScraps.length
+  let idx = 1
   for (const s of customScraps) {
     if (targetCat && !path.join(customImporterPath, s).endsWith(targetCat)) {
       continue
@@ -103,6 +105,7 @@ async function generate (isTest = false, targetCat = undefined) {
     await pool.start(
       async (cat, filename) => {
         await moduleScrap(cat, path.join(customImporterPath, filename), isTest)
+        console.log(`${idx++}/${total}`)
       },
       catalog,
       s
@@ -115,6 +118,7 @@ async function generate (isTest = false, targetCat = undefined) {
     await pool.start(
       async (cat, filename) => {
         await jsonScrap(cat, path.join(jsonImporterPath, filename), isTest)
+        console.log(`${idx++}/${total}`)
       },
       catalog,
       s

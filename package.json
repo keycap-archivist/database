@@ -20,6 +20,7 @@
     "standard": "^17.0.0"
   },
   "dependencies": {
+    "@googleapis/docs": "^2.0.1",
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
     "axios": "^1.4.0",
@@ -27,6 +28,8 @@
     "csv-stringify": "^6.3.3",
     "googleapis": "118",
     "he": "^1.2.0",
+    "jsonpath": "^1.1.1",
+    "lodash": "^4.17.21",
     "node-html-parser": "^6.1.5",
     "rimraf": "^5.0.1",
     "sharp": "^0.32.1",
