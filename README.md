@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 209
-- Sculpts : 2389
-- Colorways : 49910
+- Sculpts : 2391
+- Colorways : 49975
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -50,7 +50,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 8c954f4 | Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
 | 53252dbe | Animech | [link](https://docs.google.com/document/d/15IRx6bobdBXas3CZT81qexe-qFcK6t9dgz3IVXkTVPw) |
 | c44d43cd | Anomaly Caps | [link](https://docs.google.com/document/d/1zc0G7J3wd6sdOFcdLokOmom-mQmgm6gzhXUHZO8r3kI) |
-| 63243e40 | Archetype | [link](https://docs.google.com/document/d/1A8WdP-pS82xPQuxw98EuOyfmAncqlPLmLtzS2uujfWg) |
+| 63243e40 | Archetype | [link](https://docs.google.com/document/d/15BEnP7aMDcNIDR0kBrI_6oYLjx9w8z1zE0muohkjpfg) |
 | 944a9285 | ARKEYS | [link](https://docs.google.com/document/d/1q__LoSd2vlzY95KKp0TStW2bA3XBPvKZcOQPrKprQh0) |
 | 67588eb5 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
 | a3bffc04 | Artzeikaps | [link](https://docs.google.com/document/d/11l5gZpMa9dCoSm3RYnhKc0YXSpSm__WIfLyQsg7asto) |
