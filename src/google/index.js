@@ -135,7 +135,7 @@ function gDocParse (catalog, jsonDoc) {
         const attributes = getAttributes(fullContentSculpt)
         catalog.sculpts.push({
           id: genId(`${catalog.name}-${s}`),
-          rawname: s,
+          rawname: s, // rawname is used because of the migration and we don't want to break ids again
           name: sculptName.trim(),
           releaseDate: sculptDate,
           colorways: [],
@@ -146,7 +146,10 @@ function gDocParse (catalog, jsonDoc) {
       }
     }
   }
-  catalog.sculpts = catalog.sculpts.filter(x => x.colorways.length)
+  catalog.sculpts = catalog.sculpts.map(x=>{
+    delete x.rawname
+    return x
+  }).filter(x => x.colorways.length)
   return catalog
 }
 
