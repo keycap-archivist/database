@@ -98,7 +98,7 @@ function gDocParse (catalog, jsonDoc) {
         const imgKixId = imgId[0]
         catalog.sculpts[catalog.sculpts.length - 1].colorways.push(
           {
-            id: genId(`${catalog.name}-${currentSculptObj.name}-${sanitizedName}-${imgKixId}`),
+            id: genId(`${catalog.name}-${currentSculptObj.rawname}-${sanitizedName}-${imgKixId}`),
             img: getImgUrl(imgKixId, jsonDoc),
             name: sanitizedName,
             isCover,
@@ -115,12 +115,28 @@ function gDocParse (catalog, jsonDoc) {
       if (contentSculpt.length !== 0) {
         const s = contentSculpt[0].trim()
         const fullContentSculpt = contentSculpt.join(' ')
-        const sculptName = s
-        const sculptDate = undefined
+        let sculptName = s
+        let sculptDate = undefined
+        /**
+         * Support date formats
+         * DD MMM YYYY, MMM YYYY, YYYY
+         * DD MMMM YYYY, MMMM YYYY, YYYY
+        */
+        const regDate = /\(((\d{2})*[a-zA-Z ]*\d{4})\)/gim
+        if (regDate.test(s)) {
+          regDate.lastIndex = 0
+          const dateMatch = regDate.exec(s)
+          if (dateMatch) {
+            // eslint-disable-next-line prefer-destructuring
+            sculptDate = dateMatch[1]
+            sculptName = sculptName.replace(regDate, '')
+          }
+        }
         const attributes = getAttributes(fullContentSculpt)
         catalog.sculpts.push({
           id: genId(`${catalog.name}-${s}`),
-          name: sculptName,
+          rawname: s,
+          name: sculptName.trim(),
           releaseDate: sculptDate,
           colorways: [],
           ...attributes
