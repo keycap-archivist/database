@@ -116,7 +116,7 @@ function gDocParse (catalog, jsonDoc) {
         const s = contentSculpt[0].trim()
         const fullContentSculpt = contentSculpt.join(' ')
         let sculptName = s
-        let sculptDate = undefined
+        let sculptDate
         /**
          * Support date formats
          * DD MMM YYYY, MMM YYYY, YYYY
@@ -146,7 +146,7 @@ function gDocParse (catalog, jsonDoc) {
       }
     }
   }
-  catalog.sculpts = catalog.sculpts.map(x=>{
+  catalog.sculpts = catalog.sculpts.map(x => {
     delete x.rawname
     return x
   }).filter(x => x.colorways.length)
