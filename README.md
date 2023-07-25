@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 210
-- Sculpts : 2423
-- Colorways : 50639
+- Artists : 211
+- Sculpts : 2428
+- Colorways : 50698
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -238,6 +238,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | a8ab97a4 | Unbranded.caps | [link](https://docs.google.com/document/d/1nQIdjUjkWGyGAIgiEl2oXANX2MJj91uFhCPKOLx2qWw) |
 | d3fe003d | Unknown Keycaps | [link](https://docs.google.com/document/d/17Bhy7YSkXQQO2YC8hvCYsxbRprgMMNTpuMCFnFyDrts) |
 | 2dc47fe3 | Vice Caps | [link](https://docs.google.com/document/d/1WR23MyXbLOAi0Vh6UoeRQqmZ2UsilJNVunw0Y_Hf9fU) |
+| 3576b860 | WildKeyCaps | [link](https://docs.google.com/document/d/1E4BbJAZYV0aRR8zCtrD9DI9vRWM3jD1EbLBsdtFl2-4) |
 | de28aff1 | Wildstory Caps | [link](https://docs.google.com/document/d/1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0) |
 | e2285960 | Win Keys | [link](https://docs.google.com/document/d/1RKX9sVYGkGQKnfGjaLeiFuYwA5zbi5UYfdwSYxHK90w) |
 | 15c2097d | YoungsterHarris | [link](https://docs.google.com/document/d/1OB-qI-3izrbmWZG08Qi-ihNaCRRB_qmvivs0KCEWpAk) |
