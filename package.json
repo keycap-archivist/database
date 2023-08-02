@@ -17,7 +17,7 @@
     "csv-generate": "^4.2.5",
     "csv-parse": "^5.3.9",
     "snazzy": "^9.0.0",
-    "standard": "^17.0.0"
+    "standard": "^17.1.0"
   },
   "dependencies": {
     "@googleapis/docs": "^2.0.1",
