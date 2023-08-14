@@ -24,10 +24,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@googleapis/docs@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@googleapis/docs/-/docs-2.0.1.tgz#38c23e683542d6f6a91af251aefb8c0e3db7094b"
-  integrity sha512-ujJT/9uTwtGsKQ6QVJmDNhc4TYqsekM0ME7uX5tJbqgeeNxCq73SPpDzYsZsMpsWonF5nF0v+DYPrNXHFJ7W8A==
+"@googleapis/docs@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@googleapis/docs/-/docs-2.0.2.tgz#ba4454f23f7ccf9617f31feb3b04ca33041a82db"
+  integrity sha512-UgmJm10dT/4YEVDhjRRBPeS6eGBYbWBcIGqMthQRHXZH8uIo31zrZqTqWcj/embBJLjKg7XwGgxeFhF+/Axp+w==
   dependencies:
     googleapis-common "^6.0.3"
 
