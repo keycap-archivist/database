@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 212
-- Sculpts : 2446
-- Colorways : 51083
+- Artists : 213
+- Sculpts : 2448
+- Colorways : 51110
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -193,6 +193,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | a205ce0a | okeydokey studio | [link](https://docs.google.com/document/d/1_khNYhY3YlyeRK9Tok3qDQ-FJU-lBittK0fsNiLbWhI) |
 | efe02066 | Omega Keycaps | [link](https://docs.google.com/document/d/1b9lWjQr0m151takmQQPI7h40cLy_uo6HpDTan418SFE) |
 | 5425e998 | P.Craft Studio | [link](https://docs.google.com/document/d/1SyKkp4PhrCCealubpwHz5GUWfZejQGspXmgWW2T0qzw) |
+| 4154fc0f | Panduuh Caps | [link](https://docs.google.com/document/d/1K6KDWr_6c91n-3DkhybqseJNEvZT9_0u9HNVps6WV90) |
 | 500aa195 | Phage Caps | [link](https://docs.google.com/document/d/1m7S6LaNaAg7vfZP9Bt23EYX7v3boC3TpTaqF0gBsEaM) |
 | 869ac01f | PhangKey | [link](https://docs.google.com/document/d/1awYbT9shWhsI6wnpXVUozJxwQjFbiYXhTNNPQOCeAvE) |
 | 8fd82fa5 | Pixart Valley | [link](https://docs.google.com/document/d/1DDUof0CPmirwcCbNGSkqX-_R4onwfbZQhuqHZqsTpHw) |
