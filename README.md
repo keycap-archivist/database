@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 211
-- Sculpts : 2443
-- Colorways : 51067
+- Artists : 212
+- Sculpts : 2446
+- Colorways : 51083
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -237,6 +237,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 97270dab | TXD | [link](https://docs.google.com/document/d/1Okjx7x8MjAk_XvBRur64OmoI-QKP32N-RwkrN6VeQXU) |
 | a8ab97a4 | Unbranded.caps | [link](https://docs.google.com/document/d/1nQIdjUjkWGyGAIgiEl2oXANX2MJj91uFhCPKOLx2qWw) |
 | d3fe003d | Unknown Keycaps | [link](https://docs.google.com/document/d/17Bhy7YSkXQQO2YC8hvCYsxbRprgMMNTpuMCFnFyDrts) |
+| dccd2a5 | Varsity Keys | [link](https://docs.google.com/document/d/1uKCfFhB6auBi7zTUmFY-A7VkWkh1w5h5iPTvAVaNxuA) |
 | 2dc47fe3 | Vice Caps | [link](https://docs.google.com/document/d/1WR23MyXbLOAi0Vh6UoeRQqmZ2UsilJNVunw0Y_Hf9fU) |
 | 3576b860 | WildKeyCaps | [link](https://docs.google.com/document/d/1E4BbJAZYV0aRR8zCtrD9DI9vRWM3jD1EbLBsdtFl2-4) |
 | de28aff1 | Wildstory Caps | [link](https://docs.google.com/document/d/1745lR0WbiVE9-loe1n4evgd6cPE07yAysP-nZxF2ji0) |
