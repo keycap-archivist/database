@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 213
-- Sculpts : 2436
-- Colorways : 50988
+- Artists : 215
+- Sculpts : 2439
+- Colorways : 51019
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -74,6 +74,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 6175f0c7 | Black Mage Caps | [link](https://docs.google.com/document/d/1uIATE-QeIMq_kZnXi_EVfZZoHpM3dmc2woBekYV4L2A) |
 | 4fa3abe3 | BladeMX | [link](https://docs.google.com/document/d/1phPDeQ05dFkGzaXeVZzCjv-E8c58xh6skD0cR_koE1k) |
 | df1a1521 | Blank Works | [link](https://docs.google.com/document/d/1ehAQBiLvDzM6FUqAKxP2kpJFEQaDnq3yR75TuM0L8vY) |
+| 272c6dae | Blanksy | [link](https://docs.google.com/document/d/1tlH37yLHd9HnHJMF_rHTIdX64kkwhm_WvtC3vPRXa1E) |
 | ff8ad9cd | Bludgeoned Kaps | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8) |
 | d84851f7 | Bogan Caps | [link](https://docs.google.com/document/d/1n0ptNP1tZHnMtpJAI_s_qlnvulYl9SZBJwkCHdU5vHI) |
 | 4d74b92e | Bogwitch Brie | [link](https://docs.google.com/document/d/106B5I-IfI1pZex401MHj6c_e7MPUSPyplQsvUOPxmO4) |
@@ -129,6 +130,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 4183ab23 | Hunger Work Studio | [link](https://docs.google.com/document/d/1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ) |
 | 260460a | Inkblot Caps | [link](https://docs.google.com/document/d/1jE94XFa7QZPMtwjsbLwqNkgwGsFJNsyAEjdSlDcBaCE) |
 | f8c855a4 | jankycaps | [link](https://docs.google.com/document/d/1nT-vBKIXCFuAPPUCewAcUcwGt9-1Bedkyd4CGdjQfBM) |
+| c51ef9b | Jelly Cap | [link](https://docs.google.com/document/d/1yuo_c4hpBYWW8zryZXMi15Byzj-AR8iVWzx1QWT5O8k) |
 | 1ff2c383 | Jelly Key | [link](https://docs.google.com/document/d/1Y9hJ5WgjSjXhKEpeLudk542Mj_P0B9aJt56CLdf5Oas) |
 | 594d1920 | Jibii | [link](https://docs.google.com/document/d/1KTJ1Up_7Jjr81xbjNSzNswNBXnfSgOsEZr4wc2ODEEo) |
 | 79bfad4f | Jusherhoe | [link](https://docs.google.com/document/d/171XoC3BAC13iMQlAJ85impbm-jj7irgCDZwGwYfNTfc) |
