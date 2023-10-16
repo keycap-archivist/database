@@ -20,7 +20,7 @@
     "standard": "^17.0.0"
   },
   "dependencies": {
-    "@googleapis/docs": "^2.0.1",
+    "@googleapis/docs": "^3.0.0",
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
     "axios": "^1.4.0",
