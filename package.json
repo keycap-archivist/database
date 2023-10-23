@@ -26,7 +26,7 @@
     "axios": "^1.4.0",
     "crc": "^4.3.2",
     "csv-stringify": "^6.3.3",
-    "googleapis": "127",
+    "googleapis": "128",
     "he": "^1.2.0",
     "jsonpath": "^1.1.1",
     "lodash": "^4.17.21",
