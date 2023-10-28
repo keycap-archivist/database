@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 217
-- Sculpts : 2488
-- Colorways : 52604
+- Sculpts : 2484
+- Colorways : 52576
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -177,7 +177,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | e57c41a | Miniworld | [link](https://docs.google.com/document/d/1K2IP5lV4-6PLuJcFLhpR-gJAqHhxY7baxZSG2DaSPvo) |
 | b71e0cd0 | Monstera Keycaps | [link](https://docs.google.com/document/d/1BVfiGhTs-8dCm2u_KpAxKGALy9X7CT94rDljgyFl0uE) |
 | 1bbabce6 | MOZIcaps | [link](https://docs.google.com/document/d/1fq6yWk8Gsye4U5M1Fr7SWqTrBMBOx88855RhkUvC10k) |
-| fee4aab | MUBAI | [link](https://docs.google.com/document/d/1xWL_Y12WVbijqpWek8dIYPAAoHns6YBb3OPrYBZNryY) |
+| fee4aab | MUBAI | [link](https://docs.google.com/document/d/1ECfTBISa_HI2ahn37olTdTDQraxIBQppFfqbuttVLy4) |
 | af8591c1 | Mystic World | [link](https://docs.google.com/document/d/1oeXo0YesQfjJSZ9USDUd_fIQuib5i5m6LNfacSR-1T4) |
 | 610d23fa | Myth Caps | [link](https://docs.google.com/document/d/1-CkxK7KHUIy9gzJkguA36eC463cBHkNeGfgLa40BKVE) |
 | 82ad8553 | Namong | [link](https://docs.google.com/document/d/1vqBrU8VL6Mf6dmRRETjvo5d23HCQuwBQsG1m7w9ClmA) |
