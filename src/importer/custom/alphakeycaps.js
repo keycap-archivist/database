@@ -17,7 +17,8 @@ const catalogs = {
   'boosted-gamer-set': 'Boosted Gamer Set',
   geekpora: 'Geekpora',
   prayge: 'Prayge',
-  devoura: 'Devoura'
+  devoura: 'Devoura',
+  lickely: 'Lickely'
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
