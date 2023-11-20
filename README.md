@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 217
-- Sculpts : 2492
-- Colorways : 53085
+- Artists : 218
+- Sculpts : 2495
+- Colorways : 53103
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -128,6 +128,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | ada5e593 | Hello Caps | [link](https://docs.google.com/document/d/1r_RNJJW5uagd8SL47-c_b_lvb2TuxBsqU6zJhFzs2Vk) |
 | c0c9ffa9 | Hot Keys Project | [link](https://docs.google.com/document/d/1KcZjWQ59gmgNoX1piEdf6MX1r6sBig2_G9AYrs1SjBQ) |
 | 4183ab23 | Hunger Work Studio | [link](https://docs.google.com/document/d/1UGadEUhjZ-wyVywIb1-Qwpd32jPkobNaYisQTuJG-wQ) |
+| 7fd0f1b | IISUDAS STUDIO | [link](https://docs.google.com/document/d/1XpsJQPFYaKAPBLT41LxpP1bW1aVZuzdzQXwO7zMKLGc) |
 | 260460a | Inkblot Caps | [link](https://docs.google.com/document/d/1jE94XFa7QZPMtwjsbLwqNkgwGsFJNsyAEjdSlDcBaCE) |
 | f8c855a4 | jankycaps | [link](https://docs.google.com/document/d/1nT-vBKIXCFuAPPUCewAcUcwGt9-1Bedkyd4CGdjQfBM) |
 | c51ef9b | Jelly Cap | [link](https://docs.google.com/document/d/1yuo_c4hpBYWW8zryZXMi15Byzj-AR8iVWzx1QWT5O8k) |
