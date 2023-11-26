@@ -34,6 +34,8 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 - **Sculpt Header** `(ka_cast_xxx)` Specify how the cap is made. Availabe values: `resin`/`mixed`
 - **Colorway Header** `(count #)` will add the total count to the colorway page. Value should be an integer: `(count 1)`, `(count 13)`
 - **Colorway Header** `(*)` will add a "Commission" tag to the colorway page. `(*)` is removed from the colorway title.
+- **Colorway Header** `(giveaway)` or `(give-away)` to note if a colorway was specificly for a giveaway
+- **Colorway Header** `(pc Name)` will add photo credit to denote who owns the photo: `(pc Brandon Stanton)`
 
 ## Source Catalogs
 
