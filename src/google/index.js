@@ -72,7 +72,7 @@ function gDocParse (catalog, jsonDoc) {
 
         const regGiveaway = /\(giveaway\)|\(give-away\)/gim
         const giveawayMatch = regGiveaway.exec(cellString)
-        
+
         const regPhotoCredit = /\(pc (\w+)\)/gim
         const photoCreditMatch = regPhotoCredit.exec(cellString)
 
