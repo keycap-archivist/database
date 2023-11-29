@@ -102,7 +102,6 @@ function gDocParse (catalog, jsonDoc) {
         }
 
         if (photoCreditMatch) {
-          console.log(photoCreditMatch)
           photoCredit = photoCreditMatch[1]
           cellString = cellString.replace(regPhotoCredit, '')
         }
