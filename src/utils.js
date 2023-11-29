@@ -228,7 +228,6 @@ function gDriveParse (catalog, tabs) {
             giveaway = true
             text = text.replace(regGiveaway, '')
           }
-          console.log(photoCreditMatch)
           if (photoCreditMatch) {
             photoCredit = photoCredit[1]
             text = text.replace(regPhotoCredit, '')
