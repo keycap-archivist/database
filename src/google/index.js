@@ -72,10 +72,16 @@ function gDocParse (catalog, jsonDoc) {
 
         const regGiveaway = /\(giveaway\)|\(give-away\)/gim
         const giveawayMatch = regGiveaway.exec(cellString)
+
+        const regPhotoCredit = /\(pc (.*)\)/gim
+        const photoCreditMatch = regPhotoCredit.exec(cellString)
+
         let releaseDate
         let totalCount
         let commissioned
         let giveaway
+        let photoCredit
+
         if (dateMatch) {
           // eslint-disable-next-line prefer-destructuring
           releaseDate = dateMatch[1]
@@ -94,6 +100,12 @@ function gDocParse (catalog, jsonDoc) {
           giveaway = true
           cellString = cellString.replace(regGiveaway, '')
         }
+
+        if (photoCreditMatch) {
+          photoCredit = photoCreditMatch[1]
+          cellString = cellString.replace(regPhotoCredit, '')
+        }
+
         const sanitizedName = cellString.trim()
         const imgKixId = imgId[0]
         catalog.sculpts[catalog.sculpts.length - 1].colorways.push(
@@ -106,6 +118,7 @@ function gDocParse (catalog, jsonDoc) {
             totalCount,
             commissioned,
             giveaway,
+            photoCredit,
             note: ''
           }
         )

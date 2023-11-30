@@ -201,10 +201,15 @@ function gDriveParse (catalog, tabs) {
           const regGiveaway = /\(giveaway\)|\(give-away\)/gim
           const giveawayMatch = regGiveaway.exec(text)
 
+          const regPhotoCredit = /\(pc .*\)|\(photocredit .*\)/gim
+          const photoCreditMatch = regPhotoCredit.exec(text)
+
           let releaseDate
           let totalCount
           let commissioned
           let giveaway
+          let photoCredit
+
           if (dateMatch) {
             // eslint-disable-next-line prefer-destructuring
             releaseDate = dateMatch[1]
@@ -223,6 +228,10 @@ function gDriveParse (catalog, tabs) {
             giveaway = true
             text = text.replace(regGiveaway, '')
           }
+          if (photoCreditMatch) {
+            photoCredit = photoCredit[1]
+            text = text.replace(regPhotoCredit, '')
+          }
           const sanitizedName = decode(text).trim()
           catalog.sculpts[currIdx].colorways.push({
             name: sanitizedName,
@@ -233,6 +242,7 @@ function gDriveParse (catalog, tabs) {
             totalCount,
             commissioned,
             giveaway,
+            photoCredit,
             note: ''
           })
         }
