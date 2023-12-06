@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 219
-- Sculpts : 2507
-- Colorways : 53442
+- Sculpts : 2511
+- Colorways : 53462
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -187,7 +187,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 82ad8553 | Namong | [link](https://docs.google.com/document/d/1vqBrU8VL6Mf6dmRRETjvo5d23HCQuwBQsG1m7w9ClmA) |
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | b1832521 | NibbNubb Keycaps | [link](https://docs.google.com/document/d/1VDaL0vyFLSMyfmw2k-Aa3RleuEU9o3H6JPiV33zTDy4) |
-| 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GpFn7f6xb2hF0REHKe4ts2wUeHR5CLX8yUMAqSlGW0k) |
+| 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GGuKNDrCMBnlICsww9Y5ySbWcE6Cy_gEDwZItqiVCQI) |
 | edb9aff4 | Noob Studio | [link](https://docs.google.com/document/d/1TUqpr6MrnkvMT79R7rrwQ330cZvuG-bQCovNNhOct14) |
 | de6ddfab | Nork | [link](https://docs.google.com/document/d/192BiqrPFiOag5NmKTmkAVl9jak0toBjxAOQO8coyO_M) |
 | 9b2f6077 | NOT Caps | [link](https://docs.google.com/document/d/1nnUMA_-ll05sFz-EGeCllZTRZyUilkhstPUNB6NJEUs) |
