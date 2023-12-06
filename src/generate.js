@@ -4,6 +4,7 @@ const { stringify } = require('csv-stringify/sync')
 const path = require('path')
 const { scrapFrom } = require('./scraper/gdoc')
 const { flatten } = require('./utils')
+const deepmerge = require('@fastify/deepmerge')({ all: true })
 
 const DEST = path.resolve(path.join(__dirname, '..', 'db'))
 const DESTINATION_JSON = path.join(DEST, 'catalog.json')
@@ -36,24 +37,29 @@ async function moduleScrap (catalog, moduleName, isTest = false) {
 
 async function jsonScrap (catalog, filename, isTest = false) {
   const data = JSON.parse(fs.readFileSync(filename, { encoding: 'utf8' }))
-  const scrapFunc = scrapFrom(data.docId, data, data.tabsOperations)
-  const moduleCatalog = await scrapFunc()
 
+  const docsToParse = Array.isArray(data.docId) ? data.docId : [data.docId]
+  let outputCatalog = {}
+  for (const doc of docsToParse) {
+    const scrapFunc = scrapFrom(doc, data, data.tabsOperations)
+    const moduleCatalog = await scrapFunc()
+    outputCatalog = deepmerge(outputCatalog, moduleCatalog)
+  }
   if (isTest) {
-    if (moduleCatalog.hasError) {
-      throw new Error(`${moduleCatalog.name} failed. ${moduleCatalog.error}`)
+    if (outputCatalog.hasError) {
+      throw new Error(`${outputCatalog.name} failed. ${outputCatalog.error}`)
     }
     return
   }
-  const formattedName = `${moduleCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`
+  const formattedName = `${outputCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`
   const destFile = path.join(DEST, formattedName)
-  if (moduleCatalog.hasError !== true) {
-    catalog.push(moduleCatalog)
-    fs.writeFileSync(destFile, JSON.stringify(moduleCatalog, null, ' '))
+  if (outputCatalog.hasError !== true) {
+    catalog.push(outputCatalog)
+    fs.writeFileSync(destFile, JSON.stringify(outputCatalog, null, ' '))
   } else {
     // using the previous version of the file
     console.warn(`ERRORS: ${formattedName}`)
-    console.warn(moduleCatalog.error)
+    console.warn(outputCatalog.error)
     catalog.push(JSON.parse(fs.readFileSync(destFile, 'utf-8')))
   }
 }
