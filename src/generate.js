@@ -35,7 +35,7 @@ async function moduleScrap (catalog, moduleName, isTest = false) {
   }
 }
 
-async function jsonScrap(catalog, filename, isTest = false) {
+async function jsonScrap (catalog, filename, isTest = false) {
   const data = JSON.parse(fs.readFileSync(filename, { encoding: 'utf8' }))
 
   const docsToParse = Array.isArray(data.docId) ? data.docId : [data.docId]
