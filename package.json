@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/node": "^18.16.3",
     "csv-generate": "^4.2.5",
-    "csv-parse": "^5.3.9",
+    "csv-parse": "^5.5.3",
     "snazzy": "^9.0.0",
     "standard": "^17.0.0"
   },
