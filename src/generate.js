@@ -1,4 +1,5 @@
 const PromisePool = require('@mixmaxhq/promise-pool')
+const _ = require('lodash')
 const fs = require('fs')
 const { stringify } = require('csv-stringify/sync')
 const path = require('path')
@@ -53,6 +54,21 @@ async function jsonScrap (catalog, filename, isTest = false) {
   }
   const formattedName = `${outputCatalog.name.toLowerCase().replace(/[ .]/g, '-')}.json`
   const destFile = path.join(DEST, formattedName)
+
+  if (docsToParse.length > 1) {
+    const sculptGrp = _.groupBy(outputCatalog.sculpts, 'id')
+
+    const sculpts = []
+    for (const sculptId in sculptGrp) {
+      const sculpt = _.findLast(sculptGrp[sculptId])
+      sculpt.colorways = _.flattenDeep(sculptGrp[sculptId].map(s => s.colorways))
+      sculpts.push(sculpt)
+    }
+
+    outputCatalog.sculpts = sculpts
+  }
+
+
   if (outputCatalog.hasError !== true) {
     catalog.push(outputCatalog)
     fs.writeFileSync(destFile, JSON.stringify(outputCatalog, null, ' '))
