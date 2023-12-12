@@ -68,7 +68,6 @@ async function jsonScrap (catalog, filename, isTest = false) {
     outputCatalog.sculpts = sculpts
   }
 
-
   if (outputCatalog.hasError !== true) {
     catalog.push(outputCatalog)
     fs.writeFileSync(destFile, JSON.stringify(outputCatalog, null, ' '))
