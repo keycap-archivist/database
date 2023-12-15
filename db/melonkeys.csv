@@ -1,18 +1,16 @@
 id,artist,sculpt,name,img
-3ec12a13,MelonKeys,Rush,Prototype,https://cdn.keycap-archivist.com/keycaps/3ec12a13.jpg
-6adca898,MelonKeys,Rush,Eva-01,https://cdn.keycap-archivist.com/keycaps/6adca898.jpg
-88952e89,MelonKeys,Rush,Buzz,https://cdn.keycap-archivist.com/keycaps/88952e89.jpg
-edc2df48,MelonKeys,Rush,OG,https://cdn.keycap-archivist.com/keycaps/edc2df48.jpg
-7c303be7,MelonKeys,Rush,Pakkun,https://cdn.keycap-archivist.com/keycaps/7c303be7.jpg
-cc13815c,MelonKeys,Rush,Dorae,https://cdn.keycap-archivist.com/keycaps/cc13815c.jpg
-df083e32,MelonKeys,Rush,No Face,https://cdn.keycap-archivist.com/keycaps/df083e32.jpg
-8c78dec8,MelonKeys,Battle Kid,Prototype,https://cdn.keycap-archivist.com/keycaps/8c78dec8.jpg
-884d2e95,MelonKeys,Battle Kid,Eva-01,https://cdn.keycap-archivist.com/keycaps/884d2e95.jpg
-c60feb76,MelonKeys,Battle Kid,Buzz,https://cdn.keycap-archivist.com/keycaps/c60feb76.jpg
-6258f127,MelonKeys,Battle Kid,OG,https://cdn.keycap-archivist.com/keycaps/6258f127.jpg
-10e32aa5,MelonKeys,Battle Kid,Kakashi,https://cdn.keycap-archivist.com/keycaps/10e32aa5.jpg
-fa7d467b,MelonKeys,Battle Kid,Dorae,https://cdn.keycap-archivist.com/keycaps/fa7d467b.jpg
-67b0064f,MelonKeys,Battle Kid,No Face,https://cdn.keycap-archivist.com/keycaps/67b0064f.jpg
+80f80478,MelonKeys,Rush,Eva-01,https://cdn.keycap-archivist.com/keycaps/80f80478.jpg
+c0f1519f,MelonKeys,Rush,Buzz,https://cdn.keycap-archivist.com/keycaps/c0f1519f.jpg
+aaab1c0b,MelonKeys,Rush,OG,https://cdn.keycap-archivist.com/keycaps/aaab1c0b.jpg
+45610e61,MelonKeys,Rush,Pakkun,https://cdn.keycap-archivist.com/keycaps/45610e61.jpg
+33b1c05a,MelonKeys,Rush,Dorae,https://cdn.keycap-archivist.com/keycaps/33b1c05a.jpg
+7d0bbbd7,MelonKeys,Rush,No Face,https://cdn.keycap-archivist.com/keycaps/7d0bbbd7.jpg
+25fbc911,MelonKeys,Battle Kid,Eva-01,https://cdn.keycap-archivist.com/keycaps/25fbc911.jpg
+d1695f58,MelonKeys,Battle Kid,Buzz,https://cdn.keycap-archivist.com/keycaps/d1695f58.jpg
+bb248e7,MelonKeys,Battle Kid,OG,https://cdn.keycap-archivist.com/keycaps/bb248e7.jpg
+b8d63aa6,MelonKeys,Battle Kid,Kakashi,https://cdn.keycap-archivist.com/keycaps/b8d63aa6.jpg
+5ec8eefe,MelonKeys,Battle Kid,Dorae,https://cdn.keycap-archivist.com/keycaps/5ec8eefe.jpg
+64ec8f08,MelonKeys,Battle Kid,No Face,https://cdn.keycap-archivist.com/keycaps/64ec8f08.jpg
 d3dafb60,MelonKeys,R.Sensei,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/d3dafb60.jpg
 b7cccd89,MelonKeys,R.Sensei,OG,https://cdn.keycap-archivist.com/keycaps/b7cccd89.jpg
 1d41f83f,MelonKeys,R.Sensei,Perv AF OG,https://cdn.keycap-archivist.com/keycaps/1d41f83f.jpg
@@ -32,104 +30,101 @@ f12a96f3,MelonKeys,Exodia,Hathor,https://cdn.keycap-archivist.com/keycaps/f12a96
 ca121619,MelonKeys,Exodia,Roxy,https://cdn.keycap-archivist.com/keycaps/ca121619.jpg
 9a3d8174,MelonKeys,Exodia,Hazakura,https://cdn.keycap-archivist.com/keycaps/9a3d8174.jpg
 3a322274,MelonKeys,Exodia,Necross,https://cdn.keycap-archivist.com/keycaps/3a322274.jpg
-63e2a8d4,MelonKeys,SS DMG,Prototype,https://cdn.keycap-archivist.com/keycaps/63e2a8d4.jpg
-11c9be5c,MelonKeys,SS DMG,Kakashi,https://cdn.keycap-archivist.com/keycaps/11c9be5c.jpg
-8d5e996c,MelonKeys,SS DMG,Rin,https://cdn.keycap-archivist.com/keycaps/8d5e996c.jpg
-5bce18b1,MelonKeys,SS DMG,Kiwi,https://cdn.keycap-archivist.com/keycaps/5bce18b1.jpg
-4ab28bf8,MelonKeys,SS DMG,Distinguished,https://cdn.keycap-archivist.com/keycaps/4ab28bf8.jpg
-d809ee98,MelonKeys,SS DMG,Shelter,https://cdn.keycap-archivist.com/keycaps/d809ee98.jpg
-682e6363,MelonKeys,SS DMG,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/682e6363.jpg
-506517df,MelonKeys,SS DMG,Magi Magi,https://cdn.keycap-archivist.com/keycaps/506517df.jpg
-889ca6ab,MelonKeys,SS DMG,Chock,https://cdn.keycap-archivist.com/keycaps/889ca6ab.jpg
-68bbc7ab,MelonKeys,SS DMG,Heart Beat,https://cdn.keycap-archivist.com/keycaps/68bbc7ab.jpg
-95b78779,MelonKeys,SS DMG,Rem,https://cdn.keycap-archivist.com/keycaps/95b78779.jpg
-728cb0a7,MelonKeys,SS DMG,Ram,https://cdn.keycap-archivist.com/keycaps/728cb0a7.jpg
-65e18e12,MelonKeys,SS DMG,Emilia,https://cdn.keycap-archivist.com/keycaps/65e18e12.jpg
-1f7f0106,MelonKeys,SS DMG,Doom Bringers,https://cdn.keycap-archivist.com/keycaps/1f7f0106.jpg
-9c6edad,MelonKeys,SS DMG,The Grid,https://cdn.keycap-archivist.com/keycaps/9c6edad.jpg
-6c5f85a5,MelonKeys,SS DMG,Mario,https://cdn.keycap-archivist.com/keycaps/6c5f85a5.jpg
-3628680f,MelonKeys,SS DMG,Spectre,https://cdn.keycap-archivist.com/keycaps/3628680f.jpg
-60932c47,MelonKeys,SS DMG,Makku,https://cdn.keycap-archivist.com/keycaps/60932c47.jpg
-5320cc73,MelonKeys,SS DMG,Pastel,https://cdn.keycap-archivist.com/keycaps/5320cc73.jpg
-4fadd57,MelonKeys,SS DMG,Berry,https://cdn.keycap-archivist.com/keycaps/4fadd57.jpg
-223a1ab6,MelonKeys,SS DMG,Lemon,https://cdn.keycap-archivist.com/keycaps/223a1ab6.jpg
-2e541d65,MelonKeys,SS DMG,Bakugo,https://cdn.keycap-archivist.com/keycaps/2e541d65.jpg
-ae00e997,MelonKeys,SS DMG,Tartarus,https://cdn.keycap-archivist.com/keycaps/ae00e997.jpg
-ac1829bd,MelonKeys,SS DMG,Calculated,https://cdn.keycap-archivist.com/keycaps/ac1829bd.jpg
-a3ccfdb1,MelonKeys,SS DMG,Illusion,https://cdn.keycap-archivist.com/keycaps/a3ccfdb1.jpg
-425acdef,MelonKeys,SS DM,Prototype,https://cdn.keycap-archivist.com/keycaps/425acdef.jpg
-ca3a090a,MelonKeys,SS DM,Obito,https://cdn.keycap-archivist.com/keycaps/ca3a090a.jpg
-3f59518f,MelonKeys,SS DM,Ancient Frost,https://cdn.keycap-archivist.com/keycaps/3f59518f.jpg
-fa14004d,MelonKeys,SS DM,Jigsaw,https://cdn.keycap-archivist.com/keycaps/fa14004d.jpg
-9193aa55,MelonKeys,SS DM,Vivi,https://cdn.keycap-archivist.com/keycaps/9193aa55.jpg
-658dca7f,MelonKeys,SS DM,Bucky,https://cdn.keycap-archivist.com/keycaps/658dca7f.jpg
-7a803ae1,MelonKeys,SS DM,Kaito Kid,https://cdn.keycap-archivist.com/keycaps/7a803ae1.jpg
-8d26bac7,MelonKeys,SS DM,Kiwi,https://cdn.keycap-archivist.com/keycaps/8d26bac7.jpg
-746f9ce4,MelonKeys,SS DM,Distinguished,https://cdn.keycap-archivist.com/keycaps/746f9ce4.jpg
-2c4c588b,MelonKeys,SS DM,Shelter,https://cdn.keycap-archivist.com/keycaps/2c4c588b.jpg
-afaf201b,MelonKeys,SS DM,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/afaf201b.jpg
-89d5db8c,MelonKeys,SS DM,Magi Magi,https://cdn.keycap-archivist.com/keycaps/89d5db8c.jpg
-f45f1745,MelonKeys,SS DM,Chock,https://cdn.keycap-archivist.com/keycaps/f45f1745.jpg
-9d9922b1,MelonKeys,SS DM,Heart Beat,https://cdn.keycap-archivist.com/keycaps/9d9922b1.jpg
-6360f116,MelonKeys,SS DM,Rem,https://cdn.keycap-archivist.com/keycaps/6360f116.jpg
-b549c3b6,MelonKeys,SS DM,Ram,https://cdn.keycap-archivist.com/keycaps/b549c3b6.jpg
-f3f52c8c,MelonKeys,SS DM,Emilia,https://cdn.keycap-archivist.com/keycaps/f3f52c8c.jpg
-8233f81a,MelonKeys,SS DM,Doom Bringers,https://cdn.keycap-archivist.com/keycaps/8233f81a.jpg
-6b7b5ba9,MelonKeys,SS DM,The Grid,https://cdn.keycap-archivist.com/keycaps/6b7b5ba9.jpg
-787cb0c7,MelonKeys,SS DM,Peach,https://cdn.keycap-archivist.com/keycaps/787cb0c7.jpg
-6738a544,MelonKeys,SS DM,Spectre,https://cdn.keycap-archivist.com/keycaps/6738a544.jpg
-be050bd0,MelonKeys,SS DM,Makku,https://cdn.keycap-archivist.com/keycaps/be050bd0.jpg
-a0378b95,MelonKeys,SS DM,Pastel,https://cdn.keycap-archivist.com/keycaps/a0378b95.jpg
-9ad6078f,MelonKeys,SS DM,Berry,https://cdn.keycap-archivist.com/keycaps/9ad6078f.jpg
-5d460045,MelonKeys,SS DM,Lemon,https://cdn.keycap-archivist.com/keycaps/5d460045.jpg
-37890e9f,MelonKeys,SS DM,Bakugo,https://cdn.keycap-archivist.com/keycaps/37890e9f.jpg
-b672d5b5,MelonKeys,SS DM,Tartarus,https://cdn.keycap-archivist.com/keycaps/b672d5b5.jpg
-34d80,MelonKeys,SS DM,Calculated,https://cdn.keycap-archivist.com/keycaps/34d80.jpg
-2ddd2c78,MelonKeys,SS DM,Illusion,https://cdn.keycap-archivist.com/keycaps/2ddd2c78.jpg
-ef0c4d4b,MelonKeys,SS DM,Gawr Gura,https://cdn.keycap-archivist.com/keycaps/ef0c4d4b.jpg
-b4e8f9b2,MelonKeys,SS DM,OG Reversed,https://cdn.keycap-archivist.com/keycaps/b4e8f9b2.jpg
-9b0ca47e,MelonKeys,SS DM,Euler,https://cdn.keycap-archivist.com/keycaps/9b0ca47e.jpg
-758ba6e4,MelonKeys,SS DM,Dark Melon,https://cdn.keycap-archivist.com/keycaps/758ba6e4.jpg
-eff4e85,MelonKeys,SS DM,Team Rocket: James,https://cdn.keycap-archivist.com/keycaps/eff4e85.jpg
-fc5afc7e,MelonKeys,SS DM,Kaiju,https://cdn.keycap-archivist.com/keycaps/fc5afc7e.jpg
-158170a4,MelonKeys,SS DM,Copper,https://cdn.keycap-archivist.com/keycaps/158170a4.jpg
-fe1d6aed,MelonKeys,SS DM,Nanaba,https://cdn.keycap-archivist.com/keycaps/fe1d6aed.jpg
-449f5f43,MelonKeys,SS DM,Yun,https://cdn.keycap-archivist.com/keycaps/449f5f43.jpg
-5c8fdaea,MelonKeys,SS DM,Xing,https://cdn.keycap-archivist.com/keycaps/5c8fdaea.jpg
-75143a55,MelonKeys,SS DM,Genos,https://cdn.keycap-archivist.com/keycaps/75143a55.jpg
-d8f20c28,MelonKeys,SS DM,Mictlán,https://cdn.keycap-archivist.com/keycaps/d8f20c28.jpg
-2684678a,MelonKeys,SS DM,Darling,https://cdn.keycap-archivist.com/keycaps/2684678a.jpg
-6f19bcf,MelonKeys,SS DM,Roxy,https://cdn.keycap-archivist.com/keycaps/6f19bcf.jpg
-a7c60b69,MelonKeys,SS DM,Hazakura,https://cdn.keycap-archivist.com/keycaps/a7c60b69.jpg
-870b9253,MelonKeys,SS DM,Buzz,https://cdn.keycap-archivist.com/keycaps/870b9253.jpg
-fb68a234,MelonKeys,SS DM,Summer,https://cdn.keycap-archivist.com/keycaps/fb68a234.jpg
-263f2cd7,MelonKeys,SS DM,Necross,https://cdn.keycap-archivist.com/keycaps/263f2cd7.jpg
-1d4fb6dd,MelonKeys,SS DM,Inuyasha,https://cdn.keycap-archivist.com/keycaps/1d4fb6dd.jpg
-f2c44c0f,MelonKeys,SS DM,Reaper,https://cdn.keycap-archivist.com/keycaps/f2c44c0f.jpg
-824df51b,MelonKeys,SS DM,EVA-02,https://cdn.keycap-archivist.com/keycaps/824df51b.jpg
-8c863c98,MelonKeys,SS DM,Kill la Kill,https://cdn.keycap-archivist.com/keycaps/8c863c98.jpg
-8dd324b4,MelonKeys,SS DM,Nahida,https://cdn.keycap-archivist.com/keycaps/8dd324b4.jpg
-9b5040d8,MelonKeys,SS DM,Nier,https://cdn.keycap-archivist.com/keycaps/9b5040d8.jpg
-815e95ab,MelonKeys,SS DM,Lelouch,https://cdn.keycap-archivist.com/keycaps/815e95ab.jpg
-d5091660,MelonKeys,SS DM,Underworld,https://cdn.keycap-archivist.com/keycaps/d5091660.jpg
-225944eb,MelonKeys,SS DM,Shinigami,https://cdn.keycap-archivist.com/keycaps/225944eb.jpg
-cacfef1,MelonKeys,SS DM,Tohru,https://cdn.keycap-archivist.com/keycaps/cacfef1.jpg
-a33d8ad6,MelonKeys,SS DM,Megaira,https://cdn.keycap-archivist.com/keycaps/a33d8ad6.jpg
-8f4d3044,MelonKeys,SS DM,Snow Miku,https://cdn.keycap-archivist.com/keycaps/8f4d3044.jpg
-c6ecfacc,MelonKeys,SS DM,Luffy,https://cdn.keycap-archivist.com/keycaps/c6ecfacc.jpg
-82062f2c,MelonKeys,SS DM,Chika,https://cdn.keycap-archivist.com/keycaps/82062f2c.jpg
-803b4cea,MelonKeys,SS DM,Espeon,https://cdn.keycap-archivist.com/keycaps/803b4cea.jpg
-563f7070,MelonKeys,SS DM,Megurine Luka,https://cdn.keycap-archivist.com/keycaps/563f7070.jpg
-6b3f3530,MelonKeys,SS DM,Asuna,https://cdn.keycap-archivist.com/keycaps/6b3f3530.jpg
-e297d2bc,MelonKeys,SS DM,Sylvanas,https://cdn.keycap-archivist.com/keycaps/e297d2bc.jpg
-a189b92f,MelonKeys,SS DM,Kuroe Shizuku,https://cdn.keycap-archivist.com/keycaps/a189b92f.jpg
-6781d1d7,MelonKeys,Little One,Prototype,https://cdn.keycap-archivist.com/keycaps/6781d1d7.jpg
-185ee52c,MelonKeys,Little One,OG,https://cdn.keycap-archivist.com/keycaps/185ee52c.jpg
-279645fb,MelonKeys,Little One,Louise,https://cdn.keycap-archivist.com/keycaps/279645fb.jpg
-df11307e,MelonKeys,Little One,Megumin,https://cdn.keycap-archivist.com/keycaps/df11307e.jpg
-42c078d5,MelonKeys,Little One,Miku,https://cdn.keycap-archivist.com/keycaps/42c078d5.jpg
-b0e300f0,MelonKeys,Little One,Aloy,https://cdn.keycap-archivist.com/keycaps/b0e300f0.jpg
-1f9a5c69,MelonKeys,Little One,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/1f9a5c69.jpg
+44fb5244,MelonKeys,SS DMG,Kakashi,https://cdn.keycap-archivist.com/keycaps/44fb5244.jpg
+89e8d151,MelonKeys,SS DMG,Rin,https://cdn.keycap-archivist.com/keycaps/89e8d151.jpg
+ffa30bab,MelonKeys,SS DMG,Kiwi,https://cdn.keycap-archivist.com/keycaps/ffa30bab.jpg
+3a4365d6,MelonKeys,SS DMG,Distinguished,https://cdn.keycap-archivist.com/keycaps/3a4365d6.jpg
+f218ef0a,MelonKeys,SS DMG,Shelter,https://cdn.keycap-archivist.com/keycaps/f218ef0a.jpg
+e5db2de,MelonKeys,SS DMG,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/e5db2de.jpg
+96d196ae,MelonKeys,SS DMG,Magi Magi,https://cdn.keycap-archivist.com/keycaps/96d196ae.jpg
+3c19603e,MelonKeys,SS DMG,Chock,https://cdn.keycap-archivist.com/keycaps/3c19603e.jpg
+de97b51a,MelonKeys,SS DMG,Heart Beat,https://cdn.keycap-archivist.com/keycaps/de97b51a.jpg
+e5aba06b,MelonKeys,SS DMG,Rem,https://cdn.keycap-archivist.com/keycaps/e5aba06b.jpg
+efb66775,MelonKeys,SS DMG,Ram,https://cdn.keycap-archivist.com/keycaps/efb66775.jpg
+31c2eacd,MelonKeys,SS DMG,Emilia,https://cdn.keycap-archivist.com/keycaps/31c2eacd.jpg
+5346e2e5,MelonKeys,SS DMG,Doom Bringers,https://cdn.keycap-archivist.com/keycaps/5346e2e5.jpg
+310dc0de,MelonKeys,SS DMG,The Grid,https://cdn.keycap-archivist.com/keycaps/310dc0de.jpg
+d5c14bc9,MelonKeys,SS DMG,Mario,https://cdn.keycap-archivist.com/keycaps/d5c14bc9.jpg
+fa0b45e7,MelonKeys,SS DMG,Spectre,https://cdn.keycap-archivist.com/keycaps/fa0b45e7.jpg
+bc987e6c,MelonKeys,SS DMG,Makku,https://cdn.keycap-archivist.com/keycaps/bc987e6c.jpg
+4c279a26,MelonKeys,SS DMG,Pastel,https://cdn.keycap-archivist.com/keycaps/4c279a26.jpg
+2d6e5838,MelonKeys,SS DMG,Berry,https://cdn.keycap-archivist.com/keycaps/2d6e5838.jpg
+cb0e7a9b,MelonKeys,SS DMG,Lemon,https://cdn.keycap-archivist.com/keycaps/cb0e7a9b.jpg
+1154c737,MelonKeys,SS DMG,Bakugo,https://cdn.keycap-archivist.com/keycaps/1154c737.jpg
+8063ec11,MelonKeys,SS DMG,Tartarus,https://cdn.keycap-archivist.com/keycaps/8063ec11.jpg
+6ee25b58,MelonKeys,SS DMG,Calculated,https://cdn.keycap-archivist.com/keycaps/6ee25b58.jpg
+76ae980b,MelonKeys,SS DMG,Illusion,https://cdn.keycap-archivist.com/keycaps/76ae980b.jpg
+409864c1,MelonKeys,SS DM,Obito,https://cdn.keycap-archivist.com/keycaps/409864c1.jpg
+56a46dd5,MelonKeys,SS DM,Ancient Frost,https://cdn.keycap-archivist.com/keycaps/56a46dd5.jpg
+dfae77b5,MelonKeys,SS DM,Jigsaw,https://cdn.keycap-archivist.com/keycaps/dfae77b5.jpg
+d66c21b8,MelonKeys,SS DM,Vivi,https://cdn.keycap-archivist.com/keycaps/d66c21b8.jpg
+26750b35,MelonKeys,SS DM,Bucky,https://cdn.keycap-archivist.com/keycaps/26750b35.jpg
+175a12ca,MelonKeys,SS DM,Kaito Kid,https://cdn.keycap-archivist.com/keycaps/175a12ca.jpg
+40eec833,MelonKeys,SS DM,Kiwi,https://cdn.keycap-archivist.com/keycaps/40eec833.jpg
+10640120,MelonKeys,SS DM,Distinguished,https://cdn.keycap-archivist.com/keycaps/10640120.jpg
+5dd5af3c,MelonKeys,SS DM,Shelter,https://cdn.keycap-archivist.com/keycaps/5dd5af3c.jpg
+25447ab6,MelonKeys,SS DM,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/25447ab6.jpg
+5e3c7d92,MelonKeys,SS DM,Magi Magi,https://cdn.keycap-archivist.com/keycaps/5e3c7d92.jpg
+88efae7b,MelonKeys,SS DM,Chock,https://cdn.keycap-archivist.com/keycaps/88efae7b.jpg
+a355b3cb,MelonKeys,SS DM,Heart Beat,https://cdn.keycap-archivist.com/keycaps/a355b3cb.jpg
+724b50ed,MelonKeys,SS DM,Rem,https://cdn.keycap-archivist.com/keycaps/724b50ed.jpg
+cf3dc951,MelonKeys,SS DM,Ram,https://cdn.keycap-archivist.com/keycaps/cf3dc951.jpg
+b983fdcb,MelonKeys,SS DM,Emilia,https://cdn.keycap-archivist.com/keycaps/b983fdcb.jpg
+8f923e97,MelonKeys,SS DM,Doom Bringers,https://cdn.keycap-archivist.com/keycaps/8f923e97.jpg
+e15c7e4,MelonKeys,SS DM,The Grid,https://cdn.keycap-archivist.com/keycaps/e15c7e4.jpg
+a3debff8,MelonKeys,SS DM,Peach,https://cdn.keycap-archivist.com/keycaps/a3debff8.jpg
+fef38caf,MelonKeys,SS DM,Spectre,https://cdn.keycap-archivist.com/keycaps/fef38caf.jpg
+cad96d04,MelonKeys,SS DM,Makku,https://cdn.keycap-archivist.com/keycaps/cad96d04.jpg
+d598a29a,MelonKeys,SS DM,Pastel,https://cdn.keycap-archivist.com/keycaps/d598a29a.jpg
+d83bc94,MelonKeys,SS DM,Berry,https://cdn.keycap-archivist.com/keycaps/d83bc94.jpg
+80301d29,MelonKeys,SS DM,Lemon,https://cdn.keycap-archivist.com/keycaps/80301d29.jpg
+f11ebcb,MelonKeys,SS DM,Bakugo,https://cdn.keycap-archivist.com/keycaps/f11ebcb.jpg
+199143f8,MelonKeys,SS DM,Tartarus,https://cdn.keycap-archivist.com/keycaps/199143f8.jpg
+b43d796e,MelonKeys,SS DM,Calculated,https://cdn.keycap-archivist.com/keycaps/b43d796e.jpg
+c2a69b88,MelonKeys,SS DM,Illusion,https://cdn.keycap-archivist.com/keycaps/c2a69b88.jpg
+4f698928,MelonKeys,SS DM,Gawr Gura,https://cdn.keycap-archivist.com/keycaps/4f698928.jpg
+6c663cf2,MelonKeys,SS DM,OG Reversed,https://cdn.keycap-archivist.com/keycaps/6c663cf2.jpg
+1e0e41a5,MelonKeys,SS DM,Euler,https://cdn.keycap-archivist.com/keycaps/1e0e41a5.jpg
+e5fd0f4,MelonKeys,SS DM,Dark Melon,https://cdn.keycap-archivist.com/keycaps/e5fd0f4.jpg
+1bfcb5be,MelonKeys,SS DM,Team Rocket: James,https://cdn.keycap-archivist.com/keycaps/1bfcb5be.jpg
+6027f4c,MelonKeys,SS DM,Kaiju,https://cdn.keycap-archivist.com/keycaps/6027f4c.jpg
+7d22abcb,MelonKeys,SS DM,Copper,https://cdn.keycap-archivist.com/keycaps/7d22abcb.jpg
+58ee4099,MelonKeys,SS DM,Nanaba,https://cdn.keycap-archivist.com/keycaps/58ee4099.jpg
+558d78ca,MelonKeys,SS DM,Yun,https://cdn.keycap-archivist.com/keycaps/558d78ca.jpg
+6949191f,MelonKeys,SS DM,Xing,https://cdn.keycap-archivist.com/keycaps/6949191f.jpg
+5eae595a,MelonKeys,SS DM,Genos,https://cdn.keycap-archivist.com/keycaps/5eae595a.jpg
+a835d8ab,MelonKeys,SS DM,Mictlán,https://cdn.keycap-archivist.com/keycaps/a835d8ab.jpg
+846a32a4,MelonKeys,SS DM,Darling,https://cdn.keycap-archivist.com/keycaps/846a32a4.jpg
+fa2192c2,MelonKeys,SS DM,Roxy,https://cdn.keycap-archivist.com/keycaps/fa2192c2.jpg
+c8e2972d,MelonKeys,SS DM,Hazakura,https://cdn.keycap-archivist.com/keycaps/c8e2972d.jpg
+bf08f384,MelonKeys,SS DM,Buzz,https://cdn.keycap-archivist.com/keycaps/bf08f384.jpg
+b929df35,MelonKeys,SS DM,Summer,https://cdn.keycap-archivist.com/keycaps/b929df35.jpg
+72bba87,MelonKeys,SS DM,Necross,https://cdn.keycap-archivist.com/keycaps/72bba87.jpg
+910c95ba,MelonKeys,SS DM,Inuyasha,https://cdn.keycap-archivist.com/keycaps/910c95ba.jpg
+16e648f,MelonKeys,SS DM,Reaper,https://cdn.keycap-archivist.com/keycaps/16e648f.jpg
+67faba6e,MelonKeys,SS DM,EVA-02,https://cdn.keycap-archivist.com/keycaps/67faba6e.jpg
+97fb008a,MelonKeys,SS DM,Kill la Kill,https://cdn.keycap-archivist.com/keycaps/97fb008a.jpg
+d0e765fe,MelonKeys,SS DM,Nahida,https://cdn.keycap-archivist.com/keycaps/d0e765fe.jpg
+4f670be2,MelonKeys,SS DM,Nier,https://cdn.keycap-archivist.com/keycaps/4f670be2.jpg
+e0102acc,MelonKeys,SS DM,Lelouch,https://cdn.keycap-archivist.com/keycaps/e0102acc.jpg
+f4b936d1,MelonKeys,SS DM,Underworld,https://cdn.keycap-archivist.com/keycaps/f4b936d1.jpg
+3811a01a,MelonKeys,SS DM,Shinigami,https://cdn.keycap-archivist.com/keycaps/3811a01a.jpg
+fb903632,MelonKeys,SS DM,Tohru,https://cdn.keycap-archivist.com/keycaps/fb903632.jpg
+6c30174a,MelonKeys,SS DM,Megaira,https://cdn.keycap-archivist.com/keycaps/6c30174a.jpg
+eefc55da,MelonKeys,SS DM,Snow Miku,https://cdn.keycap-archivist.com/keycaps/eefc55da.jpg
+a2ff2747,MelonKeys,SS DM,Luffy,https://cdn.keycap-archivist.com/keycaps/a2ff2747.jpg
+e277fe03,MelonKeys,SS DM,Chika,https://cdn.keycap-archivist.com/keycaps/e277fe03.jpg
+a4276ee8,MelonKeys,SS DM,Espeon,https://cdn.keycap-archivist.com/keycaps/a4276ee8.jpg
+273106d9,MelonKeys,SS DM,Megurine Luka,https://cdn.keycap-archivist.com/keycaps/273106d9.jpg
+d8fd9e42,MelonKeys,SS DM,Asuna,https://cdn.keycap-archivist.com/keycaps/d8fd9e42.jpg
+c54531e7,MelonKeys,SS DM,Sylvanas,https://cdn.keycap-archivist.com/keycaps/c54531e7.jpg
+295b3e51,MelonKeys,SS DM,Kuroe Shizuku,https://cdn.keycap-archivist.com/keycaps/295b3e51.jpg
+2bb3863a,MelonKeys,Little One,OG,https://cdn.keycap-archivist.com/keycaps/2bb3863a.jpg
+5512942b,MelonKeys,Little One,Louise,https://cdn.keycap-archivist.com/keycaps/5512942b.jpg
+2b2c3a8b,MelonKeys,Little One,Megumin,https://cdn.keycap-archivist.com/keycaps/2b2c3a8b.jpg
+308c16db,MelonKeys,Little One,Miku,https://cdn.keycap-archivist.com/keycaps/308c16db.jpg
+bcb9c58d,MelonKeys,Little One,Aloy,https://cdn.keycap-archivist.com/keycaps/bcb9c58d.jpg
+f3583865,MelonKeys,Little One,10 Billion Percent,https://cdn.keycap-archivist.com/keycaps/f3583865.jpg
 1416f91f,MelonKeys,Tamago,Stella,https://cdn.keycap-archivist.com/keycaps/1416f91f.jpg
 c21042e9,MelonKeys,Tamago,Boney,https://cdn.keycap-archivist.com/keycaps/c21042e9.jpg
 ef743fb6,MelonKeys,Tamago,OG,https://cdn.keycap-archivist.com/keycaps/ef743fb6.jpg
@@ -223,6 +218,8 @@ ed2e0b16,MelonKeys,Dark Magician,Mariner9,https://cdn.keycap-archivist.com/keyca
 ff92e637,MelonKeys,Dark Magician,Vegeta,https://cdn.keycap-archivist.com/keycaps/ff92e637.jpg
 5c6bc516,MelonKeys,Dark Magician,Sesshomaru,https://cdn.keycap-archivist.com/keycaps/5c6bc516.jpg
 9f98adc6,MelonKeys,Dark Magician,Shiro,https://cdn.keycap-archivist.com/keycaps/9f98adc6.jpg
+d5fb7219,MelonKeys,Dark Magician,Zoro,https://cdn.keycap-archivist.com/keycaps/d5fb7219.jpg
+5a612126,MelonKeys,Dark Magician,Links,https://cdn.keycap-archivist.com/keycaps/5a612126.jpg
 49f6a1c4,MelonKeys,Dark Magician Girl,Original,https://cdn.keycap-archivist.com/keycaps/49f6a1c4.jpg
 fae85f90,MelonKeys,Dark Magician Girl,Jubilant OG,https://cdn.keycap-archivist.com/keycaps/fae85f90.jpg
 b011bbb2,MelonKeys,Dark Magician Girl,Ancient Curse,https://cdn.keycap-archivist.com/keycaps/b011bbb2.jpg
@@ -325,6 +322,9 @@ aa5d3add,MelonKeys,Dark Magician Girl,Asuna,https://cdn.keycap-archivist.com/key
 6320affd,MelonKeys,Dark Magician Girl,Sylvanas,https://cdn.keycap-archivist.com/keycaps/6320affd.jpg
 d0d2509c,MelonKeys,Dark Magician Girl,Kuroe Shizuku,https://cdn.keycap-archivist.com/keycaps/d0d2509c.jpg
 428304ca,MelonKeys,Dark Magician Girl,Shiro,https://cdn.keycap-archivist.com/keycaps/428304ca.jpg
+4dbb0202,MelonKeys,Dark Magician Girl,Nami,https://cdn.keycap-archivist.com/keycaps/4dbb0202.jpg
+16acfe50,MelonKeys,Dark Magician Girl,Zelda,https://cdn.keycap-archivist.com/keycaps/16acfe50.jpg
+4ac820ca,MelonKeys,Dark Magician Girl,Obito,https://cdn.keycap-archivist.com/keycaps/4ac820ca.jpg
 dae9e1e4,MelonKeys,Kamikaze,8008,https://cdn.keycap-archivist.com/keycaps/dae9e1e4.jpg
 699bc556,MelonKeys,Kamikaze,Black Pink,https://cdn.keycap-archivist.com/keycaps/699bc556.jpg
 42e08867,MelonKeys,Kamikaze,Camping,https://cdn.keycap-archivist.com/keycaps/42e08867.jpg
