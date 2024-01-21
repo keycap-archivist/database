@@ -33,7 +33,7 @@ function gDocParse (catalog, jsonDoc) {
   jp.query(jsonDoc.data.body.content, '$..textRun').forEach(x => {
     const nat = getNationality(x.content)
     if (nat) { catalog.nationality = nat }
-    if (isSelfOrdered(x.content)) { catalog.isSelfOrdered = true }
+    if (isSelfOrdered(x.content)) { catalog.selfOrder = true }
   })
 
   // parse all the tables
