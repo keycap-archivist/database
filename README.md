@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 219
-- Sculpts : 2536
-- Colorways : 54228
+- Artists : 220
+- Sculpts : 2542
+- Colorways : 54269
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -42,6 +42,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | Id | Catalog | Url |
 | -- | ------- | --- |
 | a8d34c5e | 1of1Keycaps | [link](https://docs.google.com/document/d/1p1r9wy1Url3ilU-Tn4ear2gtDtKsIkbG1WlCTTJjOKQ) |
+| 4e100c9e | 26Studio Asterisk | [link](https://docs.google.com/document/d/1ibFx-5cB25empbAYZdMpKMB1SvUC9hDsG7Wg-sigLAw) |
 | 7e949449 | 2MCaps | [link](https://docs.google.com/document/d/1erwMZyh07nwT9sIo6RZBUwDrmnGUaWFF1Cx-WUeLGco) |
 | 7f19c7d | 2Tcraft | [link](https://docs.google.com/document/d/1aWFIxJmIVeJDZH1b_1TEWJBUOcqqsAzUJ6KgEwp069Y) |
 | 70a60bc4 | 404Artisans | [link](https://docs.google.com/document/d/1Xjq3VloGrpGE9gmEcbdGhaX_NB0O5eqv7xg_PgVgHX0) |
@@ -211,7 +212,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 6b46c555 | Q Qaps | [link](https://docs.google.com/document/d/1D1Pt_Jp0Mm35O0a2vFQ6mh2UzcjT1JBWxjqUcc2tSBY) |
 | c6e4a02a | RADcaps | [link](https://docs.google.com/document/d/1KINOK9cUUA28pSGnHc8ZI-RM36o12ADojXp7ZeNdTh4) |
 | 16fecba | Rath | [link](https://docs.google.com/document/d/1mX-wUILSjmOGULIju5SKD3zKn7VE9hLl2BHgZZPTnG0) |
-| 801ea9d2 | Raw Studio | [link](https://docs.google.com/document/d/1gYRLcLvlUlh5oKvMuLWh0xz3QQpxw6OVtTzefJa3FDY) |
+| 801ea9d2 | Raw Studio | [link](https://docs.google.com/document/d/1OzQDCTUqcSlwDDL9wTjx1Ifm0YKhx96hoBJyStTnIoo) |
 | 2842faca | Resin Party | [link](https://docs.google.com/document/d/172dSOYEqvHX0ihkMkq-iB4fwqKAuKaoSQDDCdLDucVc) |
 | 1544e340 | Ritual Master | [link](https://docs.google.com/document/d/1ou0Nk0lPbYXwOHdAOOI9UgbIQHwzd7l3XidY9WK9E7w) |
 | 55b03b25 | rtg_caps_ | [link](https://docs.google.com/document/d/1XNeLhAdqfwbgmpm4qbN9nUFQzLktN0JiEJGgRVCEnpk) |
