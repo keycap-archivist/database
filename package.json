@@ -24,7 +24,7 @@
     "@googleapis/docs": "^2.0.1",
     "@mixmaxhq/promise-pool": "^2.0.0",
     "ajv": "^6.12.6",
-    "axios": "^1.6.4",
+    "axios": "^1.6.7",
     "crc": "^4.3.2",
     "csv-stringify": "^6.3.3",
     "googleapis": "133",
