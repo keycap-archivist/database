@@ -26,7 +26,7 @@
     "ajv": "^6.12.6",
     "axios": "^1.6.7",
     "crc": "^4.3.2",
-    "csv-stringify": "^6.3.3",
+    "csv-stringify": "^6.4.6",
     "googleapis": "133",
     "he": "^1.2.0",
     "jsonpath": "^1.1.1",
