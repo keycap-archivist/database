@@ -18,7 +18,8 @@ const catalogs = {
   geekpora: 'Geekpora',
   prayge: 'Prayge',
   devoura: 'Devoura',
-  lickely: 'Lickely'
+  lickely: 'Lickely',
+  tut: 'Tut',
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
