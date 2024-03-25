@@ -33,7 +33,7 @@
     "lodash": "^4.17.21",
     "node-html-parser": "^6.1.5",
     "rimraf": "^5.0.5",
-    "sharp": "^0.32.4",
+    "sharp": "^0.33.3",
     "slugify": "^1.6.6"
   }
 }
