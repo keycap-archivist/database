@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 223
-- Sculpts : 2612
-- Colorways : 56476
+- Artists : 224
+- Sculpts : 2618
+- Colorways : 56486
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -103,6 +103,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | fd91c007 | Craftkey | [link](https://docs.google.com/document/d/1Ruol_1a4kzgLyXkeQ4d7ayu2shpsJPrHVUu7dBIYOYQ) |
 | 1be8013f | Crystal Pieces | [link](https://docs.google.com/document/d/1cR7ceg-E5K8D-AxTq4-9Wm3s_qeUTFjTcJIJBWBZnJU) |
 | 52730e4a | CYSM | [link](https://docs.google.com/document/d/1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI) |
+| b4406760 | D.Slime | [link](https://docs.google.com/document/d/1ws2UWWPH2DzJJR4jo0vLyfOUenc4QpkwL-xt0QnumhE) |
 | 120fb8f2 | Dalifu Caps | [link](https://docs.google.com/document/d/1JpL8NeP-J85x_Viy_VGzM5fRpEAMPw_giRO78eHnc4E) |
 | bced6bca | DCcaps | [link](https://docs.google.com/document/d/1ENp3M-HymI9LsJRloDGuo3o9s-FXHzFj6hWazGfXSEQ) |
 | df46082a | DeagCaps | [link](https://docs.google.com/document/d/1SsLhATHPRDOSAiywL5ktrGAuZbW9swCOd2cBGuUds3E) |
