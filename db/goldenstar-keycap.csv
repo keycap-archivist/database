@@ -1,41 +1,67 @@
 id,artist,sculpt,name,img
 a9f9832b,Goldenstar Keycap,Elle,Heritage,https://cdn.keycap-archivist.com/keycaps/a9f9832b.jpg
-a8a87ed6,Goldenstar Keycap,Dracorn - Hornless,,https://cdn.keycap-archivist.com/keycaps/a8a87ed6.jpg
-b703f589,Goldenstar Keycap,Dracorn - Hornless,,https://cdn.keycap-archivist.com/keycaps/b703f589.jpg
-3e4de651,Goldenstar Keycap,Dracorn - Hornless,,https://cdn.keycap-archivist.com/keycaps/3e4de651.jpg
-b170150,Goldenstar Keycap,Dracorn - Hornless,,https://cdn.keycap-archivist.com/keycaps/b170150.jpg
-8296f603,Goldenstar Keycap,Dracorn - Hornless,Galarian,https://cdn.keycap-archivist.com/keycaps/8296f603.jpg
-106cd892,Goldenstar Keycap,Dracorn - Manecorn,,https://cdn.keycap-archivist.com/keycaps/106cd892.jpg
-4c7734dc,Goldenstar Keycap,Dracorn - Manecorn,,https://cdn.keycap-archivist.com/keycaps/4c7734dc.jpg
-a487448,Goldenstar Keycap,Dracorn - Manecorn,,https://cdn.keycap-archivist.com/keycaps/a487448.jpg
-c1d933bb,Goldenstar Keycap,Dracorn - Manecorn,Galarian,https://cdn.keycap-archivist.com/keycaps/c1d933bb.jpg
-ed0bf200,Goldenstar Keycap,Dracorn - Manecorn,Shogun,https://cdn.keycap-archivist.com/keycaps/ed0bf200.jpg
-94231617,Goldenstar Keycap,Dracorn - Namicorn,,https://cdn.keycap-archivist.com/keycaps/94231617.jpg
-69b9e123,Goldenstar Keycap,Dracorn - Namicorn,,https://cdn.keycap-archivist.com/keycaps/69b9e123.jpg
-ccac434c,Goldenstar Keycap,Dracorn - Namicorn,,https://cdn.keycap-archivist.com/keycaps/ccac434c.jpg
-7e2ca0bd,Goldenstar Keycap,Dracorn - Namicorn,Shogun,https://cdn.keycap-archivist.com/keycaps/7e2ca0bd.jpg
-60733fed,Goldenstar Keycap,Dracorn - Dynacorn,,https://cdn.keycap-archivist.com/keycaps/60733fed.jpg
-4c84f7aa,Goldenstar Keycap,Dracorn - Dynacorn,,https://cdn.keycap-archivist.com/keycaps/4c84f7aa.jpg
-f03c8d7c,Goldenstar Keycap,Dracorn - Dynacorn,,https://cdn.keycap-archivist.com/keycaps/f03c8d7c.jpg
-3822ca86,Goldenstar Keycap,Dracorn - Dynacorn,,https://cdn.keycap-archivist.com/keycaps/3822ca86.jpg
-b8b40279,Goldenstar Keycap,Dracorn - Dynacorn,,https://cdn.keycap-archivist.com/keycaps/b8b40279.jpg
-dd4201a8,Goldenstar Keycap,Dracorn - Dynacorn,Galarian,https://cdn.keycap-archivist.com/keycaps/dd4201a8.jpg
-98d38d3,Goldenstar Keycap,Dracorn - Dynacorn,Shogun,https://cdn.keycap-archivist.com/keycaps/98d38d3.jpg
-67d6f727,Goldenstar Keycap,Dracorn - Puffycorn,,https://cdn.keycap-archivist.com/keycaps/67d6f727.jpg
-48b31fb1,Goldenstar Keycap,Dracorn - Puffycorn,,https://cdn.keycap-archivist.com/keycaps/48b31fb1.jpg
-e317a8f4,Goldenstar Keycap,Dracorn - Puffycorn,,https://cdn.keycap-archivist.com/keycaps/e317a8f4.jpg
-af1e385b,Goldenstar Keycap,Dracorn - Puffycorn,,https://cdn.keycap-archivist.com/keycaps/af1e385b.jpg
-990b20c6,Goldenstar Keycap,Dracorn - Puffycorn,,https://cdn.keycap-archivist.com/keycaps/990b20c6.jpg
-7169ee55,Goldenstar Keycap,Dracorn - Puffycorn,,https://cdn.keycap-archivist.com/keycaps/7169ee55.jpg
-8349cb8a,Goldenstar Keycap,Dracorn - Puffycorn,Galarian,https://cdn.keycap-archivist.com/keycaps/8349cb8a.jpg
-fbac7501,Goldenstar Keycap,Dracorn - Puffycorn,Shogun,https://cdn.keycap-archivist.com/keycaps/fbac7501.jpg
-3f02c5b9,Goldenstar Keycap,Dracorn - Longshou,,https://cdn.keycap-archivist.com/keycaps/3f02c5b9.jpg
-69946224,Goldenstar Keycap,Dracorn - Longshou,,https://cdn.keycap-archivist.com/keycaps/69946224.jpg
-db4b9d04,Goldenstar Keycap,Dracorn - Longshou,,https://cdn.keycap-archivist.com/keycaps/db4b9d04.jpg
-b56605f7,Goldenstar Keycap,Dracorn - Longshou,,https://cdn.keycap-archivist.com/keycaps/b56605f7.jpg
-4e4d40b7,Goldenstar Keycap,Dracorn - Longshou,,https://cdn.keycap-archivist.com/keycaps/4e4d40b7.jpg
-5a93062b,Goldenstar Keycap,Dracorn - Longshou,Galarian,https://cdn.keycap-archivist.com/keycaps/5a93062b.jpg
-baa7c890,Goldenstar Keycap,Dracorn - Longshou,Shogun,https://cdn.keycap-archivist.com/keycaps/baa7c890.jpg
+287171ff,Goldenstar Keycap,Hornless,,https://cdn.keycap-archivist.com/keycaps/287171ff.jpg
+37dafaa0,Goldenstar Keycap,Hornless,,https://cdn.keycap-archivist.com/keycaps/37dafaa0.jpg
+be94e978,Goldenstar Keycap,Hornless,,https://cdn.keycap-archivist.com/keycaps/be94e978.jpg
+8bce0e79,Goldenstar Keycap,Hornless,,https://cdn.keycap-archivist.com/keycaps/8bce0e79.jpg
+163002e2,Goldenstar Keycap,Hornless,Galarian,https://cdn.keycap-archivist.com/keycaps/163002e2.jpg
+40c92a41,Goldenstar Keycap,Hornless,Fluffy,https://cdn.keycap-archivist.com/keycaps/40c92a41.jpg
+7fbb3ee0,Goldenstar Keycap,Hornless,,https://cdn.keycap-archivist.com/keycaps/7fbb3ee0.jpg
+7c6672af,Goldenstar Keycap,Hornless,,https://cdn.keycap-archivist.com/keycaps/7c6672af.jpg
+90b5d7bb,Goldenstar Keycap,Manecorn,,https://cdn.keycap-archivist.com/keycaps/90b5d7bb.jpg
+1667ce87,Goldenstar Keycap,Manecorn,,https://cdn.keycap-archivist.com/keycaps/1667ce87.jpg
+8a917b61,Goldenstar Keycap,Manecorn,,https://cdn.keycap-archivist.com/keycaps/8a917b61.jpg
+557fc75a,Goldenstar Keycap,Manecorn,Galarian,https://cdn.keycap-archivist.com/keycaps/557fc75a.jpg
+f591dcbc,Goldenstar Keycap,Manecorn,Shogun,https://cdn.keycap-archivist.com/keycaps/f591dcbc.jpg
+c2592cf7,Goldenstar Keycap,Manecorn,Imperia,https://cdn.keycap-archivist.com/keycaps/c2592cf7.jpg
+52c90ca,Goldenstar Keycap,Manecorn,Dracula,https://cdn.keycap-archivist.com/keycaps/52c90ca.jpg
+793b5887,Goldenstar Keycap,Manecorn,Fluffy,https://cdn.keycap-archivist.com/keycaps/793b5887.jpg
+1f43cd5c,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/1f43cd5c.jpg
+e960ee0a,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/e960ee0a.jpg
+4c754c65,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/4c754c65.jpg
+66b68e01,Goldenstar Keycap,Namicorn,Shogun,https://cdn.keycap-archivist.com/keycaps/66b68e01.jpg
+4982a235,Goldenstar Keycap,Namicorn,Imperia,https://cdn.keycap-archivist.com/keycaps/4982a235.jpg
+9497ee53,Goldenstar Keycap,Namicorn,Dracula,https://cdn.keycap-archivist.com/keycaps/9497ee53.jpg
+bfc66065,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/bfc66065.jpg
+5722e507,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/5722e507.jpg
+c4bd4f8b,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/c4bd4f8b.jpg
+41dff49d,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/41dff49d.jpg
+a69392d6,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/a69392d6.jpg
+ffff2eb5,Goldenstar Keycap,Namicorn,,https://cdn.keycap-archivist.com/keycaps/ffff2eb5.jpg
+e0aa30c4,Goldenstar Keycap,Dynacorn,,https://cdn.keycap-archivist.com/keycaps/e0aa30c4.jpg
+cc5df883,Goldenstar Keycap,Dynacorn,,https://cdn.keycap-archivist.com/keycaps/cc5df883.jpg
+70e58255,Goldenstar Keycap,Dynacorn,,https://cdn.keycap-archivist.com/keycaps/70e58255.jpg
+b8fbc5af,Goldenstar Keycap,Dynacorn,,https://cdn.keycap-archivist.com/keycaps/b8fbc5af.jpg
+386d0d50,Goldenstar Keycap,Dynacorn,,https://cdn.keycap-archivist.com/keycaps/386d0d50.jpg
+49e4f549,Goldenstar Keycap,Dynacorn,Galarian,https://cdn.keycap-archivist.com/keycaps/49e4f549.jpg
+1117166f,Goldenstar Keycap,Dynacorn,Shogun,https://cdn.keycap-archivist.com/keycaps/1117166f.jpg
+8e62a466,Goldenstar Keycap,Dynacorn,Imperia,https://cdn.keycap-archivist.com/keycaps/8e62a466.jpg
+40952685,Goldenstar Keycap,Dynacorn,Dracula,https://cdn.keycap-archivist.com/keycaps/40952685.jpg
+50633c7b,Goldenstar Keycap,Dynacorn,Fluffy,https://cdn.keycap-archivist.com/keycaps/50633c7b.jpg
+e70ff80e,Goldenstar Keycap,Puffycorn,,https://cdn.keycap-archivist.com/keycaps/e70ff80e.jpg
+a815ed2,Goldenstar Keycap,Puffycorn,,https://cdn.keycap-archivist.com/keycaps/a815ed2.jpg
+a125e997,Goldenstar Keycap,Puffycorn,,https://cdn.keycap-archivist.com/keycaps/a125e997.jpg
+ed2c7938,Goldenstar Keycap,Puffycorn,,https://cdn.keycap-archivist.com/keycaps/ed2c7938.jpg
+99161569,Goldenstar Keycap,Puffycorn,,https://cdn.keycap-archivist.com/keycaps/99161569.jpg
+f1b0e17c,Goldenstar Keycap,Puffycorn,,https://cdn.keycap-archivist.com/keycaps/f1b0e17c.jpg
+54d0bf90,Goldenstar Keycap,Puffycorn,Galarian,https://cdn.keycap-archivist.com/keycaps/54d0bf90.jpg
+39631088,Goldenstar Keycap,Puffycorn,Shogun,https://cdn.keycap-archivist.com/keycaps/39631088.jpg
+9ca38ddd,Goldenstar Keycap,Puffycorn,Imperia,https://cdn.keycap-archivist.com/keycaps/9ca38ddd.jpg
+36098137,Goldenstar Keycap,Puffycorn,Dracula,https://cdn.keycap-archivist.com/keycaps/36098137.jpg
+76854b91,Goldenstar Keycap,Puffycorn,Fluffy,https://cdn.keycap-archivist.com/keycaps/76854b91.jpg
+bfdbca90,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/bfdbca90.jpg
+e94d6d0d,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/e94d6d0d.jpg
+5b92922d,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/5b92922d.jpg
+35bf0ade,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/35bf0ade.jpg
+ce944f9e,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/ce944f9e.jpg
+ce35f2ca,Goldenstar Keycap,Longshou,Galarian,https://cdn.keycap-archivist.com/keycaps/ce35f2ca.jpg
+97ce0347,Goldenstar Keycap,Longshou,Shogun,https://cdn.keycap-archivist.com/keycaps/97ce0347.jpg
+cd5f4fa,Goldenstar Keycap,Longshou,Imperia,https://cdn.keycap-archivist.com/keycaps/cd5f4fa.jpg
+24822b5c,Goldenstar Keycap,Longshou,Dracula,https://cdn.keycap-archivist.com/keycaps/24822b5c.jpg
+145a7c72,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/145a7c72.jpg
+6fb929c,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/6fb929c.jpg
+34f3f3ab,Goldenstar Keycap,Longshou,Fluffy,https://cdn.keycap-archivist.com/keycaps/34f3f3ab.jpg
+4886280,Goldenstar Keycap,Longshou,,https://cdn.keycap-archivist.com/keycaps/4886280.jpg
 f3af5116,Goldenstar Keycap,Inframundo - Rey,Iris,https://cdn.keycap-archivist.com/keycaps/f3af5116.jpg
 42751fcc,Goldenstar Keycap,Inframundo - Rey,Mono,https://cdn.keycap-archivist.com/keycaps/42751fcc.jpg
 28242d82,Goldenstar Keycap,Inframundo - Rey,EVA-01,https://cdn.keycap-archivist.com/keycaps/28242d82.jpg
