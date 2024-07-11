@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 225
-- Sculpts : 2661
-- Colorways : 57498
+- Sculpts : 2662
+- Colorways : 57779
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -189,7 +189,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | fee4aab | MUBAI | [link](https://docs.google.com/document/d/1ECfTBISa_HI2ahn37olTdTDQraxIBQppFfqbuttVLy4) |
 | af8591c1 | Mystic World | [link](https://docs.google.com/document/d/1oeXo0YesQfjJSZ9USDUd_fIQuib5i5m6LNfacSR-1T4) |
 | 610d23fa | Myth Caps | [link](https://docs.google.com/document/d/1-CkxK7KHUIy9gzJkguA36eC463cBHkNeGfgLa40BKVE) |
-| 82ad8553 | Namong | [link](https://docs.google.com/document/d/1vqBrU8VL6Mf6dmRRETjvo5d23HCQuwBQsG1m7w9ClmA) |
+| 82ad8553 | Namong | [link](https://docs.google.com/document/d/1PjxE3G_lAQe2heeHj_TxXw4AAwEbmNK6UVkF_lEPFSU) |
 | 8b68584c | Navacaps | [link](https://docs.google.com/document/d/1YP-CG6HSuG04dWwG-PUyql0_sBwmae_3q3ukr5N8nJM) |
 | b1832521 | NibbNubb Keycaps | [link](https://docs.google.com/document/d/1VDaL0vyFLSMyfmw2k-Aa3RleuEU9o3H6JPiV33zTDy4) |
 | 1fac6e72 | Nightcaps | [link](https://docs.google.com/document/d/1GGuKNDrCMBnlICsww9Y5ySbWcE6Cy_gEDwZItqiVCQI) |
