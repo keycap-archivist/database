@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 225
-- Sculpts : 2668
-- Colorways : 58015
+- Artists : 227
+- Sculpts : 2680
+- Colorways : 58108
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -101,6 +101,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 155af2e6 | Coconut Keycaps | [link](https://docs.google.com/document/d/1lx648GXchw4ZpctFtirPx_teQcpcgVWuy83W32JY4KU) |
 | 84c8facf | CozCaps | [link](https://docs.google.com/document/d/14EBfRe0AxEbCok856_HrL6teQAlkeQL3kpa3z8lenTc) |
 | fd91c007 | Craftkey | [link](https://docs.google.com/document/d/1Ruol_1a4kzgLyXkeQ4d7ayu2shpsJPrHVUu7dBIYOYQ) |
+| 68870a31 | Creasi Workshop | [link](https://docs.google.com/document/d/18paFGSBCcNjTMy1owk6vFbLOkLW6A7O1fNWG7a9jNTc) |
 | 1be8013f | Crystal Pieces | [link](https://docs.google.com/document/d/1cR7ceg-E5K8D-AxTq4-9Wm3s_qeUTFjTcJIJBWBZnJU) |
 | 52730e4a | CYSM | [link](https://docs.google.com/document/d/1c0H4ABr3csHH5B9WP7yyKfCcjLvBE7aJrNwlQzcczcI) |
 | b4406760 | D.Slime | [link](https://docs.google.com/document/d/1ws2UWWPH2DzJJR4jo0vLyfOUenc4QpkwL-xt0QnumhE) |
@@ -154,6 +155,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 1091a0ac | KeyForge | [link](https://docs.google.com/document/d/1d-CVHj9vA0l-qQjYOFws6Wh9YPLSpCfFCwGDsmDLoJA) |
 | 5137e37f | KeyKollectiv | [link](https://docs.google.com/document/d/18jTzayNzUDECKOfe-ZXa6oDucNj8_Pp0jEjsdzvvSws) |
 | dbf82e90 | KeyLabs Keycaps | [link](https://docs.google.com/document/d/1-VofkRGFmgtlq7R8986aXr8kdMYw9gsT59cjhEgn8D8) |
+| 2d7ffa7f | Keysense | [link](https://docs.google.com/document/d/1r_gYUt3oN5XwTqLPJsqQENOfD_i59AjMz_ujuGjCH8c) |
 | 785e721c | Keyzen | [link](https://docs.google.com/document/d/19TEE9_vnw-tzcigMxL-8ILUAmkkEWPrUQc4A9s7IkbE) |
 | da43467e | Kin Caps | [link](https://docs.google.com/document/d/1oSC6767-PT4EzL_qaj8Q1kFWyl64QqzH40Fgg_jzadw) |
 | 87e8613c | Kit Ann Caps | [link](https://docs.google.com/document/d/1OKMEDz4c7rILX8aiH332n-wW3PjIN3meKu5ZXStgDTs) |
