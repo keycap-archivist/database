@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 229
-- Sculpts : 2720
-- Colorways : 59375
+- Sculpts : 2725
+- Colorways : 59459
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -142,7 +142,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 260460a | Inkblot Caps | [link](https://docs.google.com/document/d/1jE94XFa7QZPMtwjsbLwqNkgwGsFJNsyAEjdSlDcBaCE) |
 | f8c855a4 | jankycaps | [link](https://docs.google.com/document/d/1nT-vBKIXCFuAPPUCewAcUcwGt9-1Bedkyd4CGdjQfBM) |
 | c51ef9b | Jelly Cap | [link](https://docs.google.com/document/d/1yuo_c4hpBYWW8zryZXMi15Byzj-AR8iVWzx1QWT5O8k) |
-| 1ff2c383 | Jelly Key | [link](https://docs.google.com/document/d/1Y9hJ5WgjSjXhKEpeLudk542Mj_P0B9aJt56CLdf5Oas) |
+| 1ff2c383 | Jelly Key | [link](https://docs.google.com/document/d/1Va5vEYR8kyUiVTuLW7fBVPwdwzftzdDtHD3Flmav2fI) |
 | 594d1920 | Jibii | [link](https://docs.google.com/document/d/1KTJ1Up_7Jjr81xbjNSzNswNBXnfSgOsEZr4wc2ODEEo) |
 | 79bfad4f | Jusherhoe | [link](https://docs.google.com/document/d/171XoC3BAC13iMQlAJ85impbm-jj7irgCDZwGwYfNTfc) |
 | d6c0d49e | Just Another Keymaker | [link](https://docs.google.com/document/d/15c2a6DnBQPJbnVhbjH54KIKVr_I-twb7EQgXB37GAlM) |
