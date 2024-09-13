@@ -20,6 +20,7 @@ const catalogs = {
   devoura: 'Devoura',
   lickely: 'Lickely',
   tut: 'Tut',
+  tutre: 'Tutre',
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
