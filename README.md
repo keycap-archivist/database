@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 230
-- Sculpts : 2745
-- Colorways : 59879
+- Artists : 232
+- Sculpts : 2748
+- Colorways : 59958
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -56,6 +56,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 8c954f4 | Amidst The Clouds | [link](https://docs.google.com/document/d/11BeNsND5cMw_NMfGhQfeitg4oFJGNbT4aJ9C_8_iB60) |
 | 53252dbe | Animech | [link](https://docs.google.com/document/d/15IRx6bobdBXas3CZT81qexe-qFcK6t9dgz3IVXkTVPw) |
 | c44d43cd | Anomaly Caps | [link](https://docs.google.com/document/d/1zc0G7J3wd6sdOFcdLokOmom-mQmgm6gzhXUHZO8r3kI) |
+| 5499bd61 | Apothecary Caps | [link](https://docs.google.com/document/d/1291TtygV3rFf97ii9JVTk2ctg7vL7ztRWhvlEy_-g-w) |
 | 63243e40 | Archetype | [link](https://docs.google.com/document/d/15BEnP7aMDcNIDR0kBrI_6oYLjx9w8z1zE0muohkjpfg) |
 | 944a9285 | ARKEYS | [link](https://docs.google.com/document/d/1q__LoSd2vlzY95KKp0TStW2bA3XBPvKZcOQPrKprQh0) |
 | 67588eb5 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
@@ -188,6 +189,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | f79138dd | MelonKeys | [link](https://docs.google.com/document/d/1ceCQ48nyCfZ2u0jnzgnvVW0nuxd01a0QS48cx_TVh-U) |
 | e0a04a0c | meof | [link](https://docs.google.com/document/d/1Gb0HeMF0jE8wfN6sUJEsVRcWjC88VmWJQnABIKEv28o) |
 | cef53f28 | MFC | [link](https://docs.google.com/document/d/1Q4JOAQQIY3iat1tBhDXs8aT8hw0JEk92aJlVRxRI3bY) |
+| 659758c6 | MFCAPS | [link](https://docs.google.com/document/d/1nslOUvKblaJqbTGDfV1zFzhfq7q5wD_VyrXhIEKs614) |
 | e57c41a | Miniworld | [link](https://docs.google.com/document/d/1K2IP5lV4-6PLuJcFLhpR-gJAqHhxY7baxZSG2DaSPvo) |
 | b71e0cd0 | Monstera Keycaps | [link](https://docs.google.com/document/d/1BVfiGhTs-8dCm2u_KpAxKGALy9X7CT94rDljgyFl0uE) |
 | 1bbabce6 | MOZIcaps | [link](https://docs.google.com/document/d/1fq6yWk8Gsye4U5M1Fr7SWqTrBMBOx88855RhkUvC10k) |
