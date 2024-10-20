@@ -5,8 +5,8 @@
 Database currently contains:
 
 - Artists : 232
-- Sculpts : 2754
-- Colorways : 60168
+- Sculpts : 2758
+- Colorways : 60272
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
