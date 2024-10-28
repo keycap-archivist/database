@@ -1,7 +1,7 @@
 id,artist,sculpt,name,img
 1b63e94b,LAZERCAPS,Gatekeeper,Fury,https://cdn.keycap-archivist.com/keycaps/1b63e94b.jpg
 e47bf19b,LAZERCAPS,Gatekeeper,Relic,https://cdn.keycap-archivist.com/keycaps/e47bf19b.jpg
-b7568fc8,LAZERCAPS,Gatekeeper,Night Wing(Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/b7568fc8.jpg
+e843be21,LAZERCAPS,Gatekeeper,Night Wing (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/e843be21.jpg
 67b7acad,LAZERCAPS,Gatekeeper,Breakfast at the Gates (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/67b7acad.jpg
 d14453fb,LAZERCAPS,Gatekeeper,OG (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/d14453fb.jpg
 e830e205,LAZERCAPS,Gatekeeper,Gatesicle (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/e830e205.jpg
@@ -9,6 +9,9 @@ f591c233,LAZERCAPS,Gatekeeper,Hyperkeeper Inverted (Savecaps Cast),https://cdn.k
 42a82290,LAZERCAPS,Gatekeeper,Hyperkeeper Purp (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/42a82290.jpg
 1c3a42ae,LAZERCAPS,Gatekeeper,Hyperkeeper (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/1c3a42ae.jpg
 6e1abdb6,LAZERCAPS,Gatekeeper,Coalkeeper (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/6e1abdb6.jpg
+5f70045a,LAZERCAPS,Gatekeeper,Hyperfuse  Tritkeeper (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/5f70045a.jpg
+7765c7c9,LAZERCAPS,Gatekeeper,Dreamscape Tritkeeper (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/7765c7c9.jpg
+1050a006,LAZERCAPS,Gatekeeper,Dreamscape (Savecaps Cast),https://cdn.keycap-archivist.com/keycaps/1050a006.jpg
 da057d5c,LAZERCAPS,Lich,Dread,https://cdn.keycap-archivist.com/keycaps/da057d5c.jpg
 d0e5b46d,LAZERCAPS,Lich,Soulburn,https://cdn.keycap-archivist.com/keycaps/d0e5b46d.jpg
 b5270fce,LAZERCAPS,Lich,Grimoire,https://cdn.keycap-archivist.com/keycaps/b5270fce.jpg
@@ -16,9 +19,9 @@ b5270fce,LAZERCAPS,Lich,Grimoire,https://cdn.keycap-archivist.com/keycaps/b5270f
 bdc67ee9,LAZERCAPS,Lich,Relic,https://cdn.keycap-archivist.com/keycaps/bdc67ee9.jpg
 639994c1,LAZERCAPS,Lich,Cos-most (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/639994c1.jpg
 576e8d85,LAZERCAPS,Lich,Wild Berry Sour (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/576e8d85.jpg
-ad78bc99,LAZERCAPS,Lich,(Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/ad78bc99.jpg
+131cd86c,LAZERCAPS,Lich,Bali Sunsets (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/131cd86c.jpg
 ca14906c,LAZERCAPS,Lich,Wild Berry Gummy (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/ca14906c.jpg
-b23d1812,LAZERCAPS,Lich,(Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/b23d1812.jpg
+7b468d8f,LAZERCAPS,Lich,Cosmos (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/7b468d8f.jpg
 a22df382,LAZERCAPS,Lich,Oops All Berries  (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/a22df382.jpg
 ff4c9272,LAZERCAPS,Sleepkey,Deep Sea,https://cdn.keycap-archivist.com/keycaps/ff4c9272.jpg
 953a58a7,LAZERCAPS,Sleepkey,Lunar Dreams,https://cdn.keycap-archivist.com/keycaps/953a58a7.jpg
@@ -63,7 +66,7 @@ eb57b432,LAZERCAPS,Sleepkey,Spectral Visions (Zearoh Cast),https://cdn.keycap-ar
 1faf9074,LAZERCAPS,Sleepkey,Dreams of 01 (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/1faf9074.jpg
 2828dcf2,LAZERCAPS,Sleepkey,Dreaming of Stardust (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/2828dcf2.jpg
 6c7b6585,LAZERCAPS,Sleepkey,Bubblegum Sour (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/6c7b6585.jpg
-285f80ce,LAZERCAPS,Sleepkey,Visio Nocturna - featuring Bongo Skulls by Hello Caps (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/285f80ce.jpg
+2488a939,LAZERCAPS,Sleepkey,Visio Nocturna 1 - featuring Bongo Skulls by Hello Caps (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/2488a939.jpg
 58f27627,LAZERCAPS,Sleepkey,Spectral Bloom (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/58f27627.jpg
 bc700a0e,LAZERCAPS,Sleepkey,Unknown (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/bc700a0e.jpg
 b3307bda,LAZERCAPS,Sleepkey,Unknown (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/b3307bda.jpg
@@ -75,6 +78,17 @@ d41d68ab,LAZERCAPS,Sleepkey,Blackout (Zearoh Cast),https://cdn.keycap-archivist.
 ed6bbd03,LAZERCAPS,Sleepkey,Dreaming of the Cosmos - featuring Clackling Face by LAZERCAPS (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/ed6bbd03.jpg
 e1f33734,LAZERCAPS,Sleepkey,Amethyst (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/e1f33734.jpg
 474c40e8,LAZERCAPS,Sleepkey,Crocus (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/474c40e8.jpg
+7c02ead6,LAZERCAPS,Sleepkey,Oops All Berries (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/7c02ead6.jpg
+700ac212,LAZERCAPS,Sleepkey,Lavender Snow Trit (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/700ac212.jpg
+397c4724,LAZERCAPS,Sleepkey,Lavender Snow (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/397c4724.jpg
+f04d9f15,LAZERCAPS,Sleepkey,(Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/f04d9f15.jpg
+f341b4e,LAZERCAPS,Sleepkey,Wild Berry Gummy (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/f341b4e.jpg
+d764b437,LAZERCAPS,Sleepkey,Bali Sunsets (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/d764b437.jpg
+a144ee0b,LAZERCAPS,Sleepkey,Visio Nocturna 2 - featuring Bongo Skulls by Hello Caps (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/a144ee0b.jpg
+fad8a53b,LAZERCAPS,Sleepkey,Mardi Gra-lmost (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/fad8a53b.jpg
+e052a399,LAZERCAPS,Sleepkey,Wild Berry Sour (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/e052a399.jpg
+d1043856,LAZERCAPS,Sleepkey,Cos-most (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/d1043856.jpg
+3b61fc5c,LAZERCAPS,Sleepkey,Frozen Lights (Zearoh Cast),https://cdn.keycap-archivist.com/keycaps/3b61fc5c.jpg
 77be05a8,LAZERCAPS,Ugro,Wartorn,https://cdn.keycap-archivist.com/keycaps/77be05a8.jpg
 6d331c24,LAZERCAPS,Ugro,Scorched,https://cdn.keycap-archivist.com/keycaps/6d331c24.jpg
 bce6b636,LAZERCAPS,Ugro,Specter,https://cdn.keycap-archivist.com/keycaps/bce6b636.jpg
