@@ -84,7 +84,7 @@ function gDocParse (catalog, jsonDoc) {
         let commissioned
         let giveaway
         let photoCredit
-        let stemType = ["mx"]
+        let stemType
 
         if (dateMatch) {
           // eslint-disable-next-line prefer-destructuring

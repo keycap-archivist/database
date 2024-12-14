@@ -36,7 +36,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 - **Colorway Header** `(*)` will add a "Commission" tag to the colorway page. `(*)` is removed from the colorway title.
 - **Colorway Header** `(giveaway)` or `(give-away)` to note if a colorway was specificly for a giveaway
 - **Colorway Header** `(pc Name)` will add photo credit to denote who owns the photo: `(pc Brandon Stanton)`
-- **Colorway Header** `(stemtype mx|topre|alps|choc|tmx|bs)` will add stem types to each colorway. This can default to MX as the most used stem. Any number of options can be listed separated by a space: `(stemtype topre)` `(stemtype mx topre alps)`
+- **Colorway Header** `(stemtype mx|topre|alps|choc|tmx|bs)` will add stem types to each colorway. Any number of options can be listed separated by a space: `(stemtype topre)` `(stemtype mx topre alps)`
 
 ## Source Catalogs
 
