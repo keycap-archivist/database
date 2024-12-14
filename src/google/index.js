@@ -76,11 +76,15 @@ function gDocParse (catalog, jsonDoc) {
         const regPhotoCredit = /\(pc (.*)\)/gim
         const photoCreditMatch = regPhotoCredit.exec(cellString)
 
+        const regStemType = /\(stemtype\s+((?:topre|mx|alps|tmx|choc|bs)(?:\s+(?:topre|mx|alps|tmx|choc|bs))*)\b\)/gim
+        const stemTypeMatch = regStemType.exec(cellString)
+
         let releaseDate
         let totalCount
         let commissioned
         let giveaway
         let photoCredit
+        let stemType = ["mx"]
 
         if (dateMatch) {
           // eslint-disable-next-line prefer-destructuring
@@ -106,6 +110,12 @@ function gDocParse (catalog, jsonDoc) {
           cellString = cellString.replace(regPhotoCredit, '')
         }
 
+        if (stemTypeMatch) {
+          stemType = stemTypeMatch.slice(1)
+          stemType = stemType[0].split(' ')
+          cellString = cellString.replace(regStemType, '')
+        }
+        
         const sanitizedName = cellString.trim()
         const imgKixId = imgId[0]
         catalog.sculpts[catalog.sculpts.length - 1].colorways.push(
@@ -119,6 +129,7 @@ function gDocParse (catalog, jsonDoc) {
             commissioned,
             giveaway,
             photoCredit,
+            stemType,
             note: ''
           }
         )
