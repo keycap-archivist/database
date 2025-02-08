@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 233
-- Sculpts : 2819
-- Colorways : 62090
+- Artists : 234
+- Sculpts : 2830
+- Colorways : 62254
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -131,7 +131,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 23634907 | Gaia’s Creature | [link](https://docs.google.com/document/d/1EJ8IodjlMPG-TtmKwTZuCvIQYO9uuD_phTnMiNqjh4s) |
 | 6829387 | Girlycaps Studios | [link](https://docs.google.com/document/d/1cDD3aNsQXHJfyskP8906BUwfc1_4H_JJTtZ9akhQkOc) |
 | 321e47e3 | Glyco Caps | [link](https://docs.google.com/document/d/1SOtOKEBn8oUXnECK0_9-sJ5YBh6BijlbKB6CZsNEBbc) |
-| f52fa070 | Goldenstar Keycap | [link](https://docs.google.com/document/d/1rCP_Nn_PQeMiqsFlJ2_8TvFHFPsTpq90-QPgDBo7H40) |
+| f52fa070 | Goldenstar Keycap | [link](https://docs.google.com/document/d/1QLj8fhK5z4a9k5imZBcA3Tb09Pdpkdv7sBxBQfIEsHI) |
 | fb0800a2 | Gooey Keys | [link](https://gooey.link/keycap-archivist.json) |
 | 84c0fb40 | Gothcaps | [link](https://docs.google.com/document/d/17YdYcvKifysUDk6mt750Jgq7Zke2kSi66kfqc9BE6RQ) |
 | 8a2782a7 | Grimey as Fuck | [link](https://docs.google.com/document/d/1AdPXkALzPErnyMQZrWDJ6o-jCvFB34XeZyz00FDDvLY) |
@@ -249,6 +249,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 257e3462 | Sublyme Keys | [link](https://docs.google.com/document/d/1Q6lOKRofrQXEFxQddLXDYC2B_9rZ6pd7qbUfueiranI) |
 | 366c9651 | Suited Up Keycaps | [link](https://docs.google.com/document/d/17XHW8yaMXVS5i82lOrjXIF7Q68NwCg6w9B6BiEn7A1k) |
 | ede9ca7c | Sway Caps | [link](https://docs.google.com/document/d/1tRhoMKBVZuBxE9UAynqtBNrm__OEjQnOF07NIUamQtE) |
+| acd0cadd | Symbio Keys | [link](https://docs.google.com/document/d/1z3EL5InN-gdohDIwdSwJE7vR9jHRlZ0XeTJP45JOMrA) |
 | 96f4242c | T-Art Universe | [link](https://docs.google.com/document/d/1rAusxiqfPBB_5S7zeEOYX1TJNu4ehcZdxG8jmLLN5Ds) |
 | ff33c7c3 | T-Lab | [link](https://docs.google.com/document/d/1sjUG3_qviJnpMV7w6hAAPKjcLtLVrk-8vrGVXqCptdc) |
 | 4e4eda29 | Tech. Stoned. Amish. | [link](https://docs.google.com/document/d/1CzwP-Zj8cLVvMdQRJqDFL_kiZOaOHAcgp3F0owh4-nY) |
