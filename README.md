@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 234
-- Sculpts : 2846
-- Colorways : 62438
+- Artists : 235
+- Sculpts : 2847
+- Colorways : 62456
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -74,6 +74,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 634ef7c | Backward Caps | [link](https://docs.google.com/document/d/1eHoHMjOIaZv57h3XgOfamgWaE4nfMbFKLj827XNKSac) |
 | b6cb880b | Bad and Booj Keys | [link](https://docs.google.com/document/d/15OgzFWmOJWM5h0JBMV85041Vjd88lNXfj6cWkwd-BFM) |
 | 32a182c4 | Bad Habit Caps | [link](https://docs.google.com/document/d/1MUoyBLW1slC819V1IdDa2eAV5adU2IHGa5YjmFY5w88) |
+| c4b98276 | Bad Magic Trick | [link](https://docs.google.com/document/d/1SQIE9e--kJnyOBByAdMBvVKUhnbTq2JHR5yZjhL31E0) |
 | 3a10499 | Bailong | [link](https://docs.google.com/document/d/1f3h3roO2nk229BoeQZxuQVd-HgAJXXqToNSKFVbyIEI) |
 | 916da5ac | BasilKeys | [link](https://docs.google.com/document/d/1azIr0Ok_QxYpQsrZ1S0bX48rXI1v9DwzvETTSWHxdko) |
 | 474cb671 | Beetlecaps | [link](https://docs.google.com/document/d/12T82CMnIwcdEg36bIrE9hlyi4Ikd15kutuRbYsOFKnw) |
