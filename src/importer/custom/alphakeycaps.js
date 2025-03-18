@@ -21,6 +21,7 @@ const catalogs = {
   lickely: 'Lickely',
   tut: 'Tut',
   tutre: 'Tutre',
+  pintut: 'Pintut',
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
