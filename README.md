@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 236
-- Sculpts : 2882
-- Colorways : 63473
+- Artists : 237
+- Sculpts : 2886
+- Colorways : 63497
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -125,6 +125,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 1eb1d13a | DustyCaps | [link](https://docs.google.com/document/d/1EZstC5O7OMdsCMMzs-YbV3Y5pooytHrHpLWaULr3pEI) |
 | 3e9cabfa | Dwarf Factory | [link](https://docs.google.com/document/d/19ZLn5CuGmPO3fLGz8bTkFIy12KJh6Z22lc0O_ofydxc) |
 | 54707c4b | EchoppCaps | [link](https://docs.google.com/document/d/1EJ-AUHXajDE3Iih5Af9C3SF8N5guTOeTNC4C0BYlGbM) |
+| d5471a9b | Emotikeys | [link](https://docs.google.com/document/d/1WsYf4DuKXKrQRyqN4HpmzcsqmwMPFL-9w53FP56qfFI) |
 | 68cdf6dc | EzKeys | [link](https://docs.google.com/document/d/1NGfIh3aAU5CwE425oshmoUBEjs11In1j7pVUHrov8Vs) |
 | bac9503f | Fraktal Kaps | [link](https://docs.google.com/document/d/13LmVzCkuN7uGhair0QXq1sJkI7LK6jBs-uhnVU-hDII) |
 | 6cae29b | FromScratch Caps | [link](https://docs.google.com/document/d/1xeyfq3YJTwOhGnUBFFZLMCj5S9D7gUrd6Umf12GPAzA) |
