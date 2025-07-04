@@ -4,9 +4,9 @@
 
 Database currently contains:
 
-- Artists : 237
-- Sculpts : 2911
-- Colorways : 64413
+- Artists : 238
+- Sculpts : 2914
+- Colorways : 64429
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -256,6 +256,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 96f4242c | T-Art Universe | [link](https://docs.google.com/document/d/1rAusxiqfPBB_5S7zeEOYX1TJNu4ehcZdxG8jmLLN5Ds) |
 | ff33c7c3 | T-Lab | [link](https://docs.google.com/document/d/1sjUG3_qviJnpMV7w6hAAPKjcLtLVrk-8vrGVXqCptdc) |
 | 4e4eda29 | Tech. Stoned. Amish. | [link](https://docs.google.com/document/d/1CzwP-Zj8cLVvMdQRJqDFL_kiZOaOHAcgp3F0owh4-nY) |
+| 38c64925 | Text Styles | [link](https://docs.google.com/document/d/10RefSn-ouqWctFOwTEcM1MGLeF729aTnVpGAmOcS3Rg) |
 | 663df7c5 | theboxkeycap | [link](https://docs.google.com/document/d/1R-0hie5BZ66Uqv-FILFqHEfanQPAYwpBPMGqFWVGR_A) |
 | dd852aca | TinyMakesThings | [link](https://docs.google.com/document/d/17Zb-LmujFdcnOZ2_VFhoPHKP1gZJmzEKJH2fawFeqpk) |
 | 72ec7d70 | Tokkipee | [link](https://docs.google.com/document/d/1kZoXY-9rV25G5cSwgQxAHwmcjVXNL_LUj8vxhmYYk7k) |
