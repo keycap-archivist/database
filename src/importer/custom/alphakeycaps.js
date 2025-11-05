@@ -22,6 +22,7 @@ const catalogs = {
   tut: 'Tut',
   tutre: 'Tutre',
   pintut: 'Pintut',
+  kerebro: 'Kerebro',
 }
 
 const BASE_URL = 'https://alphakeycaps.com/'
