@@ -6,7 +6,7 @@ Database currently contains:
 
 - Artists : 238
 - Sculpts : 3060
-- Colorways : 69576
+- Colorways : 69585
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -61,7 +61,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | 5499bd61 | Apothecary Caps | [link](https://docs.google.com/document/d/1291TtygV3rFf97ii9JVTk2ctg7vL7ztRWhvlEy_-g-w) |
 | 63243e40 | Archetype | [link](https://docs.google.com/document/d/15BEnP7aMDcNIDR0kBrI_6oYLjx9w8z1zE0muohkjpfg) |
 | 944a9285 | ARKEYS | [link](https://docs.google.com/document/d/1q__LoSd2vlzY95KKp0TStW2bA3XBPvKZcOQPrKprQh0) |
-| 67588eb5 | Artkey | [link](https://docs.google.com/document/d/1piD-uC3eAwy0dkqxnsZoYr_-AnezmelpFnHfuK3RslM) |
+| 67588eb5 | Artkey | [link](https://docs.google.com/document/d/1oVSyzxmGqxDcIHr-Bj7Hz5D1QUtgR-8x5v9isADZ6qc) |
 | a3bffc04 | Artzeikaps | [link](https://docs.google.com/document/d/11l5gZpMa9dCoSm3RYnhKc0YXSpSm__WIfLyQsg7asto) |
 | a738fd7e | AsianJoyCo | [link](https://docs.google.com/document/d/1s02KAr-bTy2ZHR6YU4O2NLqLNxM9cAeJ9HrZ1Q3uWYI) |
 | eb93541f | Atelier Axiom | [link](https://docs.google.com/document/d/1vUt_jPo7E8DQeMVcr4r4fwJp3X8rt_5mJoJAzyGlckM) |
