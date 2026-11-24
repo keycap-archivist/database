@@ -6,7 +6,7 @@ Database currently contains:
 
 - Artists : 239
 - Sculpts : 3094
-- Colorways : 70340
+- Colorways : 70335
 
 CSV/JSON database of artisan keycaps based on : [https://keycap.info/](https://keycap.info/)
 
@@ -88,7 +88,7 @@ To manipulate some attributes of the catalogs you can add those to the gdoc:
 | df1a1521 | Blank Works | [link](https://docs.google.com/document/d/1ehAQBiLvDzM6FUqAKxP2kpJFEQaDnq3yR75TuM0L8vY) |
 | 272c6dae | Blanksy | [link](https://docs.google.com/document/d/1tlH37yLHd9HnHJMF_rHTIdX64kkwhm_WvtC3vPRXa1E) |
 | ff8ad9cd | Bludgeoned Kaps | [link](https://docs.google.com/document/d/1KKMT4uvPquXcrWF1dX3p3R-PJ_0A98oUO2kwkNvLOd8) |
-| d84851f7 | Bogan Caps | [link](https://docs.google.com/document/d/1n0ptNP1tZHnMtpJAI_s_qlnvulYl9SZBJwkCHdU5vHI) |
+| d84851f7 | Bogan Caps | [link](https://docs.google.com/document/d/1Ha63YoELK1AwpFqEdQtqnICyJ3jFpEwE7hTaDS-FXRE) |
 | 4d74b92e | Bogwitch Brie | [link](https://docs.google.com/document/d/106B5I-IfI1pZex401MHj6c_e7MPUSPyplQsvUOPxmO4) |
 | 84748ce6 | BoomSnap Caps | [link](https://docs.google.com/document/d/1Uj-JdFhGKaEhKw7-O3HGzzrNctD1c4a8zwC6lezk9nQ) |
 | 3c63e8bf | Booper-Omniclectic | [link](https://docs.google.com/document/d/18QS_4zYR3rFtGLLV1fPZCce5vc6i8_3kauY36xUtTdk) |
